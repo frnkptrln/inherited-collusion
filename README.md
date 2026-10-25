@@ -11,7 +11,7 @@ A controlled allocation study of what happens when neutral replacement agents in
 
 [Submission paper](paper/inherited-collusion-submission.pdf) · [Editable paper](paper/inherited-collusion-submission.docx) · [Main figure](research/output/report-revised/figures/handoff-diagnostic.png)
 
-This repository is private. Links require repository access.
+Public with the submission to the Apart AI Collusion Research Sprint; the tag `submitted` marks the submitted version. The submitted PDF/DOCX are the canonical revised build (`paper/inherited-collusion-revised.*`) plus accepted editorial changes recorded in [the submission audit](paper/inherited-collusion-submission.audit.json); no analysis, table, figure or number differs.
 
 ## Findings
 
@@ -79,6 +79,6 @@ Use a new or empty output directory for that command. The archive is historical;
 
 Credential stores, local virtual environments, raw account inventories and unrelated scratch files are excluded. Frozen historical files are not overwritten to update the paper. The current publication manifest distinguishes the editorial revision and added study from the earlier template-only edition.
 
-Frank Peterlein initiated the project, authorized its budget and reviewed the full manuscript during development. Codex assisted design, code, analyses, figures and writing. Automated and agent-assisted checks are not independent human replication; the complete disclosure is in the paper.
+Frank Peterlein initiated the project, authorized its budget and reviewed the full manuscript during development. Codex assisted design, code, analyses, figures and writing. Claude reviewed the revised manuscript, checked its numbers against the appendices and drafted the final abstract and disclosure edits. Automated and agent-assisted checks are not independent human replication; the complete disclosure is in the paper.
 
 Use [CITATION.cff](CITATION.cff) for citation metadata. The project builds on the [Colosseum starter infrastructure](https://github.com/poseidon-research/collusion_hackathon); the repository retains its [infrastructure audit](research/docs/colosseum-audit.md), [source provenance](research/vendor/SOURCE_MANIFEST.json) and third-party notices. See [LICENSE-STATUS.md](LICENSE-STATUS.md) for licensing scope.
