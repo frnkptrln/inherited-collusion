@@ -1,0 +1,3 @@
+# Optional figures; analyses and independent checks use stdlib only.
+matplotlib==3.11.2
+numpy==2.5.4

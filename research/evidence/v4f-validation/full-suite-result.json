@@ -1,0 +1,357 @@
+{
+  "started_at": "2026-10-23T19:01:11.052934+00:00",
+  "purpose": "Offline synthetic software tests; each module uses a fresh process",
+  "python_executable": "/home/user/projects/collusion-sprint/.venv/bin/python",
+  "python_version": "3.14.8 (main, Oct 13 2026, 10:33:10) [GCC 16.2.1 20260810]",
+  "project": "/tmp/v4f-full-suite",
+  "modules": [
+    {
+      "module": "test_analysis.py",
+      "command": [
+        "/home/user/projects/collusion-sprint/.venv/bin/python",
+        "-B",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-p",
+        "test_analysis.py",
+        "-v"
+      ],
+      "returncode": 0,
+      "tests": 6,
+      "reported_seconds": 0.285
+    },
+    {
+      "module": "test_backend.py",
+      "command": [
+        "/home/user/projects/collusion-sprint/.venv/bin/python",
+        "-B",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-p",
+        "test_backend.py",
+        "-v"
+      ],
+      "returncode": 0,
+      "tests": 2,
+      "reported_seconds": 0.174
+    },
+    {
+      "module": "test_dispatcher.py",
+      "command": [
+        "/home/user/projects/collusion-sprint/.venv/bin/python",
+        "-B",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-p",
+        "test_dispatcher.py",
+        "-v"
+      ],
+      "returncode": 0,
+      "tests": 2,
+      "reported_seconds": 0.006
+    },
+    {
+      "module": "test_hf_jobs.py",
+      "command": [
+        "/home/user/projects/collusion-sprint/.venv/bin/python",
+        "-B",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-p",
+        "test_hf_jobs.py",
+        "-v"
+      ],
+      "returncode": 0,
+      "tests": 7,
+      "reported_seconds": 0.037
+    },
+    {
+      "module": "test_runner.py",
+      "command": [
+        "/home/user/projects/collusion-sprint/.venv/bin/python",
+        "-B",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-p",
+        "test_runner.py",
+        "-v"
+      ],
+      "returncode": 0,
+      "tests": 21,
+      "reported_seconds": 1.197
+    },
+    {
+      "module": "test_runner_extended.py",
+      "command": [
+        "/home/user/projects/collusion-sprint/.venv/bin/python",
+        "-B",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-p",
+        "test_runner_extended.py",
+        "-v"
+      ],
+      "returncode": 0,
+      "tests": 5,
+      "reported_seconds": 3.464
+    },
+    {
+      "module": "test_sampling.py",
+      "command": [
+        "/home/user/projects/collusion-sprint/.venv/bin/python",
+        "-B",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-p",
+        "test_sampling.py",
+        "-v"
+      ],
+      "returncode": 0,
+      "tests": 1,
+      "reported_seconds": 0.001
+    },
+    {
+      "module": "test_scenario.py",
+      "command": [
+        "/home/user/projects/collusion-sprint/.venv/bin/python",
+        "-B",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-p",
+        "test_scenario.py",
+        "-v"
+      ],
+      "returncode": 0,
+      "tests": 9,
+      "reported_seconds": 0.107
+    },
+    {
+      "module": "test_strict_bounds.py",
+      "command": [
+        "/home/user/projects/collusion-sprint/.venv/bin/python",
+        "-B",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-p",
+        "test_strict_bounds.py",
+        "-v"
+      ],
+      "returncode": 0,
+      "tests": 5,
+      "reported_seconds": 0.001
+    },
+    {
+      "module": "test_v3_analysis.py",
+      "command": [
+        "/home/user/projects/collusion-sprint/.venv/bin/python",
+        "-B",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-p",
+        "test_v3_analysis.py",
+        "-v"
+      ],
+      "returncode": 0,
+      "tests": 16,
+      "reported_seconds": 3.457
+    },
+    {
+      "module": "test_v3_runner.py",
+      "command": [
+        "/home/user/projects/collusion-sprint/.venv/bin/python",
+        "-B",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-p",
+        "test_v3_runner.py",
+        "-v"
+      ],
+      "returncode": 0,
+      "tests": 15,
+      "reported_seconds": 2.2
+    },
+    {
+      "module": "test_v3_scenario.py",
+      "command": [
+        "/home/user/projects/collusion-sprint/.venv/bin/python",
+        "-B",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-p",
+        "test_v3_scenario.py",
+        "-v"
+      ],
+      "returncode": 0,
+      "tests": 3,
+      "reported_seconds": 0.018
+    },
+    {
+      "module": "test_v4_analysis.py",
+      "command": [
+        "/home/user/projects/collusion-sprint/.venv/bin/python",
+        "-B",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-p",
+        "test_v4_analysis.py",
+        "-v"
+      ],
+      "returncode": 0,
+      "tests": 11,
+      "reported_seconds": 4.753
+    },
+    {
+      "module": "test_v4_runner.py",
+      "command": [
+        "/home/user/projects/collusion-sprint/.venv/bin/python",
+        "-B",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-p",
+        "test_v4_runner.py",
+        "-v"
+      ],
+      "returncode": 0,
+      "tests": 14,
+      "reported_seconds": 2.662
+    },
+    {
+      "module": "test_v4f_analysis.py",
+      "command": [
+        "/home/user/projects/collusion-sprint/.venv/bin/python",
+        "-B",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-p",
+        "test_v4f_analysis.py",
+        "-v"
+      ],
+      "returncode": 0,
+      "tests": 8,
+      "reported_seconds": 5.252
+    },
+    {
+      "module": "test_v4f_runner.py",
+      "command": [
+        "/home/user/projects/collusion-sprint/.venv/bin/python",
+        "-B",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-p",
+        "test_v4f_runner.py",
+        "-v"
+      ],
+      "returncode": 0,
+      "tests": 13,
+      "reported_seconds": 2.916
+    }
+  ],
+  "completed": true,
+  "source_sha256": {
+    "inherited_collusion/__init__.py": "57dca31a6d22c7dd313d3b734e1a3dd05f9c970756045033b90bcfcce41288dd",
+    "inherited_collusion/backends.py": "f376dfd20fe1ec3ab9172f8567c06a71c1a72e869e31787bc2109a3bd81a8873",
+    "inherited_collusion/runner.py": "1bc4b8ffa506370e9a2a501c263e1dc4d7b9b2d303e45ed74188411b6f0e4a99",
+    "inherited_collusion/scenario.py": "60e8e836d39278c5e048a9bd9bc00e39ae3e7984c8d1690105cfd44e409a8eca",
+    "inherited_collusion/storage.py": "d92a7e5c2e7a4224da311e4d9dee0201884c8f2e4e77ff71efa530bedd624d1c",
+    "inherited_collusion/v3_runner.py": "447898a21b6c8c80c2cfca046a58edb8f64146f51eb6d1c8fb5f470ce9ae38c6",
+    "inherited_collusion/v3_scenario.py": "3c66dea0d3e621753532b70389a1e1e84370332558a4da8ab9b868959320421c",
+    "scripts/analyze_study.py": "f51e19e0a422fe301b01443308260ebb019c8978ae489bc50ba074d2c6f6564d",
+    "scripts/analyze_v3_study.py": "ac64a612b6d697042644deaaf0f70836f1571d415fad26f7875a50278a1a04f5",
+    "scripts/analyze_v4_study.py": "6a480c612a73bfaa085d47c2920a9a251f95195460d1029293fcbea85d03e39c",
+    "scripts/analyze_v4f_study.py": "107ba80f262741ba93071c674625b932cdb102b9852506be51e7c3ec2a8f63b5",
+    "scripts/hf_jobs.py": "f84cda92df170c41d7d84ba2878fa7654bf1fe32510de8090341ecbdad611d40",
+    "scripts/package_v4_study.py": "10867c739ff31bf884bb5fb44a56200f0235572ff935e11b49b393e7a05e7d85",
+    "scripts/plot_v4_fixture.py": "f263fbbf3db65dbd07998fc24375768950d6696f5a3f4deb4e28981b4e84d1f9",
+    "scripts/plot_v4_study.py": "fd6d62df5a093ae01b384177176ea8cc2ecbf37f7e4c9563bfaafc97abcc4e58",
+    "scripts/run_fixed_study.py": "7cbc38073957c907988a7e2a7f15e8730a64d07ca7c23721ecdf5e16a661497b",
+    "scripts/run_v3_study.py": "88c098538bdd2143d3b0d464b0d4465c1fad01df0f05f16084a6aa7c983f7cb2",
+    "scripts/run_v4_study.py": "4d8a19c3fb1778feb6b593bee1279505093e592b8ffc095dcd77df6354af40db",
+    "scripts/run_v4f_study.py": "0440c1196f1ffd935cffc0ee03909c04382bb1046949fd5ae07be725b9d5099f",
+    "scripts/strict_bounds.py": "cb7d829af5b8fead61d4e20f0534bfb38c6a089ed1e7749b50afe0301d2fbefb",
+    "scripts/test_offline.py": "6ee7f9bae449592d0fd60d79e5800ffa31b695217c6bba96bdb636194ee68bf7",
+    "scripts/v4_runner.py": "868c46873a8b53fea0569927718fcedc693539e924748b8a4fa5d8d172347701",
+    "scripts/v4f_runner.py": "a87e3606dc3486ea69a1ff01f1791bf41daa1dd01d5426d81665b18778a17dc6",
+    "tests/test_analysis.py": "f9e1cfb0f8824f13503760496d1fc92dc78543bd340d4de5c47d1e5b3cf2d8a1",
+    "tests/test_backend.py": "31df73bbc0b5e3de3de7948a4803385e743276cfd69276a3eba6dea5b150476e",
+    "tests/test_dispatcher.py": "5d3c04f2e587320a251bd891739f970e10f466905a76f214dd26b188f5b15152",
+    "tests/test_hf_jobs.py": "069247d1648529d3d6f5d8c8373ea9039d8edb394a7d9ddd119b3a90ab939af1",
+    "tests/test_runner.py": "50de81b4dcaa87f7972032d5e6c1518ad10673c3d504222936ca58e97369b072",
+    "tests/test_runner_extended.py": "5b2f4c0ea9a3830767c94b5fee345e794653df53cf25f12b600742577df89f78",
+    "tests/test_sampling.py": "3c29ec53195e2b80282d644af0e83c9d40af0f522bbd073373320b84cf5c16f6",
+    "tests/test_scenario.py": "86de9a75ac3a65ad7f2cf9cdf2df7fdd9cdb8c858dfc3c8c262fee9d23cecdcd",
+    "tests/test_strict_bounds.py": "749f2f82081624d63b8fe39f1c403e29f7c99a9abcece7ed9266bed5742f4ac5",
+    "tests/test_v3_analysis.py": "08361ff40a8ea5348dc4ea2d7c8ec444835d39cd059187f5162ab86e9d00ae17",
+    "tests/test_v3_runner.py": "21ab0fb4d539daf93a6ea803734489b856143f3698e556c1c3cb8045355d4a15",
+    "tests/test_v3_scenario.py": "ba7537e6f603ec552b7889a72df5c949abbec2ce8a3650bbad3ffed0d396d93d",
+    "tests/test_v4_analysis.py": "13c8b66e35fb05780395ce41a2109460be5dab621badfdeb251a5d87d813a58a",
+    "tests/test_v4_runner.py": "796f7e808b0df8e9dcbda8f765efaf7d8c5236b9fb9417660f5b2b79ba90cbcb",
+    "tests/test_v4f_analysis.py": "fb998d4605a07d363ab5785ca0a4c2a8c7b6a99caa382bafcc92751db71cb096",
+    "tests/test_v4f_runner.py": "152df5aed78972f5a6b0390542565016f58165ed4ce8fd2a1f6e2da96c2cff27",
+    "tests/v4f_fixtures.py": "8b90e739fbb15a642e237d29d9f9295abba89f64cde9f5150e0f36278e3810dd",
+    "vendor/collusion_hackathon/colosseum/experiments/collusion/choice/jira_ticket_choice_env.py": "70f658e460ad2f211d0eb556096790d026da71cfd510bf74636eae787909e4b5",
+    "vendor/collusion_hackathon/colosseum/experiments/collusion/metrics.py": "de04c9aa3bcc19aa7012cee752d9f922568aefb96f094bc4bcd110e3b324f13c",
+    "vendor/collusion_hackathon/colosseum/experiments/collusion/prompts.py": "9c656a43dcea00fcbaf3cae298fe948b8ed90bdf570ca0d6eb30e131e79a1679",
+    "vendor/collusion_hackathon/colosseum/experiments/collusion/resume.py": "95b8aa0747468bc966f968c2f2067fc3609ca63137d1fd83b51cad340b8b272d",
+    "vendor/collusion_hackathon/colosseum/experiments/collusion/run.py": "b502128b7f9cbd8868b20ff404d0f0a5d02e240f160b3bdc54526ce9b9f35fb5",
+    "vendor/collusion_hackathon/colosseum/experiments/common/local_protocol.py": "58f0e2f1a4c734ebe028c1a70da8fc219a7ee01883bbabbacefae083ff9ecd6c",
+    "vendor/collusion_hackathon/colosseum/experiments/common/providers.py": "c0da1ebbdf33b73e04558044b3e049f36dda2cc0509aa8e4ae9c97ce6dbc3483",
+    "vendor/collusion_hackathon/colosseum/experiments/preflight.py": "aaad286d3c2e87db1ba7d35a4b03bba49dc0f2d81a1a04f1e6a4e38c3a0d6f9d",
+    "vendor/terrarium/terrarium/environments/dcops/jira_ticket/jira_ticket_env.py": "ad7f63c2c2e488e259c62417d0c21e122b8725f27dd6263a659a2f692a1af97e",
+    "vendor/terrarium/terrarium/environments/dcops/jira_ticket/jira_ticket_tools.py": "ce20b7eedce0afd2fb4d7fb15725e6522da68b561bd6239994b3cda4370d21f2",
+    "configs/budget.example.json": "ff3b188da6fe1c6e8fc389d2ec404ff6e7e65578122342d72814938c748a8ad3"
+  },
+  "reason_for_isolation": "The separate V4F adapter deliberately changes imported parser globals; do not mix strict and amended tests in one interpreter.",
+  "ended_at": "2026-10-23T19:01:39.768997+00:00",
+  "wall_seconds": 28.713,
+  "total_tests": 138,
+  "source_changes_during_run": [],
+  "passed": true
+}

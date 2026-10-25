@@ -1,0 +1,632 @@
+[
+  {
+    "seed": 201,
+    "role": "A",
+    "note": "none",
+    "bytes": 3133,
+    "over_10000": false
+  },
+  {
+    "seed": 201,
+    "role": "A",
+    "note": "ascii2000",
+    "bytes": 5199,
+    "over_10000": false
+  },
+  {
+    "seed": 201,
+    "role": "A",
+    "note": "emoji2000",
+    "bytes": 11199,
+    "over_10000": true
+  },
+  {
+    "seed": 201,
+    "role": "A",
+    "note": "control2000",
+    "bytes": 15199,
+    "over_10000": true
+  },
+  {
+    "seed": 201,
+    "role": "A",
+    "note": "nfc_expansion2000",
+    "bytes": 11199,
+    "over_10000": true
+  },
+  {
+    "seed": 201,
+    "role": "B",
+    "note": "none",
+    "bytes": 3133,
+    "over_10000": false
+  },
+  {
+    "seed": 201,
+    "role": "B",
+    "note": "ascii2000",
+    "bytes": 5199,
+    "over_10000": false
+  },
+  {
+    "seed": 201,
+    "role": "B",
+    "note": "emoji2000",
+    "bytes": 11199,
+    "over_10000": true
+  },
+  {
+    "seed": 201,
+    "role": "B",
+    "note": "control2000",
+    "bytes": 15199,
+    "over_10000": true
+  },
+  {
+    "seed": 201,
+    "role": "B",
+    "note": "nfc_expansion2000",
+    "bytes": 11199,
+    "over_10000": true
+  },
+  {
+    "seed": 202,
+    "role": "A",
+    "note": "none",
+    "bytes": 3136,
+    "over_10000": false
+  },
+  {
+    "seed": 202,
+    "role": "A",
+    "note": "ascii2000",
+    "bytes": 5202,
+    "over_10000": false
+  },
+  {
+    "seed": 202,
+    "role": "A",
+    "note": "emoji2000",
+    "bytes": 11202,
+    "over_10000": true
+  },
+  {
+    "seed": 202,
+    "role": "A",
+    "note": "control2000",
+    "bytes": 15202,
+    "over_10000": true
+  },
+  {
+    "seed": 202,
+    "role": "A",
+    "note": "nfc_expansion2000",
+    "bytes": 11202,
+    "over_10000": true
+  },
+  {
+    "seed": 202,
+    "role": "B",
+    "note": "none",
+    "bytes": 3136,
+    "over_10000": false
+  },
+  {
+    "seed": 202,
+    "role": "B",
+    "note": "ascii2000",
+    "bytes": 5202,
+    "over_10000": false
+  },
+  {
+    "seed": 202,
+    "role": "B",
+    "note": "emoji2000",
+    "bytes": 11202,
+    "over_10000": true
+  },
+  {
+    "seed": 202,
+    "role": "B",
+    "note": "control2000",
+    "bytes": 15202,
+    "over_10000": true
+  },
+  {
+    "seed": 202,
+    "role": "B",
+    "note": "nfc_expansion2000",
+    "bytes": 11202,
+    "over_10000": true
+  },
+  {
+    "seed": 203,
+    "role": "A",
+    "note": "none",
+    "bytes": 3131,
+    "over_10000": false
+  },
+  {
+    "seed": 203,
+    "role": "A",
+    "note": "ascii2000",
+    "bytes": 5197,
+    "over_10000": false
+  },
+  {
+    "seed": 203,
+    "role": "A",
+    "note": "emoji2000",
+    "bytes": 11197,
+    "over_10000": true
+  },
+  {
+    "seed": 203,
+    "role": "A",
+    "note": "control2000",
+    "bytes": 15197,
+    "over_10000": true
+  },
+  {
+    "seed": 203,
+    "role": "A",
+    "note": "nfc_expansion2000",
+    "bytes": 11197,
+    "over_10000": true
+  },
+  {
+    "seed": 203,
+    "role": "B",
+    "note": "none",
+    "bytes": 3131,
+    "over_10000": false
+  },
+  {
+    "seed": 203,
+    "role": "B",
+    "note": "ascii2000",
+    "bytes": 5197,
+    "over_10000": false
+  },
+  {
+    "seed": 203,
+    "role": "B",
+    "note": "emoji2000",
+    "bytes": 11197,
+    "over_10000": true
+  },
+  {
+    "seed": 203,
+    "role": "B",
+    "note": "control2000",
+    "bytes": 15197,
+    "over_10000": true
+  },
+  {
+    "seed": 203,
+    "role": "B",
+    "note": "nfc_expansion2000",
+    "bytes": 11197,
+    "over_10000": true
+  },
+  {
+    "seed": 204,
+    "role": "A",
+    "note": "none",
+    "bytes": 3141,
+    "over_10000": false
+  },
+  {
+    "seed": 204,
+    "role": "A",
+    "note": "ascii2000",
+    "bytes": 5207,
+    "over_10000": false
+  },
+  {
+    "seed": 204,
+    "role": "A",
+    "note": "emoji2000",
+    "bytes": 11207,
+    "over_10000": true
+  },
+  {
+    "seed": 204,
+    "role": "A",
+    "note": "control2000",
+    "bytes": 15207,
+    "over_10000": true
+  },
+  {
+    "seed": 204,
+    "role": "A",
+    "note": "nfc_expansion2000",
+    "bytes": 11207,
+    "over_10000": true
+  },
+  {
+    "seed": 204,
+    "role": "B",
+    "note": "none",
+    "bytes": 3141,
+    "over_10000": false
+  },
+  {
+    "seed": 204,
+    "role": "B",
+    "note": "ascii2000",
+    "bytes": 5207,
+    "over_10000": false
+  },
+  {
+    "seed": 204,
+    "role": "B",
+    "note": "emoji2000",
+    "bytes": 11207,
+    "over_10000": true
+  },
+  {
+    "seed": 204,
+    "role": "B",
+    "note": "control2000",
+    "bytes": 15207,
+    "over_10000": true
+  },
+  {
+    "seed": 204,
+    "role": "B",
+    "note": "nfc_expansion2000",
+    "bytes": 11207,
+    "over_10000": true
+  },
+  {
+    "seed": 205,
+    "role": "A",
+    "note": "none",
+    "bytes": 3145,
+    "over_10000": false
+  },
+  {
+    "seed": 205,
+    "role": "A",
+    "note": "ascii2000",
+    "bytes": 5211,
+    "over_10000": false
+  },
+  {
+    "seed": 205,
+    "role": "A",
+    "note": "emoji2000",
+    "bytes": 11211,
+    "over_10000": true
+  },
+  {
+    "seed": 205,
+    "role": "A",
+    "note": "control2000",
+    "bytes": 15211,
+    "over_10000": true
+  },
+  {
+    "seed": 205,
+    "role": "A",
+    "note": "nfc_expansion2000",
+    "bytes": 11211,
+    "over_10000": true
+  },
+  {
+    "seed": 205,
+    "role": "B",
+    "note": "none",
+    "bytes": 3145,
+    "over_10000": false
+  },
+  {
+    "seed": 205,
+    "role": "B",
+    "note": "ascii2000",
+    "bytes": 5211,
+    "over_10000": false
+  },
+  {
+    "seed": 205,
+    "role": "B",
+    "note": "emoji2000",
+    "bytes": 11211,
+    "over_10000": true
+  },
+  {
+    "seed": 205,
+    "role": "B",
+    "note": "control2000",
+    "bytes": 15211,
+    "over_10000": true
+  },
+  {
+    "seed": 205,
+    "role": "B",
+    "note": "nfc_expansion2000",
+    "bytes": 11211,
+    "over_10000": true
+  },
+  {
+    "seed": 206,
+    "role": "A",
+    "note": "none",
+    "bytes": 3140,
+    "over_10000": false
+  },
+  {
+    "seed": 206,
+    "role": "A",
+    "note": "ascii2000",
+    "bytes": 5206,
+    "over_10000": false
+  },
+  {
+    "seed": 206,
+    "role": "A",
+    "note": "emoji2000",
+    "bytes": 11206,
+    "over_10000": true
+  },
+  {
+    "seed": 206,
+    "role": "A",
+    "note": "control2000",
+    "bytes": 15206,
+    "over_10000": true
+  },
+  {
+    "seed": 206,
+    "role": "A",
+    "note": "nfc_expansion2000",
+    "bytes": 11206,
+    "over_10000": true
+  },
+  {
+    "seed": 206,
+    "role": "B",
+    "note": "none",
+    "bytes": 3140,
+    "over_10000": false
+  },
+  {
+    "seed": 206,
+    "role": "B",
+    "note": "ascii2000",
+    "bytes": 5206,
+    "over_10000": false
+  },
+  {
+    "seed": 206,
+    "role": "B",
+    "note": "emoji2000",
+    "bytes": 11206,
+    "over_10000": true
+  },
+  {
+    "seed": 206,
+    "role": "B",
+    "note": "control2000",
+    "bytes": 15206,
+    "over_10000": true
+  },
+  {
+    "seed": 206,
+    "role": "B",
+    "note": "nfc_expansion2000",
+    "bytes": 11206,
+    "over_10000": true
+  },
+  {
+    "seed": 207,
+    "role": "A",
+    "note": "none",
+    "bytes": 3136,
+    "over_10000": false
+  },
+  {
+    "seed": 207,
+    "role": "A",
+    "note": "ascii2000",
+    "bytes": 5202,
+    "over_10000": false
+  },
+  {
+    "seed": 207,
+    "role": "A",
+    "note": "emoji2000",
+    "bytes": 11202,
+    "over_10000": true
+  },
+  {
+    "seed": 207,
+    "role": "A",
+    "note": "control2000",
+    "bytes": 15202,
+    "over_10000": true
+  },
+  {
+    "seed": 207,
+    "role": "A",
+    "note": "nfc_expansion2000",
+    "bytes": 11202,
+    "over_10000": true
+  },
+  {
+    "seed": 207,
+    "role": "B",
+    "note": "none",
+    "bytes": 3136,
+    "over_10000": false
+  },
+  {
+    "seed": 207,
+    "role": "B",
+    "note": "ascii2000",
+    "bytes": 5202,
+    "over_10000": false
+  },
+  {
+    "seed": 207,
+    "role": "B",
+    "note": "emoji2000",
+    "bytes": 11202,
+    "over_10000": true
+  },
+  {
+    "seed": 207,
+    "role": "B",
+    "note": "control2000",
+    "bytes": 15202,
+    "over_10000": true
+  },
+  {
+    "seed": 207,
+    "role": "B",
+    "note": "nfc_expansion2000",
+    "bytes": 11202,
+    "over_10000": true
+  },
+  {
+    "seed": 208,
+    "role": "A",
+    "note": "none",
+    "bytes": 3132,
+    "over_10000": false
+  },
+  {
+    "seed": 208,
+    "role": "A",
+    "note": "ascii2000",
+    "bytes": 5198,
+    "over_10000": false
+  },
+  {
+    "seed": 208,
+    "role": "A",
+    "note": "emoji2000",
+    "bytes": 11198,
+    "over_10000": true
+  },
+  {
+    "seed": 208,
+    "role": "A",
+    "note": "control2000",
+    "bytes": 15198,
+    "over_10000": true
+  },
+  {
+    "seed": 208,
+    "role": "A",
+    "note": "nfc_expansion2000",
+    "bytes": 11198,
+    "over_10000": true
+  },
+  {
+    "seed": 208,
+    "role": "B",
+    "note": "none",
+    "bytes": 3132,
+    "over_10000": false
+  },
+  {
+    "seed": 208,
+    "role": "B",
+    "note": "ascii2000",
+    "bytes": 5198,
+    "over_10000": false
+  },
+  {
+    "seed": 208,
+    "role": "B",
+    "note": "emoji2000",
+    "bytes": 11198,
+    "over_10000": true
+  },
+  {
+    "seed": 208,
+    "role": "B",
+    "note": "control2000",
+    "bytes": 15198,
+    "over_10000": true
+  },
+  {
+    "seed": 208,
+    "role": "B",
+    "note": "nfc_expansion2000",
+    "bytes": 11198,
+    "over_10000": true
+  },
+  {
+    "seed": 901,
+    "role": "A",
+    "note": "none",
+    "bytes": 3133,
+    "over_10000": false
+  },
+  {
+    "seed": 901,
+    "role": "A",
+    "note": "ascii2000",
+    "bytes": 5199,
+    "over_10000": false
+  },
+  {
+    "seed": 901,
+    "role": "A",
+    "note": "emoji2000",
+    "bytes": 11199,
+    "over_10000": true
+  },
+  {
+    "seed": 901,
+    "role": "A",
+    "note": "control2000",
+    "bytes": 15199,
+    "over_10000": true
+  },
+  {
+    "seed": 901,
+    "role": "A",
+    "note": "nfc_expansion2000",
+    "bytes": 11199,
+    "over_10000": true
+  },
+  {
+    "seed": 901,
+    "role": "B",
+    "note": "none",
+    "bytes": 3133,
+    "over_10000": false
+  },
+  {
+    "seed": 901,
+    "role": "B",
+    "note": "ascii2000",
+    "bytes": 5199,
+    "over_10000": false
+  },
+  {
+    "seed": 901,
+    "role": "B",
+    "note": "emoji2000",
+    "bytes": 11199,
+    "over_10000": true
+  },
+  {
+    "seed": 901,
+    "role": "B",
+    "note": "control2000",
+    "bytes": 15199,
+    "over_10000": true
+  },
+  {
+    "seed": 901,
+    "role": "B",
+    "note": "nfc_expansion2000",
+    "bytes": 11199,
+    "over_10000": true
+  }
+]

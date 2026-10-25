@@ -1,0 +1,27 @@
+{
+  "checked_at": "2026-10-23T15:21:09.593199+00:00",
+  "source": "https://router.huggingface.co/v1/models",
+  "units": "USD per million tokens",
+  "model": "Qwen/Qwen3-235B-A22B-Instruct-2507",
+  "provider": {
+    "provider": "deepinfra",
+    "status": "live",
+    "context_length": 262144,
+    "pricing": {
+      "input": 0.09,
+      "output": 0.55
+    },
+    "is_free": false,
+    "supports_tools": true,
+    "supports_structured_output": true,
+    "first_token_latency_ms": 3896,
+    "throughput": 19.420869666543666,
+    "is_model_author": false
+  },
+  "planned_max_request_bytes": 16000,
+  "framing_allowance_tokens": 2048,
+  "max_output_tokens": 512,
+  "estimated_upper_usd_per_call": 0.00190592,
+  "estimated_upper_usd_46_calls": 0.08767232,
+  "assumption": "At most one input token per UTF-8 byte plus 2048 framing tokens; must be verified against provider before paid use. Not a server-side billing cap."
+}

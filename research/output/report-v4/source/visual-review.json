@@ -1,0 +1,92 @@
+{
+  "status": "PASS",
+  "reviewed_at": "2026-10-24T10:14:13.437830+00:00",
+  "reviewer": "Codex report agent; AI-assisted visual review, not independent human verification",
+  "main_pages": 8,
+  "total_pages": 14,
+  "abstract_words": 223,
+  "pages_individually_viewed_at_original_resolution": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14
+  ],
+  "pdf_bytes": 710253,
+  "pdf_sha256": "a73dbfe2f69b817d188c3dbbcaf280f6b8e9bc178702ac4cf302296fb7e7d90d",
+  "docx_sha256": "e998c28d770ddd61cd0c481afc0c12b2ad9dcc8b810a6e4e7d990b1d50e627a6",
+  "observations": [
+    "All text, tables and figures fit the retained page geometry.",
+    "Table3 has a repeated header across its page split.",
+    "Discussion begins on page8; References begins on page9.",
+    "No blank page, text clipping, overlapping element or illegible plot observed.",
+    "All PDF fonts embedded; no unresolved placeholders."
+  ],
+  "page_images": [
+    {
+      "path": "../inherited-collusion-v4-render/page-1.png",
+      "sha256": "45397064719be7f7ac3038397d8b6f5424f2eaca608c2a950301c51231e693f3"
+    },
+    {
+      "path": "../inherited-collusion-v4-render/page-2.png",
+      "sha256": "5ddcfc987c73b2881f3fb44eb8c2ffa9ce433949ab08475d8c4a12ee238ce6b7"
+    },
+    {
+      "path": "../inherited-collusion-v4-render/page-3.png",
+      "sha256": "24e97e1b549802c6c4696293ca3e522f4f768d43b064ae89c299e78935207ebb"
+    },
+    {
+      "path": "../inherited-collusion-v4-render/page-4.png",
+      "sha256": "b1475ca843b081889ef09aafd9530aa2056dbd07b690baab266624a2cc83a05f"
+    },
+    {
+      "path": "../inherited-collusion-v4-render/page-5.png",
+      "sha256": "44e92c6f2403e0ee75a11a15d20574bdfbada94cbbdc7f98c5058307f17860cd"
+    },
+    {
+      "path": "../inherited-collusion-v4-render/page-6.png",
+      "sha256": "30c7a8b5be7c97c73685cd9541ffab54cff6d41219d49d32f61b46e0c195c621"
+    },
+    {
+      "path": "../inherited-collusion-v4-render/page-7.png",
+      "sha256": "fc0f403ceead7c512cb8bc48b5d9c5ab6f68a18a1d128125b34d98dd23933d44"
+    },
+    {
+      "path": "../inherited-collusion-v4-render/page-8.png",
+      "sha256": "befc91e5aa0bd56139e74ac9b3985eebe8797503e8a123c60bc680a883383171"
+    },
+    {
+      "path": "../inherited-collusion-v4-render/page-9.png",
+      "sha256": "11a9c2e6265d40e98d62e330f72f3954c09e0c5885df561205af6aea576d4d07"
+    },
+    {
+      "path": "../inherited-collusion-v4-render/page-10.png",
+      "sha256": "d51f81636025fadb88d169d494e20ddc09a95f361dc92093d39bf839496c5df7"
+    },
+    {
+      "path": "../inherited-collusion-v4-render/page-11.png",
+      "sha256": "38d2a612d4a25a3bbfc8f7c0c64d9070eb356b499101ca77e08401f83e273fd5"
+    },
+    {
+      "path": "../inherited-collusion-v4-render/page-12.png",
+      "sha256": "10c9e132d7e56789524c15ccc95c1f78e691bd4b3a3dea96aa02e4c6adc41a26"
+    },
+    {
+      "path": "../inherited-collusion-v4-render/page-13.png",
+      "sha256": "86b0282f88dcea3f6bf70de0a1110ca091105bfe0c8bbdd50e71938038c77497"
+    },
+    {
+      "path": "../inherited-collusion-v4-render/page-14.png",
+      "sha256": "070b2a0f11dca28acb4c8a6c9e849f4eb0e4a169864b0f055a3434d2c29547fd"
+    }
+  ]
+}

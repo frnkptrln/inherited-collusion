@@ -1,0 +1,354 @@
+{
+  "checked_at": "2026-10-23T17:29:10.466076+00:00",
+  "source": "saved responses only; no calls dispatched by reviewer",
+  "summaries": [
+    {
+      "family": "qwen",
+      "responses": 6,
+      "reserved_requests": 6,
+      "prompt_tokens": 3010,
+      "completion_tokens": 6859,
+      "estimated_cost_usd": 0.006817050000000001,
+      "catalog_cost_usd": 0.006817050000000001,
+      "all_checks_passed": true,
+      "missing_estimated_cost": 0
+    },
+    {
+      "family": "deepseek",
+      "responses": 6,
+      "reserved_requests": 6,
+      "prompt_tokens": 2608,
+      "completion_tokens": 148,
+      "estimated_cost_usd": 0.0007343199999999999,
+      "catalog_cost_usd": 0.0007343200000000001,
+      "all_checks_passed": true,
+      "missing_estimated_cost": 0
+    }
+  ],
+  "responses": [
+    {
+      "call_id": "s901-probe-A-comprehension",
+      "model": "Qwen/Qwen3.6-35B-A3B",
+      "finish_reason": "stop",
+      "usage": {
+        "completion_tokens": 2515,
+        "estimated_cost": 0.0025181500000000002,
+        "prompt_tokens": 1289,
+        "prompt_tokens_details": {
+          "cache_write_tokens": null,
+          "cached_tokens": 0
+        },
+        "total_tokens": 3804
+      },
+      "calculated_catalog_usd": 0.0025181500000000002,
+      "input_reservation_tokens": 5106,
+      "per_call_reservation_usd": 0.006,
+      "checks": {
+        "model_matches": true,
+        "complete": true,
+        "prompt_within_reservation": true,
+        "completion_within_limit": true,
+        "catalog_cost_within_reservation": true,
+        "estimated_cost_within_reservation": true
+      },
+      "response_sha256": "1985f277bbf576771d22336c1ee34715ba89d0fcbdc894272a76f7d2affdf2f0"
+    },
+    {
+      "call_id": "s901-probe-A-note_T1",
+      "model": "Qwen/Qwen3.6-35B-A3B",
+      "finish_reason": "stop",
+      "usage": {
+        "completion_tokens": 426,
+        "estimated_cost": 0.00041549999999999996,
+        "prompt_tokens": 108,
+        "prompt_tokens_details": {
+          "cache_write_tokens": null,
+          "cached_tokens": 0
+        },
+        "total_tokens": 534
+      },
+      "calculated_catalog_usd": 0.0004155,
+      "input_reservation_tokens": 2521,
+      "per_call_reservation_usd": 0.006,
+      "checks": {
+        "model_matches": true,
+        "complete": true,
+        "prompt_within_reservation": true,
+        "completion_within_limit": true,
+        "catalog_cost_within_reservation": true,
+        "estimated_cost_within_reservation": true
+      },
+      "response_sha256": "39a8bb764bb55fe12ffdef2f41f02be53b32d194303d2ae6b45c90a48ef99c4b"
+    },
+    {
+      "call_id": "s901-probe-A-note_T2",
+      "model": "Qwen/Qwen3.6-35B-A3B",
+      "finish_reason": "stop",
+      "usage": {
+        "completion_tokens": 339,
+        "estimated_cost": 0.00033285000000000004,
+        "prompt_tokens": 108,
+        "prompt_tokens_details": {
+          "cache_write_tokens": null,
+          "cached_tokens": 0
+        },
+        "total_tokens": 447
+      },
+      "calculated_catalog_usd": 0.00033285000000000004,
+      "input_reservation_tokens": 2521,
+      "per_call_reservation_usd": 0.006,
+      "checks": {
+        "model_matches": true,
+        "complete": true,
+        "prompt_within_reservation": true,
+        "completion_within_limit": true,
+        "catalog_cost_within_reservation": true,
+        "estimated_cost_within_reservation": true
+      },
+      "response_sha256": "b2e47fc84188b02bde498a42255261c2a2a6338331345fabfe9b873726c28f5d"
+    },
+    {
+      "call_id": "s901-probe-B-comprehension",
+      "model": "Qwen/Qwen3.6-35B-A3B",
+      "finish_reason": "stop",
+      "usage": {
+        "completion_tokens": 2515,
+        "estimated_cost": 0.0025181500000000002,
+        "prompt_tokens": 1289,
+        "prompt_tokens_details": {
+          "cache_write_tokens": null,
+          "cached_tokens": 0
+        },
+        "total_tokens": 3804
+      },
+      "calculated_catalog_usd": 0.0025181500000000002,
+      "input_reservation_tokens": 5106,
+      "per_call_reservation_usd": 0.006,
+      "checks": {
+        "model_matches": true,
+        "complete": true,
+        "prompt_within_reservation": true,
+        "completion_within_limit": true,
+        "catalog_cost_within_reservation": true,
+        "estimated_cost_within_reservation": true
+      },
+      "response_sha256": "7a53be414895a4f428b8fb6f0aad1d4c9f4e5cf42abad94ebdf0a56fda86bf94"
+    },
+    {
+      "call_id": "s901-probe-B-note_T1",
+      "model": "Qwen/Qwen3.6-35B-A3B",
+      "finish_reason": "stop",
+      "usage": {
+        "completion_tokens": 512,
+        "estimated_cost": 0.0004972,
+        "prompt_tokens": 108,
+        "prompt_tokens_details": {
+          "cache_write_tokens": null,
+          "cached_tokens": 0
+        },
+        "total_tokens": 620
+      },
+      "calculated_catalog_usd": 0.0004971999999999999,
+      "input_reservation_tokens": 2521,
+      "per_call_reservation_usd": 0.006,
+      "checks": {
+        "model_matches": true,
+        "complete": true,
+        "prompt_within_reservation": true,
+        "completion_within_limit": true,
+        "catalog_cost_within_reservation": true,
+        "estimated_cost_within_reservation": true
+      },
+      "response_sha256": "71fd4dfc2ca5f9af715d33077fc87c74b6ad6524276588da37d4ad5b78c27be1"
+    },
+    {
+      "call_id": "s901-probe-B-note_T2",
+      "model": "Qwen/Qwen3.6-35B-A3B",
+      "finish_reason": "stop",
+      "usage": {
+        "completion_tokens": 552,
+        "estimated_cost": 0.0005352,
+        "prompt_tokens": 108,
+        "prompt_tokens_details": {
+          "cache_write_tokens": null,
+          "cached_tokens": 0
+        },
+        "total_tokens": 660
+      },
+      "calculated_catalog_usd": 0.0005351999999999999,
+      "input_reservation_tokens": 2521,
+      "per_call_reservation_usd": 0.006,
+      "checks": {
+        "model_matches": true,
+        "complete": true,
+        "prompt_within_reservation": true,
+        "completion_within_limit": true,
+        "catalog_cost_within_reservation": true,
+        "estimated_cost_within_reservation": true
+      },
+      "response_sha256": "f9763251a9c5b3a4818eae0f8dcd47cd34e352b5036e3d00685f5d898eb15905"
+    },
+    {
+      "call_id": "s901-probe-A-comprehension",
+      "model": "deepseek-ai/DeepSeek-V3.2",
+      "finish_reason": "stop",
+      "usage": {
+        "completion_tokens": 60,
+        "estimated_cost": 0.00031036,
+        "prompt_tokens": 1106,
+        "prompt_tokens_details": {
+          "cache_write_tokens": null,
+          "cached_tokens": 0
+        },
+        "total_tokens": 1166
+      },
+      "calculated_catalog_usd": 0.00031036000000000003,
+      "input_reservation_tokens": 5106,
+      "per_call_reservation_usd": 0.005,
+      "checks": {
+        "model_matches": true,
+        "complete": true,
+        "prompt_within_reservation": true,
+        "completion_within_limit": true,
+        "catalog_cost_within_reservation": true,
+        "estimated_cost_within_reservation": true
+      },
+      "response_sha256": "ee95344f150f5c4c396736216c545226cf51bdda8fb11772ed33495a1695228e"
+    },
+    {
+      "call_id": "s901-probe-A-note_T1",
+      "model": "deepseek-ai/DeepSeek-V3.2",
+      "finish_reason": "stop",
+      "usage": {
+        "completion_tokens": 7,
+        "estimated_cost": 2.84e-05,
+        "prompt_tokens": 99,
+        "prompt_tokens_details": {
+          "cache_write_tokens": null,
+          "cached_tokens": 0
+        },
+        "total_tokens": 106
+      },
+      "calculated_catalog_usd": 2.8400000000000003e-05,
+      "input_reservation_tokens": 2521,
+      "per_call_reservation_usd": 0.005,
+      "checks": {
+        "model_matches": true,
+        "complete": true,
+        "prompt_within_reservation": true,
+        "completion_within_limit": true,
+        "catalog_cost_within_reservation": true,
+        "estimated_cost_within_reservation": true
+      },
+      "response_sha256": "53237405a07139fe6945586c9a84389c3ed4f4b21f8cec87042906542224a061"
+    },
+    {
+      "call_id": "s901-probe-A-note_T2",
+      "model": "deepseek-ai/DeepSeek-V3.2",
+      "finish_reason": "stop",
+      "usage": {
+        "completion_tokens": 7,
+        "estimated_cost": 2.84e-05,
+        "prompt_tokens": 99,
+        "prompt_tokens_details": {
+          "cache_write_tokens": null,
+          "cached_tokens": 0
+        },
+        "total_tokens": 106
+      },
+      "calculated_catalog_usd": 2.8400000000000003e-05,
+      "input_reservation_tokens": 2521,
+      "per_call_reservation_usd": 0.005,
+      "checks": {
+        "model_matches": true,
+        "complete": true,
+        "prompt_within_reservation": true,
+        "completion_within_limit": true,
+        "catalog_cost_within_reservation": true,
+        "estimated_cost_within_reservation": true
+      },
+      "response_sha256": "bfec7c3f9a3102dfb36d1d3fb28b43446b6737266215ca8f176a5cbecd7cdac8"
+    },
+    {
+      "call_id": "s901-probe-B-comprehension",
+      "model": "deepseek-ai/DeepSeek-V3.2",
+      "finish_reason": "stop",
+      "usage": {
+        "completion_tokens": 60,
+        "estimated_cost": 0.00031036,
+        "prompt_tokens": 1106,
+        "prompt_tokens_details": {
+          "cache_write_tokens": null,
+          "cached_tokens": 0
+        },
+        "total_tokens": 1166
+      },
+      "calculated_catalog_usd": 0.00031036000000000003,
+      "input_reservation_tokens": 5106,
+      "per_call_reservation_usd": 0.005,
+      "checks": {
+        "model_matches": true,
+        "complete": true,
+        "prompt_within_reservation": true,
+        "completion_within_limit": true,
+        "catalog_cost_within_reservation": true,
+        "estimated_cost_within_reservation": true
+      },
+      "response_sha256": "ebb89b5817a469bd15daa2b312f457b44ab5181ad46673a1ab288034e0fbf32f"
+    },
+    {
+      "call_id": "s901-probe-B-note_T1",
+      "model": "deepseek-ai/DeepSeek-V3.2",
+      "finish_reason": "stop",
+      "usage": {
+        "completion_tokens": 7,
+        "estimated_cost": 2.84e-05,
+        "prompt_tokens": 99,
+        "prompt_tokens_details": {
+          "cache_write_tokens": null,
+          "cached_tokens": 0
+        },
+        "total_tokens": 106
+      },
+      "calculated_catalog_usd": 2.8400000000000003e-05,
+      "input_reservation_tokens": 2521,
+      "per_call_reservation_usd": 0.005,
+      "checks": {
+        "model_matches": true,
+        "complete": true,
+        "prompt_within_reservation": true,
+        "completion_within_limit": true,
+        "catalog_cost_within_reservation": true,
+        "estimated_cost_within_reservation": true
+      },
+      "response_sha256": "644f0667c178e2779f9f40b48473a55a65dae2b319f85c68597f14b0263f96bf"
+    },
+    {
+      "call_id": "s901-probe-B-note_T2",
+      "model": "deepseek-ai/DeepSeek-V3.2",
+      "finish_reason": "stop",
+      "usage": {
+        "completion_tokens": 7,
+        "estimated_cost": 2.84e-05,
+        "prompt_tokens": 99,
+        "prompt_tokens_details": {
+          "cache_write_tokens": null,
+          "cached_tokens": 0
+        },
+        "total_tokens": 106
+      },
+      "calculated_catalog_usd": 2.8400000000000003e-05,
+      "input_reservation_tokens": 2521,
+      "per_call_reservation_usd": 0.005,
+      "checks": {
+        "model_matches": true,
+        "complete": true,
+        "prompt_within_reservation": true,
+        "completion_within_limit": true,
+        "catalog_cost_within_reservation": true,
+        "estimated_cost_within_reservation": true
+      },
+      "response_sha256": "9c1abb22f5199a623b39b2c55b8720d9a58a5219601b51f439417fb07dc63241"
+    }
+  ]
+}

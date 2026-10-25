@@ -1,0 +1,26 @@
+{
+  "checked_at": "2026-10-23T16:48:35.924668+00:00",
+  "purpose": "Public provider mapping recheck after response model identity mismatch",
+  "items": [
+    {
+      "requested_model": "Qwen/Qwen3-235B-A22B-Instruct-2507",
+      "url": "https://huggingface.co/api/models/Qwen/Qwen3-235B-A22B-Instruct-2507?expand=inferenceProviderMapping",
+      "deepinfra_mapping": {
+        "status": "live",
+        "providerId": "Qwen/Qwen3-235B-A22B-Instruct-2507",
+        "task": "conversational",
+        "isModelAuthor": false
+      }
+    },
+    {
+      "requested_model": "Qwen/Qwen3-235B-A22B-Thinking-2507",
+      "url": "https://huggingface.co/api/models/Qwen/Qwen3-235B-A22B-Thinking-2507?expand=inferenceProviderMapping",
+      "deepinfra_mapping": {
+        "status": "live",
+        "providerId": "Qwen/Qwen3-235B-A22B-Thinking-2507",
+        "task": "conversational",
+        "isModelAuthor": false
+      }
+    }
+  ]
+}

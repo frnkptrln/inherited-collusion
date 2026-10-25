@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-10-25T13:52:48.775950+00:00",
+  "current_entry": "V6-START-HERE.md",
+  "study_version": 6,
+  "offline_verification_passed": true,
+  "models_called_by_packaging": false,
+  "archive_sha256": "723969b927749d95e29bacc7c0fc3f4308672085a9615ea1cd5561bd9ec7247f",
+  "files": {
+    "PACKAGE-MANIFEST-v6.json": {
+      "sha256": "e45602c78040b8d3b5a7d86f8f6080c4719e34fff5aebbcceba64cf7dd7ee544",
+      "bytes": 3511189
+    },
+    "V6-START-HERE.md": {
+      "sha256": "cfa6c27f0f15bfb80ca7dbe02634bc2701e1f4b608642cd2e470fbf9c2364fb0",
+      "bytes": 2240
+    },
+    "inherited-collusion-v6-research-package.sha256": {
+      "sha256": "7b43a5a37e4ce42e810a20300dbb6138b2a101fff3328ea113c15b93dd9fa0d1",
+      "bytes": 110
+    },
+    "inherited-collusion-v6-research-package.zip": {
+      "sha256": "723969b927749d95e29bacc7c0fc3f4308672085a9615ea1cd5561bd9ec7247f",
+      "bytes": 54763160
+    },
+    "inherited-collusion-v6.audit.json": {
+      "sha256": "d798c0989746c1e85f84aa88e8ddc0f497f601d5e933fcee93d1cde48cd069d8",
+      "bytes": 11743
+    },
+    "inherited-collusion-v6.docx": {
+      "sha256": "448cbfcf859f7958e3fe1d6490ef684b7970850289f89091792b4de6187c53f0",
+      "bytes": 1150173
+    },
+    "inherited-collusion-v6.pdf": {
+      "sha256": "0bd9a0a703c4a65060018e647ad3eabb866953c3f59e39cb921c2d49ed714506",
+      "bytes": 1183736
+    },
+    "offline-verification.json": {
+      "sha256": "14063e9f8fc48664cc7d80621ae576d7e9f6e3e5160337cc548a5c21e8d2a25e",
+      "bytes": 2376
+    }
+  }
+}

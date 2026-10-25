@@ -1,0 +1,8 @@
+{
+  "status": "unresolved_provider_call",
+  "complete": false,
+  "episodes": 25,
+  "reserved_calls": 73,
+  "inherited_reserved_calls": 73,
+  "new_reserved_calls": 0
+}

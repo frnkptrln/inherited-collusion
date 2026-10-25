@@ -1,0 +1,31 @@
+{
+  "review_date": "2026-10-24",
+  "scope": "Paper correctness, distinction between provider/format/substantive failures, and interpretive limits. No model calls or raw-data edits.",
+  "previous_archive_sha256": "704d84db20cafba2f7f831d6e9f976011b448a4706e0672091975a4ba9817a0e",
+  "corrections": [
+    {
+      "kind": "historical-method-description",
+      "old": "Two early Instruct attempts failed full-allocation checks.",
+      "new": "Those attempts failed own-action task-comprehension checks; complete-assignment checks were introduced later."
+    },
+    {
+      "kind": "freeze-description",
+      "old": "models, cases, prompts, analysis and source were frozen",
+      "new": "models, cases, prompts, analysis plan and execution source were frozen; later analysis/audit code is not implied to be part of the original freeze."
+    }
+  ],
+  "additional_analysis": "Post hoc common-case comparison of facts-only, same-source p0 and verification; equal duplicate frequencies do not prove equivalent policies or a cognitive mechanism.",
+  "interpretation": "The tested reminder reduces the specified harm relative to harmful source-p0 notes. Its coordination loss may reflect removal of a shared convention without a common replacement, given symmetric A/B costs; an unavoidable safety-utility tradeoff is not established.",
+  "editorial_changes": "Move detailed development chronology, transport codes, timestamps and response-reuse breakdown to appendix. Keep attrition, denominators and post-start format amendment in main text.",
+  "new_experiment_performed": false,
+  "raw_data_changed": false,
+  "frozen_analysis_changed": false,
+  "unchanged_inputs": {
+    "output/analysis-v4/analysis.json": "b6fcde1f992abe567956a3a075005423f726672d3338c07ad59827026fe1d277",
+    "output/analysis-v4f/analysis.json": "8e6c914ad8eb493119c885c644158f858c7a9d1da10eea651c56bb93d8ff7125",
+    "docs/v4-freeze.json": "6a10ad79cf90bbedab250b7886dc5a466df9651fdabe721f7e44700980a01187",
+    "docs/v4f-freeze.json": "86b21c48e62edc5a610bd3205332bd33590059c4b2612ab524f6d3b5d0ef31ea",
+    "scripts/analyze_v4_study.py": "6a480c612a73bfaa085d47c2920a9a251f95195460d1029293fcbea85d03e39c",
+    "scripts/analyze_v4f_study.py": "107ba80f262741ba93071c674625b932cdb102b9852506be51e7c3ec2a8f63b5"
+  }
+}

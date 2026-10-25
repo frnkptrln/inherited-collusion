@@ -1,0 +1,15 @@
+{
+  "success": true,
+  "matched_checks": 2812,
+  "eligible_episodes": 119,
+  "mismatches": 0,
+  "analysis_sha256": "fc2e7b4c2c9c0184fbf613ebca019b1787dad3c55d3e30f88e66eb0b7acbb277",
+  "independent_check_sha256": "c9cbc902b772e8e37f8f2b92b1186a813a331df3096ff9e08089600093b4b79e",
+  "closeout_sha256": "7eb8604581dd4629a55a721128099070cf72f5daf6291096e12100173594aea3",
+  "comparison_script_sha256": "a242e2a90481e3d0bc1f187d80127f852ba23e4412d8dc76e2b26d2068bbe454",
+  "both_checkers_written_and_frozen_before_dispatch": true,
+  "comparison_wrapper_created_during_execution_without_outcome_inspection": true,
+  "provider_returned_cost_estimate_usd": 0.32301921,
+  "independent_token_price_estimate_usd": 0.32301921,
+  "cost_difference_usd": 0.0
+}

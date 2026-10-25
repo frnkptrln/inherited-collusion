@@ -1,0 +1,25 @@
+{
+  "success": true,
+  "checked_at": "2026-10-25T13:10:53.605242+00:00",
+  "paid_calls": 0,
+  "unittest_count": 15,
+  "unittest_passed": 15,
+  "unittest_command": "/home/user/projects/collusion-sprint/.venv/bin/python -B -m unittest discover -s output/control-v6/tests -v",
+  "full_mock_calls": 240,
+  "full_mock_episodes": 120,
+  "full_mock_analysis": "passed",
+  "evidence_class": "SOFTWARE_VALIDATION_NOT_RESEARCH_RESULTS",
+  "fixes_before_freeze": [
+    "Dispatcher preserves venv Python symlink path",
+    "All contrast complete-case sets now require all six mode-specific slots",
+    "Provenance explicitly includes40historical baseline prompts",
+    "Closeout retains unknown response costs as unverified and all reservations; explicit terminal allowlist"
+  ],
+  "root_manual_review": [
+    "Per-call persistence before dispatch and parse",
+    "No automatic replay after ambiguous dispatch",
+    "Fixed note and matrix identity",
+    "Budget14.736 under15",
+    "Only generic shared rule differs between fresharm prompts"
+  ]
+}

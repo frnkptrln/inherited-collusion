@@ -1,0 +1,10 @@
+{
+  "project_envelope_usd": 15,
+  "authorized_spend_usd": 15,
+  "paid_inference_authorized": true,
+  "cloud_jobs_authorized": false,
+  "recorded_on": "2026-10-23",
+  "source": "Frank Peterlein: du kannst gern das budget nutzen nach eigenem ermessen",
+  "supersedes": "Earlier instruction to spend 0 USD",
+  "scope": "Global envelope for the entire sprint. Pilot allocation 0.15 USD, including unresolved calls. No provider-side account spending limit is configured by this file."
+}

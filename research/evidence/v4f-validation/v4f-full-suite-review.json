@@ -1,0 +1,36 @@
+{
+  "recorded_at": "2026-10-23T19:02:11.120010+00:00",
+  "reviewer": "Codex report_readiness; AI-assisted independent review",
+  "result": "138 offline tests passed, each module in a fresh process",
+  "wall_seconds": 28.713,
+  "test_modules": 16,
+  "source_changes_during_run": [],
+  "live_outcomes_read": false,
+  "inference_or_jobs_started": false,
+  "result_path": "/tmp/v4f-full-suite/isolated-prefix-final/result.json",
+  "result_sha256": "2e88b102c39cfe70789e81e0d31a041dd1ddcd1c7cc68965b876ca28c4d8dfa7",
+  "tested_sha256": {
+    "scripts/v4f_runner.py": "a87e3606dc3486ea69a1ff01f1791bf41daa1dd01d5426d81665b18778a17dc6",
+    "scripts/run_v4f_study.py": "0440c1196f1ffd935cffc0ee03909c04382bb1046949fd5ae07be725b9d5099f",
+    "scripts/analyze_v4f_study.py": "107ba80f262741ba93071c674625b932cdb102b9852506be51e7c3ec2a8f63b5",
+    "scripts/strict_bounds.py": "cb7d829af5b8fead61d4e20f0534bfb38c6a089ed1e7749b50afe0301d2fbefb",
+    "scripts/test_offline.py": "6ee7f9bae449592d0fd60d79e5800ffa31b695217c6bba96bdb636194ee68bf7",
+    "tests/test_v4f_runner.py": "152df5aed78972f5a6b0390542565016f58165ed4ce8fd2a1f6e2da96c2cff27",
+    "tests/v4f_fixtures.py": "8b90e739fbb15a642e237d29d9f9295abba89f64cde9f5150e0f36278e3810dd",
+    "tests/test_v4f_analysis.py": "fb998d4605a07d363ab5785ca0a4c2a8c7b6a99caa382bafcc92751db71cb096",
+    "tests/test_strict_bounds.py": "749f2f82081624d63b8fe39f1c403e29f7c99a9abcece7ed9266bed5742f4ac5"
+  },
+  "reproducible_command": ".venv/bin/python -B scripts/test_offline.py",
+  "isolation_reason": "Same V3 parser rejects JSON fence before V4F import and accepts after; isolate modules and strict/amended analysis processes",
+  "earlier_combined_test": "134 tests passed in one process before latest audit-only analyzer test; retained as secondary evidence, not the final strict-parser validation",
+  "staging_initial_failures": "First attempt omitted example budget and accidentally overlaid stale analyzer-copy runner/helper; corrected selection, retained attempt1 logs; no study data touched",
+  "combined_v4f_source_hash": "0925aaf228c3fc283bdb05ca3561b5c9e90d4be519ad8e8aed391cf51e4394d9",
+  "last_change": "Pre-freeze cached-prefix reconstruction fix: retain valid old observations before unresolved/truncated tail; ambiguous inherited slot blocks every new call in affected case",
+  "previous_passed_record": "v4f-full-suite-review-135.json",
+  "suite_breakdown": {
+    "previous_baseline_tests": 112,
+    "v4f_runner_tests": 13,
+    "v4f_analyzer_tests": 8,
+    "logical_bounds_tests": 5
+  }
+}

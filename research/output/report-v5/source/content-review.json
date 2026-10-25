@@ -1,0 +1,40 @@
+{
+  "reviewed_at": "2026-10-24T11:54:28.554665+00:00",
+  "reviewer": "agent-assisted scientific reviewer",
+  "verdict": "PASS",
+  "reviewed_input_sha256": "99275cd9e1d3051b182120fe37d8bc5027bcded1cdd51ab63f56ecfab8147795",
+  "reviewed_content_excluding_ready_for_final_sha256": "78d01cfe5c60b6b472a42c0cd2c0706d409017a447976e6fd6f9ca776186db42",
+  "allowed_postreview_mutation": "Only ready_for_final may change from false to true; content changes require review.",
+  "ready_for_final_at_review": false,
+  "abstract_words": 201,
+  "findings": [],
+  "checks": {
+    "old_first_three_table_blocks_exactly_unchanged": true,
+    "old_two_figure_blocks_exactly_unchanged": true,
+    "old_reviewed_input_sha256": "1a084035c969b85abd9e5eeb35f56b41dc2bf9f2ca28fd9b620659fefaceb66c",
+    "v5_new_table_rows_independently_compared": 36,
+    "note_counts_recomputed_from_80_annotations": true,
+    "all_evidence_and_supplementary_hashes_match": true,
+    "all_10_note_seal_members_and_closure_hash_match": true,
+    "no_placeholders": true,
+    "primary_interaction_explicitly_harmful_mode": true,
+    "model_separate_common_case_sets_and_missing_bounds_preserved": true,
+    "residual_qwen_outsider_harm_and_nonoptimality_visible": true,
+    "new_unique_matched_harm_visible": true,
+    "postclosure_single_coder_metadata_awareness_and_attestation_not_blinding_proof_disclosed": true,
+    "note_codes_do_not_select_primary_population": true
+  },
+  "scope": [
+    "Read manuscript final delta, 201-word abstract, new36 table rows, and note annotations/summary/seal.",
+    "Original3 tables and2 figure records compared exactly against preserved reviewed V4 input.",
+    "No raw checker rerun during this manuscript review; completed V5 scientific review already independently verified240episodes and all contrasts/bounds.",
+    "Semantic category counts and manuscript interpretation checked against retained annotation decisions; this is not a second independent blind coding of80 notes.",
+    "Visual pagination and rendering remain the separate document QA step."
+  ],
+  "source_hashes": {
+    "analysis": "9d427bdad0580fdfeb14b8287094c4f39baec0abdf99761111e17e6b97b7aab4",
+    "scientific_review": "4d655d452807e44186de078c3733d9d281fd38077928af0f8e1e811203343269",
+    "note_seal": "78883b0707462bc59a46254140f4fdb151b0622776e02afffd797995789f95f1",
+    "note_annotations": "3b8f54b256698efdc27c71abaf5d3b810e9a43367abe19a1a7124d21daa971cb"
+  }
+}

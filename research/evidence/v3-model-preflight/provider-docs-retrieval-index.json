@@ -1,0 +1,26 @@
+[
+  {
+    "file": "deepinfra-reasoning.md",
+    "url": "https://docs.deepinfra.com/chat/reasoning.md",
+    "bytes": 6245,
+    "sha256": "0f84b7fdf7b846944468d52b352d75d63129acdcd769994261b4b0a1b7af7260",
+    "retrieved_at": "2026-10-23T17:14:55.277317+00:00",
+    "final_url": "https://docs.deepinfra.com/chat/reasoning.md"
+  },
+  {
+    "file": "deepinfra-chat-schema.md",
+    "url": "https://docs.deepinfra.com/api-reference/chat-completions/openai-chat-completions.md",
+    "bytes": 33126,
+    "sha256": "d97d838a22499a8eb2dc13cfd46e6b6970f69267e2aac897185bd6060bc20405",
+    "retrieved_at": "2026-10-23T17:14:55.791305+00:00",
+    "final_url": "https://docs.deepinfra.com/api-reference/chat-completions/openai-chat-completions.md"
+  },
+  {
+    "file": "deepinfra-tokenize-schema.md",
+    "url": "https://docs.deepinfra.com/api-reference/tokenizer/tokenize.md",
+    "bytes": 5935,
+    "sha256": "17ff7dc02c68dcc75c78982a11397f7b9eb09a1a585eea38138b7ec3459e5322",
+    "retrieved_at": "2026-10-23T17:14:56.175038+00:00",
+    "final_url": "https://docs.deepinfra.com/api-reference/tokenizer/tokenize.md"
+  }
+]

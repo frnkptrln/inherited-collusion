@@ -1,0 +1,19 @@
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.env
+.env.*
+!.env.example
+.DS_Store
+.idea/
+.vscode/
+credentials
+credentials.json
+token
+token.json
+id_rsa
+id_ed25519
+
+# Frozen research runs and their budget evidence are deliberately tracked.
+# Do not add a blanket runs/ or output/ exclusion.

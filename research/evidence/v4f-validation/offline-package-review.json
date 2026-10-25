@@ -1,0 +1,30 @@
+{
+  "reviewed_at": "2026-10-23T19:41:39.021154+00:00",
+  "scope": "Packaging and offline portability; no live outcomes or aggregate results read",
+  "files": {
+    "/tmp/collusion-phase4/artifacts/scripts/package_v4_study.py": "59cb6c8074d8b32adba0fbebab25c40a34273cec29066614e815cf91154f8f22",
+    "/tmp/collusion-phase4/artifacts/scripts/verify_offline_package.py": "5b2b5d82279b38f39b590c1fb77510cca2e861d422d2b0cb3a91e9820efa0c37",
+    "/tmp/collusion-phase4/artifacts/tests/test_offline_package.py": "e74620270f0ee995502b0bc4062ed66e3101f67e82ab2b3f636873ec04a80c4f",
+    "/tmp/collusion-phase4/artifacts/requirements-analysis.txt": "3957c199879b271cbbb0f83ccb306162473b6f046d0f3f525ea7feeaf56cbd5c",
+    "/tmp/collusion-phase4/artifacts/docs/analysis-environment.json": "bdbf594070d4f0f036969255bcb465caf3f9d5ee85b9a0e8fc9b108d668c9119"
+  },
+  "changes": [
+    "Mandatory final analyses, raw-check results, figure roots, report builder/input/template/PDF/DOCX/audit/dependency sources; all top-level requirements captured",
+    "ZIP safe-path and symlink rejection, byte manifest verification before and after extraction, changed/extra-file rejection",
+    "Package written to verified temporary archive before replacement; source-byte drift fails closed",
+    "Stdlib subprocesses use resolved external Python with -I -S, scrubbed environment, denied original-project reads/network/child processes",
+    "Both analysis populations and both independent raw checkers rerun offline; exact scientific JSON comparison except top-level timestamps/rebased path prefixes/explicitly verified strict-input digest"
+  ],
+  "tests_passed": 7,
+  "tests_failed": 0,
+  "test_command": "python -B -m unittest discover -s /tmp/collusion-phase4/artifacts/tests -p test_offline_package.py -v",
+  "synthetic_integration": "Complete18-root mock fixture packaged/extracted; original renamed unavailable; both analyses and independent checks succeed. Mock data are not research results.",
+  "limitations": [
+    "Final real-data ZIP verification still required after both datasets close and final outputs are installed.",
+    "Figure/PDF rendering is not claimed by the stdlib verifier; figure requirements and report Python/external-tool requirements are included.",
+    "Python audit hooks guard the trusted analysis scripts during this verification; they are not a general adversarial OS sandbox."
+  ],
+  "actual_project_modified": false,
+  "model_calls": 0,
+  "network_calls": 0
+}

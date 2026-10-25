@@ -1,0 +1,21 @@
+{
+  "validated_at": "2026-10-25T13:11:12.544443+00:00",
+  "software_tests_only": true,
+  "model_calls": 0,
+  "tests_passed": 10,
+  "test_seconds": 5.523,
+  "command": "/usr/bin/python -B tests/test_v6_runner.py -v",
+  "source_hash": "5641fcadb315e292b9ba35d65889f93f525c3c03c8ec1836656456f994b3d590",
+  "package_source_hash": "11db571486df954bbfa1a4911c39eb193271c6498afc72434368ebbb0bdebef5",
+  "source_sha256": {
+    "v6_runner.py": "0001a6a474dde0a0e7459fccaa7648da34c619405c98569e2857ad03881192a3",
+    "run_v6_study.py": "6ab3c0555a574abfd6462fb182ed68f59a41232f9b0099d2968d58540a59ef2b"
+  },
+  "test_sha256": "4e14ce4b8a3acd66b488fe521b5e13af68c96356b2bc422d2f51828397f455f0",
+  "real_input_cases_checked": 10,
+  "frozen_historical_source_copies_checked": 150,
+  "actual_historical_verified_requests_compared": 40,
+  "prompt_variants_checked": 120,
+  "maximum_serialized_request_bytes": 4632,
+  "scope": "No inference. Ten isolated tests cover request/response persistence, no replay, schema/identity/usage/length stops, model-wide cache-prefix retention, closure-lock race, fixed budget/freeze drift, source/input snapshots, role-order counterbalance, exact prompt ablation, and venv-preserving one-shot dispatcher."
+}

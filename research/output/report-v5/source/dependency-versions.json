@@ -1,0 +1,24 @@
+{
+  "python": "3.12.14",
+  "packages": {
+    "lxml": "6.1.1",
+    "Pillow": "12.3.0",
+    "pypdf": "6.10.0"
+  },
+  "scope": "DOCX generation and optional PDF page-count check. Rendering additionally uses an external LibreOffice/Poppler Documents skill runtime; no model or inference dependency.",
+  "runtime_executable_observed": "bundled Codex primary Python runtime",
+  "report_builder": "build_report.py",
+  "optional_render": {
+    "pdf2image": "1.17.0",
+    "LibreOffice": "LibreOfficeDev 26.8.0.0.alpha0 (2c87e51eeaa2b413ff4ae097b2705eea1995d8e5)",
+    "Poppler": "26.05.0",
+    "embedded_font_families_observed": [
+      "OldStandardTT-Regular",
+      "OldStandardTT-Bold",
+      "LiberationSans",
+      "NotoSerif-Bold"
+    ],
+    "renderer_source": "documents skill render_docx.py, external optional dependency",
+    "renderer_sha256": "876d5993324e2faaaa96a68a4f7504642e9a07e6df265b385b2baa03b231369e"
+  }
+}

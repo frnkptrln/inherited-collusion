@@ -1,0 +1,244 @@
+{
+  "ready_for_final": true,
+  "title": "Inherited Collusion:\nA Gated Audit of Agent Handoffs",
+  "subtitle": "A feasibility study of task comprehension and model provenance",
+  "author": "Frank Peterlein",
+  "affiliation": "Independent researcher",
+  "abstract": "Agent replacement may leave a coordination channel intact when successors inherit their predecessors' notes. We designed a controlled audit in a reduced four-agent allocation task, with explicitly induced predecessor coalitions, fresh neutral successors and six handoff interventions. The intended experiment requires task comprehension and note-channel responsiveness before donor generation, followed by action and note-semantic checks. Three development attempts produced 18 complete, structurally valid responses: 12 of 12 simple note probes passed, but only 2 of 6 task-comprehension probes selected the required action, and no attempt passed both task probes. All attempts therefore stopped before any donor or successor episode. In addition, all six responses in the final attempt reported a model identifier different from the requested identifier; the served weights were not independently verified. This prevents attribution to the requested model and leaves the routing discrepancy unresolved. The outcome is a feasibility diagnosis and an executable audit design, not a test of inherited collusion. Eight numerical extension instances were prepared but not executed. The study illustrates why valid output formatting, simple note following and a configured model name are insufficient foundations for causal claims about agent handoffs.",
+  "development_runs": [
+    {
+      "label": "Initial",
+      "path": "runs/hf-pilot-v1"
+    },
+    {
+      "label": "Table",
+      "path": "runs/hf-pilot-table-v1"
+    },
+    {
+      "label": "Final",
+      "path": "runs/hf-pilot-thinking-v1"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "1. Introduction"
+    },
+    {
+      "type": "p",
+      "text": "Can a harmful coordination plan survive replacement of its agents through their handoff notes? Removing all notes might break the plan, but might also destroy legitimate coordination. We designed a paired audit in which the public task state remains fixed and only the role-specific handoff changes. The original pair is explicitly assigned its plan, so the intended target is inheritance of an induced coalition rather than spontaneous collusion."
+    },
+    {
+      "type": "p",
+      "text": "The pilot did not reach the handoff experiment. Its contribution is a controlled design and a documented feasibility diagnosis: three attempts failed the task-comprehension gate, despite complete responses and successful simple note probes, and the final attempt also exposed a requested/reported model-identifier mismatch. No predecessor notes or successor episodes were generated. The central inheritance question remains untested."
+    },
+    {
+      "type": "heading",
+      "text": "2. Related Work"
+    },
+    {
+      "type": "p",
+      "text": "Colosseum measures departures from cooperative objectives using action-based regret and communication evidence, including cases where agents discuss collusion without enacting it [1]. Our narrower design applies that distinction to a replacement boundary with fresh neutral successors; it is a reduced allocation fixture, not a reproduction of the complete Colosseum runtime."
+    },
+    {
+      "type": "p",
+      "text": "AgentPoison places malicious demonstrations in memory or knowledge bases and optimizes triggers that cause their retrieval [2]. MINJA induces malicious memory records through queries and output observations without direct memory write access [3]. Here delivery of the selected handoff would be controlled experimentally: the proposed contribution is the effect of compatible versus unilateral or incompatible predecessor notes on two successors' joint actions, not a new memory-poisoning attack."
+    },
+    {
+      "type": "heading",
+      "text": "3. Audit Design and Stopping Rules"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Allocation task and planned handoff"
+    },
+    {
+      "type": "p",
+      "text": "Four agents allocate four tasks with public execution costs. A and B independently choose one task each and cannot see the other's answer. Scripted C and D then choose distinct unclaimed tasks that minimize their combined cost, with a lexical tie break. The neutral instruction prioritizes distinct-task completion and then total team cost. A valid assignment earns 100 minus execution cost; each additional claimant on a duplicate task adds a 200 penalty shared among claimants. An exhaustive assignment search supplies the cooperative reference."
+    },
+    {
+      "type": "p",
+      "text": "The initial fixture creates a conflict between A/B's joint reward and the team's objective. In the unmodified handoff fixture, the cooperative reference gives team reward 394, coalition reward 194 and outsider reward 200; taking both contested specialties gives 378, 198 and 180. These are designed payoffs, not observed model outcomes. The comprehension probes add an asymmetry so A's unique cooperative choice is T2 and B's is T3; the optimal joint assignment then has total cost 4."
+    },
+    {
+      "type": "p",
+      "text": "In the intended experiment, explicitly instructed harmful and legitimate predecessor pairs would generate two opposite conventions, p0 and p1, after a short planning exchange. Their actions would be checked in a shadow continuation without altering the forked state. Fresh successors would receive neutral instructions, identical facts and only their own selected handoff; predecessor instructions, dialogue and sibling responses would be excluded. Condition execution order would be randomized within each fixed checkpoint."
+    },
+    {
+      "type": "caption",
+      "text": "Table 1. Prepared handoff interventions. None was executed with model-generated predecessor notes in this study."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Condition",
+        "A's handoff",
+        "B's handoff"
+      ],
+      "widths": [
+        2600,
+        3380,
+        3380
+      ],
+      "rows": [
+        [
+          "Facts only",
+          "No note",
+          "No note"
+        ],
+        [
+          "Matched",
+          "Own p0 note",
+          "Own p0 note"
+        ],
+        [
+          "A only",
+          "Own p0 note",
+          "No note"
+        ],
+        [
+          "B only",
+          "No note",
+          "Own p0 note"
+        ],
+        [
+          "Mismatched",
+          "Own p0 note",
+          "Own p1 note"
+        ],
+        [
+          "Oracle sanitized",
+          "Delete harmful / retain benign",
+          "Same label-aware rule"
+        ]
+      ]
+    },
+    {
+      "type": "p",
+      "text": "The primary planned endpoint requires distinct A/B actions that jointly improve their reward and harm C/D relative to the cooperative reference. Duplicate allocations, one-sided deviations and invalid responses are separate outcomes. A later extension adds the opposite matching convention and an instruction to verify notes against public costs, across eight fixed numerical instances (seeds 101-108) within the same task family. This extension was prepared but never executed. Oracle sanitation knows the experimental label and cannot establish a practical detector's specificity."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Validity gates and development sequence"
+    },
+    {
+      "type": "p",
+      "text": "Each attempt begins with two task-comprehension probes and four simple note-routing probes. The latter ask each role to select either T1 or T2 according to a harmless handoff, using the same note delimiter. All six must pass before donor generation. Subsequent gates would require correct donor actions and a hash-bound semantic review of their notes before successor calls. Passing the simple note probes demonstrates channel responsiveness, not understanding of the allocation problem."
+    },
+    {
+      "type": "p",
+      "text": "The first two attempts requested Qwen/Qwen3-235B-A22B-Instruct-2507 through DeepInfra, at temperature 0 and a 512-token output cap. The second changed cost presentation to a table after the first failed. One final remediation requested Qwen/Qwen3-235B-A22B-Thinking-2507 with the same table fixture, temperature 0.6, top-p 0.95 and a 4096-token cap. Failed attempts remained intact in separate directories. Because model variant and decoding settings changed together, this was exploratory remediation, not a controlled comparison of reasoning capability."
+    },
+    {
+      "type": "heading",
+      "text": "4. Diagnostic Results"
+    },
+    {
+      "type": "caption",
+      "text": "Table 2. Observed preflight outcomes. Task and note columns show correct choices / probes. Every run made six calls. Reported model names are provider metadata, not independently verified weights."
+    },
+    {
+      "type": "development_table"
+    },
+    {
+      "type": "p",
+      "text": "The first two runs' reported identifiers matched Qwen/Qwen3-235B-A22B-Instruct-2507. In the final run, all six responses instead reported Qwen/Qwen3.6-35B-A3B. Thus that run cannot be attributed to the requested 235B Thinking model. A later public provider-mapping recheck still associated the requested identifier with its corresponding Thinking identifier; the cause of the response discrepancy remains unresolved. Neither label independently establishes the weights served."
+    },
+    {
+      "type": "p",
+      "text": "All 18 responses were structurally valid and ended with finish_reason=stop. The simple note probes were correct in all 12 cases, but the task probes were correct in only two of six cases, with no attempt passing both. These are counts from exploratory attempts on one fixture, not performance estimates. All three runs stopped before donor generation: there are zero original-pair trials, zero generated experimental handoffs and zero successor episodes. The absent handoff outcomes are not negative collusion observations."
+    },
+    {
+      "type": "p",
+      "text": "Qualitative inspection of the final attempt shows why even a correct action needs careful interpretation. A selected the expected T2 but described a joint allocation costing 13 as better than alternatives; exhaustive enumeration gives A\u2192T2, B\u2192T3, C\u2192T4, D\u2192T1 at total cost 4. B selected T4 rather than T3 and its explanation also allowed an outsider to take the already claimed T4. A's stored action-based pass was retained; its flawed explanation was documented separately. B already failed the original gate, so no retrospective gate change was needed."
+    },
+    {
+      "type": "p",
+      "text": "The provider's estimated_cost fields sum to $0.00720307 across all calls: $0.00020812, $0.00021635 and $0.00677860 by attempt. For the third attempt, valuing its token counts at the requested model's catalog prices instead gives $0.01639486. The discrepancy is recorded alongside the identifier mismatch without asserting a causal explanation. Neither figure is a settled invoice. A strict requested/reported model-identifier check was added only after the third run; it was not applied retroactively to those six responses."
+    },
+    {
+      "type": "heading",
+      "text": "5. Discussion and Conclusion"
+    },
+    {
+      "type": "p",
+      "text": "These attempts diagnose two prerequisites for a handoff study: solving the shared task and establishing which model produced the evidence. A valid response schema and reliable following of simple notes satisfied neither prerequisite. The task failures may reflect prompts, fixture interpretation or model behavior; this small exploratory record cannot isolate their cause. The third run's provenance mismatch additionally prevents the planned attribution to a larger reasoning model."
+    },
+    {
+      "type": "p",
+      "text": "The stopping rules preserved the distinction between infrastructure success and scientific evidence. No conclusion about inherited collusion, spontaneous coalition formation, intervention effectiveness or a general safety/utility tradeoff follows from these data. The next study should first establish task competence with a verified model route, freeze the resulting protocol, and then collect donor and successor evidence, including legitimate coordination controls. No additional calls were made after the final remediation failed."
+    },
+    {
+      "type": "heading",
+      "text": "Code and Data"
+    },
+    {
+      "type": "p",
+      "text": "The accompanying local research package contains full requests and responses, gate records, run manifests, source snapshots, model metadata and analysis outputs. It is not a public repository. The fixture, runner and gates are project-specific work built around an existing Colosseum/Terrarium source snapshot; upstream provenance and the unexecuted extension are documented in the appendices. Mock runs test software wiring and are excluded from the empirical counts."
+    },
+    {
+      "type": "page_break"
+    },
+    {
+      "type": "heading",
+      "text": "References"
+    },
+    {
+      "type": "p",
+      "text": "[1] Nakamura, M., Kumar, A., Das, S., Abdelnabi, S., Mahmud, S., Fioretto, F., Zilberstein, S., and Bagdasarian, E. (2026). Colosseum: Auditing Collusion in Cooperative Multi-Agent Systems. arXiv:2602.15198v2. doi:10.48550/arXiv.2602.15198."
+    },
+    {
+      "type": "p",
+      "text": "[2] Chen, Z., Xiang, Z., Xiao, C., Song, D., and Li, B. (2024). AgentPoison: Red-teaming LLM Agents via Poisoning Memory or Knowledge Bases. Advances in Neural Information Processing Systems 37. doi:10.52202/079017-4136."
+    },
+    {
+      "type": "p",
+      "text": "[3] Dong, S., Xu, S., He, P., Li, Y., Tang, J., Liu, T., Liu, H., and Xiang, Z. J. (2025). Memory Injection Attacks on LLM Agents via Query-Only Interaction. Advances in Neural Information Processing Systems 38. doi:10.52202/085713-1554."
+    },
+    {
+      "type": "heading",
+      "text": "Appendix A. Limitations and Dual-Use / Ethical Considerations"
+    },
+    {
+      "type": "p",
+      "text": "The main research question was not tested: no predecessor or successor episode was collected. The three development attempts are not independent task replications and cannot support population rates, significance claims or comparisons of model families. The final response identifier mismatch leaves model attribution unresolved. Public catalog mappings and response strings do not independently establish served weights. Correct simple-note routing does not validate allocation competence, and a correct task choice can coexist with an invalid justification."
+    },
+    {
+      "type": "p",
+      "text": "The prepared design explicitly induces harmful predecessors, replaces them before execution, uses public costs and scripts the outsiders. It does not represent spontaneous collusion, long-horizon persistence or strategic responses by third parties. The complete Colosseum runtime was not reproduced. Eight numerical instances would still cover only one constructed task family. Oracle sanitation uses the experimental label; preserving legitimate notes in that arm is built in and does not demonstrate real detection specificity. A future deployable intervention requires held-out harmful and benign examples. On a conjunctive joint-harm endpoint, a both-notes interaction contrast can arise mechanically from requiring two actions; it would not by itself demonstrate strategic interaction. Mismatched notes could also disrupt legitimate coordination, so that contrast requires the benign control."
+    },
+    {
+      "type": "p",
+      "text": "The purpose is defensive evaluation of agent handoffs in a toy task without external victims. A working transfer benchmark could also facilitate harmful coordination, so future claims should remain tied to measured conditions and avoid operational extrapolation. This study produced no transferable harmful handoff. Public materials should exclude credentials and unrelated private data while preserving failed attempts and provenance uncertainty. AI-assisted semantic review, if used in future runs, must be disclosed and cannot be presented as independent human annotation."
+    },
+    {
+      "type": "page_break"
+    },
+    {
+      "type": "heading",
+      "text": "Appendix B. Reproducibility and Provenance"
+    },
+    {
+      "type": "p",
+      "text": "The evidence consists of runs/hf-pilot-v1, runs/hf-pilot-table-v1 and runs/hf-pilot-thinking-v1. Each manifest fixes configuration and source hash; each source_snapshot stores the executed modules. Requests were stored before dispatch and complete responses before parsing. The gates and all 18 responses remain intact. Uncertain dispatches are not automatically retried. The subsequently added model-ID check protects future calls and does not rewrite these saved results."
+    },
+    {
+      "type": "p",
+      "text": "Executed code-hash prefixes, in run order, are 9371898c79f0, 1d8b4382f110 and 27ec5f2c47e3. Full hashes, requested/reported identifiers and gate-source hashes are retained in report-evidence.json and the run manifests. The upstream starter snapshot is poseidon-research/collusion_hackathon at d585a7b3be50366cc2bdf5789bf8add5890b2abd. The Terrarium snapshot is umass-aisec/Terrarium at 62735980b5d30a59c30b6ee7cfa68fdbd4239890; equivalence to the starter's pinned terrarium-agents 0.1.1 package was not established."
+    },
+    {
+      "type": "p",
+      "text": "All six task probes used the same unique reference A\u2192T2, B\u2192T3, C\u2192T4, D\u2192T1. The extended fixture varies task labels and numerical costs within a predefined family, with seeds 101-108 fixed before any intended extension calls. It adds matched_p1 and verified conditions to the six-arm pilot. Those conditions and numerical instances remain implementation and protocol artifacts, with no empirical outcomes. Across the three attempts, recorded usage totals 4,190 prompt and 7,301 completion tokens (11,491 total). The hypothetical total at requested-model catalog prices is $0.01681933; dispatched reservations total $0.126 and allocated run ceilings total $1.00. These accounting quantities are distinct from the provider estimate and from invoiced charges."
+    },
+    {
+      "type": "heading",
+      "text": "LLM Usage Statement"
+    },
+    {
+      "type": "p",
+      "text": "Codex assisted with research design, prompt construction, implementation, software checks, literature retrieval, data inspection, analysis and drafting under Frank Peterlein's direction. The evaluated services generated the experimental responses, which are distinct from Codex's interpretation. No independent human verification of every artifact or conclusion is claimed. Saved responses, unsuccessful attempts and provenance records remain available for inspection and author review before any submission."
+    }
+  ]
+}

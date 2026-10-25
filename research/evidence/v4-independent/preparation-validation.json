@@ -1,0 +1,22 @@
+{
+  "at": "2026-10-23T18:16:58.825600+00:00",
+  "status": "prepared_offline_tests_passed_not_run_on_live_outcomes",
+  "tests_passed": 4,
+  "command": "python -B -m unittest discover -s /tmp/collusion-phase4/independent_results -p test_independent_check.py -v",
+  "checker_sha256": "27becc8f8cd52bcb5c7bbfdbfde41343382062efbfaa8e78331d74de4a735894",
+  "test_sha256": "2dd2deabb6e78dca4948dc206ae255b92d6d91ebbb699c904590cf1491d63d3f",
+  "imports": [
+    "argparse",
+    "collections",
+    "datetime",
+    "fractions",
+    "csv",
+    "hashlib",
+    "itertools",
+    "json",
+    "math",
+    "pathlib"
+  ],
+  "no_study_package_or_analyzer_imports": true,
+  "network_or_model_calls": false
+}

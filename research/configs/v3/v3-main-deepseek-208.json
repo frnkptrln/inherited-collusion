@@ -1,0 +1,22 @@
+{
+  "approved": true,
+  "approved_by": "Frank Peterlein (discretion within USD 15 overall)",
+  "price_checked_at": "2026-10-23T17:18:21.263843+00:00",
+  "model": "deepseek-ai/DeepSeek-V3.2",
+  "provider": "deepinfra",
+  "max_tokens": 4096,
+  "max_calls": 86,
+  "max_total_usd": 0.43,
+  "reserved_usd_per_call": 0.005,
+  "max_request_bytes": 10000,
+  "input_usd_per_million": 0.26,
+  "output_usd_per_million": 0.38,
+  "reservation_basis_confirmed": true,
+  "reservation_basis": "Downloaded ByteLevel BPE alphabet; max(raw,NFC) bytes. Additional 2048 chat-framing tokens assumed, not provider-enforced cap. See evidence/v3-model-preflight/model-preflight.json",
+  "temperature": 0.6,
+  "top_p": 0.95,
+  "budget_binding": {
+    "ledger": "/home/user/projects/collusion-sprint/runs/phase3-budget.json",
+    "run_id": "v3-main-deepseek-208"
+  }
+}

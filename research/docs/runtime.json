@@ -1,0 +1,10 @@
+{
+  "python": "3.14.8 (main, Oct 13 2026, 10:33:10) [GCC 16.2.1 20260810]",
+  "platform": "Linux x86_64",
+  "packages": {
+    "huggingface_hub": "2.3.0",
+    "httpx2": "2.16.0"
+  },
+  "analysis_python": "system Python3.14.8",
+  "analysis_matplotlib": "3.11.2"
+}

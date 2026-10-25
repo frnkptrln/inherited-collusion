@@ -1,0 +1,8 @@
+{
+  "retrieved_at": "2026-10-23T19:53:16.305904+00:00",
+  "source_url": "https://github.com/umass-aisec/Terrarium/blob/62735980b5d30a59c30b6ee7cfa68fdbd4239890/LICENSE",
+  "git_blob_sha": "d617f7756fe9d165aaf87224afa6b1a72a136897",
+  "sha256": "a97badae7cb4f73a0bfc3185c9c8456c8f7b700b71547892e2badbf7e1f2d47c",
+  "bytes": 1070,
+  "note": "Supplemental attribution added after data-collection freeze; original vendored source files and SOURCE_MANIFEST.json unchanged. No study-wide relicensing implied."
+}

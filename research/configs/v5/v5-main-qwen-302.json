@@ -1,0 +1,24 @@
+{
+  "approved": true,
+  "approved_by": "Frank Peterlein (discretion within USD15 overall; explicit V5 control request)",
+  "price_checked_at": "2026-10-24T10:24:55.132959+00:00",
+  "seed": 302,
+  "model": "Qwen/Qwen3.6-35B-A3B",
+  "provider": "deepinfra",
+  "max_tokens": 8192,
+  "max_calls": 68,
+  "max_total_usd": 0.68,
+  "reserved_usd_per_call": 0.01,
+  "max_request_bytes": 10000,
+  "input_usd_per_million": 0.1,
+  "output_usd_per_million": 0.95,
+  "reservation_basis_confirmed": true,
+  "reservation_basis": "Retained tokenizer evidence: at most one input token per max(raw,NFC) serialized UTF8 byte plus assumed2048 framing tokens; accounting guard not provider billing cap.",
+  "temperature": 0.6,
+  "top_p": 0.95,
+  "reasoning_effort_policy": "not sent; provider default unspecified",
+  "budget_binding": {
+    "ledger": "/home/user/projects/collusion-sprint/runs/phase5-budget.json",
+    "run_id": "v5-main-qwen-302"
+  }
+}

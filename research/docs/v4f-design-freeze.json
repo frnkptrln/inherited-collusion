@@ -1,0 +1,11 @@
+{
+  "design_frozen_at": "2026-10-23T18:30:29.256930+00:00",
+  "protocol_markdown_sha256": "397aacbccee37e67053d458e379c397a2a632a1a0d4b664d5399ac55258f426d",
+  "protocol_json_sha256": "e997971a9c29f25ebbb8942a0be7aab3483f9600da64033230ceadf005b2c1bf",
+  "decision_boundary_snapshot_sha256": "a23fda7880058a74bbed5309f4a06cb6cd28469716fedc127fa98ec83bb1284a",
+  "frozen_scope": "Design only; executable source will be separately frozen after independent testing and before any new V4F dispatch. Strict V4 remains running unchanged.",
+  "post_start_amendment": true,
+  "maximum_unique_calls": 1388,
+  "consolidated_phase_ceiling_usd": 8.328,
+  "total_allocated_usd": 9.922
+}

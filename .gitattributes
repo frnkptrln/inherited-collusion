@@ -1,0 +1,9 @@
+# Preserve frozen artifacts byte for byte across platforms.
+research/** -text
+artifacts/** -text
+paper/** -text
+
+*.pdf binary
+*.docx binary
+*.zip binary
+*.png binary

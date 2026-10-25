@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "recorded_at": "2026-10-23T19:34:19.986017+00:00",
+  "event_time_exact": null,
+  "event_time_interval_utc": [
+    "2026-10-23T19:32:24Z",
+    "2026-10-23T19:34:04Z"
+  ],
+  "event": "During diagnosis of V4F Qwen205 returncode2, root printed summary.json with an insufficient field exclusion list; a partial case contrast and individual successor outcomes became visible.",
+  "visible_information": "Qwen205 partial harmful matched_p1_minus_facts_only case contrast, including harmful_joint difference0.5, and individual Qwen205 episode content. No model-level aggregate analysis was opened.",
+  "unintentional": true,
+  "after_v4f_executable_freeze": true,
+  "after_report_layout_freeze": true,
+  "design_or_dispatch_changes_in_response": false,
+  "future_policy": "Keep all frozen rules unchanged. Use an explicit allowlist for status-only metadata. Independent Qwen206 annotation reviewer has not opened successor outcomes. Model-level analysis remains deferred until both datasets close.",
+  "reporting_correction": "Do not claim complete outcome blindness until study closure. Disclose the accidental partial case-level visibility during ongoing execution."
+}

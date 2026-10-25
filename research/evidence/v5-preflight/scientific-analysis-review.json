@@ -1,0 +1,49 @@
+{
+  "reviewed_at": "2026-10-24T10:37:01.644020+00:00",
+  "reviewer": "agent-assisted independent scientific reviewer",
+  "status": "PASS within stated scope; no remaining observed blocker",
+  "paid_calls_performed_by_reviewer": 0,
+  "real_v5_outcomes_inspected": false,
+  "test_run": {
+    "command": "python3 -B -m unittest discover -s output/control-v5-preparation/runtime/tests -p 'test_v5*.py' -v",
+    "passed": 24,
+    "duration_seconds": 5.113,
+    "independent_tests": 6,
+    "scenario_tests": 5,
+    "runner_tests": 13
+  },
+  "complete_mock_countercheck": {
+    "requests": 816,
+    "responses": 816,
+    "episodes": 288,
+    "mismatches": 0,
+    "evidence_class": "SOFTWARE_TEST_ONLY_NOT_RESEARCH_RESULTS"
+  },
+  "checks": [
+    "Exactly two cost cells increase by one; same selected safe/harmful original actions and payoffs; one optimum with gap2 instead of two equal optima.",
+    "Independent 24-assignment/16-action-pair Fraction scorer agrees for all192 fixed public outcomes.",
+    "Diagnostic probe mistakes are retained; technical schema failures remain separate.",
+    "Source/config/protocol/ledger bindings and raw original/note/probe/successor rechecks reviewed in main analyzer.",
+    "Common-six-arm and contrast-specific complete-case weights are separately labelled; missing slots retain all-six-case bounds.",
+    "256 possible completions of two missing slots independently attain reported minima and maxima for all8 metrics.",
+    "Entire mock cohort independently parsed from raw final content; all288 episode metrics and every reported group/contrast/bound agree.",
+    "Resolved prefix remains reported with unresolved tail; no missing cost estimate is treated as zero.",
+    "Semantic note errors and reported note task mismatches do not filter primary delivery."
+  ],
+  "limitations": [
+    "No inference about real-model performance from any mock test.",
+    "This small follow-up tests paired task structure with regenerated notes; it does not hold note text constant across structures or identify an internal cognitive mechanism.",
+    "The independent counterchecker duplicates arithmetic and content checks; the main analyzer additionally performs source and execution provenance audit.",
+    "The HF live pathway has only synthetic failure/identity/usage fixtures in this review; actual billing remains unverified."
+  ],
+  "files_sha256": {
+    "runtime/scripts/v5_scenario.py": "36617a41c89d782a13184a2fdb580929e1e1ecc1e7896efb9aaec8d525c6b946",
+    "runtime/scripts/analyze_v5_study.py": "e38639d2d1c14254a7904015f63456705ee3d94850c8b0c1e99f3c8e9e3d28f0",
+    "runtime/scripts/check_v5_raw.py": "99b44d06eaaeaabf4cbfeb84552bf7d9059aaead9e1b573216ede87ba960388e",
+    "runtime/tests/test_v5_scenario.py": "0a61e4052005f173895817ca944c54118dabcbe71af77d7147551be651bd8109",
+    "runtime/tests/test_v5_independent.py": "da3e7d1a8c72e0b5ce20ac749b4a1c48e3304d2d30ed4892dfec3144f73def00",
+    "runtime/mock-independent-check.json": "b321e0fc077d95bf4674ae2c9d37d1b4e9d1dee97ebb94af17b9198184d39b60",
+    "v5-protocol.json": "8ca04dd6886b16b226e295bc831dbb1bfc8290a593d79a03fd0ea78f10a2b18f",
+    "scientific-design.md": "2d1b3fbabb111190a6b4e5625fcd0389b04c5d117cbd858166769cbd224954a3"
+  }
+}

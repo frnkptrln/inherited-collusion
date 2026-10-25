@@ -1,0 +1,23 @@
+{
+  "validated_at": "2026-10-24T11:02:51.748929+00:00",
+  "evidence_class": "SOFTWARE_TEST_ONLY_NOT_RESEARCH_RESULTS",
+  "tests_passed": 7,
+  "command": "/usr/bin/python -I -S -B output/control-v5-preparation/packaging/test_v5_packaging.py -v",
+  "models_called": false,
+  "live_v5_results_read": false,
+  "baseline_archive_sha256": "849a7088e524d2a01ca84d9d8fbe95c4f55000313d06e9e3162c85127c8e555d",
+  "baseline_files_verified": 13282,
+  "baseline_manifest_sha256": "18852f968ce2367ed10c17c111604936feb18905ddf6d5df3d77198c332cc6ef",
+  "source_sha256": {
+    "package_v5_study.py": "0d304872f3890579e1a6247d4140f97ca72e2e7d465e4d09146c73d53db19b5d",
+    "verify_v5_package.py": "ec73fabdf5cff60edbf46de02612938359551813a8858041afcf19a3c617e89f",
+    "test_v5_packaging.py": "79ab6a431a557272f985bdad59720fa7882796a9abad2cd08a6ecc41918395ca",
+    "verify_offline_package.py": "5b2b5d82279b38f39b590c1fb77510cca2e861d422d2b0cb3a91e9820efa0c37"
+  },
+  "remaining": "Final real closed-data archive verification must be run after report completion.",
+  "report_artifact_regressions": [
+    "official-template.docx",
+    "prepare_final_input.py",
+    "artifact.md"
+  ]
+}

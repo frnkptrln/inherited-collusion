@@ -1,0 +1,53 @@
+{
+  "recorded_at": "2026-10-23T16:57:23.351096+00:00",
+  "record_note": "Recorded after the successful observed test invocation in this session; the tests were not rerun to create this record.",
+  "source_hash": "de6ad63677bb0ea54cd760dbf5251b4ebf4bc0d2af0ebd9e673a301f57469aa6",
+  "package_file_sha256": {
+    "__init__.py": "57dca31a6d22c7dd313d3b734e1a3dd05f9c970756045033b90bcfcce41288dd",
+    "backends.py": "65c8745dd8a37a3dd278d972376bb510917b869aef5a3bd779786c5da8d65a68",
+    "runner.py": "1bc4b8ffa506370e9a2a501c263e1dc4d7b9b2d303e45ed74188411b6f0e4a99",
+    "scenario.py": "60e8e836d39278c5e048a9bd9bc00e39ae3e7984c8d1690105cfd44e409a8eca",
+    "storage.py": "d92a7e5c2e7a4224da311e4d9dee0201884c8f2e4e77ff71efa530bedd624d1c"
+  },
+  "command": "/home/user/projects/collusion-sprint/.venv/bin/python -B -m unittest discover -s tests",
+  "working_directory": "/tmp/collusion-extended-study",
+  "test_result": {
+    "tests_run": 53,
+    "failures": 0,
+    "errors": 0,
+    "result": "OK",
+    "exit_code": 0,
+    "reported_test_duration_seconds": 8.109
+  },
+  "network_calls_during_validation": 0,
+  "model_inference_calls_during_validation": 0,
+  "validation_scope": [
+    "Existing offline regression suite",
+    "Source and budget freeze rejection without dispatch",
+    "Exact reported-model identity gate after durable response save",
+    "Cached-response and run-wide mismatch blocking without retries",
+    "Raw SDK response preservation and sampling",
+    "Gate/invalid/missing outcome denominators",
+    "Contrast-specific valid pairs, including an unrelated invalid condition",
+    "Probes-passed-only remains incomplete",
+    "Requested/reported model identity attribution and cost separation"
+  ],
+  "real_run_analysis": {
+    "path": "/home/user/Dokumente/ChatGPT/AI Collusion Sprint/output/analysis/analysis.json",
+    "sha256": "1ef50a561a76aaef2b94b3c9134f0e0b1bd64b554903d505ce9570f166c2036b",
+    "analysis_script_sha256": "f51e19e0a422fe301b01443308260ebb019c8978ae489bc50ba074d2c6f6564d",
+    "input_runs": [
+      "/home/user/projects/collusion-sprint/runs/hf-pilot-v1",
+      "/home/user/projects/collusion-sprint/runs/hf-pilot-table-v1",
+      "/home/user/projects/collusion-sprint/runs/hf-pilot-thinking-v1"
+    ],
+    "saved_responses_analyzed": 18,
+    "identity_mismatches": 6,
+    "completed_successor_episodes": 0,
+    "total_tokens_reported": 11491,
+    "provider_reported_estimated_cost_usd": 0.00720307,
+    "reserved_usd": 0.126,
+    "actual_call_creation_by_analysis": 0,
+    "interpretation": "Two Instruct pilots have matching response model IDs and failed comprehension gates. All six responses from the third attempt report a different model ID; attribution to the requested model is invalid and actual served model weights are not independently verified."
+  }
+}

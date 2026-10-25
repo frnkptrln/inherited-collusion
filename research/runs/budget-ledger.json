@@ -1,0 +1,57 @@
+{
+  "project_ceiling_usd": 15,
+  "allocations": [
+    {
+      "run": "hf-pilot-v1",
+      "ceiling_usd": 0.15,
+      "model": "Qwen/Qwen3-235B-A22B-Instruct-2507",
+      "provider": "deepinfra",
+      "config": "configs/budget.pilot.approved.json",
+      "state": "stopped_validation_failed",
+      "provider_estimated_usd": 0.00020812,
+      "dispatched_calls": 6,
+      "reported_model_ids": [
+        "Qwen/Qwen3-235B-A22B-Instruct-2507"
+      ],
+      "model_identity_matches": true,
+      "reserved_for_dispatched_calls_usd": 0.018000000000000002
+    },
+    {
+      "run": "hf-pilot-table-v1",
+      "ceiling_usd": 0.15,
+      "model": "Qwen/Qwen3-235B-A22B-Instruct-2507",
+      "provider": "deepinfra",
+      "config": "configs/budget.pilot-table.approved.json",
+      "state": "stopped_validation_failed",
+      "provider_estimated_usd": 0.00021635000000000003,
+      "dispatched_calls": 6,
+      "reported_model_ids": [
+        "Qwen/Qwen3-235B-A22B-Instruct-2507"
+      ],
+      "model_identity_matches": true,
+      "reserved_for_dispatched_calls_usd": 0.018000000000000002
+    },
+    {
+      "run": "hf-pilot-thinking-v1",
+      "ceiling_usd": 0.7,
+      "model": "Qwen/Qwen3-235B-A22B-Thinking-2507",
+      "provider": "deepinfra",
+      "config": "configs/budget.pilot-thinking.approved.json",
+      "state": "stopped_validation_failed",
+      "provider_estimated_usd": 0.0067786,
+      "dispatched_calls": 6,
+      "reported_model_ids": [
+        "Qwen/Qwen3.6-35B-A3B"
+      ],
+      "model_identity_matches": false,
+      "reserved_for_dispatched_calls_usd": 0.09
+    }
+  ],
+  "note": "Run allocations conservatively consume the global envelope, not observed invoices.",
+  "reconciled_at": "2026-10-23T16:57:42.546047+00:00",
+  "provider_estimated_total_usd": 0.00720307,
+  "reserved_for_dispatched_calls_usd": 0.126,
+  "allocated_ceiling_usd": 1.0,
+  "billing_status": "Provider usage estimates only; invoice/balance not verified",
+  "extension_state": "unexecuted; no allocation committed"
+}

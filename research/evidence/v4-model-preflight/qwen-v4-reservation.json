@@ -1,0 +1,22 @@
+{
+  "model": "Qwen/Qwen3.6-35B-A3B",
+  "provider": "deepinfra",
+  "new_study": "v4",
+  "generation": {
+    "max_tokens": 8192,
+    "temperature": 0.6,
+    "top_p": 0.95,
+    "reasoning_effort": "not sent; provider default unspecified"
+  },
+  "source_preflight": "evidence/v3-model-preflight/model-preflight.json",
+  "source_preflight_sha256": "969d99e4461445f4572603e8fe59e3b2116b6fae957d7f66164058680b60490b",
+  "source_checked_at": "2026-10-23T17:18:21.263843+00:00",
+  "max_request_bytes": 10000,
+  "framing_assumption_tokens": 2048,
+  "input_usd_per_million": 0.1,
+  "output_usd_per_million": 0.95,
+  "upper_catalog_estimate_usd": 0.008987199999999999,
+  "reserved_usd_per_call": 0.01,
+  "context_length": 262144,
+  "notes": "Only output ceiling and per-call reservation increase. No source preflight or historical run is overwritten. The original tokenizer/mapping/SDK evidence and framing limitation apply."
+}

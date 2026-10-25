@@ -1,0 +1,31 @@
+{
+  "reviewed_at": "2026-10-24T10:11:28.992884+00:00",
+  "reviewer": "scientific_review; AI-assisted, not independent human review",
+  "report_input_sha256": "5b4b1c5b5f9e1e1faf0bea019543223a52f1b1eebed610a7d6d122cf580dde35",
+  "scope": "Targeted scientific/content review of 24 October editorial revisions against frozen final analyses, raw pilot requests, original protocol/freezes, and independently crosschecked posthoc raw-action diagnostic. No rendering assessment.",
+  "status": "PASS",
+  "checks": {
+    "early_pilots_described_as_own_action_checks": true,
+    "frozen_analysis_plan_distinguished_from_later_implementation": true,
+    "baseline_alternative_explicitly_posthoc_and_amended": true,
+    "strict_qwen_1_of_2_vs_2_of_2_exception_retained": true,
+    "no_unavoidable_safety_utility_tradeoff_or_internal_mechanism_claim": true,
+    "prespecified_convention_manipulation_criterion_not_changed": true,
+    "all_original_numeric_table_rows_unchanged": true,
+    "both_original_figure_records_unchanged": true,
+    "six_supplementary_file_hashes_verified": true,
+    "technical_attrition_denominators_and_poststart_amendment_retained": true
+  },
+  "independent_posthoc_check": {
+    "path": "../independent/baseline-crosscheck.json",
+    "sha256": "cd4f12d5fc133b3a1c17595213f0da14173eb81d81a82ef9aefa0b9c223d80dc",
+    "raw_rows": 108,
+    "mismatches": 0
+  },
+  "limitations": [
+    "Does not establish internal cognition, inevitable safety-utility tradeoffs, independent replication or population generalization.",
+    "Final rendered-document layout and updated release-package verification remain separate checks."
+  ],
+  "files_modified_in_original_project": false,
+  "model_calls": 0
+}

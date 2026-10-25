@@ -1,0 +1,180 @@
+{
+  "checked_at": "2026-10-23T17:17:13.626553+00:00",
+  "scope": "Public metadata, author documentation, provider documentation and local SDK inspection only. No inference requests, jobs, account queries or project modifications.",
+  "models": [
+    {
+      "hub_model_id": "Qwen/Qwen3.6-35B-A3B",
+      "family": "qwen",
+      "hub_revision": "995ad96eacd98c81ed38be0c5b274b04031597b0",
+      "provider": "deepinfra",
+      "provider_id": "Qwen/Qwen3.6-35B-A3B",
+      "mapping_status": "live",
+      "mapping_task": "conversational",
+      "other_public_mappings": {
+        "featherless-ai": {
+          "status": "live",
+          "providerId": "Qwen/Qwen3.6-35B-A3B",
+          "task": "conversational",
+          "isModelAuthor": false
+        },
+        "scaleway": {
+          "status": "live",
+          "providerId": "qwen3.6-35b-a3b",
+          "task": "conversational",
+          "isModelAuthor": false
+        }
+      },
+      "catalog_provider": {
+        "provider": "deepinfra",
+        "status": "live",
+        "context_length": 262144,
+        "pricing": {
+          "input": 0.1,
+          "output": 0.95
+        },
+        "is_free": false,
+        "supports_tools": true,
+        "supports_structured_output": true,
+        "first_token_latency_ms": 235,
+        "throughput": 96.05933027424237,
+        "is_model_author": false
+      },
+      "tokenizer_config_model_max_length": 262144,
+      "serving_precision_claim_on_provider_page": "fp8",
+      "provisional_cost_bounds": {
+        "4096": {
+          "input_reservation_tokens": 18048,
+          "output_cap_tokens": 4096,
+          "provisional_cost_usd": "0.005696",
+          "context_feasible_at_full_input_reserve": true
+        },
+        "8192": {
+          "input_reservation_tokens": 18048,
+          "output_cap_tokens": 8192,
+          "provisional_cost_usd": "0.0095872",
+          "context_feasible_at_full_input_reserve": true
+        }
+      },
+      "suggested_8192_call_reservation_usd": "0.012",
+      "official_sampling_guidance": {
+        "temperature": 1.0,
+        "top_p": 0.95,
+        "top_k": 20,
+        "presence_penalty": 1.5,
+        "min_p": 0.0,
+        "repetition_penalty": 1.0
+      },
+      "limitations": [
+        "Catalog availability is not an authenticated inference or account-credit check.",
+        "Hub revision documents inspected artifacts; it does not pin provider weights.",
+        "Exact response-model equality is necessary for this study but is not proof of served weights."
+      ]
+    },
+    {
+      "hub_model_id": "deepseek-ai/DeepSeek-V3.2",
+      "family": "deepseek",
+      "hub_revision": "a7e62ac04ecb2c0a54d736dc46601c5606cf10a6",
+      "provider": "deepinfra",
+      "provider_id": "deepseek-ai/DeepSeek-V3.2",
+      "mapping_status": "live",
+      "mapping_task": "conversational",
+      "other_public_mappings": {
+        "novita": {
+          "status": "error",
+          "providerId": "deepseek/deepseek-v3.2",
+          "task": "conversational",
+          "isModelAuthor": false
+        },
+        "featherless-ai": {
+          "status": "error",
+          "providerId": "deepseek-ai/DeepSeek-V3.2",
+          "task": "conversational",
+          "isModelAuthor": false
+        }
+      },
+      "catalog_provider": {
+        "provider": "deepinfra",
+        "status": "live",
+        "context_length": 16384,
+        "pricing": {
+          "input": 0.26,
+          "output": 0.38
+        },
+        "is_free": false,
+        "supports_tools": true,
+        "supports_structured_output": true,
+        "first_token_latency_ms": 632,
+        "throughput": 22.21235006663705,
+        "is_model_author": false
+      },
+      "tokenizer_config_model_max_length": 131072,
+      "serving_precision_claim_on_provider_page": "fp4",
+      "provisional_cost_bounds": {
+        "4096": {
+          "input_reservation_tokens": 18048,
+          "output_cap_tokens": 4096,
+          "provisional_cost_usd": "0.00624896",
+          "context_feasible_at_full_input_reserve": false
+        },
+        "8192": {
+          "input_reservation_tokens": 18048,
+          "output_cap_tokens": 8192,
+          "provisional_cost_usd": "0.00780544",
+          "context_feasible_at_full_input_reserve": false
+        }
+      },
+      "suggested_8192_call_reservation_usd": "0.010",
+      "official_sampling_guidance": {
+        "temperature": 1.0,
+        "top_p": 0.95
+      },
+      "limitations": [
+        "Catalog availability is not an authenticated inference or account-credit check.",
+        "Hub revision documents inspected artifacts; it does not pin provider weights.",
+        "Exact response-model equality is necessary for this study but is not proof of served weights."
+      ]
+    }
+  ],
+  "budget": {
+    "global_authorized_usd": "15.00",
+    "historical_reserved_usd": "0.126",
+    "historical_provider_estimate_usd": "0.00720307",
+    "remaining_after_historical_reserve_usd": "14.874",
+    "example_600_calls_each_model_with_rounded_reserves_usd": "13.326",
+    "example_is_capacity_calculation_not_experimental_sample_size": true,
+    "server_side_billing_cap_established": false
+  },
+  "input_budget": {
+    "requested_max_utf8_bytes": 16000,
+    "provisional_framing_allowance_tokens": 2048,
+    "provisional_input_token_reservation": 18048,
+    "assumption": "Text-only ByteLevel BPE; account for actual tokenizer normalization and chat framing. This client estimate is not a provider guarantee.",
+    "deepseek_safe_content_byte_limits_under_this_assumption": {
+      "4096_output": 10240,
+      "8192_output": 6144
+    },
+    "deepseek_hf_context_length": 16384,
+    "deepseek_author_tokenizer_max_length": 131072,
+    "enforcement": "Use lower provider catalog context unless verified otherwise. Reject oversize requests or count exact encoded prompt tokens before dispatch; never silently truncate."
+  },
+  "sdk_inspection_file": "sdk-inspection.json",
+  "required_first_paid_checks": [
+    "One identity+competence call per candidate before any batch; stop immediately on absent or mismatched response.model.",
+    "Store requested hub ID, mapped providerId, actual payload.model, provider, generation parameters, full response, usage and finish_reason.",
+    "Treat finish_reason=length, malformed final answer or unexpected token/cost overrun as invalid; preserve and stop rather than silently retry.",
+    "Gate task competence on more than one frozen asymmetric case; simple note following is a separate control.",
+    "Freeze prompt, task definitions, provider route, decoding and output cap before successor study; separate remediation from confirmatory data."
+  ],
+  "sources": {
+    "hf_catalog": "https://router.huggingface.co/v1/models",
+    "hf_catalog_ui": "https://huggingface.co/inference/models",
+    "hf_pricing": "https://huggingface.co/docs/inference-providers/en/pricing",
+    "hf_mapping_docs": "https://huggingface.co/docs/inference-providers/en/hub-api",
+    "qwen_provider": "https://deepinfra.com/Qwen/Qwen3.6-35B-A3B",
+    "deepseek_provider": "https://deepinfra.com/deepseek-ai/DeepSeek-V3.2",
+    "qwen_author": "https://huggingface.co/Qwen/Qwen3.6-35B-A3B/blob/995ad96eacd98c81ed38be0c5b274b04031597b0/README.md",
+    "deepseek_author": "https://huggingface.co/deepseek-ai/DeepSeek-V3.2/blob/a7e62ac04ecb2c0a54d736dc46601c5606cf10a6/README.md",
+    "provider_reasoning": "https://docs.deepinfra.com/chat/reasoning.md",
+    "provider_api_schema": "https://docs.deepinfra.com/api-reference/chat-completions/openai-chat-completions.md"
+  }
+}

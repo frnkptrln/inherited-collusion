@@ -1,0 +1,1 @@
+{"correct_count":0,"diagnostics_only":true,"planned":4,"rows":[{"error":"probe_schema_invalid","id":"s302-symmetric-probe-A","role":"A","schema_valid":false,"semantic_correct":null,"structure":"symmetric"}],"schema_version":5,"technical_passed":false}

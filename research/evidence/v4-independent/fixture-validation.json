@@ -1,0 +1,65 @@
+{
+  "at": "2026-10-23T18:18:37.935332+00:00",
+  "kind": "offline_public_fixture_enumeration_not_model_outcomes",
+  "all_passed": true,
+  "cases": [
+    {
+      "seed": 201,
+      "checkpoint_sha256": "7ea53e722a192fe7a21ef8e5e235e584caa70bcabb22bb7498ded4534b6108a3",
+      "action_pairs_checked": 16,
+      "reference_assignments_per_pair": 24,
+      "passed": true
+    },
+    {
+      "seed": 202,
+      "checkpoint_sha256": "11b762aca825e63ddf3c5f5cef2042001e9a03d83c3f88e875b851aceaefe7ef",
+      "action_pairs_checked": 16,
+      "reference_assignments_per_pair": 24,
+      "passed": true
+    },
+    {
+      "seed": 203,
+      "checkpoint_sha256": "d5d2f8eb374bd118b39ef766c229c686f0ed473810935b66f07c230f7deaafd1",
+      "action_pairs_checked": 16,
+      "reference_assignments_per_pair": 24,
+      "passed": true
+    },
+    {
+      "seed": 204,
+      "checkpoint_sha256": "a3f22efb4316e1dd6d27414ea31d11c7557d6049d9029ee4183ed03f242875dc",
+      "action_pairs_checked": 16,
+      "reference_assignments_per_pair": 24,
+      "passed": true
+    },
+    {
+      "seed": 205,
+      "checkpoint_sha256": "298c0506bc570a9e247a60ae5d0c775934abc01505b64c91daf15033be293183",
+      "action_pairs_checked": 16,
+      "reference_assignments_per_pair": 24,
+      "passed": true
+    },
+    {
+      "seed": 206,
+      "checkpoint_sha256": "d07cf1e97a2e1c0413bb12a9218bd07e5991263fe4568504e52bf629aeb58718",
+      "action_pairs_checked": 16,
+      "reference_assignments_per_pair": 24,
+      "passed": true
+    },
+    {
+      "seed": 207,
+      "checkpoint_sha256": "ab231eba26fd2a14a2db1849df19cd552c3971d1d5c10cbc297dd131c6c56f0c",
+      "action_pairs_checked": 16,
+      "reference_assignments_per_pair": 24,
+      "passed": true
+    },
+    {
+      "seed": 208,
+      "checkpoint_sha256": "4fd309d6abbc32c894ca06bbe7807958e3cc9e466feea8cc548c6fb990ecde41",
+      "action_pairs_checked": 16,
+      "reference_assignments_per_pair": 24,
+      "passed": true
+    }
+  ],
+  "total_action_pairs": 128,
+  "model_successor_outcomes_read": false
+}

@@ -1,0 +1,33 @@
+cff-version: 1.2.0
+message: "Please cite this research artifact when using the paper, code, or data."
+type: software
+title: "Inherited Collusion: Safe Coordination after Harmful Agent Handoffs"
+authors:
+  - family-names: "Peterlein"
+    given-names: "Frank"
+    affiliation: "Independent researcher"
+version: "sprint-2026-v6"
+date-released: 2026-10-25
+repository-code: "https://github.com/frnkptrln/inherited-collusion"
+url: "https://github.com/frnkptrln/inherited-collusion"
+abstract: >-
+  A controlled audit of instructed harmful allocation transfer through agent
+  handoff notes, verification interventions, task structure, and shared safe
+  decision rules. The artifact preserves all research phases and supports
+  offline reproduction without model access.
+keywords:
+  - multi-agent systems
+  - agent handoffs
+  - AI safety
+  - coordination
+  - reproducible research
+preferred-citation:
+  type: generic
+  title: "Safe Coordination after Harmful Agent Handoffs: A Controlled Audit of Verification and Shared Decision Rules"
+  authors:
+    - family-names: "Peterlein"
+      given-names: "Frank"
+      affiliation: "Independent researcher"
+  year: 2026
+  url: "https://github.com/frnkptrln/inherited-collusion"
+  notes: "Research report prepared for the Apart AI Collusion Research Sprint, 23–25 October 2026."

@@ -1,0 +1,516 @@
+{
+  "method": "Independent stdlib Fraction scorer, all16 task actions per case; recomputed observed action outcomes and signed missing-component extrema, equal8cases and2repeats. Eligibility is taken from separately audited strict/amended analyses; this check does not independently re-audit gates. No study runner/analyzer imports.",
+  "passed": true,
+  "rows_checked": 24,
+  "metrics_per_row": 3,
+  "analysis_sha256": {
+    "analysis-v4": "b6fcde1f992abe567956a3a075005423f726672d3338c07ad59827026fe1d277",
+    "analysis-v4f": "8e6c914ad8eb493119c885c644158f858c7a9d1da10eea651c56bb93d8ff7125"
+  },
+  "rows": [
+    {
+      "population": "strict",
+      "model": "Qwen/Qwen3.6-35B-A3B",
+      "mode": "harmful",
+      "contrast": "matched_minus_facts_only",
+      "independent_bounds": {
+        "harmful_joint": [
+          -0.125,
+          0.6875
+        ],
+        "outsider_loss": [
+          -2.6875,
+          31.6875
+        ],
+        "total_reward_loss": [
+          -157.6875,
+          15.6875
+        ]
+      },
+      "match": true
+    },
+    {
+      "population": "strict",
+      "model": "Qwen/Qwen3.6-35B-A3B",
+      "mode": "harmful",
+      "contrast": "matched_p1_minus_facts_only",
+      "independent_bounds": {
+        "harmful_joint": [
+          -0.125,
+          0.625
+        ],
+        "outsider_loss": [
+          -0.125,
+          31.625
+        ],
+        "total_reward_loss": [
+          -142.25,
+          17.6875
+        ]
+      },
+      "match": true
+    },
+    {
+      "population": "strict",
+      "model": "Qwen/Qwen3.6-35B-A3B",
+      "mode": "harmful",
+      "contrast": "verified_minus_matched",
+      "independent_bounds": {
+        "harmful_joint": [
+          -0.6875,
+          0.5
+        ],
+        "outsider_loss": [
+          -30.5625,
+          17.1875
+        ],
+        "total_reward_loss": [
+          -76.6875,
+          175.8125
+        ]
+      },
+      "match": true
+    },
+    {
+      "population": "strict",
+      "model": "Qwen/Qwen3.6-35B-A3B",
+      "mode": "legitimate",
+      "contrast": "matched_minus_facts_only",
+      "independent_bounds": {
+        "harmful_joint": [
+          -0.5625,
+          0.5
+        ],
+        "outsider_loss": [
+          -24.0625,
+          22.5
+        ],
+        "total_reward_loss": [
+          -156.0625,
+          69.875
+        ]
+      },
+      "match": true
+    },
+    {
+      "population": "strict",
+      "model": "Qwen/Qwen3.6-35B-A3B",
+      "mode": "legitimate",
+      "contrast": "matched_p1_minus_facts_only",
+      "independent_bounds": {
+        "harmful_joint": [
+          -0.5625,
+          0.5
+        ],
+        "outsider_loss": [
+          -24.0625,
+          21.8125
+        ],
+        "total_reward_loss": [
+          -156.0625,
+          70.0
+        ]
+      },
+      "match": true
+    },
+    {
+      "population": "strict",
+      "model": "Qwen/Qwen3.6-35B-A3B",
+      "mode": "legitimate",
+      "contrast": "verified_minus_matched",
+      "independent_bounds": {
+        "harmful_joint": [
+          -0.5,
+          0.375
+        ],
+        "outsider_loss": [
+          -22.5,
+          15.3125
+        ],
+        "total_reward_loss": [
+          -106.625,
+          79.9375
+        ]
+      },
+      "match": true
+    },
+    {
+      "population": "strict",
+      "model": "openai/gpt-oss-120b",
+      "mode": "harmful",
+      "contrast": "matched_minus_facts_only",
+      "independent_bounds": {
+        "harmful_joint": [
+          0.375,
+          0.5
+        ],
+        "outsider_loss": [
+          26.0625,
+          30.3125
+        ],
+        "total_reward_loss": [
+          -104.1875,
+          -78.1875
+        ]
+      },
+      "match": true
+    },
+    {
+      "population": "strict",
+      "model": "openai/gpt-oss-120b",
+      "mode": "harmful",
+      "contrast": "matched_p1_minus_facts_only",
+      "independent_bounds": {
+        "harmful_joint": [
+          0.5625,
+          0.6875
+        ],
+        "outsider_loss": [
+          28.0625,
+          32.75
+        ],
+        "total_reward_loss": [
+          -90.375,
+          -64.125
+        ]
+      },
+      "match": true
+    },
+    {
+      "population": "strict",
+      "model": "openai/gpt-oss-120b",
+      "mode": "harmful",
+      "contrast": "verified_minus_matched",
+      "independent_bounds": {
+        "harmful_joint": [
+          -0.5,
+          -0.1875
+        ],
+        "outsider_loss": [
+          -30.3125,
+          -19.25
+        ],
+        "total_reward_loss": [
+          41.8125,
+          107.0625
+        ]
+      },
+      "match": true
+    },
+    {
+      "population": "strict",
+      "model": "openai/gpt-oss-120b",
+      "mode": "legitimate",
+      "contrast": "matched_minus_facts_only",
+      "independent_bounds": {
+        "harmful_joint": [
+          0.0,
+          0.0625
+        ],
+        "outsider_loss": [
+          0.9375,
+          3.0625
+        ],
+        "total_reward_loss": [
+          -86.0625,
+          -73.0625
+        ]
+      },
+      "match": true
+    },
+    {
+      "population": "strict",
+      "model": "openai/gpt-oss-120b",
+      "mode": "legitimate",
+      "contrast": "matched_p1_minus_facts_only",
+      "independent_bounds": {
+        "harmful_joint": [
+          0.0,
+          0.125
+        ],
+        "outsider_loss": [
+          0.0,
+          4.25
+        ],
+        "total_reward_loss": [
+          -50.375,
+          -24.375
+        ]
+      },
+      "match": true
+    },
+    {
+      "population": "strict",
+      "model": "openai/gpt-oss-120b",
+      "mode": "legitimate",
+      "contrast": "verified_minus_matched",
+      "independent_bounds": {
+        "harmful_joint": [
+          -0.0625,
+          0.0625
+        ],
+        "outsider_loss": [
+          -3.0625,
+          1.1875
+        ],
+        "total_reward_loss": [
+          -1.5,
+          24.5
+        ]
+      },
+      "match": true
+    },
+    {
+      "population": "amended",
+      "model": "Qwen/Qwen3.6-35B-A3B",
+      "mode": "harmful",
+      "contrast": "matched_minus_facts_only",
+      "independent_bounds": {
+        "harmful_joint": [
+          0.3125,
+          0.625
+        ],
+        "outsider_loss": [
+          15.375,
+          30.3125
+        ],
+        "total_reward_loss": [
+          -123.625,
+          -55.8125
+        ]
+      },
+      "match": true
+    },
+    {
+      "population": "amended",
+      "model": "Qwen/Qwen3.6-35B-A3B",
+      "mode": "harmful",
+      "contrast": "matched_p1_minus_facts_only",
+      "independent_bounds": {
+        "harmful_joint": [
+          0.1875,
+          0.5
+        ],
+        "outsider_loss": [
+          12.1875,
+          26.625
+        ],
+        "total_reward_loss": [
+          -100.125,
+          -32.75
+        ]
+      },
+      "match": true
+    },
+    {
+      "population": "amended",
+      "model": "Qwen/Qwen3.6-35B-A3B",
+      "mode": "harmful",
+      "contrast": "verified_minus_matched",
+      "independent_bounds": {
+        "harmful_joint": [
+          -0.625,
+          -0.0625
+        ],
+        "outsider_loss": [
+          -29.1875,
+          -3.8125
+        ],
+        "total_reward_loss": [
+          7.5625,
+          128.6875
+        ]
+      },
+      "match": true
+    },
+    {
+      "population": "amended",
+      "model": "Qwen/Qwen3.6-35B-A3B",
+      "mode": "legitimate",
+      "contrast": "matched_minus_facts_only",
+      "independent_bounds": {
+        "harmful_joint": [
+          -0.25,
+          0.125
+        ],
+        "outsider_loss": [
+          -10.4375,
+          6.75
+        ],
+        "total_reward_loss": [
+          -102.5625,
+          -21.625
+        ]
+      },
+      "match": true
+    },
+    {
+      "population": "amended",
+      "model": "Qwen/Qwen3.6-35B-A3B",
+      "mode": "legitimate",
+      "contrast": "matched_p1_minus_facts_only",
+      "independent_bounds": {
+        "harmful_joint": [
+          -0.25,
+          0.125
+        ],
+        "outsider_loss": [
+          -10.4375,
+          5.9375
+        ],
+        "total_reward_loss": [
+          -102.5625,
+          -22.1875
+        ]
+      },
+      "match": true
+    },
+    {
+      "population": "amended",
+      "model": "Qwen/Qwen3.6-35B-A3B",
+      "mode": "legitimate",
+      "contrast": "verified_minus_matched",
+      "independent_bounds": {
+        "harmful_joint": [
+          -0.125,
+          0.1875
+        ],
+        "outsider_loss": [
+          -6.75,
+          8.1875
+        ],
+        "total_reward_loss": [
+          -27.625,
+          40.1875
+        ]
+      },
+      "match": true
+    },
+    {
+      "population": "amended",
+      "model": "openai/gpt-oss-120b",
+      "mode": "harmful",
+      "contrast": "matched_minus_facts_only",
+      "independent_bounds": {
+        "harmful_joint": [
+          0.375,
+          0.5
+        ],
+        "outsider_loss": [
+          26.0625,
+          30.3125
+        ],
+        "total_reward_loss": [
+          -104.1875,
+          -78.1875
+        ]
+      },
+      "match": true
+    },
+    {
+      "population": "amended",
+      "model": "openai/gpt-oss-120b",
+      "mode": "harmful",
+      "contrast": "matched_p1_minus_facts_only",
+      "independent_bounds": {
+        "harmful_joint": [
+          0.5625,
+          0.6875
+        ],
+        "outsider_loss": [
+          28.0625,
+          32.75
+        ],
+        "total_reward_loss": [
+          -90.375,
+          -64.125
+        ]
+      },
+      "match": true
+    },
+    {
+      "population": "amended",
+      "model": "openai/gpt-oss-120b",
+      "mode": "harmful",
+      "contrast": "verified_minus_matched",
+      "independent_bounds": {
+        "harmful_joint": [
+          -0.5,
+          -0.1875
+        ],
+        "outsider_loss": [
+          -30.3125,
+          -19.25
+        ],
+        "total_reward_loss": [
+          41.8125,
+          107.0625
+        ]
+      },
+      "match": true
+    },
+    {
+      "population": "amended",
+      "model": "openai/gpt-oss-120b",
+      "mode": "legitimate",
+      "contrast": "matched_minus_facts_only",
+      "independent_bounds": {
+        "harmful_joint": [
+          0.0,
+          0.0625
+        ],
+        "outsider_loss": [
+          0.9375,
+          3.0625
+        ],
+        "total_reward_loss": [
+          -86.0625,
+          -73.0625
+        ]
+      },
+      "match": true
+    },
+    {
+      "population": "amended",
+      "model": "openai/gpt-oss-120b",
+      "mode": "legitimate",
+      "contrast": "matched_p1_minus_facts_only",
+      "independent_bounds": {
+        "harmful_joint": [
+          0.0,
+          0.125
+        ],
+        "outsider_loss": [
+          0.0,
+          4.25
+        ],
+        "total_reward_loss": [
+          -50.375,
+          -24.375
+        ]
+      },
+      "match": true
+    },
+    {
+      "population": "amended",
+      "model": "openai/gpt-oss-120b",
+      "mode": "legitimate",
+      "contrast": "verified_minus_matched",
+      "independent_bounds": {
+        "harmful_joint": [
+          -0.0625,
+          0.0625
+        ],
+        "outsider_loss": [
+          -3.0625,
+          1.1875
+        ],
+        "total_reward_loss": [
+          -1.5,
+          24.5
+        ]
+      },
+      "match": true
+    }
+  ]
+}

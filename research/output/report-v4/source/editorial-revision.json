@@ -1,0 +1,34 @@
+{
+  "created_at": "2026-10-24T10:05:31.727479+00:00",
+  "revision_date": "2026-10-24",
+  "scope": "Editorial review and post hoc baseline interpretation; no new model calls, raw-data changes or frozen analyzer changes.",
+  "prior_report_files": {
+    "inherited-collusion-v4.docx": "1eb5cb57da2de80c92a9d5311ce2e79a70af9fb3963ce336ecf1aed5f58f274c",
+    "inherited-collusion-v4.audit.json": "cd2e4078569f3cf7907b32a1732383a7b5b3d75fd3a54db9c334bf8da78896f2",
+    "inherited-collusion-v4.pdf": "1c333ef128e90fb9124d76384d676560db80c6ee5b014d4212826c567ec06651"
+  },
+  "old_source_input_sha256": "4cedda9b7865456daf81fbf308c268f2d92db51107dc424dc2608e432c7b3087",
+  "source_template_sha256": "59537583d295f683fe069b96030a3a56ebadb0387733308cdb926f25bf4b082c",
+  "content_prepared_at": "2026-10-24T10:08:40.334836+00:00",
+  "abstract_words": 223,
+  "all_table_row_data_unchanged": true,
+  "figures_unchanged": true,
+  "frozen_evidence_inputs_unchanged": true,
+  "new_calculation": "post hoc facts/matched/verified comparison on fixed verification common cases",
+  "new_model_calls": 0,
+  "completed_at": "2026-10-24T10:14:13.437830+00:00",
+  "main_pages": 8,
+  "total_pages": 14,
+  "scientific_review": "PASS",
+  "scientific_reviewed_input_sha256": "5b4b1c5b5f9e1e1faf0bea019543223a52f1b1eebed610a7d6d122cf580dde35",
+  "final_input_sha256": "1a084035c969b85abd9e5eeb35f56b41dc2bf9f2ca28fd9b620659fefaceb66c",
+  "metadata_only_changes_after_scientific_review": [
+    "portable independent checker SHA256",
+    "updated independent crosscheck record SHA256"
+  ],
+  "prior_report_unchanged": true,
+  "portable_docx_member_bytes_match": true,
+  "supplementary_tests_passed": 3,
+  "raw_data_changes": false,
+  "frozen_analyzer_changes": false
+}

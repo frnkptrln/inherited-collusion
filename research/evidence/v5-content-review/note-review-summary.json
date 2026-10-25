@@ -1,0 +1,239 @@
+{
+  "schema_version": 5,
+  "review_completed_at": "2026-10-24T11:45:19.145220+00:00",
+  "planned_role_note_slots": 96,
+  "notes_reviewed": 80,
+  "missing_note_responses": 16,
+  "complete_bundles": 40,
+  "both_notes_convey_assigned_allocation": 26,
+  "reported_json_task_mismatches": 0,
+  "refusal_notes": 0,
+  "experiment_label_leakage_notes": 0,
+  "groups": [
+    {
+      "model": "all",
+      "mode": "all",
+      "notes": 80,
+      "conveys_assigned_allocation": {
+        "no": 19,
+        "yes": 60,
+        "unclear": 1
+      },
+      "own_recommendation": {
+        "no": 1,
+        "yes": 60,
+        "absent": 18,
+        "unclear": 1
+      },
+      "primitive_facts": {
+        "accurate": 70,
+        "no_claim": 2,
+        "not_decidable": 2,
+        "inaccurate": 6
+      },
+      "derived_claims": {
+        "not_decidable": 9,
+        "no_claim": 42,
+        "accurate": 23,
+        "inaccurate": 6
+      }
+    },
+    {
+      "model": "all",
+      "mode": "harmful",
+      "notes": 40,
+      "conveys_assigned_allocation": {
+        "no": 4,
+        "yes": 35,
+        "unclear": 1
+      },
+      "own_recommendation": {
+        "no": 1,
+        "yes": 35,
+        "absent": 3,
+        "unclear": 1
+      },
+      "primitive_facts": {
+        "accurate": 38,
+        "no_claim": 2
+      },
+      "derived_claims": {
+        "not_decidable": 7,
+        "no_claim": 21,
+        "inaccurate": 5,
+        "accurate": 7
+      }
+    },
+    {
+      "model": "all",
+      "mode": "legitimate",
+      "notes": 40,
+      "conveys_assigned_allocation": {
+        "yes": 25,
+        "no": 15
+      },
+      "own_recommendation": {
+        "yes": 25,
+        "absent": 15
+      },
+      "primitive_facts": {
+        "accurate": 32,
+        "not_decidable": 2,
+        "inaccurate": 6
+      },
+      "derived_claims": {
+        "accurate": 16,
+        "inaccurate": 1,
+        "not_decidable": 2,
+        "no_claim": 21
+      }
+    },
+    {
+      "model": "qwen",
+      "mode": "all",
+      "notes": 32,
+      "conveys_assigned_allocation": {
+        "no": 1,
+        "yes": 31
+      },
+      "own_recommendation": {
+        "no": 1,
+        "yes": 31
+      },
+      "primitive_facts": {
+        "accurate": 29,
+        "no_claim": 2,
+        "not_decidable": 1
+      },
+      "derived_claims": {
+        "not_decidable": 4,
+        "no_claim": 3,
+        "accurate": 19,
+        "inaccurate": 6
+      }
+    },
+    {
+      "model": "qwen",
+      "mode": "harmful",
+      "notes": 16,
+      "conveys_assigned_allocation": {
+        "no": 1,
+        "yes": 15
+      },
+      "own_recommendation": {
+        "no": 1,
+        "yes": 15
+      },
+      "primitive_facts": {
+        "accurate": 14,
+        "no_claim": 2
+      },
+      "derived_claims": {
+        "not_decidable": 4,
+        "no_claim": 3,
+        "inaccurate": 5,
+        "accurate": 4
+      }
+    },
+    {
+      "model": "qwen",
+      "mode": "legitimate",
+      "notes": 16,
+      "conveys_assigned_allocation": {
+        "yes": 16
+      },
+      "own_recommendation": {
+        "yes": 16
+      },
+      "primitive_facts": {
+        "accurate": 15,
+        "not_decidable": 1
+      },
+      "derived_claims": {
+        "accurate": 15,
+        "inaccurate": 1
+      }
+    },
+    {
+      "model": "gptoss",
+      "mode": "all",
+      "notes": 48,
+      "conveys_assigned_allocation": {
+        "no": 18,
+        "yes": 29,
+        "unclear": 1
+      },
+      "own_recommendation": {
+        "absent": 18,
+        "yes": 29,
+        "unclear": 1
+      },
+      "primitive_facts": {
+        "accurate": 41,
+        "inaccurate": 6,
+        "not_decidable": 1
+      },
+      "derived_claims": {
+        "no_claim": 39,
+        "not_decidable": 5,
+        "accurate": 4
+      }
+    },
+    {
+      "model": "gptoss",
+      "mode": "harmful",
+      "notes": 24,
+      "conveys_assigned_allocation": {
+        "no": 3,
+        "yes": 20,
+        "unclear": 1
+      },
+      "own_recommendation": {
+        "absent": 3,
+        "yes": 20,
+        "unclear": 1
+      },
+      "primitive_facts": {
+        "accurate": 24
+      },
+      "derived_claims": {
+        "no_claim": 18,
+        "accurate": 3,
+        "not_decidable": 3
+      }
+    },
+    {
+      "model": "gptoss",
+      "mode": "legitimate",
+      "notes": 24,
+      "conveys_assigned_allocation": {
+        "yes": 9,
+        "no": 15
+      },
+      "own_recommendation": {
+        "yes": 9,
+        "absent": 15
+      },
+      "primitive_facts": {
+        "accurate": 17,
+        "inaccurate": 6,
+        "not_decidable": 1
+      },
+      "derived_claims": {
+        "not_decidable": 2,
+        "no_claim": 21,
+        "accurate": 1
+      }
+    }
+  ],
+  "semantic_codes_used_for_eligibility": false,
+  "successor_or_aggregate_results_read": false,
+  "limitations": [
+    "Single agent-assisted semantic reviewer; no inter-rater agreement estimate.",
+    "Not blinded to model, mode, structure, role, assigned plan or original-round result.",
+    "Concrete mapping versus procedural advice and ambiguous optimality wording involve interpretation; excerpts and rationales are preserved.",
+    "Notes and two roles share cases; note counts are descriptive, not independent samples or significance tests.",
+    "These are sender-content observations, not evidence of recipient compliance or causal mechanisms.",
+    "No semantic annotation is used to filter technical eligibility, recalculate effects, or rescue failed runs."
+  ]
+}

@@ -1,0 +1,199 @@
+{
+  "schema_version": 1,
+  "authorized_total_usd": 15,
+  "historical_allocated_usd": 1.594,
+  "phase_max_usd": 9,
+  "created_at": "2026-10-23T17:43:55.828786+00:00",
+  "historical_details": {
+    "initial_three_pilots_retained_ceiling_usd": 1,
+    "v3_qwen_pilot_retained_ceiling_usd": 0.324,
+    "v3_deepseek_pilot_retained_ceiling_usd": 0.27,
+    "unused_v3_main_allocations_retired_usd": 7.568,
+    "retirement_record": "docs/v3-closeout-record.json"
+  },
+  "authorization": "Frank Peterlein authorized discretionary budget use within USD 15 overall; larger scientific study requested",
+  "allocations": {
+    "v4-qualification-qwen-902": {
+      "config_digest": "1c937a685ca2f12ed4ec56360239b66b7cc34944ed05d21ea6ea7c5e5bbad69f",
+      "max_total_usd": 0.06,
+      "model": "Qwen/Qwen3.6-35B-A3B",
+      "status": "allocated",
+      "cohort": "qualification",
+      "seed": 902,
+      "repeats": 0,
+      "config": "configs/v4/v4-qualification-qwen-902.json"
+    },
+    "v4-main-qwen-201": {
+      "config_digest": "57d80840050a234b3dfa998a72cc9d80c9d18eeb1fd63ce2bfcdc0ce27f70097",
+      "max_total_usd": 0.86,
+      "model": "Qwen/Qwen3.6-35B-A3B",
+      "status": "allocated",
+      "cohort": "main",
+      "seed": 201,
+      "repeats": 2,
+      "config": "configs/v4/v4-main-qwen-201.json"
+    },
+    "v4-main-qwen-202": {
+      "config_digest": "57d80840050a234b3dfa998a72cc9d80c9d18eeb1fd63ce2bfcdc0ce27f70097",
+      "max_total_usd": 0.86,
+      "model": "Qwen/Qwen3.6-35B-A3B",
+      "status": "allocated",
+      "cohort": "main",
+      "seed": 202,
+      "repeats": 2,
+      "config": "configs/v4/v4-main-qwen-202.json"
+    },
+    "v4-main-qwen-203": {
+      "config_digest": "57d80840050a234b3dfa998a72cc9d80c9d18eeb1fd63ce2bfcdc0ce27f70097",
+      "max_total_usd": 0.86,
+      "model": "Qwen/Qwen3.6-35B-A3B",
+      "status": "allocated",
+      "cohort": "main",
+      "seed": 203,
+      "repeats": 2,
+      "config": "configs/v4/v4-main-qwen-203.json"
+    },
+    "v4-main-qwen-204": {
+      "config_digest": "57d80840050a234b3dfa998a72cc9d80c9d18eeb1fd63ce2bfcdc0ce27f70097",
+      "max_total_usd": 0.86,
+      "model": "Qwen/Qwen3.6-35B-A3B",
+      "status": "allocated",
+      "cohort": "main",
+      "seed": 204,
+      "repeats": 2,
+      "config": "configs/v4/v4-main-qwen-204.json"
+    },
+    "v4-main-qwen-205": {
+      "config_digest": "57d80840050a234b3dfa998a72cc9d80c9d18eeb1fd63ce2bfcdc0ce27f70097",
+      "max_total_usd": 0.86,
+      "model": "Qwen/Qwen3.6-35B-A3B",
+      "status": "allocated",
+      "cohort": "main",
+      "seed": 205,
+      "repeats": 2,
+      "config": "configs/v4/v4-main-qwen-205.json"
+    },
+    "v4-main-qwen-206": {
+      "config_digest": "57d80840050a234b3dfa998a72cc9d80c9d18eeb1fd63ce2bfcdc0ce27f70097",
+      "max_total_usd": 0.86,
+      "model": "Qwen/Qwen3.6-35B-A3B",
+      "status": "allocated",
+      "cohort": "main",
+      "seed": 206,
+      "repeats": 2,
+      "config": "configs/v4/v4-main-qwen-206.json"
+    },
+    "v4-main-qwen-207": {
+      "config_digest": "57d80840050a234b3dfa998a72cc9d80c9d18eeb1fd63ce2bfcdc0ce27f70097",
+      "max_total_usd": 0.86,
+      "model": "Qwen/Qwen3.6-35B-A3B",
+      "status": "allocated",
+      "cohort": "main",
+      "seed": 207,
+      "repeats": 2,
+      "config": "configs/v4/v4-main-qwen-207.json"
+    },
+    "v4-main-qwen-208": {
+      "config_digest": "57d80840050a234b3dfa998a72cc9d80c9d18eeb1fd63ce2bfcdc0ce27f70097",
+      "max_total_usd": 0.86,
+      "model": "Qwen/Qwen3.6-35B-A3B",
+      "status": "allocated",
+      "cohort": "main",
+      "seed": 208,
+      "repeats": 2,
+      "config": "configs/v4/v4-main-qwen-208.json"
+    },
+    "v4-qualification-gptoss-902": {
+      "config_digest": "6dd01b0a5c2ce5cc59c6a3c155201db5b3d3cb17697441c205a43d962ac54675",
+      "max_total_usd": 0.012,
+      "model": "openai/gpt-oss-120b",
+      "status": "allocated",
+      "cohort": "qualification",
+      "seed": 902,
+      "repeats": 0,
+      "config": "configs/v4/v4-qualification-gptoss-902.json"
+    },
+    "v4-main-gptoss-201": {
+      "config_digest": "94961ba1bc6d76122f34fc1c6952fa3d1eb9ee5e25d094854dd11215c007f6f6",
+      "max_total_usd": 0.172,
+      "model": "openai/gpt-oss-120b",
+      "status": "allocated",
+      "cohort": "main",
+      "seed": 201,
+      "repeats": 2,
+      "config": "configs/v4/v4-main-gptoss-201.json"
+    },
+    "v4-main-gptoss-202": {
+      "config_digest": "94961ba1bc6d76122f34fc1c6952fa3d1eb9ee5e25d094854dd11215c007f6f6",
+      "max_total_usd": 0.172,
+      "model": "openai/gpt-oss-120b",
+      "status": "allocated",
+      "cohort": "main",
+      "seed": 202,
+      "repeats": 2,
+      "config": "configs/v4/v4-main-gptoss-202.json"
+    },
+    "v4-main-gptoss-203": {
+      "config_digest": "94961ba1bc6d76122f34fc1c6952fa3d1eb9ee5e25d094854dd11215c007f6f6",
+      "max_total_usd": 0.172,
+      "model": "openai/gpt-oss-120b",
+      "status": "allocated",
+      "cohort": "main",
+      "seed": 203,
+      "repeats": 2,
+      "config": "configs/v4/v4-main-gptoss-203.json"
+    },
+    "v4-main-gptoss-204": {
+      "config_digest": "94961ba1bc6d76122f34fc1c6952fa3d1eb9ee5e25d094854dd11215c007f6f6",
+      "max_total_usd": 0.172,
+      "model": "openai/gpt-oss-120b",
+      "status": "allocated",
+      "cohort": "main",
+      "seed": 204,
+      "repeats": 2,
+      "config": "configs/v4/v4-main-gptoss-204.json"
+    },
+    "v4-main-gptoss-205": {
+      "config_digest": "94961ba1bc6d76122f34fc1c6952fa3d1eb9ee5e25d094854dd11215c007f6f6",
+      "max_total_usd": 0.172,
+      "model": "openai/gpt-oss-120b",
+      "status": "allocated",
+      "cohort": "main",
+      "seed": 205,
+      "repeats": 2,
+      "config": "configs/v4/v4-main-gptoss-205.json"
+    },
+    "v4-main-gptoss-206": {
+      "config_digest": "94961ba1bc6d76122f34fc1c6952fa3d1eb9ee5e25d094854dd11215c007f6f6",
+      "max_total_usd": 0.172,
+      "model": "openai/gpt-oss-120b",
+      "status": "allocated",
+      "cohort": "main",
+      "seed": 206,
+      "repeats": 2,
+      "config": "configs/v4/v4-main-gptoss-206.json"
+    },
+    "v4-main-gptoss-207": {
+      "config_digest": "94961ba1bc6d76122f34fc1c6952fa3d1eb9ee5e25d094854dd11215c007f6f6",
+      "max_total_usd": 0.172,
+      "model": "openai/gpt-oss-120b",
+      "status": "allocated",
+      "cohort": "main",
+      "seed": 207,
+      "repeats": 2,
+      "config": "configs/v4/v4-main-gptoss-207.json"
+    },
+    "v4-main-gptoss-208": {
+      "config_digest": "94961ba1bc6d76122f34fc1c6952fa3d1eb9ee5e25d094854dd11215c007f6f6",
+      "max_total_usd": 0.172,
+      "model": "openai/gpt-oss-120b",
+      "status": "allocated",
+      "cohort": "main",
+      "seed": 208,
+      "repeats": 2,
+      "config": "configs/v4/v4-main-gptoss-208.json"
+    }
+  },
+  "no_cloud_jobs": true,
+  "reasoning_effort": "not sent; provider default unspecified"
+}

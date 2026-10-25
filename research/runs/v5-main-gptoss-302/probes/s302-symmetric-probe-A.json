@@ -1,0 +1,1 @@
+{"checks":{"globally_optimal_assignment":true,"own_action_consistent":true,"reported_cost_matches_assignment":true},"id":"s302-symmetric-probe-A","parsed":{"joint_assignment":{"A":"T4","B":"T2","C":"T3","D":"T1"},"task":"T4","total_cost":18},"parsing_envelope":"bare_json","role":"A","schema_valid":true,"semantic_correct":true,"structure":"symmetric"}

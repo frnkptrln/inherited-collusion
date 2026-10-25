@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "checked_at": "2026-10-24T10:14:13.437830+00:00",
+  "all_DOCX_member_names_and_uncompressed_bytes_identical": true,
+  "input_sha256": "1a084035c969b85abd9e5eeb35f56b41dc2bf9f2ca28fd9b620659fefaceb66c",
+  "scientific_reviewed_input_sha256": "5b4b1c5b5f9e1e1faf0bea019543223a52f1b1eebed610a7d6d122cf580dde35",
+  "prose_tables_and_figures_unchanged_after_scientific_review": true,
+  "posthoc_diagnostic_recomputed_from_delivered_source": true,
+  "independent_recheck_from_delivered_source": {
+    "passed": true,
+    "raw_rows_checked": 108,
+    "mismatches": 0
+  },
+  "zip_archive_metadata_may_differ": true
+}

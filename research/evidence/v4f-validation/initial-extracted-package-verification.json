@@ -1,0 +1,42 @@
+{
+  "both_populations_recomputed": true,
+  "package_inventory_verified": true,
+  "packaged_files": 13275,
+  "original_project_read_access_denied": true,
+  "network_and_subprocess_creation_denied_in_analysis": true,
+  "isolated_stdlib_python": true,
+  "models_called": false,
+  "comparisons": [
+    {
+      "population": "strict",
+      "substantive_json_equal": true,
+      "packaged_sha256": "b6fcde1f992abe567956a3a075005423f726672d3338c07ad59827026fe1d277",
+      "recomputed_sha256": "a833f1317299fc9582f5bd25c7ab0cc082857f153b22d0747f74adae5e79bf1c"
+    },
+    {
+      "population": "amended",
+      "substantive_json_equal": true,
+      "packaged_sha256": "8e6c914ad8eb493119c885c644158f858c7a9d1da10eea651c56bb93d8ff7125",
+      "recomputed_sha256": "947793be98a4c5fb20694d45b7ba6a7dc12114c3b16ef816f6cc0d8a32fad2bc"
+    }
+  ],
+  "independent_checks": [
+    {
+      "population": "v4",
+      "passed": true,
+      "result_sha256": "eb77e0b39e917aac6a1358096e90a4dca3f1321b0925d20b760d941cb1fc9d97"
+    },
+    {
+      "population": "v4f",
+      "passed": true,
+      "result_sha256": "21221cbd4b8405593b08b543615ac31edf28cb5312b7090b76156c9a195e21ce"
+    }
+  ],
+  "allowed_differences": [
+    "top-level analysis timestamps",
+    "project-prefix path rebasing",
+    "strict-input digest, independently verified for each output"
+  ],
+  "not_checked": "Figure/PDF rendering needs separately recorded optional libraries and external rendering tools.",
+  "archive_sha256": "3f97bab1f43e99be5b2d37477e3087a7b817b2f9be24a35a18c5bb76ac8a84f5"
+}

@@ -1,0 +1,62 @@
+{
+  "both_populations_recomputed": true,
+  "package_inventory_verified": true,
+  "packaged_files": 16769,
+  "original_project_read_access_denied": true,
+  "network_and_subprocess_creation_denied_in_analysis": true,
+  "isolated_stdlib_python": true,
+  "models_called": false,
+  "comparisons": [
+    {
+      "population": "strict",
+      "substantive_json_equal": true,
+      "packaged_sha256": "b6fcde1f992abe567956a3a075005423f726672d3338c07ad59827026fe1d277",
+      "recomputed_sha256": "fd76f41b7967034b990f2a27f22f1f1817082f80fd5d3e538e88a63056d9b606"
+    },
+    {
+      "population": "amended",
+      "substantive_json_equal": true,
+      "packaged_sha256": "8e6c914ad8eb493119c885c644158f858c7a9d1da10eea651c56bb93d8ff7125",
+      "recomputed_sha256": "33418be659471db0c97e8651b011f7b2569a636c3dc8373cf15638e5fe70fc14"
+    }
+  ],
+  "independent_checks": [
+    {
+      "population": "v4",
+      "passed": true,
+      "result_sha256": "8c1f1e1cc552771599016dfe4b6895a4cbcb63f4ddef136c3bc00e00c213855d"
+    },
+    {
+      "population": "v4f",
+      "passed": true,
+      "result_sha256": "7acfd354d2ad025e3d28cbef17f6959c31ed12df0abc8b51618a7db323ed56a5"
+    }
+  ],
+  "allowed_differences": [
+    "top-level analysis timestamps",
+    "project-prefix path rebasing",
+    "strict-input digest, independently verified for each output"
+  ],
+  "not_checked": "Figure/PDF rendering needs separately recorded optional libraries and external rendering tools.",
+  "baseline_archive_sha256": "849a7088e524d2a01ca84d9d8fbe95c4f55000313d06e9e3162c85127c8e555d",
+  "baseline_files_preserved_byte_exact": 13282,
+  "posthoc_diagnostic_recomputed": true,
+  "posthoc_substantive_json_equal": true,
+  "posthoc_independent_check_passed": true,
+  "posthoc_raw_rows_checked": 108,
+  "v5_recomputed": true,
+  "v5_substantive_json_equal": true,
+  "v5_independent_check_passed": true,
+  "v5_independent_substantive_json_equal": true,
+  "v5_raw_rows_checked": 240,
+  "v5_allowed_differences": [
+    "analysis/check generation timestamps",
+    "project-prefix paths in checker",
+    "analysis digest, independently verified in both checker outputs"
+  ],
+  "v5_analysis_packaged_sha256": "9d427bdad0580fdfeb14b8287094c4f39baec0abdf99761111e17e6b97b7aab4",
+  "v5_analysis_recomputed_sha256": "a8c570ae56633170f12c13ca45f397a9c3d2a7afb8de3a72d9c8fbfaab2f60a4",
+  "v5_verifier_sha256": "ec73fabdf5cff60edbf46de02612938359551813a8858041afcf19a3c617e89f",
+  "archive_sha256": "1a07ea5fa12e3ea13b80cdaa943d4c75f99533232799ad8336b343f99709737d",
+  "isolation_scope": "Python audit hooks in trusted stdlib analysis processes; not an OS adversarial-code sandbox."
+}

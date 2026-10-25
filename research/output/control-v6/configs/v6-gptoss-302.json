@@ -1,0 +1,26 @@
+{
+  "approved": true,
+  "approved_by": "Frank Peterlein (discretion within USD15; scientific follow-up authorized 2026-10-25)",
+  "price_checked_at": "2026-10-25T12:58:51.821270+00:00",
+  "seed": 302,
+  "model": "openai/gpt-oss-120b",
+  "provider": "deepinfra",
+  "max_tokens": 8192,
+  "max_calls": 24,
+  "max_total_usd": 0.048,
+  "reserved_usd_per_call": 0.002,
+  "max_request_bytes": 10000,
+  "input_usd_per_million": 0.037,
+  "output_usd_per_million": 0.16999999999999998,
+  "reservation_basis_confirmed": true,
+  "reservation_basis": "Retained tokenizer evidence: at most one input token per max(raw,NFC) serialized UTF8 byte plus assumed2048 framing tokens; accounting guard not provider billing cap.",
+  "temperature": 0.6,
+  "top_p": 0.95,
+  "reasoning_effort_policy": "not sent; provider default unspecified",
+  "budget_binding": {
+    "ledger": "/home/user/Dokumente/ChatGPT/AI Collusion Sprint/output/control-v6/runs/phase6-budget.json",
+    "run_id": "v6-gptoss-302"
+  },
+  "alias": "gptoss",
+  "backend": "hf"
+}

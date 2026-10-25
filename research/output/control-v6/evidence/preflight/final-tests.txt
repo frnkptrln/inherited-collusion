@@ -1,0 +1,20 @@
+test_all_exact_optima_no_harm (test_v6_analysis.AnalysisTests.test_all_exact_optima_no_harm) ... ok
+test_bounds_equal_exhaustive_completions (test_v6_analysis.AnalysisTests.test_bounds_equal_exhaustive_completions) ... ok
+test_missing_does_not_become_safe_or_zero (test_v6_analysis.AnalysisTests.test_missing_does_not_become_safe_or_zero) ... ok
+test_invalid_usage_is_sealed_with_full_reservation (test_v6_closeout.CloseoutTests.test_invalid_usage_is_sealed_with_full_reservation) ... ok
+test_partial_worker_cannot_be_sealed (test_v6_closeout.CloseoutTests.test_partial_worker_cannot_be_sealed) ... ok
+test_ambiguous_tail_never_retried_and_valid_prefix_retained (test_v6_runner.RunnerTests.test_ambiguous_tail_never_retried_and_valid_prefix_retained) ... ok
+test_baseline_exact_remove_only_intervention_and_note_unchanged (test_v6_runner.RunnerTests.test_baseline_exact_remove_only_intervention_and_note_unchanged) ... ok
+test_budget_binding_and_total_rejected (test_v6_runner.RunnerTests.test_budget_binding_and_total_rejected) ... ok
+test_closure_blocks_new_and_cached_mutation_including_lock_race (test_v6_runner.RunnerTests.test_closure_blocks_new_and_cached_mutation_including_lock_race) ... ok
+test_dispatcher_preserves_venv_path_and_does_not_retry (test_v6_runner.RunnerTests.test_dispatcher_preserves_venv_path_and_does_not_retry) ... ok
+test_freeze_config_source_and_input_mutations_block_before_call (test_v6_runner.RunnerTests.test_freeze_config_source_and_input_mutations_block_before_call) ... ok
+test_full_mock_resume_snapshot_and_role_counterbalance (test_v6_runner.RunnerTests.test_full_mock_resume_snapshot_and_role_counterbalance) ... ok
+test_hf_shaped_response_raw_before_parse_and_no_repair (test_v6_runner.RunnerTests.test_hf_shaped_response_raw_before_parse_and_no_repair) ... ok
+test_model_stop_blocks_only_new_calls_but_preserves_other_case_cache (test_v6_runner.RunnerTests.test_model_stop_blocks_only_new_calls_but_preserves_other_case_cache) ... ok
+test_usage_and_truncation_durable_hard_stop (test_v6_runner.RunnerTests.test_usage_and_truncation_durable_hard_stop) ... ok
+
+----------------------------------------------------------------------
+Ran 15 tests in 5.398s
+
+OK

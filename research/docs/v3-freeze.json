@@ -1,0 +1,45 @@
+{
+  "schema_version": 3,
+  "frozen_at": "2026-10-23T17:27:44.250713+00:00",
+  "source_hash": "11db571486df954bbfa1a4911c39eb193271c6498afc72434368ebbb0bdebef5",
+  "source_files": {
+    "__init__.py": "57dca31a6d22c7dd313d3b734e1a3dd05f9c970756045033b90bcfcce41288dd",
+    "backends.py": "f376dfd20fe1ec3ab9172f8567c06a71c1a72e869e31787bc2109a3bd81a8873",
+    "runner.py": "1bc4b8ffa506370e9a2a501c263e1dc4d7b9b2d303e45ed74188411b6f0e4a99",
+    "scenario.py": "60e8e836d39278c5e048a9bd9bc00e39ae3e7984c8d1690105cfd44e409a8eca",
+    "storage.py": "d92a7e5c2e7a4224da311e4d9dee0201884c8f2e4e77ff71efa530bedd624d1c",
+    "v3_runner.py": "447898a21b6c8c80c2cfca046a58edb8f64146f51eb6d1c8fb5f470ce9ae38c6",
+    "v3_scenario.py": "3c66dea0d3e621753532b70389a1e1e84370332558a4da8ab9b868959320421c"
+  },
+  "artifacts": {
+    "configs/v3/v3-main-deepseek-208.json": "8f3dc54c28fa8ca1b3ee9d76287c9fed32bd88964441b2bff080773ac4600fa8",
+    "configs/v3/v3-main-deepseek-207.json": "baf0266f3e50141b1edb183d37edaee4f5aff351bf1cf40b18a8745f80265f35",
+    "configs/v3/v3-main-deepseek-206.json": "d7bf827a9281a30d0216e4956ce01b523a2474836df9b139d2df92314789bdb6",
+    "configs/v3/v3-main-deepseek-205.json": "a9802fe6f3216cde2579ef7d7df3d62bac0ff1ef66f1f996114507219614193c",
+    "configs/v3/v3-main-deepseek-204.json": "cfd96b05f7dea3e1118e9e1c2d9ab9c6d0dc6930bd66a510e44ed45effff00bc",
+    "configs/v3/v3-main-deepseek-203.json": "ed2e2e91b3f99e3113258d4bf78ca4e93ae3e2d1a015955269304ce30eb4123a",
+    "configs/v3/v3-main-deepseek-202.json": "949b861822c5f335b07783eeb2f39a6f437dc8fa792740f2ded20658180b2268",
+    "configs/v3/v3-main-deepseek-201.json": "94bc93438dd5e3618b086ec57732f2d63b2ecfa042c1a83fb24ffd949b0a8c74",
+    "configs/v3/v3-pilot-deepseek-901.json": "f5a7edc7fa7bad6b93daf51702a2eab26defbe485c832110c25526a2fbc3d992",
+    "configs/v3/v3-main-qwen-208.json": "e9e35e63ae49980255fc830da33c4059386a52718eaa1e7928a2de886104790e",
+    "configs/v3/v3-main-qwen-207.json": "49a7db7f5ca6867b44d19b8c4d99e36b7d4b0186835d0874f33494736741fedb",
+    "configs/v3/v3-main-qwen-206.json": "6e0eb83616f28eb720907154b38222f522a7069abb867432cd2b1f1825bb3376",
+    "configs/v3/v3-main-qwen-205.json": "8b93fd035f217f536e3c86a2a75e52e0caeb2404215608568f3c7af359565340",
+    "configs/v3/v3-main-qwen-204.json": "41605219e2f4055474f565282cbb276fe9fc297578d8e26c3bcc9d675ae32d67",
+    "configs/v3/v3-main-qwen-203.json": "c48763de9be3dac26047134c982f28cf31011669f0b1faae0c6c7fe3ef8e06e2",
+    "configs/v3/v3-main-qwen-202.json": "01643636e11302d844a96d22630dc21e3414ff7e4afb489ff23fa922be1d69c4",
+    "configs/v3/v3-main-qwen-201.json": "1f5ffbec08af8d9fb54efa0df98a0467bf66a6b354e7292cbdc7d318857aeeec",
+    "configs/v3/v3-pilot-qwen-901.json": "e561116507053cc784fea96fb95eec1c772c3e3f1cc3a25112671fc74f1abaa5",
+    "runs/phase3-budget.json": "3ee328939f7383eccbc862842bf3fb31aebf5b1f8373426e2351f905245fd57c",
+    "docs/v3-protocol.md": "f090697e8550662b747e1848b07672f6067ee75ae1af6fc4cbe3d10bbf971d71",
+    "docs/v3-protocol.json": "c5c05c85e1c94cb8c2136334acc3b5a38f606ada2f06e87ad34afe8bab2d00d9",
+    "docs/v3-prepared-cases.json": "451e010aa84fbeadc8ce5af9ea75b4c013d2474d12e8bf0b30678520dbeee21c",
+    "scripts/run_v3_study.py": "88c098538bdd2143d3b0d464b0d4465c1fad01df0f05f16084a6aa7c983f7cb2",
+    "evidence/v3-model-preflight/model-preflight.json": "969d99e4461445f4572603e8fe59e3b2116b6fae957d7f66164058680b60490b"
+  },
+  "offline_tests": {
+    "passed": 71,
+    "command": ".venv/bin/python -m unittest discover -s tests"
+  },
+  "paid_requests_before_freeze": 0
+}

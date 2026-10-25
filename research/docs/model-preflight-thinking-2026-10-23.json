@@ -1,0 +1,122 @@
+{
+  "model": "Qwen/Qwen3-235B-A22B-Thinking-2507",
+  "hub_revision": "6cbffae6d8e28b986a6b17bd36f42f9fa0f1f0a5",
+  "checked_at": "2026-10-23T16:38:41.909414+00:00",
+  "public_read_only": true,
+  "no_authentication_or_inference_used": true,
+  "hub_metadata_url": "https://huggingface.co/api/models/Qwen/Qwen3-235B-A22B-Thinking-2507",
+  "provider": {
+    "provider": "deepinfra",
+    "status": "live",
+    "context_length": 262144,
+    "pricing": {
+      "input": 0.22999999999999998,
+      "output": 2.3
+    },
+    "is_free": false,
+    "supports_tools": true,
+    "supports_structured_output": true,
+    "first_token_latency_ms": 249.6,
+    "throughput": 90.9118489313322,
+    "is_model_author": false
+  },
+  "pricing_source": "https://router.huggingface.co/v1/models",
+  "pricing_units": "USD per million tokens",
+  "tokenizer.json": {
+    "url": "https://huggingface.co/Qwen/Qwen3-235B-A22B-Thinking-2507/resolve/6cbffae6d8e28b986a6b17bd36f42f9fa0f1f0a5/tokenizer.json",
+    "sha256": "19564a48c4f71a2a1b937cce34c737a1e662b171c5f5d7edf641a15cd896f07d",
+    "configuration": {
+      "normalizer": {
+        "type": "NFC"
+      },
+      "pre_tokenizer": {
+        "type": "Sequence",
+        "pretokenizers": [
+          {
+            "type": "Split",
+            "pattern": {
+              "Regex": "(?i:'s|'t|'re|'ve|'m|'ll|'d)|[^\\r\\n\\p{L}\\p{N}]?\\p{L}+|\\p{N}| ?[^\\s\\p{L}\\p{N}]+[\\r\\n]*|\\s*[\\r\\n]+|\\s+(?!\\S)|\\s+"
+            },
+            "behavior": "Isolated",
+            "invert": false
+          },
+          {
+            "type": "ByteLevel",
+            "add_prefix_space": false,
+            "trim_offsets": false,
+            "use_regex": false
+          }
+        ]
+      },
+      "post_processor": {
+        "type": "ByteLevel",
+        "add_prefix_space": false,
+        "trim_offsets": false,
+        "use_regex": false
+      },
+      "model_type": "BPE",
+      "vocabulary_size": 151643
+    }
+  },
+  "tokenizer_config.json": {
+    "url": "https://huggingface.co/Qwen/Qwen3-235B-A22B-Thinking-2507/resolve/6cbffae6d8e28b986a6b17bd36f42f9fa0f1f0a5/tokenizer_config.json",
+    "sha256": "9c9cfea24361f234a5ef67d3f49f69733163f77c0d1fcced5b5aa72913b8ea22",
+    "configuration": {
+      "tokenizer_class": "Qwen2Tokenizer",
+      "add_bos_token": false,
+      "add_prefix_space": false,
+      "chat_template": "{%- if tools %}\n    {{- '<|im_start|>system\\n' }}\n    {%- if messages[0].role == 'system' %}\n        {{- messages[0].content + '\\n\\n' }}\n    {%- endif %}\n    {{- \"# Tools\\n\\nYou may call one or more functions to assist with the user query.\\n\\nYou are provided with function signatures within <tools></tools> XML tags:\\n<tools>\" }}\n    {%- for tool in tools %}\n        {{- \"\\n\" }}\n        {{- tool | tojson }}\n    {%- endfor %}\n    {{- \"\\n</tools>\\n\\nFor each function call, return a json object with function name and arguments within <tool_call></tool_call> XML tags:\\n<tool_call>\\n{\\\"name\\\": <function-name>, \\\"arguments\\\": <args-json-object>}\\n</tool_call><|im_end|>\\n\" }}\n{%- else %}\n    {%- if messages[0].role == 'system' %}\n        {{- '<|im_start|>system\\n' + messages[0].content + '<|im_end|>\\n' }}\n    {%- endif %}\n{%- endif %}\n{%- set ns = namespace(multi_step_tool=true, last_query_index=messages|length - 1) %}\n{%- for message in messages[::-1] %}\n    {%- set index = (messages|length - 1) - loop.index0 %}\n    {%- if ns.multi_step_tool and message.role == \"user\" and message.content is string and not(message.content.startswith('<tool_response>') and message.content.endswith('</tool_response>')) %}\n        {%- set ns.multi_step_tool = false %}\n        {%- set ns.last_query_index = index %}\n    {%- endif %}\n{%- endfor %}\n{%- for message in messages %}\n    {%- if message.content is string %}\n        {%- set content = message.content %}\n    {%- else %}\n        {%- set content = '' %}\n    {%- endif %}\n    {%- if (message.role == \"user\") or (message.role == \"system\" and not loop.first) %}\n        {{- '<|im_start|>' + message.role + '\\n' + content + '<|im_end|>' + '\\n' }}\n    {%- elif message.role == \"assistant\" %}\n        {%- set reasoning_content = '' %}\n        {%- if message.reasoning_content is string %}\n            {%- set reasoning_content = message.reasoning_content %}\n        {%- else %}\n            {%- if '</think>' in content %}\n                {%- set reasoning_content = content.split('</think>')[0].rstrip('\\n').split('<think>')[-1].lstrip('\\n') %}\n                {%- set content = content.split('</think>')[-1].lstrip('\\n') %}\n            {%- endif %}\n        {%- endif %}\n        {%- if loop.index0 > ns.last_query_index %}\n            {%- if loop.last or (not loop.last and reasoning_content) %}\n                {{- '<|im_start|>' + message.role + '\\n<think>\\n' + reasoning_content.strip('\\n') + '\\n</think>\\n\\n' + content.lstrip('\\n') }}\n            {%- else %}\n                {{- '<|im_start|>' + message.role + '\\n' + content }}\n            {%- endif %}\n        {%- else %}\n            {{- '<|im_start|>' + message.role + '\\n' + content }}\n        {%- endif %}\n        {%- if message.tool_calls %}\n            {%- for tool_call in message.tool_calls %}\n                {%- if (loop.first and content) or (not loop.first) %}\n                    {{- '\\n' }}\n                {%- endif %}\n                {%- if tool_call.function %}\n                    {%- set tool_call = tool_call.function %}\n                {%- endif %}\n                {{- '<tool_call>\\n{\"name\": \"' }}\n                {{- tool_call.name }}\n                {{- '\", \"arguments\": ' }}\n                {%- if tool_call.arguments is string %}\n                    {{- tool_call.arguments }}\n                {%- else %}\n                    {{- tool_call.arguments | tojson }}\n                {%- endif %}\n                {{- '}\\n</tool_call>' }}\n            {%- endfor %}\n        {%- endif %}\n        {{- '<|im_end|>\\n' }}\n    {%- elif message.role == \"tool\" %}\n        {%- if loop.first or (messages[loop.index0 - 1].role != \"tool\") %}\n            {{- '<|im_start|>user' }}\n        {%- endif %}\n        {{- '\\n<tool_response>\\n' }}\n        {{- content }}\n        {{- '\\n</tool_response>' }}\n        {%- if loop.last or (messages[loop.index0 + 1].role != \"tool\") %}\n            {{- '<|im_end|>\\n' }}\n        {%- endif %}\n    {%- endif %}\n{%- endfor %}\n{%- if add_generation_prompt %}\n    {{- '<|im_start|>assistant\\n<think>\\n' }}\n{%- endif %}"
+    }
+  },
+  "generation_config.json": {
+    "url": "https://huggingface.co/Qwen/Qwen3-235B-A22B-Thinking-2507/resolve/6cbffae6d8e28b986a6b17bd36f42f9fa0f1f0a5/generation_config.json",
+    "sha256": "2325da0f15bb848e018c5ae071b7943332e9f871d6b60e2ed22ca97d4cb993d2",
+    "configuration": {
+      "bos_token_id": 151643,
+      "do_sample": true,
+      "eos_token_id": [
+        151645,
+        151643
+      ],
+      "pad_token_id": 151643,
+      "temperature": 0.6,
+      "top_k": 20,
+      "top_p": 0.95,
+      "transformers_version": "4.51.0"
+    }
+  },
+  "model_card": {
+    "url": "https://huggingface.co/Qwen/Qwen3-235B-A22B-Thinking-2507/blob/6cbffae6d8e28b986a6b17bd36f42f9fa0f1f0a5/README.md",
+    "sha256": "9aa7860622381d0ca3ead2f16cc9ce52472b8effa3e9614ede6acdef008282d3",
+    "thinking_only": true,
+    "recommended_temperature": 0.6,
+    "recommended_top_p": 0.95,
+    "recommended_top_k": 20,
+    "recommended_max_output_standard": 32768,
+    "recommended_max_output_complex": 81920
+  },
+  "reservation": {
+    "max_request_bytes": 16000,
+    "framing_token_allowance": 2048,
+    "max_output_tokens": 4096,
+    "estimated_upper_usd": 0.01357184,
+    "reserved_usd_per_call": 0.015,
+    "assumptions": [
+      "NFC-normalized UTF-8 byte bound for ByteLevel BPE; two text messages and no tools.",
+      "2048 framing-token allowance; provider template and deployed model revision are not independently pinned.",
+      "Budget assumes max_tokens bounds total billed generated tokens including thinking; inspect usage on first response.",
+      "4096 generation tokens is intentionally below model-card recommendations; truncation is a protocol error, not a behavioral outcome."
+    ]
+  },
+  "sampling": {
+    "temperature": 0.6,
+    "top_p": 0.95,
+    "top_k": "provider default; not explicitly requested"
+  },
+  "reasoning_handling": {
+    "parse_only": "SDK choices[0].message.content",
+    "do_not_strip_think_tags_or_extract_json": true,
+    "preserve_separate_provider_reasoning_and_usage_fields": true,
+    "live_provider_output_separation": "not yet verified by this preflight"
+  }
+}

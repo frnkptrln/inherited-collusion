@@ -1,0 +1,46 @@
+{
+  "reviewed_at": "2026-10-23T18:43:10.448725+00:00",
+  "reviewer": "Codex report_readiness agent; AI-assisted independent code review, not human verification",
+  "scope": "Read-only V4F analysis, inherited annotation chronology, accounting and portable evidence paths; no live outcome aggregates inspected",
+  "blocking_findings": [],
+  "independent_offline_tests": {
+    "analysis_tests": 6,
+    "completion_bounds_tests": 5,
+    "passed": 11,
+    "duration_seconds": 3.926,
+    "model_calls": 0
+  },
+  "sha256": {
+    "/tmp/collusion-phase4f/analysis/scripts/analyze_v4f_study.py": "107ba80f262741ba93071c674625b932cdb102b9852506be51e7c3ec2a8f63b5",
+    "/tmp/collusion-phase4f/analysis/scripts/strict_bounds.py": "cb7d829af5b8fead61d4e20f0534bfb38c6a089ed1e7749b50afe0301d2fbefb",
+    "/tmp/collusion-phase4f/analysis/tests/test_v4f_analysis.py": "fb998d4605a07d363ab5785ca0a4c2a8c7b6a99caa382bafcc92751db71cb096",
+    "/tmp/collusion-phase4f/analysis/tests/test_strict_bounds.py": "749f2f82081624d63b8fe39f1c403e29f7c99a9abcece7ed9266bed5742f4ac5"
+  },
+  "checked": [
+    "Separate private adapter preserves strict primary data and labels amended analysis explicitly",
+    "Both bare strict JSON and only allowed whole-response wrapper use original substantive correctness checks",
+    "All18 manifest/source/archive/seal links and original byte inventories verified",
+    "Original annotation bytes and receipt precede original successors; inheritance receipt precedes new successors",
+    "New invocation timestamps follow strict closure and amended source freeze",
+    "Project-root rebasing rejects external/escaping paths and preserves stored provenance strings",
+    "Unique planned-call identity prevents double counting inherited V4 costs",
+    "No outcome extraction from strict-rejected answers for logical planned-slot completion bounds",
+    "Case/repeat denominators and finite enumerated outcome ranges retained; bounds not confidence intervals or proof of note effects"
+  ],
+  "interpretation_limit": "No source-code audit authenticates served weights or restores a prospective design; V4F remains a post-start amendment sharing raw observations.",
+  "final_blocker_delta": {
+    "reviewed_at": "2026-10-23T18:44:25.932583+00:00",
+    "change": "Reconstruct inherited global identity/truncation/usage blockers from original inventoried source evidence and require exact equality to preparation seal",
+    "review": "Read-only delta accepted; no blocking issue",
+    "owner_test_report": "All six analysis tests passed again, including forged blocker-list regression; bounds helper unchanged"
+  },
+  "final_isolated_verification": {
+    "result": "138 offline tests passed, each module in a fresh process",
+    "wall_seconds": 28.713,
+    "proof_path": "/tmp/collusion-phase4f/v4f-full-suite-review.json",
+    "result_sha256": "2e88b102c39cfe70789e81e0d31a041dd1ddcd1c7cc68965b876ca28c4d8dfa7",
+    "source_changes": []
+  },
+  "final_audit_delta": "Freeze artifact byte hashes, exact archived per-case allocations and separately computed strict-input source/episode/call-set bindings reviewed; final seven analyzer plus five bounds tests passed within isolated full suite.",
+  "final_prefix_delta": "Read-only targeted review accepted; preserved valid cached prefix before unresolved/truncated tail with no new affected-case dispatch; end-to-end analysis retains eligible prefix and missing denominators."
+}

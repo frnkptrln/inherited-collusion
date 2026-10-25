@@ -1,0 +1,42 @@
+{
+  "note_guard": [
+    {
+      "kind": "ascii",
+      "calls": 22,
+      "status": "partial",
+      "episodes": 0
+    },
+    {
+      "kind": "emoji",
+      "calls": 9,
+      "status": "validation_failed",
+      "episodes": 0
+    },
+    {
+      "kind": "escaped_control",
+      "calls": 9,
+      "status": "validation_failed",
+      "episodes": 0
+    },
+    {
+      "kind": "NFC_expansion",
+      "calls": 9,
+      "status": "validation_failed",
+      "episodes": 0
+    }
+  ],
+  "public_snapshots_hash_verified": [
+    "router-models.json",
+    "qwen-mapping.json",
+    "deepseek-mapping.json",
+    "qwen-tokenizer-config.json",
+    "deepseek-tokenizer-config.json",
+    "qwen-tokenizer.json",
+    "deepseek-tokenizer.json",
+    "qwen-readme.md",
+    "deepseek-readme.md",
+    "deepinfra-reasoning.md",
+    "deepinfra-chat-schema.md",
+    "deepinfra-tokenize-schema.md"
+  ]
+}

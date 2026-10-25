@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "source_files_copied": 556,
+  "original_project_reads_denied": true,
+  "network_and_child_processes_denied": true,
+  "stdlib_isolated_processes": 2,
+  "diagnostic_equal_except_generation_time": true,
+  "independent_rows_and_methodological_clarifications_equal": true,
+  "default_diagnostic_script_location_tested": true,
+  "raw_rows_checked": 108,
+  "checker_sha256": "1215ec232a95d5f9d12e18d0ae0a42467bcecceedc2eb305311b04151c56e86b",
+  "baseline_diagnostic_sha256": "862347f67a02d85b8e2cb84756265cab77402c16389b9ff52df6f4628da3f958",
+  "offline_core_sha256": "5b2b5d82279b38f39b590c1fb77510cca2e861d422d2b0cb3a91e9820efa0c37"
+}

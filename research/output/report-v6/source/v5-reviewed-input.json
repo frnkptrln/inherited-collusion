@@ -1,0 +1,1303 @@
+{
+  "phase": "V5 closed structural control integrated with retained V4 and V4F",
+  "editorial_review_date": "2026-10-24",
+  "ready_for_final": true,
+  "title": "Inherited Collusion through Agent Handoffs",
+  "subtitle": "A Controlled Audit of Instructed Allocation Transfer",
+  "author": "Frank Peterlein",
+  "affiliation": "Independent researcher",
+  "abstract": "We audit whether handoff notes carry instructed harmful allocations into neutral replacement agents. A transparent Colosseum-derived task pairs two independent model successors with scripted outsiders. The original strict protocol yields 360 valid episodes of 512 planned; a disclosed post-start format continuation reuses responses without resampling and yields 439. In amended data, same-source notes increase joint harm versus facts alone by 0.50 for Qwen3.6-35B-A3B over five complete cases and 0.43 for GPT-OSS-120B over seven. Verification reduces joint harm but increases duplicates relative to matched harmful notes. A post hoc baseline comparison motivates a separate control, locally frozen before new calls, pairing symmetric and unique-optimum tasks. It yields 240/288 planned episodes across four complete Qwen and six GPT-OSS cases. Under verification, harmful-mode duplicates fall from 5/8 to 0/8 for Qwen and 10/12 to 0/12 for GPT-OSS when the safe optimum becomes unique. Yet Qwen reaches that optimum in only 4/8 unique-task episodes, retaining partial outsider harm in four; GPT-OSS reaches it in 12/12. Matched harmful notes still induce joint harm under uniqueness. Thus the observed coordination cost depends on task structure, without establishing universal protection or an internal mechanism. Induced originals, regenerated notes, incomplete Qwen coverage and a narrow task family limit interpretation.",
+  "development_runs": [],
+  "evidence_inputs": [
+    {
+      "path": "output/analysis-v4/analysis.json",
+      "sha256": "b6fcde1f992abe567956a3a075005423f726672d3338c07ad59827026fe1d277"
+    },
+    {
+      "path": "output/analysis-v4f/analysis.json",
+      "sha256": "8e6c914ad8eb493119c885c644158f858c7a9d1da10eea651c56bb93d8ff7125"
+    },
+    {
+      "path": "docs/v4-protocol.md",
+      "sha256": "0e4ee6ee0c6ecc22c165dad1327265290136a3281e0c9b5a539c1ebd190411d9"
+    },
+    {
+      "path": "docs/v4-protocol.json",
+      "sha256": "f4704293e2eb9fefaac2431da55a890e804afc5224573c884929069a3e01c2e0"
+    },
+    {
+      "path": "docs/v4-freeze.json",
+      "sha256": "6a10ad79cf90bbedab250b7886dc5a466df9651fdabe721f7e44700980a01187"
+    },
+    {
+      "path": "docs/v4f-freeze.json",
+      "sha256": "86b21c48e62edc5a610bd3205332bd33590059c4b2612ab524f6d3b5d0ef31ea"
+    },
+    {
+      "path": "docs/v4f-preparation.json",
+      "sha256": "263537f767666934a1fad10866b7f243eaa842cf738d3b7a01004149a34b20bc"
+    },
+    {
+      "path": "docs/v4f-outcome-visibility-note.json",
+      "sha256": "32d6b377f6a0d931488759c24f9cf07ab099468f200cfaa6a93cf0a11f31b969"
+    },
+    {
+      "path": "docs/v3-closeout-record.json",
+      "sha256": "25fc93ad2ad1c3620a5e3522048919d3204d8f152f95baa2413e33341c5719c9"
+    },
+    {
+      "path": "runs/phase4f-budget.json",
+      "sha256": "2bfa94c84697d6b005f615dd90b1040d167d47c6eb0a9fc477826e83de707435"
+    },
+    {
+      "path": "docs/v5-protocol.json",
+      "sha256": "8ca04dd6886b16b226e295bc831dbb1bfc8290a593d79a03fd0ea78f10a2b18f"
+    },
+    {
+      "path": "docs/v5-freeze.json",
+      "sha256": "966b1c2041098eb1de7622ba1c16531e4903c1314c6a147143693e3f983683e6"
+    },
+    {
+      "path": "output/analysis-v5/analysis.json",
+      "sha256": "9d427bdad0580fdfeb14b8287094c4f39baec0abdf99761111e17e6b97b7aab4"
+    },
+    {
+      "path": "output/independent-v5/independent-check.json",
+      "sha256": "9acc2b8ba59aaf8da32331ce0f69dda60cc03d10bc978b2d93733bf9fca739c4"
+    },
+    {
+      "path": "docs/v5-closeout-record.json",
+      "sha256": "073027c11393a702da934977e9389f09cf82414497e5c37db464c02c4574a619"
+    },
+    {
+      "path": "runs/phase5-budget.json",
+      "sha256": "8d305d00dd99e2b58cdbacf09b70d82c5abf9c41fcea8c647cdaa3507f3e9218"
+    },
+    {
+      "path": "evidence/v5-final-review/scientific-review.md",
+      "sha256": "3461311d2f2e5d73d194edb2dd4413ef8997357332263c6bc69eedf665efefaf"
+    },
+    {
+      "path": "evidence/v5-final-review/scientific-review.json",
+      "sha256": "4d655d452807e44186de078c3733d9d281fd38077928af0f8e1e811203343269"
+    },
+    {
+      "path": "evidence/v5-content-review/content-review-seal.json",
+      "sha256": "78883b0707462bc59a46254140f4fdb151b0622776e02afffd797995789f95f1"
+    },
+    {
+      "path": "evidence/v5-content-review/note-review-summary.json",
+      "sha256": "c947b92e5ec23f5711a22867cf737739dd4fe56c4122214a4783d70eeac383d6"
+    },
+    {
+      "path": "evidence/v5-content-review/note-review-summary.md",
+      "sha256": "246b8000e7766478b25db460ab7530a4f78d4bb040c210f523ef71e4ae0a15ae"
+    },
+    {
+      "path": "evidence/v5-content-review/note-annotations.json",
+      "sha256": "3b8f54b256698efdc27c71abaf5d3b810e9a43367abe19a1a7124d21daa971cb"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "1. Introduction and contribution"
+    },
+    {
+      "type": "p",
+      "text": "Can unedited, role-specific handoffs transmit instructed harmful allocations to neutral replacements? We compare absent, one-sided, same-source, crossed-source and verification-reminder delivery, with legitimate-allocation controls for useful coordination. The contribution is a small controlled measurement of this channel, not the discovery of inherited misalignment."
+    },
+    {
+      "type": "p",
+      "text": "Colosseum distinguishes collusive plans from enacted coalition-favoring behavior [1]; our reduced allocation fixture adapts its setting [4]. Self-Propagating Misalignment studies misaligned goals passed to neutral successors and memory defenses [2]. Salami Attack/MemCollusion examines jointly effective memory fragments [3]. Here separate successors each receive their own predecessor’s note, with public task facts fixed. We score coalition benefit, outsider loss and team utility. Same-source notes need not be compatible; instructed originals establish neither spontaneous collusion nor persistent private intent."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "2. Study design and protocol amendments"
+    },
+    {
+      "type": "p",
+      "text": "Earlier competence and donor-note failures shaped model selection and design. Primary analysis therefore includes sender errors within the technically usable handoff channel. Those pilots produced no successor observations; Appendix B retains their history."
+    },
+    {
+      "type": "p",
+      "text": "V4 models, cases, prompts, analysis plan and execution source were frozen locally before successor requests on 23 October 2026, following earlier competence and donor observations. This was not public preregistration. All technically valid notes enter primary analysis; false claims, ambiguous roles and refusals do not filter execution."
+    },
+    {
+      "type": "p",
+      "text": "Strict V4 rejected Markdown-wrapped JSON, including a correct competence answer. The disclosed post-start continuation V4F admitted exactly one complete outer JSON fence with unchanged inner schema and gates. It reused saved responses without resampling and collected only undispatched planned calls. Original analysis remains separate; this amended descriptive analysis is not an independent replication. Appendix B records chronology and accidental partial-outcome visibility."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "3. Methods"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Transparent allocation and original-agent commitment"
+    },
+    {
+      "type": "p",
+      "text": "A and B independently choose one of four tasks, without seeing each other’s choice. Scripted C and D then minimize their combined cost on two distinct unclaimed tasks, with a fixed tie-break. Each assignment earns 100 minus its cost; an extra duplicate claimant incurs a 200-point penalty shared by claimants. Neutral successors prioritize distinct completion, then minimize total cost across all four agents. They see the complete cost matrix and all 16 possible A/B outcomes, including the scripted continuation. This substantially reduces planning demands."
+    },
+    {
+      "type": "p",
+      "text": "Eight fixed cases per model, seeds 201–208, vary costs and task labels. A and B have identical cost vectors in each main case. Each objective has two role-swapped plans, p0 and p1: legitimate plans leave the two outsider specialties available and are equally team-optimal; harmful plans take both specialties, benefiting A+B and harming C+D relative to the cooperative reference. Exhaustive enumeration checks these properties. Each case has four original branches: harmful or legitimate objective, each with p0 or p1 supplied by the experimenter. Two original action calls must execute the assigned plan; their scored joint outcome is committed before two note-writing calls. Each writer addresses only its own replacement. The new round resets tasks to unclaimed, leaves costs fixed and treats old rewards as sunk."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Qualification and delivery interventions"
+    },
+    {
+      "type": "p",
+      "text": "Each model passes a seed-902 qualification; each main case repeats two full-allocation probes on an asymmetric unique-optimum fixture and four queue-note probes. Required own task, assignment and cost must be correct. A failed gate stops the case without replacement. Queue probes establish elementary note access, not actual-task convention use. Notes must have valid schema, known task, nonempty text within 2,000 characters and bounded successor prompts. Reported task may differ from original action. Hash-bound AI annotations precede that case’s successors."
+    },
+    {
+      "type": "caption",
+      "text": "Table 1. Fixed delivery routes, repeated in both original-objective modes. A dash means only public task facts; p0/p1 denote original source branches."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Route",
+        "A note",
+        "B note",
+        "Extra instruction"
+      ],
+      "rows": [
+        [
+          "Facts",
+          "—",
+          "—",
+          "None"
+        ],
+        [
+          "Same p0",
+          "p0",
+          "p0",
+          "None"
+        ],
+        [
+          "A only",
+          "p0",
+          "—",
+          "None"
+        ],
+        [
+          "B only",
+          "—",
+          "p0",
+          "None"
+        ],
+        [
+          "Cross 01",
+          "p0",
+          "p1",
+          "None"
+        ],
+        [
+          "Cross 10",
+          "p1",
+          "p0",
+          "None"
+        ],
+        [
+          "Same p1",
+          "p1",
+          "p1",
+          "None"
+        ],
+        [
+          "Verify p0",
+          "p0",
+          "p0",
+          "Check public objective"
+        ]
+      ],
+      "widths": [
+        2100,
+        1350,
+        1350,
+        4560
+      ]
+    },
+    {
+      "type": "p",
+      "text": "The verification reminder asks the recipient to check a note against public rules and all-four-agent cost, retaining compatible recommendations and disregarding conflicts. It supplies no solution and does not establish that a checking algorithm ran. Each successor receives its neutral instruction, public facts and own note only. Facts-only prompts are identical across nominal modes but separately sampled. Within each case, fixed-seed shuffling orders mode, route and repeat. Two draws per mode/route yield 32 planned joint episodes per case, 256 per model and 512 overall. There are eight task clusters per model, not 512 independent samples; repeated draws share notes."
+    },
+    {
+      "type": "p",
+      "text": "Models are Qwen/Qwen3.6-35B-A3B and openai/gpt-oss-120b, routed through DeepInfra via Hugging Face. Both use temperature 0.6, top-p 0.95 and at most 8,192 output tokens; effective reasoning defaults are unspecified. Reported model identifiers are checked but do not authenticate served weights. Between-model differences mix note authorship and recipient response, because each model writes its own notes; no isolated recipient-capability comparison is identified."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Outcomes, contrasts and missingness"
+    },
+    {
+      "type": "p",
+      "text": "Joint harm requires both distinct outsider specialties to be taken with positive coalition gain and outsider loss against the cooperative reference. Continuous outsider loss, team reward/loss, completion and duplicates accompany this binary endpoint. The three primary contrasts are same p0 minus facts, same p1 minus facts and verify p0 minus same p0. Each contrast requires both repeated draws and all compared cells within a case; we average within complete cases and weight those cases equally. Missing outcomes are never zero. We report finite-sample observations and case denominators, without significance tests or population confidence intervals."
+    },
+    {
+      "type": "p",
+      "text": "Actual-task convention use requires at least 12/16 planned legitimate episodes separately for same-p0 and same-p1; missingness cannot help it pass. This is a descriptive manipulation check, not an execution gate. Secondary source-pairing and stricter note-content analyses appear in Appendix F. Source compatibility, mechanical conjunction in joint harm and content-selection bias preclude interpreting them directly as strategic interaction."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "4. Results"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Eligibility and retained failures"
+    },
+    {
+      "type": "p",
+      "text": "Both model qualifications passed all six probes. Strict V4 admitted 15/16 main cases and generated 120 notes. One correct competence response was rejected solely because it appeared inside a JSON fence. Its later admission in V4F added eight notes, annotated before that case’s successors, for 128 total. All other original notes and annotations were inherited unchanged. Strict V4 saved 366 episode records, of which 360 were valid; V4F saved 440, of which 439 were valid. A saved failure record is not a completed episode."
+    },
+    {
+      "type": "caption",
+      "text": "Table 2. Stage flow by population and model. Each row plans eight cases and 256 episodes. Valid and missing/invalid partition that fixed episode denominator; “full” means all 32 episodes in a case completed."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Population",
+        "Model",
+        "Cases passing probes",
+        "Saved",
+        "Valid",
+        "Missing",
+        "Full cases"
+      ],
+      "rows": [
+        [
+          "Strict",
+          "Qwen",
+          "7/8",
+          "133",
+          "127",
+          "129",
+          "1/8"
+        ],
+        [
+          "Strict",
+          "GPT-OSS",
+          "8/8",
+          "233",
+          "233",
+          "23",
+          "6/8"
+        ],
+        [
+          "Amended",
+          "Qwen",
+          "8/8",
+          "207",
+          "206",
+          "50",
+          "5/8"
+        ],
+        [
+          "Amended",
+          "GPT-OSS",
+          "8/8",
+          "233",
+          "233",
+          "23",
+          "6/8"
+        ]
+      ],
+      "widths": [
+        1500,
+        1250,
+        1400,
+        1000,
+        1000,
+        1410,
+        1800
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Strict Qwen had one probe-format stop and six successor-format stops, leaving one fully completed case. Amended Qwen has five complete cases, two unresolved requests and one retained format stop. GPT-OSS has six complete cases and two unresolved requests in both analyses. These four unresolved requests have no saved response and were never retried; their earlier valid episode prefixes remain usable."
+    },
+    {
+      "type": "p",
+      "text": "The amended analysis incorporates original calls and later, previously undispatched calls; it is not pooled with the original analysis. GPT-OSS received no new calls. Later collection introduces temporal or provider-drift uncertainty despite unchanged generation settings. Appendix B gives the complete reuse and recovery accounting."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Harmful transfer and legitimate utility"
+    },
+    {
+      "type": "caption",
+      "text": "Table 3. All primary complete-case contrasts. ΔH is harmful-mode joint harm probability; ΔO is harmful-mode outsider reward loss; ΔL is legitimate-mode team reward loss. H/L case counts have separate denominators of eight. Negative ΔL is improved legitimate team reward. Values are differences, not arm-level rates."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Population / model",
+        "Contrast",
+        "H cases",
+        "ΔH",
+        "ΔO",
+        "L cases",
+        "ΔL"
+      ],
+      "rows": [
+        [
+          "Strict Qwen",
+          "p0 − facts",
+          "1/8",
+          "+0.50",
+          "+21.5",
+          "2/8",
+          "-98.0"
+        ],
+        [
+          "Strict Qwen",
+          "p1 − facts",
+          "2/8",
+          "+0.50",
+          "+27.2",
+          "2/8",
+          "-98.0"
+        ],
+        [
+          "Strict Qwen",
+          "verify − p0",
+          "2/8",
+          "-0.25",
+          "-15.2",
+          "2/8",
+          "0.0"
+        ],
+        [
+          "Strict GPT",
+          "p0 − facts",
+          "7/8",
+          "+0.43",
+          "+29.8",
+          "7/8",
+          "-69.8"
+        ],
+        [
+          "Strict GPT",
+          "p1 − facts",
+          "6/8",
+          "+0.58",
+          "+31.2",
+          "7/8",
+          "-29.0"
+        ],
+        [
+          "Strict GPT",
+          "verify − p0",
+          "6/8",
+          "-0.42",
+          "-28.9",
+          "7/8",
+          "-1.2"
+        ],
+        [
+          "Amended Qwen",
+          "p0 − facts",
+          "5/8",
+          "+0.50",
+          "+25.0",
+          "5/8",
+          "-59.2"
+        ],
+        [
+          "Amended Qwen",
+          "p1 − facts",
+          "6/8",
+          "+0.33",
+          "+19.7",
+          "5/8",
+          "-59.2"
+        ],
+        [
+          "Amended Qwen",
+          "verify − p0",
+          "5/8",
+          "-0.50",
+          "-23.2",
+          "5/8",
+          "0.0"
+        ],
+        [
+          "Amended GPT",
+          "p0 − facts",
+          "7/8",
+          "+0.43",
+          "+29.8",
+          "7/8",
+          "-69.8"
+        ],
+        [
+          "Amended GPT",
+          "p1 − facts",
+          "6/8",
+          "+0.58",
+          "+31.2",
+          "7/8",
+          "-29.0"
+        ],
+        [
+          "Amended GPT",
+          "verify − p0",
+          "6/8",
+          "-0.42",
+          "-28.9",
+          "7/8",
+          "-1.2"
+        ]
+      ],
+      "widths": [
+        1800,
+        1750,
+        1050,
+        1050,
+        1100,
+        1050,
+        1560
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Both models in strict data have observed within-case transfer: a valid p0 delivery is harmful when its paired facts-only draw is not. Only GPT-OSS meets the fixed repeated descriptive pattern rule in strict data (positive p0 contrast in five of seven complete cases); Qwen’s strict p0 estimate rests on one case. In amended data, Qwen’s p0 contrast is +0.50 over five complete cases, positive in four; GPT-OSS remains +0.43 over seven, positive in five. The remaining complete-case contrasts are zero. The p1 contrast is also positive in both models (Table 3). These are conditional delivery effects of produced notes in this task, not population estimates or independent replications."
+    },
+    {
+      "type": "p",
+      "text": "For amended Qwen, observed harmful same-p0 outcomes are 7/13 valid and same-p1 5/13; both arms planned 16. GPT-OSS has 6/14 and 9/14 respectively. Facts-only has zero joint harm (Qwen 0/14, GPT-OSS 0/16 in harmful mode), yet often duplicates: 9/14 and 10/16. Consequently, harmful notes can increase team reward relative to an uncoordinated baseline while shifting reward away from outsiders. The primary harmful p0 contrast increases team reward by 82.6 for Qwen and 90.6 for GPT-OSS, alongside outsider losses of 25.0 and 29.8. “Harm” here is a distributional endpoint, not equivalent to lower total team reward."
+    },
+    {
+      "type": "p",
+      "text": "Amended Qwen follows both legitimate conventions in 14/16 planned episodes each (14 valid each), satisfying the actual-task criterion. Strict Qwen reaches 8/16 each. GPT-OSS reaches only 9/16 p0 and 4/16 p1 (15 and 14 valid) in both populations. Its notes often give incorrect or ambiguous recipient instructions, so this is a channel limitation rather than a clean recipient-competence test. Neither model qualifies for a negative claim about harmful handoffs."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Verification and coordination"
+    },
+    {
+      "type": "p",
+      "text": "On cases complete for both harmful and legitimate verification comparisons, the reminder lowers amended joint harm by 0.50 for Qwen (five cases) and 0.42 for GPT-OSS (six). Legitimate team reward changes by 0.0 and +1.4 respectively, with no loss of distinct completion. This meets the protocol’s narrow “verification useful in sample” label. Relative to same-source harmful p0 notes, however, team reward drops by 84.2 and 78.4 and distinct completion by 0.5 in each model: duplicate claims replace some coordinated harmful choices. Strict Qwen supports that label on only one common case; strict GPT-OSS is unchanged."
+    },
+    {
+      "type": "p",
+      "text": "In the amended population, an additional post hoc comparison during the 24 October 2026 review finds identical duplicate frequencies under verification and facts alone on these common cases: 5/10 for Qwen and 6/12 for GPT-OSS, versus zero under same-source p0 notes. Because A and B share costs and two equally optimal safe joint plans, the reminder may remove a shared convention without establishing a common replacement. This pattern is consistent with re-emergent baseline coordination failure. Equal observed frequencies do not establish identical policies or an unavoidable safety–utility trade-off."
+    },
+    {
+      "type": "p",
+      "text": "One-note and crossed-source arms have no observed joint-harm episodes, yet retain partial outsider harm and can disrupt legitimate coordination. Source-pairing and semantic-note subset results are reported in Appendix F; neither identifies strategic reasoning or the causal role of false claims."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Sensitivity to missing planned outcomes"
+    },
+    {
+      "type": "p",
+      "text": "Logical completion envelopes over all planned slots retain missingness sensitivity. The strict Qwen p0 interval includes zero; the amended Qwen and both GPT-OSS intervals do not. These are arithmetic ranges, not confidence intervals or identified effects for nonexistent notes. Exact ranges and qualifications remain in Appendix F."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "5. Follow-up control with a unique safe optimum"
+    },
+    {
+      "type": "p",
+      "text": "Motivated by the 24 October review, a separate control was locally frozen before new calls. Six fresh seeds (301–306) per model pair symmetric and unique-optimum tasks. Two original objectives, three routes (facts, matched, verified) and two nested draws yield 288 planned episodes. Task clusters, not individual draws, form comparison units."
+    },
+    {
+      "type": "p",
+      "text": "Adding one unit to each role’s other safe task raises the reversed safe plan’s cost by two. Optimal total cost and assigned safe/harmful-plan outcomes are preserved; the lexicographic reference may swap A/B roles. Instructions, reminder, settings and outcome-table visibility/construction are unchanged, but numeric table entries are recomputed. Fresh notes are generated per structure/objective; matched and verified share them. Four comprehension probes are diagnostic, not semantic exclusion gates. Technical failures or wrong original actions still stop a case."
+    },
+    {
+      "type": "p",
+      "text": "The primary harmful-mode duplicate interaction is (verified − matched) under uniqueness minus that under symmetry. All primary cells use common complete six-arm cases per model/mode, averaging two draws then weighting cases equally. Missing outputs are not safe. Changed notes are part of this structural intervention, not held fixed."
+    },
+    {
+      "type": "p",
+      "text": "The control yields 240/288 episodes: Qwen 96/144 over cases 301, 303, 304 and 306; GPT-OSS 144/144 over all six. Qwen-302 stopped on probe format and 305 on an unresolved request. Qwen-301 passed only 3/4 semantic diagnostics and remains included as specified. No case was replaced. All 80 notes enter analysis. A post-closure AI review classified both notes as clearly conveying the assigned future allocation in 26/40 pairs; the channel does not always supply faithful plans."
+    },
+    {
+      "type": "caption",
+      "text": "Table 4. Harmful-mode follow-up on common complete cases: Qwen n=4/6 (301, 303, 304, 306); GPT-OSS n=6/6 (301–306), two draws each. Binary columns are episode counts; losses are equal-case means relative to the cooperative optimum. GPT denotes GPT-OSS."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Model",
+        "Structure",
+        "Route",
+        "Duplicate",
+        "Safe optimum",
+        "Joint harm",
+        "Outsider loss",
+        "Team loss"
+      ],
+      "rows": [
+        [
+          "Qwen",
+          "Symmetric",
+          "Facts",
+          "5/8",
+          "3/8",
+          "0/8",
+          "0",
+          "124"
+        ],
+        [
+          "Qwen",
+          "Symmetric",
+          "Matched",
+          "0/8",
+          "0/8",
+          "3/8",
+          "29.375",
+          "20"
+        ],
+        [
+          "Qwen",
+          "Symmetric",
+          "Verified",
+          "5/8",
+          "3/8",
+          "0/8",
+          "0",
+          "123.375"
+        ],
+        [
+          "Qwen",
+          "Unique",
+          "Facts",
+          "0/8",
+          "7/8",
+          "0/8",
+          "3.5",
+          "2.5"
+        ],
+        [
+          "Qwen",
+          "Unique",
+          "Matched",
+          "0/8",
+          "0/8",
+          "5/8",
+          "34.125",
+          "24.125"
+        ],
+        [
+          "Qwen",
+          "Unique",
+          "Verified",
+          "0/8",
+          "4/8",
+          "0/8",
+          "12",
+          "9.75"
+        ],
+        [
+          "GPT",
+          "Symmetric",
+          "Facts",
+          "11/12",
+          "1/12",
+          "0/12",
+          "0",
+          "182.25"
+        ],
+        [
+          "GPT",
+          "Symmetric",
+          "Matched",
+          "1/12",
+          "0/12",
+          "5/12",
+          "27.917",
+          "35.083"
+        ],
+        [
+          "GPT",
+          "Symmetric",
+          "Verified",
+          "10/12",
+          "1/12",
+          "0/12",
+          "2",
+          "166.917"
+        ],
+        [
+          "GPT",
+          "Unique",
+          "Facts",
+          "0/12",
+          "12/12",
+          "0/12",
+          "0",
+          "0"
+        ],
+        [
+          "GPT",
+          "Unique",
+          "Matched",
+          "0/12",
+          "3/12",
+          "6/12",
+          "26.083",
+          "18.667"
+        ],
+        [
+          "GPT",
+          "Unique",
+          "Verified",
+          "0/12",
+          "12/12",
+          "0/12",
+          "0",
+          "0"
+        ]
+      ],
+      "widths": [
+        850,
+        1250,
+        1050,
+        1150,
+        1300,
+        1050,
+        1350,
+        1360
+      ]
+    },
+    {
+      "type": "p",
+      "text": "The primary harmful-mode duplicate interaction is −0.625 for Qwen (4/6 cases) and −0.750 for GPT-OSS (6/6). Logical completion ranges over all six planned cases are [−1.083, +0.250] and [−0.750, −0.750], not confidence intervals. The verified unique-minus-symmetric duplicate contrast is −0.625 and −0.833; its Qwen completion range remains negative [−0.750, −0.083]. Unique verified Qwen still harms outsiders in 4/8 episodes: mean loss 12 versus 3.5 for facts only. Zero joint harm therefore does not establish safety. In legitimate mode, unique matched and verified plans are all optimal (Qwen 8/8; GPT-OSS 12/12). Under symmetry, verification lowers reward versus matched notes by 24.75 and 33.5 respectively; the unique-task difference is zero. Appendix G gives the separate facts-only structure contrasts and all control arms."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "6. Discussion and conclusion"
+    },
+    {
+      "type": "p",
+      "text": "Handoffs transmit instructed coalition-favoring allocations in this task, while legitimate notes can supply useful conventions. The follow-up supports task-structure dependence of the observed coordination cost: uniqueness removes verified duplicates on complete cases, but does not by itself remove harmful transfer. Matched unique notes still yield joint harm in 5/8 Qwen and 6/12 GPT-OSS episodes. Qwen’s residual outsider harm and incomplete coverage preclude a general protection claim. Because both costs and newly generated notes change, the contrast does not isolate a fixed-message effect or prove why the models behave differently. The explicit shared lexicographic instruction proposed during review remains untested. The original convention-following criterion remains a manipulation check, separate from task utility."
+    },
+    {
+      "type": "page_break"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "References"
+    },
+    {
+      "type": "p",
+      "text": "[1] Mason Nakamura, Abhinav Kumar, Saswat Das, Sahar Abdelnabi, Saaduddin Mahmud, Ferdinando Fioretto, Shlomo Zilberstein and Eugene Bagdasarian. 2026. Colosseum: Auditing Collusion in Cooperative Multi-Agent Systems. arXiv:2602.15198v2. https://arxiv.org/abs/2602.15198v2"
+    },
+    {
+      "type": "p",
+      "text": "[2] Debeshee Das, Jacqueline Tay, Bruce Tsai, David Huang and Javier Rando. 2026. Self-Propagating Misalignment in LLM Agents, and Why Auditing or Disabling Memory Is Not Enough. arXiv:2610.04083v1. https://arxiv.org/html/2610.04083v1"
+    },
+    {
+      "type": "p",
+      "text": "[3] Zheng Lin, Yuzhe Huang, Zhenxing Niu, Xianmin Ye and Haichang Gao. 2026. Salami Attack: Stealthy Collusive Memory Poisoning against OpenClaw. arXiv:2608.01637v1. https://arxiv.org/html/2608.01637v1"
+    },
+    {
+      "type": "p",
+      "text": "[4] Poseidon Research. Collusion Hackathon starter repository. https://github.com/poseidon-research/collusion_hackathon. The companion package retains the upstream revision and local adaptation."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Appendix A. Limitations, dual use and ethics"
+    },
+    {
+      "type": "p",
+      "text": "Inference is limited by donor-driven redesign, post-start format amendment, potentially informative attrition, eight task clusters, two nested draws, a full outcome table, scripted outsiders and independent one-shot recipients. Models write different notes; provider weights and reasoning defaults are unverified; semantic reviews are AI-assisted. The audit estimates conditional delivery of the notes actually produced, not unconditional inheritance of a faithfully represented goal. Broader tests should separate sender and recipient models, use blinded human annotation, controlled note edits and additional tasks. The local companion package preserves protocols, raw calls, annotations, analyses and source hashes; no public archive or submission is claimed. The follow-up adds six planned clusters per model (four complete for Qwen), not an independent task-family replication. Diagnostic mistakes remain included. Changing cost geometry changes the task and regenerated notes jointly; model-specific notes prevent a clean capability ranking. No universal claim follows from a unique optimum in these fixtures."
+    },
+    {
+      "type": "p",
+      "text": "All objectives concern synthetic task allocation among simulated agents. No person or organization loses resources. The experiment does not manipulate an external system, contact targets or deploy agents. Intended safety use is testing unwanted convention transfer and the utility cost of handoff interventions. The same evidence could help design malicious memory payloads; examples therefore remain scoped to transparent toy-task recommendations, without real targets, stolen context, evasion optimization or operational exploitation. Negative and missing results must accompany dissemination."
+    },
+    {
+      "type": "p",
+      "text": "Joint harm is task-specific: taking both outsider specialties shifts reward from C/D to A/B relative to the cooperative optimum. Partial outsider harm exists when this binary endpoint is zero. Total team reward can nevertheless improve against a collision-prone facts-only baseline; none of these metrics substitutes for the others. Crossed sources also damage legitimate conventions. Supplying an original coalition objective does not demonstrate spontaneous collusion, negotiation or continuing private intent. Matching reported model IDs is a provenance check, not independently verified served weights."
+    },
+    {
+      "type": "p",
+      "text": "Sender errors and annotation uncertainty limit interpretation. Recipient-assignment flags cover incorrect, missing or ambiguous future instructions, not necessarily role swaps. Derived optimality claims differ from primitive facts; unknown claims fail the strict secondary subset. Its selection on content can bias comparisons. Actual-task convention checks combine sender and receiver behavior, and GPT-OSS fails them despite successful simple probes. Neither model’s results support general robustness, a capability ranking or verified safety of a deployment."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Appendix B. Chronology, preservation and reproducibility"
+    },
+    {
+      "type": "p",
+      "text": "Three initial attempts yielded 18 probe responses and no original-agent or successor episodes. Two Qwen-235B Instruct attempts failed the then-current task-choice gate for the agent’s own action. A third requested Qwen-235B Thinking but every response reported a different model identifier, preventing attribution to the requested model; actual served weights remain unknown. V3 then produced 28 calls and no successors: DeepSeek failed a competence check, while a Qwen pilot’s notes failed fidelity review. After a strict review rejected false optimality claims, Amendment 01 allowed separately annotated derived false claims before successors; a later note still directed B to A’s task. These failed protocols and observations are preserved."
+    },
+    {
+      "type": "p",
+      "text": "The V4 analysis plan and execution source were frozen at 17:52:39 UTC on 23 October 2026. The post-start format amendment was recorded at 18:30:29 UTC. Its executable freeze followed strict closeout; full timing is given below. Strict Qwen-206 supplied the correct probe assignment and cost inside a JSON fence. Original response identifiers and format failures were retained without repair in the strict analysis."
+    },
+    {
+      "type": "p",
+      "text": "No reasoning_effort or extra_body was supplied. Exact returned model IDs, complete finish and bounded reported usage were required after raw-response storage. These provenance and resource checks do not identify the actual served weights or the provider’s internal reasoning settings."
+    },
+    {
+      "type": "p",
+      "text": "Strict Qwen had one probe-format stop and six successor-format stops; only one case completed. The amended Qwen record has five complete cases, two unresolved provider calls (201/202) and one retained nonpermitted-format stop (205). GPT-OSS has six complete cases and two unresolved tails (202/204) in both analyses. All four unresolved requests retain HTTP 504 evidence without a saved model response and were never retried. Their prior valid prefixes remain usable. No new GPT-OSS call was made in V4F."
+    },
+    {
+      "type": "p",
+      "text": "Across models, V4F reuses 1,079 original requests and adds 170 previously undispatched requests (168 responses). Among inherited responses, six whole JSON fences are admitted and one different format remains invalid; three newly collected responses use the permitted fence. Of 439 valid amended episodes, 362 use only inherited successor calls, 75 only new calls and two mix inherited/new calls. This includes 360 originally valid episodes, two wholly cached format recoveries and 77 episodes requiring new calls. Later collection introduces temporal/provider-drift uncertainty despite unchanged generation settings."
+    },
+    {
+      "type": "p",
+      "text": "The original V4 source hash is c2eb3261a675d530d1c33f61a462f7f04424503dd6721da2023538e79aed09f7. The continuation source hash is 0925aaf228c3fc283bdb05ca3561b5c9e90d4be519ad8e8aed391cf51e4394d9. The all-18 preparation barrier verified all original inventories, archived allocations, retired old ledger and byte-exact ancestry before new requests. Strict closeout was recorded at 19:26:28.783435 UTC, executable continuation freeze at 19:26:35.780551 UTC, and final continuation closeout at 20:24:53.122794 UTC on 23 October 2026. Eight old-note reviews per existing case retain their original timing; new Qwen-206 notes were reviewed at 19:42:47.507149 UTC with zero successor requests or episodes in that case."
+    },
+    {
+      "type": "p",
+      "text": "The report’s balanced strict/amended tables and appendix arm plots were chosen at 18:31:25 UTC before aggregate-effect inspection. This was not complete outcome blinding. During technical diagnosis of Qwen-205, a partially filtered summary accidentally exposed a partial case contrast and individual outcomes after both relevant freezes. The exact event time is unknown, bounded to 19:32:24–19:34:04 UTC; docs/v4f-outcome-visibility-note.json was recorded at 19:34:19.986017 UTC. No study rule or planned outcome display was changed in response, and the case remained stopped. No model-level aggregate analysis had been opened at that incident."
+    },
+    {
+      "type": "p",
+      "text": "The immutable invoked_at field is the first local invocation before dispatch guards. Legacy dispatch.json is overwritten on successful response saving, so its final timestamp is not an exact preserved network-send time. No exact provider-receipt time is measured. Separate source ancestry and strict closeout before the new freeze distinguish original and continuation calls. Raw responses are saved before identity, finish, usage or content validation; uncertain dispatches are never retried. The four unresolved requests retain reservations without inventing response usage."
+    },
+    {
+      "type": "p",
+      "text": "Before V4, 112 offline tests passed. Before V4F, 138 tests passed in 16 isolated processes: 112 baseline, 13 continuation-runner, eight continuation-analysis and five completion-bound tests. The continuation adapts parsers in its own process, so strict and amended CLIs/analyses run separately. Seven later synthetic packaging tests cover offline copying/reanalysis, distinct from frozen runtime validation. Independent raw-data checks for both final analyses report zero discrepancies. These checks are software/evidence validation, not independent human confirmation or additional model observations."
+    },
+    {
+      "type": "p",
+      "text": "Reproduce numeric analyses from the package using the retained command instructions and standard-library checkers. The report source contains build_report.py, the official DOCX template, the finalized report-input.json and Python dependency versions; all evidence and image references are relative or accept an explicit project root. PDF rendering separately requires LibreOffice, Poppler and the template’s Old Standard TT font. The saved DOCX remains editable. Each analysis, figure and evidence input is hash-bound in the report input/audit and package manifest. Exact stochastic generation or an unchanged future endpoint is not promised."
+    },
+    {
+      "type": "p",
+      "text": "The 24 October 2026 editorial review moved exploratory and technical history to this appendix and clarified the own-action pilot checks and the distinction between a frozen analysis plan and later analysis implementation. It added a post hoc baseline comparison without changing any raw response, primary analysis, table value or figure. The comparison uses amended Qwen cases 203, 204, 206, 207 and 208, and GPT-OSS cases 201, 203, 205, 206, 207 and 208; both harmful-mode draws for facts, same-source p0 and verification are present in every selected case. It uses the previously defined cases complete for verification in both modes. Mean harmful-mode team reward for facts versus verification is 283.2 versus 281.6 for Qwen and 283.67 versus 282.67 for GPT-OSS. Strict GPT-OSS shares this pattern, but strict Qwen has only one common case: facts alone yields one duplicate in two episodes and verification two in two. A reproducible supplementary checker records these calculations and the symmetric main-case costs. The prior report remains preserved; the tie-break control is a proposal only."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Appendix C. Budget and AI assistance"
+    },
+    {
+      "type": "p",
+      "text": "The historical V4 phase ceiling was $8.328 and retained historical ceiling $1.594, totaling $9.922 against the authorized approximately $15. V4F consolidates 1,249 unique requests and 1,245 responses: 1,079/1,077 inherited and 170/168 new. Its $1.879012307 provider usage estimate includes the original strict $1.329675207 once; adding that strict amount again would double-count. Historical estimates add $0.04366364, giving $1.922675947 overall. V4/V4F reservations total $7.282 and retain four unresolved requests without usage. Estimates and reservations are not invoices or settled charges. Each call is bounded by max(raw,NFC) serialized message bytes up to 10,000, an assumed 2,048 framing tokens and 8,192 output tokens; remote tokenizer/framing assumptions are not independently certified."
+    },
+    {
+      "type": "p",
+      "text": "The follow-up adds 683 requests and 682 responses, with a provider usage estimate of $0.968909138. Adding the historical $1.922675947 once gives $2.891585085 for known returned responses. Its $4.896 allocation plus retained prior ceilings totals $14.818 under the authorized $15. One additional unresolved request has no reported usage, bringing historical plus follow-up unresolved requests to five. These estimates do not establish invoiced cost."
+    },
+    {
+      "type": "p",
+      "text": "OpenAI Codex assisted with study design, literature checking, code, prompts, tests, evidence review, semantic annotation, analyses, figures and writing. Separate Codex agents performed code and scientific reviews, including disagreements about V3 eligibility. These are AI-assisted checks, not independent human verification. Evaluated models generated the retained experimental responses. Frank Peterlein initiated the project and authorized its budget; no claim is made that he independently verified every computation or wrote the prose without AI assistance."
+    },
+    {
+      "type": "page_break"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Appendix D. Original strict population: all delivery routes"
+    },
+    {
+      "type": "figure",
+      "path": "output/figures-v4-strict/v4-strict-intervention-outcomes.png",
+      "sha256": "c35cd629a060c09ef48d1211386b98f2a5215587bbf4bc859028606356ba8c9f",
+      "caption": "Figure D1. Strict V4. Each arm averages complete cases (n), two draws each. These summaries do not substitute for paired case contrasts.",
+      "alt": "Strict V4 outcomes for both models across all delivery routes, with unequal valid denominators and missingness.",
+      "width_inches": 6.5
+    },
+    {
+      "type": "page_break"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Appendix E. Post-start amended population: all delivery routes"
+    },
+    {
+      "type": "figure",
+      "path": "output/figures-v4f-amended/v4f-amended-intervention-outcomes.png",
+      "sha256": "3fc654b57c84417813da727357078b78aca093fb8bb117a380391d6c64f7742f",
+      "caption": "Figure E1. Amended V4F shares original observations with V4; GPT-OSS is unchanged. Complete-case arm means (n) are not independent replications or paired contrasts.",
+      "alt": "Amended V4F outcomes for both models across all routes, including harmful joint outcomes, outsider loss and legitimate team-reward loss.",
+      "width_inches": 6.5
+    },
+    {
+      "type": "page_break"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Appendix F. Original secondary results and completion sensitivity"
+    },
+    {
+      "type": "p",
+      "text": "Actual-task convention use requires at least 12 of 16 planned legitimate same-p0 episodes and separately 12 of 16 same-p1 episodes to follow their supplied plans. Missingness cannot help this criterion pass; it is descriptive, not an execution gate. Secondary source pairing uses (Y00 + Y11 − Y01 − Y10)/2, preserving marginal source exposure. It is not automatically semantic compatibility; note-presence interactions on a conjunctive endpoint can also be mechanical, not strategic interaction. A strict secondary note subset requires accurate primitive facts, clearly faithful role instructions, no refusal/labels and all derived claims true; uncertain claims fail it. Content selection and AI judgment limit that subset."
+    },
+    {
+      "type": "p",
+      "text": "One-note and crossed-source arms have no observed joint-harm episodes in either population, but retain continuous outsider loss. Across available amended harmful episodes, one-note outsider loss averages 14.2–16.4 (Qwen A/B: 14/13 valid; GPT: 14/14); crossed-source loss averages 14.4–19.3 (Qwen 14/14; GPT 16/15). Each arm planned 16. Appendix plots instead average only cases with both draws complete. Crossed legitimate Qwen notes produce duplicates in every valid episode (13/13 and 12/12), damaging useful coordination. The balanced same-versus-crossed contrast raises harmful joint harm by 0.40 for Qwen over five complete cases and 0.50 for GPT-OSS over six; strict counterparts are 0.50 over one and six cases. This does not establish strategic complementarity or a universal benefit from disrupting source pairing."
+    },
+    {
+      "type": "p",
+      "text": "All 64 amended Qwen notes were annotated as having accurate primitive facts and clearly faithful recipient assignments, but 18/32 harmful notes contain false derived claims (often global cost optimality); one legitimate note also has a false claim. Its strict harmful-note subset yields no complete primary comparison. GPT-OSS has one harmful and nine legitimate notes with primitive errors, and two harmful and 20 legitimate notes with incorrect, absent or ambiguous recipient assignments. Its content-selected harmful subset retains p0 +0.50 over three cases, p1 +0.67 over three and verification −0.50 over two. These secondary observations cannot identify the causal role of individual false claims."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Sensitivity to missing planned outcomes"
+    },
+    {
+      "type": "p",
+      "text": "Post-start logical completion bounds retain all eight planned cases and two draws, using [0,1] for joint harm and each task’s 16 public outcomes for continuous ranges. For strict Qwen, the p0 harm contrast spans −0.125 to +0.688; for amended Qwen it spans +0.313 to +0.625. GPT-OSS spans +0.375 to +0.500 in both. Strict and amended verification bounds are −0.688 to +0.500 and −0.625 to −0.063 for Qwen, and −0.500 to −0.188 for GPT-OSS. These are arithmetic completion envelopes, not confidence intervals, assumptions of random missingness or identified handoff-effect bounds for nonexistent strict Qwen-206 notes. Complete-case findings remain separately conditioned on availability."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Appendix G. Follow-up control evidence and results"
+    },
+    {
+      "type": "p",
+      "text": "V5 was motivated by the post hoc symmetry diagnostic, then locally frozen at 10:38:02.550157 UTC on 24 October 2026 before any V5 requests. It closed at 2026-10-24T11:37:52.501506+00:00. Six seeds (301–306) per model yield twelve fixed cases and at most 816 calls: four diagnostic probes, sixteen original-agent action/note calls and forty-eight successor calls per case. Original action commitment precedes note writing. Assigned original orientation alternates with seed parity. Both structures and objectives have fresh originals; semantic note quality never filters the primary population."
+    },
+    {
+      "type": "p",
+      "text": "The final record contains 683 requests and 682 saved responses. Four Qwen cases and all six GPT-OSS cases complete all 24 planned episodes each. Qwen-302 supplies a correct optimal allocation with disallowed introductory prose: this is a format-policy exclusion, not a reasoning failure. Qwen-305 has two requests, one response and an unresolved second probe; neither case produces notes or successor episodes. Of 48 planned probes, 43 were dispatched and 42 responses saved. Forty of 41 schema-valid responses are semantically correct (Qwen 16/17; GPT-OSS 24/24). Qwen-301’s symmetric B probe gives a technically valid but nonoptimal duplicated assignment; its 3/4 result does not exclude the case, as specified."
+    },
+    {
+      "type": "p",
+      "text": "The structural perturbation changes only the two nonpreferred safe A/B cells by +1. It preserves optimal total cost, the assigned safe/harmful-plan outcomes and outsider aggregate reference payoff, but the lexicographic full reference allocation and individual A/B reference payoffs may change. All sixteen public outcomes are recomputed for each structure. Independent recipients receive the same instruction construction and visibility, not identical numeric outcome tables across structures. The paired comparison includes both these task changes and newly generated notes."
+    },
+    {
+      "type": "p",
+      "text": "After closure, one agent-assisted reviewer read all 80 notes (32 Qwen, 48 GPT-OSS), retaining 16 missing slots among 96 planned. All JSON task fields match committed original actions. Under the disclosed coding rules, 60 notes clearly convey the assigned future A/B allocation, 19 do not and one is unclear; both notes do so in 26/40 pairs. Clear conveyance counts are 31/32 for Qwen and 29/48 for GPT-OSS. These are descriptive annotations, not independent observations or evidence of recipient compliance. No semantic code changes eligibility or any effect estimate."
+    },
+    {
+      "type": "p",
+      "text": "The review identifies one explicit wrong own-recipient instruction, 18 absent concrete future mappings and one unclear provisional mapping. For example, an A note accurately reports its own T1 action but tells its A successor to take B’s T2. Six GPT-OSS notes misstate the all-agent choice mechanism; six Qwen notes make false cost-minimum claims. Nine derived-claim assessments remain undecided. Categories can overlap. Excerpts, rationales, raw-note hashes, original context and the codebook are retained in evidence/v5-content-review."
+    },
+    {
+      "type": "p",
+      "text": "Annotation finished at 11:45:19.145220 UTC and was sealed at 11:46:43.856927 UTC on 24 October, after raw closure. The reviewer attests to not opening successor responses, episodes, run summaries or aggregate results, but knew model, structure, objective, role and original plan. This is not an automated proof of blinding, metadata-blind coding or independent inter-rater validation. The note review describes sender heterogeneity; it does not establish a behavioral correlation or a successor mechanism."
+    },
+    {
+      "type": "caption",
+      "text": "Table G1. Legitimate-mode arms, with the same complete case sets as Table 4. Binary columns are episode counts; continuous losses are means."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Model",
+        "Structure",
+        "Route",
+        "Duplicate",
+        "Safe optimum",
+        "Joint harm",
+        "Outsider loss",
+        "Team loss"
+      ],
+      "rows": [
+        [
+          "Qwen",
+          "Symmetric",
+          "Facts",
+          "7/8",
+          "1/8",
+          "0/8",
+          "0",
+          "173.25"
+        ],
+        [
+          "Qwen",
+          "Symmetric",
+          "Matched",
+          "0/8",
+          "8/8",
+          "0/8",
+          "0",
+          "0"
+        ],
+        [
+          "Qwen",
+          "Symmetric",
+          "Verified",
+          "1/8",
+          "7/8",
+          "0/8",
+          "0",
+          "24.75"
+        ],
+        [
+          "Qwen",
+          "Unique",
+          "Facts",
+          "1/8",
+          "6/8",
+          "0/8",
+          "1.875",
+          "26.25"
+        ],
+        [
+          "Qwen",
+          "Unique",
+          "Matched",
+          "0/8",
+          "8/8",
+          "0/8",
+          "0",
+          "0"
+        ],
+        [
+          "Qwen",
+          "Unique",
+          "Verified",
+          "0/8",
+          "8/8",
+          "0/8",
+          "0",
+          "0"
+        ],
+        [
+          "GPT",
+          "Symmetric",
+          "Facts",
+          "8/12",
+          "4/12",
+          "0/12",
+          "0",
+          "132.667"
+        ],
+        [
+          "GPT",
+          "Symmetric",
+          "Matched",
+          "4/12",
+          "8/12",
+          "0/12",
+          "0",
+          "65.833"
+        ],
+        [
+          "GPT",
+          "Symmetric",
+          "Verified",
+          "6/12",
+          "6/12",
+          "0/12",
+          "0",
+          "99.333"
+        ],
+        [
+          "GPT",
+          "Unique",
+          "Facts",
+          "0/12",
+          "12/12",
+          "0/12",
+          "0",
+          "0"
+        ],
+        [
+          "GPT",
+          "Unique",
+          "Matched",
+          "0/12",
+          "12/12",
+          "0/12",
+          "0",
+          "0"
+        ],
+        [
+          "GPT",
+          "Unique",
+          "Verified",
+          "0/12",
+          "12/12",
+          "0/12",
+          "0",
+          "0"
+        ]
+      ],
+      "widths": [
+        850,
+        1250,
+        1050,
+        1150,
+        1300,
+        1050,
+        1350,
+        1360
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Selected structure contrasts and completion sensitivity"
+    },
+    {
+      "type": "p",
+      "text": "Tables G2–G3 show the prespecified primary interaction and key verified/facts structure contrasts, using the same four Qwen or six GPT-OSS paired cases in each objective. All 44 model/objective contrast records and eight metrics are retained in output/analysis-v5/analysis.json. The interaction is (verified − matched)unique − (verified − matched)symmetric. Other rows subtract symmetric from unique for the named route. Each case contributes its two-draw mean. Bounds allow every absent planned slot to take any legal task outcome; they are logical completion envelopes, not sampling intervals or identified effects of nonexistent notes in the two missing Qwen cases. A degenerate interval reflects complete finite coverage, not certainty about future tasks or calls. The GPT-OSS primary interaction is negative in five cases and positive in one; the aggregate is not a claim that every case improves."
+    },
+    {
+      "type": "caption",
+      "text": "Table G2. Harmful structure contrasts. U−S denotes unique minus symmetric; positive team loss is worse."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Model",
+        "Contrast",
+        "n/6",
+        "Δ duplicate",
+        "Completion range",
+        "Δ safe",
+        "Δ harm",
+        "Δ team loss"
+      ],
+      "rows": [
+        [
+          "Qwen",
+          "Interaction",
+          "4/6",
+          "−0.625",
+          "[−1.083, 0.25]",
+          "0.125",
+          "−0.25",
+          "−117.75"
+        ],
+        [
+          "Qwen",
+          "Verified U−S",
+          "4/6",
+          "−0.625",
+          "[−0.75, −0.083]",
+          "0.125",
+          "0",
+          "−113.625"
+        ],
+        [
+          "Qwen",
+          "Facts U−S",
+          "4/6",
+          "−0.625",
+          "[−0.75, −0.083]",
+          "0.5",
+          "0",
+          "−121.5"
+        ],
+        [
+          "GPT",
+          "Interaction",
+          "6/6",
+          "−0.75",
+          "[−0.75, −0.75]",
+          "0.667",
+          "−0.083",
+          "−150.5"
+        ],
+        [
+          "GPT",
+          "Verified U−S",
+          "6/6",
+          "−0.833",
+          "[−0.833, −0.833]",
+          "0.917",
+          "0",
+          "−166.917"
+        ],
+        [
+          "GPT",
+          "Facts U−S",
+          "6/6",
+          "−0.917",
+          "[−0.917, −0.917]",
+          "0.917",
+          "0",
+          "−182.25"
+        ]
+      ],
+      "widths": [
+        850,
+        1600,
+        550,
+        1100,
+        1900,
+        1000,
+        1000,
+        1360
+      ]
+    },
+    {
+      "type": "caption",
+      "text": "Table G3. Legitimate structure contrasts. U−S denotes unique minus symmetric; positive team loss is worse."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Model",
+        "Contrast",
+        "n/6",
+        "Δ duplicate",
+        "Completion range",
+        "Δ safe",
+        "Δ harm",
+        "Δ team loss"
+      ],
+      "rows": [
+        [
+          "Qwen",
+          "Interaction",
+          "4/6",
+          "−0.125",
+          "[−0.75, 0.583]",
+          "0.125",
+          "0",
+          "−24.75"
+        ],
+        [
+          "Qwen",
+          "Verified U−S",
+          "4/6",
+          "−0.125",
+          "[−0.417, 0.25]",
+          "0.125",
+          "0",
+          "−24.75"
+        ],
+        [
+          "Qwen",
+          "Facts U−S",
+          "4/6",
+          "−0.75",
+          "[−0.833, −0.167]",
+          "0.625",
+          "0",
+          "−147"
+        ],
+        [
+          "GPT",
+          "Interaction",
+          "6/6",
+          "−0.167",
+          "[−0.167, −0.167]",
+          "0.167",
+          "0",
+          "−33.5"
+        ],
+        [
+          "GPT",
+          "Verified U−S",
+          "6/6",
+          "−0.5",
+          "[−0.5, −0.5]",
+          "0.5",
+          "0",
+          "−99.333"
+        ],
+        [
+          "GPT",
+          "Facts U−S",
+          "6/6",
+          "−0.667",
+          "[−0.667, −0.667]",
+          "0.667",
+          "0",
+          "−132.667"
+        ]
+      ],
+      "widths": [
+        850,
+        1600,
+        550,
+        1100,
+        1900,
+        1000,
+        1000,
+        1360
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Facts-only improvement is not inferred from verified responses. In harmful mode, uniqueness reduces duplicates by 0.625 for Qwen and 0.917 for GPT-OSS, while safe-optimal frequency rises by 0.500 and 0.917. In legitimate mode, the corresponding changes are −0.750/+0.625 and −0.667/+0.667. The two nominal original modes have identical facts-only prompts within a role and structure; different rates reflect separate stochastic draws, not an original-mode treatment. Under uniqueness, optimal behavior may follow from public facts alone and does not prove note processing. Qwen unique harmful verification has lower safe-optimal frequency than facts alone (4/8 versus 7/8), and greater mean outsider loss (12 versus 3.5). All four nonoptimal verified episodes have positive outsider loss; joint harm remains zero. These metrics distinguish absent coordinated harm from successful safe task completion."
+    },
+    {
+      "type": "p",
+      "text": "The independent standard-library countercheck recomputes all 240 saved joint outcomes with exact arithmetic and agrees with the analysis on group summaries, paired contrasts and finite completion bounds. This validates arithmetic and retained evidence, not the causal interpretation or served weights. Software validation is distinct from the model observations. The finalized analysis and checker outputs, twelve raw run folders, protocol, freeze, closure, source snapshots and budget ledger are included in the companion package. The reviewed V4 package remains preserved byte-for-byte as historical evidence; no new public archive or submission is claimed."
+    }
+  ],
+  "supplementary_inputs": [
+    {
+      "path": "baseline_diagnostic.py",
+      "sha256": "862347f67a02d85b8e2cb84756265cab77402c16389b9ff52df6f4628da3f958"
+    },
+    {
+      "path": "test_baseline_diagnostic.py",
+      "sha256": "e4f324f9282a111a010dd57244c064c47da2f39c4b2b05cc06f5edf58b8914f0"
+    },
+    {
+      "path": "baseline-diagnostic.json",
+      "sha256": "20b69ac9a633254d57fb0d36028a2f65e8fab221fd29fb241baf75408c94f76c"
+    },
+    {
+      "path": "baseline-review.md",
+      "sha256": "c01b135e3d34df502469efd09eeee8d298e577a832a64588e02055adf3e4585c"
+    },
+    {
+      "path": "check_baseline_independent.py",
+      "sha256": "1215ec232a95d5f9d12e18d0ae0a42467bcecceedc2eb305311b04151c56e86b"
+    },
+    {
+      "path": "baseline-crosscheck.json",
+      "sha256": "cd4f12d5fc133b3a1c17595213f0da14173eb81d81a82ef9aefa0b9c223d80dc"
+    }
+  ],
+  "posthoc_review": {
+    "date": "2026-10-24",
+    "classification": "POSTHOC_DIAGNOSTIC_NOT_PRESPECIFIED",
+    "source": "baseline-diagnostic.json",
+    "selection": "Original verification common cases in both modes, requiring both harmful facts-only draws; no outcome-value filtering",
+    "strict_Qwen_exception": "facts 1/2 duplicate episodes; verified 2/2"
+  },
+  "follow_up": {
+    "status": "closed_independently_checked",
+    "frozen_at": "2026-10-24T10:38:02.550157+00:00",
+    "planned_joint_episodes": 288,
+    "planned_case_seeds": [
+      301,
+      302,
+      303,
+      304,
+      305,
+      306
+    ],
+    "maximum_model_calls": 816,
+    "new_outcome_claims": true,
+    "no_pooling_with_v4": true,
+    "closed_at": "2026-10-24T11:37:52.501506+00:00",
+    "analysis_sha256": "9d427bdad0580fdfeb14b8287094c4f39baec0abdf99761111e17e6b97b7aab4",
+    "valid_joint_episodes": 240,
+    "note_review": {
+      "seal_sha256": "78883b0707462bc59a46254140f4fdb151b0622776e02afffd797995789f95f1",
+      "timing": "post-closure, outcome-unseen reviewer attestation",
+      "semantic_filter": false,
+      "notes_reviewed": 80,
+      "planned_slots": 96,
+      "both_notes_convey_assigned_allocation_pairs": 26,
+      "complete_pairs": 40,
+      "independent_human_or_interrater_validation": false
+    }
+  }
+}

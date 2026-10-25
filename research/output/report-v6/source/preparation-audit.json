@@ -1,0 +1,41 @@
+{
+  "created_at": "2026-10-25T13:12:19.056139+00:00",
+  "status": "PREPARATION_ONLY",
+  "input_sha256": "f6552055fb36b49fa075a2a72060cacc4be2a6a2f91a34c2b17bc88b0ede27cf",
+  "builder_sha256": "d3574638e8785b644e3d9777c0707446207927901dbfaa2d130b30e0d55c9934",
+  "plot_script_sha256": "f864697d44cbfeaad34cdbe7ffb7d340056268a23c13e998e06525d3b5ed2b69",
+  "unchanged_historical_numeric_tables": 7,
+  "unchanged_historical_figures": 2,
+  "abstract_words": 187,
+  "draft_pages": 23,
+  "draft_main_pages": 6,
+  "draft_pages_checked": [
+    5,
+    6,
+    7
+  ],
+  "final_page_review_pending": true,
+  "v6_outcomes_opened": false,
+  "figure_qa": "Synthetic extremes only, clearly labeled SOFTWARE LAYOUT TEST; embedded bundled Vera fonts; no model findings.",
+  "final_build_guard_verified": true,
+  "needs": [
+    "sealed V6 analysis and closure",
+    "matching independent checker",
+    "frozen protocol and source bindings",
+    "final cost/attrition accounting",
+    "claim review",
+    "actual scientific figure and all-page final render QA"
+  ],
+  "literature_update": {
+    "date": "2026-10-25",
+    "references": 6,
+    "added_paragraph_words": 86,
+    "record": "literature-retrieval-2026-10-25.json",
+    "sha256": "d1e9b27221372fbc7bd0c31f3c7f950d39830c0bd67e4f96687872eae9fba262",
+    "draft_render_precedes_this_text_delta": true
+  },
+  "title_review": "V6 question foregrounded before outcomes; old project name retained in Introduction",
+  "latest_source_render_pending": false,
+  "latest_draft_render": "draft-layout-02-render",
+  "latest_draft_not_final_visual_review": true
+}

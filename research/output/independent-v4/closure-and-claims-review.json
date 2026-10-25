@@ -1,0 +1,51 @@
+{
+  "reviewed_at": "2026-10-23T20:26:33.196080+00:00",
+  "reviewer": "independent execution review agent",
+  "passed": true,
+  "errors": [],
+  "closure_audits": [
+    {
+      "population": "strict",
+      "inventory_sha256": "bb3a8662ffa10943a6613d58078fbf78274a4f622aba9ef271b9140851861b85",
+      "files_verified": 5127,
+      "run_count": 18,
+      "missing": [],
+      "changed": [],
+      "unexpected_files": [],
+      "absent_inventory_files": []
+    },
+    {
+      "population": "amended",
+      "inventory_sha256": "aa78f6293989cdccd00a9e68a3f7ebd7fb1abc11292ec2144a4a4467b28f18a9",
+      "files_verified": 7407,
+      "run_count": 18,
+      "missing": [],
+      "changed": [],
+      "unexpected_files": [],
+      "absent_inventory_files": []
+    }
+  ],
+  "frozen_artifacts_verified": 65,
+  "strict_closed_at": "2026-10-23T19:26:28.783435+00:00",
+  "amended_closed_at": "2026-10-23T20:24:53.122794+00:00",
+  "strict_analysis_sha256": "b6fcde1f992abe567956a3a075005423f726672d3338c07ad59827026fe1d277",
+  "strict_independent_result_sha256": "16dbe1dd04c3804917b1aa401e3433c0415bd1be92455a46c9a0a60fe325b1f9",
+  "checker_sha256": "27becc8f8cd52bcb5c7bbfdbfde41343382062efbfaa8e78331d74de4a735894",
+  "strict_counts": {
+    "planned_main_episodes": 512,
+    "saved_episodes": 366,
+    "eligible_episodes": 360,
+    "missing_or_invalid_episodes": 152,
+    "calls_reserved": 1079,
+    "responses": 1077,
+    "reserved_usd": 5.582,
+    "provider_estimated_usd": 1.329675207
+  },
+  "method": "Independent stdlib Fraction scorer from raw saved answers; separately checked closure inventories, source/input hashes and frozen ledger/artifacts. No model calls.",
+  "interpretation_limits": [
+    "Original V4 only; continuation outcomes do not enter this check.",
+    "Missing/invalid episodes remain in planned denominator, not zero-imputed.",
+    "Both strict actual-task plan-adherence criteria fail; Qwen contrasts have only1\u20132 complete cases.",
+    "Provider usage cost is an estimate, not an invoice; do not add strict cost again to consolidated V4F."
+  ]
+}

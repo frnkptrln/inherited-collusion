@@ -1,0 +1,82 @@
+[
+  {
+    "file": "router-models.json",
+    "url": "https://router.huggingface.co/v1/models",
+    "status": 200,
+    "bytes": 82160,
+    "sha256": "dfe910cd0154fb3280cc3052d7d6b1a34dddd321636af0dda7792fb4ebc3732d",
+    "retrieved_at": "2026-10-23T17:41:09.968764+00:00"
+  },
+  {
+    "file": "gpt-oss-mapping.json",
+    "url": "https://huggingface.co/api/models/openai/gpt-oss-120b?expand[]=inferenceProviderMapping&expand[]=sha",
+    "status": 200,
+    "bytes": 1349,
+    "sha256": "2e218237fd6d1c6f256b262b50a77823c2989c6e4e4529666024bb6ad14228c6",
+    "retrieved_at": "2026-10-23T17:41:10.222765+00:00"
+  },
+  {
+    "file": "gpt-oss-tokenizer.json",
+    "url": "https://huggingface.co/openai/gpt-oss-120b/resolve/main/tokenizer.json",
+    "status": 200,
+    "bytes": 27868174,
+    "sha256": "0614fe83cadab421296e664e1f48f4261fa8fef6e03e63bb75c20f38e37d07d3",
+    "retrieved_at": "2026-10-23T17:41:14.367848+00:00"
+  },
+  {
+    "file": "gpt-oss-tokenizer-config.json",
+    "url": "https://huggingface.co/openai/gpt-oss-120b/resolve/main/tokenizer_config.json",
+    "status": 200,
+    "bytes": 4200,
+    "sha256": "9279e942392b742d633c7adbb89ebe002c98399db8926a7af5125c726f404070",
+    "retrieved_at": "2026-10-23T17:41:14.838913+00:00"
+  },
+  {
+    "file": "gpt-oss-chat-template.jinja",
+    "url": "https://huggingface.co/openai/gpt-oss-120b/resolve/main/chat_template.jinja",
+    "status": 200,
+    "bytes": 16738,
+    "sha256": "a4c9919cbbd4acdd51ccffe22da049264b1b73e59055fa58811a99efbd7c8146",
+    "retrieved_at": "2026-10-23T17:41:15.183709+00:00"
+  },
+  {
+    "file": "gpt-oss-readme.md",
+    "url": "https://huggingface.co/openai/gpt-oss-120b/raw/main/README.md",
+    "status": 200,
+    "bytes": 7111,
+    "sha256": "92b0408cf5dce04e4c5e4e5f2be0361da710d3650baefd7d7519badd1c687919",
+    "retrieved_at": "2026-10-23T17:41:15.426357+00:00"
+  },
+  {
+    "file": "deepinfra-model.html",
+    "url": "https://deepinfra.com/openai/gpt-oss-120b",
+    "status": 200,
+    "bytes": 488914,
+    "sha256": "273fff9651eff9960c1e1abe977d994c3770173dcf5ab269b5903269fcbd0c93",
+    "retrieved_at": "2026-10-23T17:41:16.046016+00:00"
+  },
+  {
+    "file": "deepinfra-reasoning.md",
+    "url": "https://docs.deepinfra.com/chat/reasoning.md",
+    "status": 200,
+    "bytes": 6245,
+    "sha256": "0f84b7fdf7b846944468d52b352d75d63129acdcd769994261b4b0a1b7af7260",
+    "retrieved_at": "2026-10-23T17:41:16.471699+00:00"
+  },
+  {
+    "file": "deepinfra-chat-schema.md",
+    "url": "https://docs.deepinfra.com/api-reference/chat-completions/openai-chat-completions.md",
+    "status": 200,
+    "bytes": 33126,
+    "sha256": "d97d838a22499a8eb2dc13cfd46e6b6970f69267e2aac897185bd6060bc20405",
+    "retrieved_at": "2026-10-23T17:41:16.803996+00:00"
+  },
+  {
+    "file": "deepinfra-model-api.html",
+    "url": "https://deepinfra.com/openai/gpt-oss-120b/api",
+    "status": 200,
+    "sha256": "531ff46723780208c38588c62d29b72d2b78a98c37b54345fc23eab1c7815fac",
+    "bytes": 469902,
+    "retrieved_at": "2026-10-23T17:42:56.956258+00:00"
+  }
+]

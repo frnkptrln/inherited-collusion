@@ -1,0 +1,223 @@
+{
+  "reviewed_at": "2026-10-23T19:27:25.174623+00:00",
+  "reviewer": "Codex report_readiness; read-only independent AI-assisted audit",
+  "runner_sha256": "a87e3606dc3486ea69a1ff01f1791bf41daa1dd01d5426d81665b18778a17dc6",
+  "all18_positive_barrier_passed": true,
+  "no_new_calls_before_review": true,
+  "model_backends_instantiated": 0,
+  "model_calls": 0,
+  "effect_aggregates_inspected": false,
+  "preparation_sha256": "263537f767666934a1fad10866b7f243eaa842cf738d3b7a01004149a34b20bc",
+  "ledger_sha256": "2bfa94c84697d6b005f615dd90b1040d167d47c6eb0a9fc477826e83de707435",
+  "closure_record_sha256": "64a7ed72b2f5cd1ada731ed1f95dd2876702a0fff74d8013a61899d4709083fc",
+  "freeze_record_sha256": "86b21c48e62edc5a610bd3205332bd33590059c4b2612ab524f6d3b5d0ef31ea",
+  "inherited_reserved_calls": 1079,
+  "cached_reconstruction_only_runs": [
+    "v4f-main-gptoss-202",
+    "v4f-main-gptoss-204"
+  ],
+  "rows": [
+    {
+      "run_id": "v4f-main-gptoss-201",
+      "source_run_id": "v4-main-gptoss-201",
+      "inherited_reserved_calls": 86,
+      "new_reserved_calls": 0,
+      "metadata_barrier_passed": true,
+      "inherited_ambiguous_slots": [],
+      "inherited_model_blockers": [],
+      "new_dispatch_integrity_eligible": true,
+      "eligibility_scope": "Integrity/budget only; scientific gate and annotation eligibility remain required."
+    },
+    {
+      "run_id": "v4f-main-gptoss-202",
+      "source_run_id": "v4-main-gptoss-202",
+      "inherited_reserved_calls": 73,
+      "new_reserved_calls": 0,
+      "metadata_barrier_passed": true,
+      "inherited_ambiguous_slots": [
+        "s202-legitimate-mismatched_reverse-r0-A"
+      ],
+      "inherited_model_blockers": [],
+      "new_dispatch_integrity_eligible": false,
+      "eligibility_scope": "Integrity/budget only; scientific gate and annotation eligibility remain required."
+    },
+    {
+      "run_id": "v4f-main-gptoss-203",
+      "source_run_id": "v4-main-gptoss-203",
+      "inherited_reserved_calls": 86,
+      "new_reserved_calls": 0,
+      "metadata_barrier_passed": true,
+      "inherited_ambiguous_slots": [],
+      "inherited_model_blockers": [],
+      "new_dispatch_integrity_eligible": true,
+      "eligibility_scope": "Integrity/budget only; scientific gate and annotation eligibility remain required."
+    },
+    {
+      "run_id": "v4f-main-gptoss-204",
+      "source_run_id": "v4-main-gptoss-204",
+      "inherited_reserved_calls": 56,
+      "new_reserved_calls": 0,
+      "metadata_barrier_passed": true,
+      "inherited_ambiguous_slots": [
+        "s204-harmful-verified-r0-B"
+      ],
+      "inherited_model_blockers": [],
+      "new_dispatch_integrity_eligible": false,
+      "eligibility_scope": "Integrity/budget only; scientific gate and annotation eligibility remain required."
+    },
+    {
+      "run_id": "v4f-main-gptoss-205",
+      "source_run_id": "v4-main-gptoss-205",
+      "inherited_reserved_calls": 86,
+      "new_reserved_calls": 0,
+      "metadata_barrier_passed": true,
+      "inherited_ambiguous_slots": [],
+      "inherited_model_blockers": [],
+      "new_dispatch_integrity_eligible": true,
+      "eligibility_scope": "Integrity/budget only; scientific gate and annotation eligibility remain required."
+    },
+    {
+      "run_id": "v4f-main-gptoss-206",
+      "source_run_id": "v4-main-gptoss-206",
+      "inherited_reserved_calls": 86,
+      "new_reserved_calls": 0,
+      "metadata_barrier_passed": true,
+      "inherited_ambiguous_slots": [],
+      "inherited_model_blockers": [],
+      "new_dispatch_integrity_eligible": true,
+      "eligibility_scope": "Integrity/budget only; scientific gate and annotation eligibility remain required."
+    },
+    {
+      "run_id": "v4f-main-gptoss-207",
+      "source_run_id": "v4-main-gptoss-207",
+      "inherited_reserved_calls": 86,
+      "new_reserved_calls": 0,
+      "metadata_barrier_passed": true,
+      "inherited_ambiguous_slots": [],
+      "inherited_model_blockers": [],
+      "new_dispatch_integrity_eligible": true,
+      "eligibility_scope": "Integrity/budget only; scientific gate and annotation eligibility remain required."
+    },
+    {
+      "run_id": "v4f-main-gptoss-208",
+      "source_run_id": "v4-main-gptoss-208",
+      "inherited_reserved_calls": 86,
+      "new_reserved_calls": 0,
+      "metadata_barrier_passed": true,
+      "inherited_ambiguous_slots": [],
+      "inherited_model_blockers": [],
+      "new_dispatch_integrity_eligible": true,
+      "eligibility_scope": "Integrity/budget only; scientific gate and annotation eligibility remain required."
+    },
+    {
+      "run_id": "v4f-main-qwen-201",
+      "source_run_id": "v4-main-qwen-201",
+      "inherited_reserved_calls": 36,
+      "new_reserved_calls": 0,
+      "metadata_barrier_passed": true,
+      "inherited_ambiguous_slots": [],
+      "inherited_model_blockers": [],
+      "new_dispatch_integrity_eligible": true,
+      "eligibility_scope": "Integrity/budget only; scientific gate and annotation eligibility remain required."
+    },
+    {
+      "run_id": "v4f-main-qwen-202",
+      "source_run_id": "v4-main-qwen-202",
+      "inherited_reserved_calls": 55,
+      "new_reserved_calls": 0,
+      "metadata_barrier_passed": true,
+      "inherited_ambiguous_slots": [],
+      "inherited_model_blockers": [],
+      "new_dispatch_integrity_eligible": true,
+      "eligibility_scope": "Integrity/budget only; scientific gate and annotation eligibility remain required."
+    },
+    {
+      "run_id": "v4f-main-qwen-203",
+      "source_run_id": "v4-main-qwen-203",
+      "inherited_reserved_calls": 86,
+      "new_reserved_calls": 0,
+      "metadata_barrier_passed": true,
+      "inherited_ambiguous_slots": [],
+      "inherited_model_blockers": [],
+      "new_dispatch_integrity_eligible": true,
+      "eligibility_scope": "Integrity/budget only; scientific gate and annotation eligibility remain required."
+    },
+    {
+      "run_id": "v4f-main-qwen-204",
+      "source_run_id": "v4-main-qwen-204",
+      "inherited_reserved_calls": 39,
+      "new_reserved_calls": 0,
+      "metadata_barrier_passed": true,
+      "inherited_ambiguous_slots": [],
+      "inherited_model_blockers": [],
+      "new_dispatch_integrity_eligible": true,
+      "eligibility_scope": "Integrity/budget only; scientific gate and annotation eligibility remain required."
+    },
+    {
+      "run_id": "v4f-main-qwen-205",
+      "source_run_id": "v4-main-qwen-205",
+      "inherited_reserved_calls": 65,
+      "new_reserved_calls": 0,
+      "metadata_barrier_passed": true,
+      "inherited_ambiguous_slots": [],
+      "inherited_model_blockers": [],
+      "new_dispatch_integrity_eligible": true,
+      "eligibility_scope": "Integrity/budget only; scientific gate and annotation eligibility remain required."
+    },
+    {
+      "run_id": "v4f-main-qwen-206",
+      "source_run_id": "v4-main-qwen-206",
+      "inherited_reserved_calls": 6,
+      "new_reserved_calls": 0,
+      "metadata_barrier_passed": true,
+      "inherited_ambiguous_slots": [],
+      "inherited_model_blockers": [],
+      "new_dispatch_integrity_eligible": true,
+      "eligibility_scope": "Integrity/budget only; scientific gate and annotation eligibility remain required."
+    },
+    {
+      "run_id": "v4f-main-qwen-207",
+      "source_run_id": "v4-main-qwen-207",
+      "inherited_reserved_calls": 69,
+      "new_reserved_calls": 0,
+      "metadata_barrier_passed": true,
+      "inherited_ambiguous_slots": [],
+      "inherited_model_blockers": [],
+      "new_dispatch_integrity_eligible": true,
+      "eligibility_scope": "Integrity/budget only; scientific gate and annotation eligibility remain required."
+    },
+    {
+      "run_id": "v4f-main-qwen-208",
+      "source_run_id": "v4-main-qwen-208",
+      "inherited_reserved_calls": 66,
+      "new_reserved_calls": 0,
+      "metadata_barrier_passed": true,
+      "inherited_ambiguous_slots": [],
+      "inherited_model_blockers": [],
+      "new_dispatch_integrity_eligible": true,
+      "eligibility_scope": "Integrity/budget only; scientific gate and annotation eligibility remain required."
+    },
+    {
+      "run_id": "v4f-qualification-gptoss-902",
+      "source_run_id": "v4-qualification-gptoss-902",
+      "inherited_reserved_calls": 6,
+      "new_reserved_calls": 0,
+      "metadata_barrier_passed": true,
+      "inherited_ambiguous_slots": [],
+      "inherited_model_blockers": [],
+      "new_dispatch_integrity_eligible": true,
+      "eligibility_scope": "Integrity/budget only; scientific gate and annotation eligibility remain required."
+    },
+    {
+      "run_id": "v4f-qualification-qwen-902",
+      "source_run_id": "v4-qualification-qwen-902",
+      "inherited_reserved_calls": 6,
+      "new_reserved_calls": 0,
+      "metadata_barrier_passed": true,
+      "inherited_ambiguous_slots": [],
+      "inherited_model_blockers": [],
+      "new_dispatch_integrity_eligible": true,
+      "eligibility_scope": "Integrity/budget only; scientific gate and annotation eligibility remain required."
+    }
+  ]
+}

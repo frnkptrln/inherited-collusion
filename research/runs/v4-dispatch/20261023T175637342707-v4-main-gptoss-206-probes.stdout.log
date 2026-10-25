@@ -1,0 +1,11 @@
+{
+  "evidence_class": "RAW_HANDOFF_SOURCE_PAIRING_STUDY",
+  "status": "partial",
+  "complete": false,
+  "reserved_calls": 6,
+  "episodes": 0,
+  "technical_gates": {
+    "probes": true
+  },
+  "annotation_state": "not_ready"
+}

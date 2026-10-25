@@ -1,0 +1,616 @@
+{
+  "verified_at": "2026-10-25T12:59:50.649662+00:00",
+  "closed_v5_inventory_verified_files": 3405,
+  "v5_requests": 683,
+  "retained_v5_all_dispatched_reservations_usd": 3.566,
+  "historical_pre_v5_allocations_retained_usd": 9.922,
+  "retained_total_usd": 13.488,
+  "new_phase_max_usd": 1.248,
+  "combined_conservative_ceiling_usd": 14.736,
+  "unused_v5_allocation_released_usd": 1.33,
+  "all_dispatched_calls_including_unresolved_reserved_in_full": true,
+  "known_project_returned_response_estimate_usd": 2.891585085,
+  "invoice_verified": false,
+  "source_copies": {
+    "inputs/v5/qwen-301/checkpoint.json": {
+      "v5_path": "runs/v5-main-qwen-301/checkpoints/s301-symmetric.json",
+      "sha256": "ff8a670c58cc946a448928505061b2931e20ae3304a9ef6ef14b45df632862e1"
+    },
+    "inputs/v5/qwen-301/donor-harmful.json": {
+      "v5_path": "runs/v5-main-qwen-301/donors/s301-symmetric-harmful-p0.json",
+      "sha256": "6deae450d49b78769a2407afc9fd9f29146e9f734dc8f76805483569446fbdc2"
+    },
+    "inputs/v5/qwen-301/origin/s301-symmetric-harmful-p0-note-A/request.json": {
+      "v5_path": "runs/v5-main-qwen-301/calls/s301-symmetric-harmful-p0-note-A/request.json",
+      "sha256": "eb9d030c7d47c65c239e50a1d762c4450b40b951f5bb35b96d8e46af6366f056"
+    },
+    "inputs/v5/qwen-301/origin/s301-symmetric-harmful-p0-note-A/response.json": {
+      "v5_path": "runs/v5-main-qwen-301/calls/s301-symmetric-harmful-p0-note-A/response.json",
+      "sha256": "9e57a65ed0b35fdbebdb12841788599cd1271c3d71c4031fa03b9829b2f10f34"
+    },
+    "inputs/v5/qwen-301/origin/s301-symmetric-harmful-p0-note-B/request.json": {
+      "v5_path": "runs/v5-main-qwen-301/calls/s301-symmetric-harmful-p0-note-B/request.json",
+      "sha256": "6c8b4f47f0bfb401eae4fe03624954ef33c7288a437188c8a0a8baa347548186"
+    },
+    "inputs/v5/qwen-301/origin/s301-symmetric-harmful-p0-note-B/response.json": {
+      "v5_path": "runs/v5-main-qwen-301/calls/s301-symmetric-harmful-p0-note-B/response.json",
+      "sha256": "baaa7000f09a928c0637b4cd28b0e88e28b26d551f08a684586742174e1d81a8"
+    },
+    "inputs/v5/qwen-301/donor-legitimate.json": {
+      "v5_path": "runs/v5-main-qwen-301/donors/s301-symmetric-legitimate-p0.json",
+      "sha256": "a3187c92586a1698532a6b290773bc605728291a60d604be9f77203e2a041447"
+    },
+    "inputs/v5/qwen-301/origin/s301-symmetric-legitimate-p0-note-A/request.json": {
+      "v5_path": "runs/v5-main-qwen-301/calls/s301-symmetric-legitimate-p0-note-A/request.json",
+      "sha256": "1a0af98fc9d14d9c5489707a0ab48b7e1e61e5339480e28325292fdb1841cbc4"
+    },
+    "inputs/v5/qwen-301/origin/s301-symmetric-legitimate-p0-note-A/response.json": {
+      "v5_path": "runs/v5-main-qwen-301/calls/s301-symmetric-legitimate-p0-note-A/response.json",
+      "sha256": "61854e84dc3c4ae1df9e4d6f8c2b938f321e6316d3653c6831d7925b21a99d5f"
+    },
+    "inputs/v5/qwen-301/origin/s301-symmetric-legitimate-p0-note-B/request.json": {
+      "v5_path": "runs/v5-main-qwen-301/calls/s301-symmetric-legitimate-p0-note-B/request.json",
+      "sha256": "f116936f0a79e1078dcbbbc00d6b2b9e9c215f014ac22ed88f702782c560d012"
+    },
+    "inputs/v5/qwen-301/origin/s301-symmetric-legitimate-p0-note-B/response.json": {
+      "v5_path": "runs/v5-main-qwen-301/calls/s301-symmetric-legitimate-p0-note-B/response.json",
+      "sha256": "0aacd4fc2a00ea1732ad104db0cac3de9ed66926e9dee6f11d0084c5b0c3cdd6"
+    },
+    "inputs/v5/qwen-303/checkpoint.json": {
+      "v5_path": "runs/v5-main-qwen-303/checkpoints/s303-symmetric.json",
+      "sha256": "defb7580386255eff7567fe843530443b1eb8e57e029108846fe460042cf8cd6"
+    },
+    "inputs/v5/qwen-303/donor-harmful.json": {
+      "v5_path": "runs/v5-main-qwen-303/donors/s303-symmetric-harmful-p0.json",
+      "sha256": "cafb94fa2d215ff181cb76d683ff2cc368b4f39ee9914ac63f817b2bc541b2bc"
+    },
+    "inputs/v5/qwen-303/origin/s303-symmetric-harmful-p0-note-A/request.json": {
+      "v5_path": "runs/v5-main-qwen-303/calls/s303-symmetric-harmful-p0-note-A/request.json",
+      "sha256": "13be4d30cb26261d98cf5f0ba1b53b3c6029488aa2a17b2cbc404cb7c0c6748b"
+    },
+    "inputs/v5/qwen-303/origin/s303-symmetric-harmful-p0-note-A/response.json": {
+      "v5_path": "runs/v5-main-qwen-303/calls/s303-symmetric-harmful-p0-note-A/response.json",
+      "sha256": "7b5ec728c0d7ecc9900df5e99231632da5bb098f62dadeaf7fe2e2c359036f99"
+    },
+    "inputs/v5/qwen-303/origin/s303-symmetric-harmful-p0-note-B/request.json": {
+      "v5_path": "runs/v5-main-qwen-303/calls/s303-symmetric-harmful-p0-note-B/request.json",
+      "sha256": "b03e82c907e1211742c897ba13a962cd1f59a70da4e44c09ca948c331f9791df"
+    },
+    "inputs/v5/qwen-303/origin/s303-symmetric-harmful-p0-note-B/response.json": {
+      "v5_path": "runs/v5-main-qwen-303/calls/s303-symmetric-harmful-p0-note-B/response.json",
+      "sha256": "6b8935bbbedf690a66e081435d7104ea5d974ed29ab07e135b31b4338ae01084"
+    },
+    "inputs/v5/qwen-303/donor-legitimate.json": {
+      "v5_path": "runs/v5-main-qwen-303/donors/s303-symmetric-legitimate-p0.json",
+      "sha256": "96c3a1494f5671c756563dc1b5e93ef638e02247644dbc69dde2684d1d38ccb6"
+    },
+    "inputs/v5/qwen-303/origin/s303-symmetric-legitimate-p0-note-A/request.json": {
+      "v5_path": "runs/v5-main-qwen-303/calls/s303-symmetric-legitimate-p0-note-A/request.json",
+      "sha256": "6e672490b36abe4aefd9f359db7466aa3010a44c18b6e9d8e04f4fe31735ccc6"
+    },
+    "inputs/v5/qwen-303/origin/s303-symmetric-legitimate-p0-note-A/response.json": {
+      "v5_path": "runs/v5-main-qwen-303/calls/s303-symmetric-legitimate-p0-note-A/response.json",
+      "sha256": "cc0121d6a2fc5179584fddc67d9b7f1fd075d1a75bcfa8829cc2b7929668592b"
+    },
+    "inputs/v5/qwen-303/origin/s303-symmetric-legitimate-p0-note-B/request.json": {
+      "v5_path": "runs/v5-main-qwen-303/calls/s303-symmetric-legitimate-p0-note-B/request.json",
+      "sha256": "42f980436df0f29a95734df9fdf7d608ae7bb6099b77afc4726904685f9bf57a"
+    },
+    "inputs/v5/qwen-303/origin/s303-symmetric-legitimate-p0-note-B/response.json": {
+      "v5_path": "runs/v5-main-qwen-303/calls/s303-symmetric-legitimate-p0-note-B/response.json",
+      "sha256": "79435bddf9075e50ff2da3d47a265910f4c93d42545a8965c7f6e40e297ca75f"
+    },
+    "inputs/v5/qwen-304/checkpoint.json": {
+      "v5_path": "runs/v5-main-qwen-304/checkpoints/s304-symmetric.json",
+      "sha256": "68a3b0cb3731201a4161a6ac8f2c4350a7159a26a4b2b4bab785a6a3999ecd1f"
+    },
+    "inputs/v5/qwen-304/donor-harmful.json": {
+      "v5_path": "runs/v5-main-qwen-304/donors/s304-symmetric-harmful-p0.json",
+      "sha256": "17fa9515e572d6130af53a2f3801a3949e1599a54f6afd78a2a0f1d32a233c38"
+    },
+    "inputs/v5/qwen-304/origin/s304-symmetric-harmful-p0-note-A/request.json": {
+      "v5_path": "runs/v5-main-qwen-304/calls/s304-symmetric-harmful-p0-note-A/request.json",
+      "sha256": "fc22368fe358ba011a868d0fd3029b7c71c7be5817e6251aa63259e9a103a4e0"
+    },
+    "inputs/v5/qwen-304/origin/s304-symmetric-harmful-p0-note-A/response.json": {
+      "v5_path": "runs/v5-main-qwen-304/calls/s304-symmetric-harmful-p0-note-A/response.json",
+      "sha256": "f6f54659e35a5249a56fdafaf417bc7a9b05fcf68713017eee6ea74ec3d4c076"
+    },
+    "inputs/v5/qwen-304/origin/s304-symmetric-harmful-p0-note-B/request.json": {
+      "v5_path": "runs/v5-main-qwen-304/calls/s304-symmetric-harmful-p0-note-B/request.json",
+      "sha256": "2dce7f611e2f43f77690e53f9f2277b150befcdefafd43203dbfb1cfce2cebc3"
+    },
+    "inputs/v5/qwen-304/origin/s304-symmetric-harmful-p0-note-B/response.json": {
+      "v5_path": "runs/v5-main-qwen-304/calls/s304-symmetric-harmful-p0-note-B/response.json",
+      "sha256": "00db1e8cf4e4dbcf15db5baf0815ca0d0b6618abf66d75fa65693b90ae8249a1"
+    },
+    "inputs/v5/qwen-304/donor-legitimate.json": {
+      "v5_path": "runs/v5-main-qwen-304/donors/s304-symmetric-legitimate-p0.json",
+      "sha256": "4387c26bf4668d4ebb2e18a4cb273d365f9fe7bd166809b58b7979a1695e818f"
+    },
+    "inputs/v5/qwen-304/origin/s304-symmetric-legitimate-p0-note-A/request.json": {
+      "v5_path": "runs/v5-main-qwen-304/calls/s304-symmetric-legitimate-p0-note-A/request.json",
+      "sha256": "0e9c899b9037b0616f5368a61b63f933c08155e5007a6a15e07f8636938f3975"
+    },
+    "inputs/v5/qwen-304/origin/s304-symmetric-legitimate-p0-note-A/response.json": {
+      "v5_path": "runs/v5-main-qwen-304/calls/s304-symmetric-legitimate-p0-note-A/response.json",
+      "sha256": "1581e04d549c932dc3a183fd87e0914eb7354cfd251c8519899216edcdd366cf"
+    },
+    "inputs/v5/qwen-304/origin/s304-symmetric-legitimate-p0-note-B/request.json": {
+      "v5_path": "runs/v5-main-qwen-304/calls/s304-symmetric-legitimate-p0-note-B/request.json",
+      "sha256": "2a95538477b239ea171e05ae587a18fa9330239c0076412f4a80ab5aaae81185"
+    },
+    "inputs/v5/qwen-304/origin/s304-symmetric-legitimate-p0-note-B/response.json": {
+      "v5_path": "runs/v5-main-qwen-304/calls/s304-symmetric-legitimate-p0-note-B/response.json",
+      "sha256": "207525dc3ecfeac748c0d6106ffee59de5c78086b3f97bbf9120874df3371c2d"
+    },
+    "inputs/v5/qwen-306/checkpoint.json": {
+      "v5_path": "runs/v5-main-qwen-306/checkpoints/s306-symmetric.json",
+      "sha256": "9ed7ef0e2012422dd9799d4a0d6a25833886cb4c5f7a3dc2539edc4b5697b561"
+    },
+    "inputs/v5/qwen-306/donor-harmful.json": {
+      "v5_path": "runs/v5-main-qwen-306/donors/s306-symmetric-harmful-p0.json",
+      "sha256": "30f38fa84c123b6e5cbc0e929cc7f4663eb99589640361065a200a3ea74eae21"
+    },
+    "inputs/v5/qwen-306/origin/s306-symmetric-harmful-p0-note-A/request.json": {
+      "v5_path": "runs/v5-main-qwen-306/calls/s306-symmetric-harmful-p0-note-A/request.json",
+      "sha256": "afafea0fb9eb86a7ab71309632e6269937da26af7b246739410d348d18509ffc"
+    },
+    "inputs/v5/qwen-306/origin/s306-symmetric-harmful-p0-note-A/response.json": {
+      "v5_path": "runs/v5-main-qwen-306/calls/s306-symmetric-harmful-p0-note-A/response.json",
+      "sha256": "25ecf6f60aa11349dd5b5bbafc1758fef63f67abc059d9be81e069cb06b7fd92"
+    },
+    "inputs/v5/qwen-306/origin/s306-symmetric-harmful-p0-note-B/request.json": {
+      "v5_path": "runs/v5-main-qwen-306/calls/s306-symmetric-harmful-p0-note-B/request.json",
+      "sha256": "a21ef19983f7d1b2802bd52bcd44ad96c7ffbd3a3fe29ccf4b753822012cc290"
+    },
+    "inputs/v5/qwen-306/origin/s306-symmetric-harmful-p0-note-B/response.json": {
+      "v5_path": "runs/v5-main-qwen-306/calls/s306-symmetric-harmful-p0-note-B/response.json",
+      "sha256": "3efb78b5af1afd4ed9d87a65b4dac5cef274c3a185765f6e8da5ae14ceefdcac"
+    },
+    "inputs/v5/qwen-306/donor-legitimate.json": {
+      "v5_path": "runs/v5-main-qwen-306/donors/s306-symmetric-legitimate-p0.json",
+      "sha256": "48e7b6ca778245c799c7e09e56384a389e5dba5f438d808d25766ef40e816bf4"
+    },
+    "inputs/v5/qwen-306/origin/s306-symmetric-legitimate-p0-note-A/request.json": {
+      "v5_path": "runs/v5-main-qwen-306/calls/s306-symmetric-legitimate-p0-note-A/request.json",
+      "sha256": "b75defe8aa682dd281bb3f442b817bf70697e99b99e277ee7ecdf3364e8eb44b"
+    },
+    "inputs/v5/qwen-306/origin/s306-symmetric-legitimate-p0-note-A/response.json": {
+      "v5_path": "runs/v5-main-qwen-306/calls/s306-symmetric-legitimate-p0-note-A/response.json",
+      "sha256": "d8a3d44162f9eecdf18a54c84869b7bb98dc1ae22bc047c12ddd4f19f0dee578"
+    },
+    "inputs/v5/qwen-306/origin/s306-symmetric-legitimate-p0-note-B/request.json": {
+      "v5_path": "runs/v5-main-qwen-306/calls/s306-symmetric-legitimate-p0-note-B/request.json",
+      "sha256": "da17d93d78f6940d16b3966ac8d11fe2acb63f4614c3ffc1027b58a16de50014"
+    },
+    "inputs/v5/qwen-306/origin/s306-symmetric-legitimate-p0-note-B/response.json": {
+      "v5_path": "runs/v5-main-qwen-306/calls/s306-symmetric-legitimate-p0-note-B/response.json",
+      "sha256": "14b10a2ee17c302fa2574c2020d0df4cd84e78ea338924ddfcbf641ffe599104"
+    },
+    "inputs/v5/gptoss-301/checkpoint.json": {
+      "v5_path": "runs/v5-main-gptoss-301/checkpoints/s301-symmetric.json",
+      "sha256": "ff8a670c58cc946a448928505061b2931e20ae3304a9ef6ef14b45df632862e1"
+    },
+    "inputs/v5/gptoss-301/donor-harmful.json": {
+      "v5_path": "runs/v5-main-gptoss-301/donors/s301-symmetric-harmful-p0.json",
+      "sha256": "510e059a928ee416056f91560bfd457c86cc869cda9406c4d17dc0ff562c4459"
+    },
+    "inputs/v5/gptoss-301/origin/s301-symmetric-harmful-p0-note-A/request.json": {
+      "v5_path": "runs/v5-main-gptoss-301/calls/s301-symmetric-harmful-p0-note-A/request.json",
+      "sha256": "da24b60695a0a98b3dba7d00528eed747ca0dc9d9c33ce01463758df751507b7"
+    },
+    "inputs/v5/gptoss-301/origin/s301-symmetric-harmful-p0-note-A/response.json": {
+      "v5_path": "runs/v5-main-gptoss-301/calls/s301-symmetric-harmful-p0-note-A/response.json",
+      "sha256": "5d0e9b817b60c20622e51aef2671f4b05960845e2859c47038daa8aff397b4cc"
+    },
+    "inputs/v5/gptoss-301/origin/s301-symmetric-harmful-p0-note-B/request.json": {
+      "v5_path": "runs/v5-main-gptoss-301/calls/s301-symmetric-harmful-p0-note-B/request.json",
+      "sha256": "283535fc54c2813f64604e5ebbb84c8332c8ad5f358ab68b2d0a69566345f232"
+    },
+    "inputs/v5/gptoss-301/origin/s301-symmetric-harmful-p0-note-B/response.json": {
+      "v5_path": "runs/v5-main-gptoss-301/calls/s301-symmetric-harmful-p0-note-B/response.json",
+      "sha256": "b0497be14602d874af421e828c9891e29f07a43e3d9e7c3a5b7ef4aecc679f34"
+    },
+    "inputs/v5/gptoss-301/donor-legitimate.json": {
+      "v5_path": "runs/v5-main-gptoss-301/donors/s301-symmetric-legitimate-p0.json",
+      "sha256": "26d0525b361b869c1caa9331f91114209f38fe64f89dfa2907cb760801ca7ab0"
+    },
+    "inputs/v5/gptoss-301/origin/s301-symmetric-legitimate-p0-note-A/request.json": {
+      "v5_path": "runs/v5-main-gptoss-301/calls/s301-symmetric-legitimate-p0-note-A/request.json",
+      "sha256": "97faf34ab00e47231e4b07f3874ca6871499a0ca252be6f603bcea1fc8f35355"
+    },
+    "inputs/v5/gptoss-301/origin/s301-symmetric-legitimate-p0-note-A/response.json": {
+      "v5_path": "runs/v5-main-gptoss-301/calls/s301-symmetric-legitimate-p0-note-A/response.json",
+      "sha256": "46f969fbd3c67ed610722de6c7956192160d6180ae19ab3c36165f98cf7014ca"
+    },
+    "inputs/v5/gptoss-301/origin/s301-symmetric-legitimate-p0-note-B/request.json": {
+      "v5_path": "runs/v5-main-gptoss-301/calls/s301-symmetric-legitimate-p0-note-B/request.json",
+      "sha256": "32413f5d0e0ed133a0d6cce761ddf638f0938947a6b9421dd7dddef326fd5bb7"
+    },
+    "inputs/v5/gptoss-301/origin/s301-symmetric-legitimate-p0-note-B/response.json": {
+      "v5_path": "runs/v5-main-gptoss-301/calls/s301-symmetric-legitimate-p0-note-B/response.json",
+      "sha256": "4d3e2515a408fc19c1bcd9abf3d09e91d47999cb459a5cbb68eba85b55537df5"
+    },
+    "inputs/v5/gptoss-302/checkpoint.json": {
+      "v5_path": "runs/v5-main-gptoss-302/checkpoints/s302-symmetric.json",
+      "sha256": "ebff4163c5d00e7e5b9fda7f54a1f0dbf3c39a60138873c457ed639a9450d7a4"
+    },
+    "inputs/v5/gptoss-302/donor-harmful.json": {
+      "v5_path": "runs/v5-main-gptoss-302/donors/s302-symmetric-harmful-p0.json",
+      "sha256": "8bc3b5f549a0543d28579a39667f3e2e8c1f4d8ed9c17f4e753568f31fcc9027"
+    },
+    "inputs/v5/gptoss-302/origin/s302-symmetric-harmful-p0-note-A/request.json": {
+      "v5_path": "runs/v5-main-gptoss-302/calls/s302-symmetric-harmful-p0-note-A/request.json",
+      "sha256": "be03c173a35706302598c92c8ee37db36d320fa3a4f4b9629a80467353c5cc0a"
+    },
+    "inputs/v5/gptoss-302/origin/s302-symmetric-harmful-p0-note-A/response.json": {
+      "v5_path": "runs/v5-main-gptoss-302/calls/s302-symmetric-harmful-p0-note-A/response.json",
+      "sha256": "4c5d1a6458e36acdd14f16e995295f5f0388ca66b1ad95f865227e5cbdc6d75e"
+    },
+    "inputs/v5/gptoss-302/origin/s302-symmetric-harmful-p0-note-B/request.json": {
+      "v5_path": "runs/v5-main-gptoss-302/calls/s302-symmetric-harmful-p0-note-B/request.json",
+      "sha256": "9e2299e8bad30b87a74bea9d4a2a7a43f62efcb8b5bc197eeaceaecefd3d0759"
+    },
+    "inputs/v5/gptoss-302/origin/s302-symmetric-harmful-p0-note-B/response.json": {
+      "v5_path": "runs/v5-main-gptoss-302/calls/s302-symmetric-harmful-p0-note-B/response.json",
+      "sha256": "e7fd00f0eb096ea8eba09d3f36a9e696ff8991451f16c321880bb7de59141ec4"
+    },
+    "inputs/v5/gptoss-302/donor-legitimate.json": {
+      "v5_path": "runs/v5-main-gptoss-302/donors/s302-symmetric-legitimate-p0.json",
+      "sha256": "92ce693eccb69e7fdb4dfdd35052b6c923decd2bb34329b9f9bc270b346002f0"
+    },
+    "inputs/v5/gptoss-302/origin/s302-symmetric-legitimate-p0-note-A/request.json": {
+      "v5_path": "runs/v5-main-gptoss-302/calls/s302-symmetric-legitimate-p0-note-A/request.json",
+      "sha256": "efcf58476cc5fae751857f5ce32209a04c8a3e9b58030aba09e1f9a476ce4cbe"
+    },
+    "inputs/v5/gptoss-302/origin/s302-symmetric-legitimate-p0-note-A/response.json": {
+      "v5_path": "runs/v5-main-gptoss-302/calls/s302-symmetric-legitimate-p0-note-A/response.json",
+      "sha256": "807c5e42b59eded5c3eed83ff6d08d1aa33466b65667db7fa4493e54e275f8f6"
+    },
+    "inputs/v5/gptoss-302/origin/s302-symmetric-legitimate-p0-note-B/request.json": {
+      "v5_path": "runs/v5-main-gptoss-302/calls/s302-symmetric-legitimate-p0-note-B/request.json",
+      "sha256": "a12e953c231ce29e3db3702eb03115c5c069063b9e7eb61bd12a1d4bc829512f"
+    },
+    "inputs/v5/gptoss-302/origin/s302-symmetric-legitimate-p0-note-B/response.json": {
+      "v5_path": "runs/v5-main-gptoss-302/calls/s302-symmetric-legitimate-p0-note-B/response.json",
+      "sha256": "49e661a2517cb4f3e40c535fb03fffa97e7f46088247d28964faf7161ee786ec"
+    },
+    "inputs/v5/gptoss-303/checkpoint.json": {
+      "v5_path": "runs/v5-main-gptoss-303/checkpoints/s303-symmetric.json",
+      "sha256": "defb7580386255eff7567fe843530443b1eb8e57e029108846fe460042cf8cd6"
+    },
+    "inputs/v5/gptoss-303/donor-harmful.json": {
+      "v5_path": "runs/v5-main-gptoss-303/donors/s303-symmetric-harmful-p0.json",
+      "sha256": "9fa39287260b01d1595a92461dfe97675aebe5679371064c5a6625c1fb6e0722"
+    },
+    "inputs/v5/gptoss-303/origin/s303-symmetric-harmful-p0-note-A/request.json": {
+      "v5_path": "runs/v5-main-gptoss-303/calls/s303-symmetric-harmful-p0-note-A/request.json",
+      "sha256": "f0566b9eba0b87c719ccebb6d04b634e29d8fff96b7973c52478f42a863d9ccf"
+    },
+    "inputs/v5/gptoss-303/origin/s303-symmetric-harmful-p0-note-A/response.json": {
+      "v5_path": "runs/v5-main-gptoss-303/calls/s303-symmetric-harmful-p0-note-A/response.json",
+      "sha256": "b73e5edf3107c1614e05a9b96144c0f09051cf8b7d96e5871c9a8d75917909be"
+    },
+    "inputs/v5/gptoss-303/origin/s303-symmetric-harmful-p0-note-B/request.json": {
+      "v5_path": "runs/v5-main-gptoss-303/calls/s303-symmetric-harmful-p0-note-B/request.json",
+      "sha256": "65b11151e4de963ad0aa07fc5b029b103eed4c40388425c16045995d6e346b2f"
+    },
+    "inputs/v5/gptoss-303/origin/s303-symmetric-harmful-p0-note-B/response.json": {
+      "v5_path": "runs/v5-main-gptoss-303/calls/s303-symmetric-harmful-p0-note-B/response.json",
+      "sha256": "6139b623a4d66a761259c91182d432752d6a8b6a107dcbe6fc1c7c78255d98c7"
+    },
+    "inputs/v5/gptoss-303/donor-legitimate.json": {
+      "v5_path": "runs/v5-main-gptoss-303/donors/s303-symmetric-legitimate-p0.json",
+      "sha256": "474fbf3ab5b880a43df98cf37d22bc553e028e3ce8934229ce3ac7eb5e8678ce"
+    },
+    "inputs/v5/gptoss-303/origin/s303-symmetric-legitimate-p0-note-A/request.json": {
+      "v5_path": "runs/v5-main-gptoss-303/calls/s303-symmetric-legitimate-p0-note-A/request.json",
+      "sha256": "62ee23e29763685fcac4eb96e11ec5d4690cc1dcbadf4212c238edaa6b75b0d2"
+    },
+    "inputs/v5/gptoss-303/origin/s303-symmetric-legitimate-p0-note-A/response.json": {
+      "v5_path": "runs/v5-main-gptoss-303/calls/s303-symmetric-legitimate-p0-note-A/response.json",
+      "sha256": "a87e8c285d00857c97a7b36f88a7c776615481f4a0f58031e16930c5a627c90a"
+    },
+    "inputs/v5/gptoss-303/origin/s303-symmetric-legitimate-p0-note-B/request.json": {
+      "v5_path": "runs/v5-main-gptoss-303/calls/s303-symmetric-legitimate-p0-note-B/request.json",
+      "sha256": "5e6181d6c273d82b9af4f701349f0aaaa4a821619d9b8fdb75ea163f5eb8d5f9"
+    },
+    "inputs/v5/gptoss-303/origin/s303-symmetric-legitimate-p0-note-B/response.json": {
+      "v5_path": "runs/v5-main-gptoss-303/calls/s303-symmetric-legitimate-p0-note-B/response.json",
+      "sha256": "f08871e468255bc254b3285ebaf915f49ae52ce4a9082dcd1a42f9f636deecac"
+    },
+    "inputs/v5/gptoss-304/checkpoint.json": {
+      "v5_path": "runs/v5-main-gptoss-304/checkpoints/s304-symmetric.json",
+      "sha256": "68a3b0cb3731201a4161a6ac8f2c4350a7159a26a4b2b4bab785a6a3999ecd1f"
+    },
+    "inputs/v5/gptoss-304/donor-harmful.json": {
+      "v5_path": "runs/v5-main-gptoss-304/donors/s304-symmetric-harmful-p0.json",
+      "sha256": "764c4fa4f2ba76f5141ed948141f4179db67ade498e746bfa74730a9408b8f8f"
+    },
+    "inputs/v5/gptoss-304/origin/s304-symmetric-harmful-p0-note-A/request.json": {
+      "v5_path": "runs/v5-main-gptoss-304/calls/s304-symmetric-harmful-p0-note-A/request.json",
+      "sha256": "7747abb7d0d4e72dc245cf89d2028a9f470103168e0dfb2ebb7bb5bf68bde3a5"
+    },
+    "inputs/v5/gptoss-304/origin/s304-symmetric-harmful-p0-note-A/response.json": {
+      "v5_path": "runs/v5-main-gptoss-304/calls/s304-symmetric-harmful-p0-note-A/response.json",
+      "sha256": "a5a6763235a931028b9d25339c9c6aadebfc8dacfe1b5d59af28c8512cc5bf76"
+    },
+    "inputs/v5/gptoss-304/origin/s304-symmetric-harmful-p0-note-B/request.json": {
+      "v5_path": "runs/v5-main-gptoss-304/calls/s304-symmetric-harmful-p0-note-B/request.json",
+      "sha256": "a6f22d3ba5c6db15eb015380db50e0715902e549c4c43ca9a7971545ef9d290b"
+    },
+    "inputs/v5/gptoss-304/origin/s304-symmetric-harmful-p0-note-B/response.json": {
+      "v5_path": "runs/v5-main-gptoss-304/calls/s304-symmetric-harmful-p0-note-B/response.json",
+      "sha256": "505fa026f415ed4992ad02ebdd6425495ff05244306c1d8820f94424a3e98b25"
+    },
+    "inputs/v5/gptoss-304/donor-legitimate.json": {
+      "v5_path": "runs/v5-main-gptoss-304/donors/s304-symmetric-legitimate-p0.json",
+      "sha256": "576974cb18811ee2c7cc2fb84a0af74aa5b97f31932d2ec042cddefa7d6e633f"
+    },
+    "inputs/v5/gptoss-304/origin/s304-symmetric-legitimate-p0-note-A/request.json": {
+      "v5_path": "runs/v5-main-gptoss-304/calls/s304-symmetric-legitimate-p0-note-A/request.json",
+      "sha256": "493a9e3bed86332a9fad8ddb2364989cdd409d72de8fb6ffdb11fc339804760f"
+    },
+    "inputs/v5/gptoss-304/origin/s304-symmetric-legitimate-p0-note-A/response.json": {
+      "v5_path": "runs/v5-main-gptoss-304/calls/s304-symmetric-legitimate-p0-note-A/response.json",
+      "sha256": "22e3dc8d2ddc0e0168ceb019f8753277ce0a94c5f94a724e0e3f15dd6c0a5c10"
+    },
+    "inputs/v5/gptoss-304/origin/s304-symmetric-legitimate-p0-note-B/request.json": {
+      "v5_path": "runs/v5-main-gptoss-304/calls/s304-symmetric-legitimate-p0-note-B/request.json",
+      "sha256": "d4966b599e380f9ed3c9fd5a5862ed26ef51e7013d2ee98f86357ec47779db86"
+    },
+    "inputs/v5/gptoss-304/origin/s304-symmetric-legitimate-p0-note-B/response.json": {
+      "v5_path": "runs/v5-main-gptoss-304/calls/s304-symmetric-legitimate-p0-note-B/response.json",
+      "sha256": "19505de7b93b5b472a3b977d12821514a05630357eb44d142ed37fc078389494"
+    },
+    "inputs/v5/gptoss-305/checkpoint.json": {
+      "v5_path": "runs/v5-main-gptoss-305/checkpoints/s305-symmetric.json",
+      "sha256": "a29b957d1dcf5e7dda38723c2a0d8ea613d5227af5972052f730cf0b2b8aad08"
+    },
+    "inputs/v5/gptoss-305/donor-harmful.json": {
+      "v5_path": "runs/v5-main-gptoss-305/donors/s305-symmetric-harmful-p0.json",
+      "sha256": "5ca7c978b89a3baa75ab3ca2bd4dd3de680059c21497ed981bd21f6b28651cfd"
+    },
+    "inputs/v5/gptoss-305/origin/s305-symmetric-harmful-p0-note-A/request.json": {
+      "v5_path": "runs/v5-main-gptoss-305/calls/s305-symmetric-harmful-p0-note-A/request.json",
+      "sha256": "133a198f2f2d291bfb648d854dc6f69058eab56efbbd81240c1640bc9c6e2dde"
+    },
+    "inputs/v5/gptoss-305/origin/s305-symmetric-harmful-p0-note-A/response.json": {
+      "v5_path": "runs/v5-main-gptoss-305/calls/s305-symmetric-harmful-p0-note-A/response.json",
+      "sha256": "32afb71d02a70ae39f251fc0c3f2c451dbe3cdd3e724a06e56a6f23652e7078e"
+    },
+    "inputs/v5/gptoss-305/origin/s305-symmetric-harmful-p0-note-B/request.json": {
+      "v5_path": "runs/v5-main-gptoss-305/calls/s305-symmetric-harmful-p0-note-B/request.json",
+      "sha256": "f2b4238271cd8ef737064cd409cd4dde4f764898cc716322b07b72c5ca1b5397"
+    },
+    "inputs/v5/gptoss-305/origin/s305-symmetric-harmful-p0-note-B/response.json": {
+      "v5_path": "runs/v5-main-gptoss-305/calls/s305-symmetric-harmful-p0-note-B/response.json",
+      "sha256": "99afe516c9672ee58b7e90b322b30b141728c20094a0219f7d2db6bbb8e1eaae"
+    },
+    "inputs/v5/gptoss-305/donor-legitimate.json": {
+      "v5_path": "runs/v5-main-gptoss-305/donors/s305-symmetric-legitimate-p0.json",
+      "sha256": "1e48226b96c1cedd850b5335d30e307491f3722842ccb1fd7f9e14d9234395d5"
+    },
+    "inputs/v5/gptoss-305/origin/s305-symmetric-legitimate-p0-note-A/request.json": {
+      "v5_path": "runs/v5-main-gptoss-305/calls/s305-symmetric-legitimate-p0-note-A/request.json",
+      "sha256": "79605ef667012ec6a213dcedb4203ad9614e26313a6d92dde6f87671089419bf"
+    },
+    "inputs/v5/gptoss-305/origin/s305-symmetric-legitimate-p0-note-A/response.json": {
+      "v5_path": "runs/v5-main-gptoss-305/calls/s305-symmetric-legitimate-p0-note-A/response.json",
+      "sha256": "ea21ef527a283df763f106858da66eac7e70dd47ec4ce7c7b82c4259b94e2cb8"
+    },
+    "inputs/v5/gptoss-305/origin/s305-symmetric-legitimate-p0-note-B/request.json": {
+      "v5_path": "runs/v5-main-gptoss-305/calls/s305-symmetric-legitimate-p0-note-B/request.json",
+      "sha256": "7257b7fe609da9f6a51efdee70c9c4be46af83a2c24f9a31982eb2f7e91b56ae"
+    },
+    "inputs/v5/gptoss-305/origin/s305-symmetric-legitimate-p0-note-B/response.json": {
+      "v5_path": "runs/v5-main-gptoss-305/calls/s305-symmetric-legitimate-p0-note-B/response.json",
+      "sha256": "146e8720d5b9d67fd04a161899e89b9fbf8d43763b123ffd63e108c5826c3137"
+    },
+    "inputs/v5/gptoss-306/checkpoint.json": {
+      "v5_path": "runs/v5-main-gptoss-306/checkpoints/s306-symmetric.json",
+      "sha256": "9ed7ef0e2012422dd9799d4a0d6a25833886cb4c5f7a3dc2539edc4b5697b561"
+    },
+    "inputs/v5/gptoss-306/donor-harmful.json": {
+      "v5_path": "runs/v5-main-gptoss-306/donors/s306-symmetric-harmful-p0.json",
+      "sha256": "13709851178240ce3e518a3605df95f38bc82291390101b944d3e18ac4cc7ece"
+    },
+    "inputs/v5/gptoss-306/origin/s306-symmetric-harmful-p0-note-A/request.json": {
+      "v5_path": "runs/v5-main-gptoss-306/calls/s306-symmetric-harmful-p0-note-A/request.json",
+      "sha256": "cda35ff5faeb56671244bb858496b8cfbe6c61ce40446b5c0edd6bbe2c2cefc4"
+    },
+    "inputs/v5/gptoss-306/origin/s306-symmetric-harmful-p0-note-A/response.json": {
+      "v5_path": "runs/v5-main-gptoss-306/calls/s306-symmetric-harmful-p0-note-A/response.json",
+      "sha256": "f6c20b02f429d83a54932a8b5d2af286be66f372a6a39e6de86e816c61a27b90"
+    },
+    "inputs/v5/gptoss-306/origin/s306-symmetric-harmful-p0-note-B/request.json": {
+      "v5_path": "runs/v5-main-gptoss-306/calls/s306-symmetric-harmful-p0-note-B/request.json",
+      "sha256": "3d3d270761e34ffd7faa6ededabf1035bc031cff46a91c9dedfff6f9770abefd"
+    },
+    "inputs/v5/gptoss-306/origin/s306-symmetric-harmful-p0-note-B/response.json": {
+      "v5_path": "runs/v5-main-gptoss-306/calls/s306-symmetric-harmful-p0-note-B/response.json",
+      "sha256": "fbd78be2f6cfdaedf862a75dc6dbd0d14dd60cd0c9e4c0cdfb64ba3f74a178d4"
+    },
+    "inputs/v5/gptoss-306/donor-legitimate.json": {
+      "v5_path": "runs/v5-main-gptoss-306/donors/s306-symmetric-legitimate-p0.json",
+      "sha256": "f3f21d33b01ae4ababe7da7b65ec81368567e65a2e26a0e9c4d47c226c4c51d2"
+    },
+    "inputs/v5/gptoss-306/origin/s306-symmetric-legitimate-p0-note-A/request.json": {
+      "v5_path": "runs/v5-main-gptoss-306/calls/s306-symmetric-legitimate-p0-note-A/request.json",
+      "sha256": "aea47326e5cf841e84823facdf555130b1bd69826abdd61f4cef164aedd255b6"
+    },
+    "inputs/v5/gptoss-306/origin/s306-symmetric-legitimate-p0-note-A/response.json": {
+      "v5_path": "runs/v5-main-gptoss-306/calls/s306-symmetric-legitimate-p0-note-A/response.json",
+      "sha256": "9ce1306ad34da3fa482d53ef4d97bebe5ad00eac61e36799d7425399a4459f75"
+    },
+    "inputs/v5/gptoss-306/origin/s306-symmetric-legitimate-p0-note-B/request.json": {
+      "v5_path": "runs/v5-main-gptoss-306/calls/s306-symmetric-legitimate-p0-note-B/request.json",
+      "sha256": "4a624e4870f983b383b7c144541b045fd8f5eb0ca82bac65430d8dc9e25ba54a"
+    },
+    "inputs/v5/gptoss-306/origin/s306-symmetric-legitimate-p0-note-B/response.json": {
+      "v5_path": "runs/v5-main-gptoss-306/calls/s306-symmetric-legitimate-p0-note-B/response.json",
+      "sha256": "27d78620c874bc7be899ee7b5c3b21ec8ece66a45f0ccfd511812e98709ea001"
+    },
+    "inputs/v5/qwen-301/origin/s301-symmetric-harmful-verified-r0-A/request.json": {
+      "v5_path": "runs/v5-main-qwen-301/calls/s301-symmetric-harmful-verified-r0-A/request.json",
+      "sha256": "4af3564ec702ec4a9c6262e91a72588b115e13bde4a9d96bf4de1378e6970a0c"
+    },
+    "inputs/v5/qwen-301/origin/s301-symmetric-harmful-verified-r0-B/request.json": {
+      "v5_path": "runs/v5-main-qwen-301/calls/s301-symmetric-harmful-verified-r0-B/request.json",
+      "sha256": "77a97fbc1b1443ea2a7d2276ee1b16ba91a04b57fe8461f420fe7c934f6ec079"
+    },
+    "inputs/v5/qwen-301/origin/s301-symmetric-legitimate-verified-r0-A/request.json": {
+      "v5_path": "runs/v5-main-qwen-301/calls/s301-symmetric-legitimate-verified-r0-A/request.json",
+      "sha256": "7df8b4a80f5d0ff8c56352b7d1d56723baaede6783abdcdb1be2feb378851e22"
+    },
+    "inputs/v5/qwen-301/origin/s301-symmetric-legitimate-verified-r0-B/request.json": {
+      "v5_path": "runs/v5-main-qwen-301/calls/s301-symmetric-legitimate-verified-r0-B/request.json",
+      "sha256": "d5ffd05cd46a633ca02bd3061d5a33f534e7be8e227c26179e61056c0f5b781c"
+    },
+    "inputs/v5/qwen-303/origin/s303-symmetric-harmful-verified-r0-A/request.json": {
+      "v5_path": "runs/v5-main-qwen-303/calls/s303-symmetric-harmful-verified-r0-A/request.json",
+      "sha256": "47bad97e136aaf3b27be32a85e19fa6437b6e907aa4611a504787ddd28c8a0ff"
+    },
+    "inputs/v5/qwen-303/origin/s303-symmetric-harmful-verified-r0-B/request.json": {
+      "v5_path": "runs/v5-main-qwen-303/calls/s303-symmetric-harmful-verified-r0-B/request.json",
+      "sha256": "bca8f065a63d9f85473a5f486f520f4297365b60adf886cb7740af4dce9db39c"
+    },
+    "inputs/v5/qwen-303/origin/s303-symmetric-legitimate-verified-r0-A/request.json": {
+      "v5_path": "runs/v5-main-qwen-303/calls/s303-symmetric-legitimate-verified-r0-A/request.json",
+      "sha256": "d3e10f9a54921490aa881b058a78aca0855d1e7e21fb39f78e9a56c311b72e02"
+    },
+    "inputs/v5/qwen-303/origin/s303-symmetric-legitimate-verified-r0-B/request.json": {
+      "v5_path": "runs/v5-main-qwen-303/calls/s303-symmetric-legitimate-verified-r0-B/request.json",
+      "sha256": "e3352ff71ec0b330553008c7fd89fbf8f1fb7b0b1567ed89fb7a43c32a5a83f0"
+    },
+    "inputs/v5/qwen-304/origin/s304-symmetric-harmful-verified-r0-A/request.json": {
+      "v5_path": "runs/v5-main-qwen-304/calls/s304-symmetric-harmful-verified-r0-A/request.json",
+      "sha256": "930429457f3a249e2af7360fb5b40a4cb6e8d2a527c482ca90bc66ab2bc85dc7"
+    },
+    "inputs/v5/qwen-304/origin/s304-symmetric-harmful-verified-r0-B/request.json": {
+      "v5_path": "runs/v5-main-qwen-304/calls/s304-symmetric-harmful-verified-r0-B/request.json",
+      "sha256": "e871701a06347dce73647547821307aecd9e482cbc8afaeae6d864538d8ca921"
+    },
+    "inputs/v5/qwen-304/origin/s304-symmetric-legitimate-verified-r0-A/request.json": {
+      "v5_path": "runs/v5-main-qwen-304/calls/s304-symmetric-legitimate-verified-r0-A/request.json",
+      "sha256": "c846aadb2db7337dea7613bbf0b5283c6fd2d37b1faa6f1eb53f90137ef197a1"
+    },
+    "inputs/v5/qwen-304/origin/s304-symmetric-legitimate-verified-r0-B/request.json": {
+      "v5_path": "runs/v5-main-qwen-304/calls/s304-symmetric-legitimate-verified-r0-B/request.json",
+      "sha256": "8a01bee8a89c4325c99efbd1e4b231fa61a00a8f252ce0a7882db6fe3bce2bb7"
+    },
+    "inputs/v5/qwen-306/origin/s306-symmetric-harmful-verified-r0-A/request.json": {
+      "v5_path": "runs/v5-main-qwen-306/calls/s306-symmetric-harmful-verified-r0-A/request.json",
+      "sha256": "2d959a5679e1ce08cd62d6ecda7f4e262d8e8f35ec03370b52f828987a6670f4"
+    },
+    "inputs/v5/qwen-306/origin/s306-symmetric-harmful-verified-r0-B/request.json": {
+      "v5_path": "runs/v5-main-qwen-306/calls/s306-symmetric-harmful-verified-r0-B/request.json",
+      "sha256": "5b73921cab5ecef4421cbb8354ee98568ea7b80d5a8056fece246ff94574e280"
+    },
+    "inputs/v5/qwen-306/origin/s306-symmetric-legitimate-verified-r0-A/request.json": {
+      "v5_path": "runs/v5-main-qwen-306/calls/s306-symmetric-legitimate-verified-r0-A/request.json",
+      "sha256": "c9a83a6f398c16272547a4e6d2e8afd32b95f3ab8d06a2394dc0e1779bbb88db"
+    },
+    "inputs/v5/qwen-306/origin/s306-symmetric-legitimate-verified-r0-B/request.json": {
+      "v5_path": "runs/v5-main-qwen-306/calls/s306-symmetric-legitimate-verified-r0-B/request.json",
+      "sha256": "a51a0ff40de12a8991463f79b2c76da367074d6228292b7b01892b1db89800ac"
+    },
+    "inputs/v5/gptoss-301/origin/s301-symmetric-harmful-verified-r0-A/request.json": {
+      "v5_path": "runs/v5-main-gptoss-301/calls/s301-symmetric-harmful-verified-r0-A/request.json",
+      "sha256": "8c1595480ff5ff4e789e2fbeb3316ecac78328b7293e7f3cf5a21fb0720d7d7b"
+    },
+    "inputs/v5/gptoss-301/origin/s301-symmetric-harmful-verified-r0-B/request.json": {
+      "v5_path": "runs/v5-main-gptoss-301/calls/s301-symmetric-harmful-verified-r0-B/request.json",
+      "sha256": "2db02f62d217008d133ef3a7e8091c4bb813faf404e396aa581b4498d1a5c8b7"
+    },
+    "inputs/v5/gptoss-301/origin/s301-symmetric-legitimate-verified-r0-A/request.json": {
+      "v5_path": "runs/v5-main-gptoss-301/calls/s301-symmetric-legitimate-verified-r0-A/request.json",
+      "sha256": "f92c4ef61f3f4f06d96c3816534eb8a38b614b113bbafd747561008a879204c1"
+    },
+    "inputs/v5/gptoss-301/origin/s301-symmetric-legitimate-verified-r0-B/request.json": {
+      "v5_path": "runs/v5-main-gptoss-301/calls/s301-symmetric-legitimate-verified-r0-B/request.json",
+      "sha256": "d33e028ebc56e0a6b43602f24db4b38f77f83f8a3a89aee0dacf18a4af32aa0d"
+    },
+    "inputs/v5/gptoss-302/origin/s302-symmetric-harmful-verified-r0-A/request.json": {
+      "v5_path": "runs/v5-main-gptoss-302/calls/s302-symmetric-harmful-verified-r0-A/request.json",
+      "sha256": "a6f7b943d36cbf97e769eae2fa58a23d8be1d7c77592e16ba4f3b6305ae69560"
+    },
+    "inputs/v5/gptoss-302/origin/s302-symmetric-harmful-verified-r0-B/request.json": {
+      "v5_path": "runs/v5-main-gptoss-302/calls/s302-symmetric-harmful-verified-r0-B/request.json",
+      "sha256": "fe6344006e48a53c41f867198251239229ccd616e5a7041cb3548facd9385b6e"
+    },
+    "inputs/v5/gptoss-302/origin/s302-symmetric-legitimate-verified-r0-A/request.json": {
+      "v5_path": "runs/v5-main-gptoss-302/calls/s302-symmetric-legitimate-verified-r0-A/request.json",
+      "sha256": "918e82dc910fac633b1868ffdff5c59611083f4e8ebae99579da4df51b76034f"
+    },
+    "inputs/v5/gptoss-302/origin/s302-symmetric-legitimate-verified-r0-B/request.json": {
+      "v5_path": "runs/v5-main-gptoss-302/calls/s302-symmetric-legitimate-verified-r0-B/request.json",
+      "sha256": "8a1d155c2f47eb6494f8cb6d3280fec048e9ad4687f431a52ef5009d99ae1038"
+    },
+    "inputs/v5/gptoss-303/origin/s303-symmetric-harmful-verified-r0-A/request.json": {
+      "v5_path": "runs/v5-main-gptoss-303/calls/s303-symmetric-harmful-verified-r0-A/request.json",
+      "sha256": "ef85560501a08b4d296053d10b96772fd99190f245bb39d2688e1b67294ff6e2"
+    },
+    "inputs/v5/gptoss-303/origin/s303-symmetric-harmful-verified-r0-B/request.json": {
+      "v5_path": "runs/v5-main-gptoss-303/calls/s303-symmetric-harmful-verified-r0-B/request.json",
+      "sha256": "49da535beeabf216c0039b6eff8ce95d4b4fbd9b4f0faf6d15f9256ff287057f"
+    },
+    "inputs/v5/gptoss-303/origin/s303-symmetric-legitimate-verified-r0-A/request.json": {
+      "v5_path": "runs/v5-main-gptoss-303/calls/s303-symmetric-legitimate-verified-r0-A/request.json",
+      "sha256": "e4ef00ebdacfc574d35e6777d90da96f545b34a06d1381b8fe35eb2f5ecc9ca8"
+    },
+    "inputs/v5/gptoss-303/origin/s303-symmetric-legitimate-verified-r0-B/request.json": {
+      "v5_path": "runs/v5-main-gptoss-303/calls/s303-symmetric-legitimate-verified-r0-B/request.json",
+      "sha256": "f58a646943dd1960fc83bb14f5883e6c551282f1c728b5e5b2d45db763a0fbbf"
+    },
+    "inputs/v5/gptoss-304/origin/s304-symmetric-harmful-verified-r0-A/request.json": {
+      "v5_path": "runs/v5-main-gptoss-304/calls/s304-symmetric-harmful-verified-r0-A/request.json",
+      "sha256": "b424ee7ef42206149d86ca4d81ca1aa5046289254b6edb3210b854e422856ebd"
+    },
+    "inputs/v5/gptoss-304/origin/s304-symmetric-harmful-verified-r0-B/request.json": {
+      "v5_path": "runs/v5-main-gptoss-304/calls/s304-symmetric-harmful-verified-r0-B/request.json",
+      "sha256": "cf8fabd45f2f0e42b58dbd3e024473d533ad46cf45c33ab3140a3159f09314de"
+    },
+    "inputs/v5/gptoss-304/origin/s304-symmetric-legitimate-verified-r0-A/request.json": {
+      "v5_path": "runs/v5-main-gptoss-304/calls/s304-symmetric-legitimate-verified-r0-A/request.json",
+      "sha256": "7c477864ec9f6d7ca500c10d885c2ecc6ff706682de2d4f70cb3950909be37d5"
+    },
+    "inputs/v5/gptoss-304/origin/s304-symmetric-legitimate-verified-r0-B/request.json": {
+      "v5_path": "runs/v5-main-gptoss-304/calls/s304-symmetric-legitimate-verified-r0-B/request.json",
+      "sha256": "6205991f56052d6652d8308e2f68e40e18cd0be08b6e7f6e1651756529dd2279"
+    },
+    "inputs/v5/gptoss-305/origin/s305-symmetric-harmful-verified-r0-A/request.json": {
+      "v5_path": "runs/v5-main-gptoss-305/calls/s305-symmetric-harmful-verified-r0-A/request.json",
+      "sha256": "5b5adde216d59c4df1c158ece03199544253808cf3c7aea5b09e231c9c76ec3a"
+    },
+    "inputs/v5/gptoss-305/origin/s305-symmetric-harmful-verified-r0-B/request.json": {
+      "v5_path": "runs/v5-main-gptoss-305/calls/s305-symmetric-harmful-verified-r0-B/request.json",
+      "sha256": "5f92df53bc3cbb48232e09349b1709bccff0ef324004ad791c7d37e74a026a58"
+    },
+    "inputs/v5/gptoss-305/origin/s305-symmetric-legitimate-verified-r0-A/request.json": {
+      "v5_path": "runs/v5-main-gptoss-305/calls/s305-symmetric-legitimate-verified-r0-A/request.json",
+      "sha256": "a8b9c8918a9b24a75348152f25f1cbb63e8be026a4bdb4b004a82c6d54a97186"
+    },
+    "inputs/v5/gptoss-305/origin/s305-symmetric-legitimate-verified-r0-B/request.json": {
+      "v5_path": "runs/v5-main-gptoss-305/calls/s305-symmetric-legitimate-verified-r0-B/request.json",
+      "sha256": "c1b9c87cda5b9862f16cee630e9f76394bce5980661554626100faedc610d080"
+    },
+    "inputs/v5/gptoss-306/origin/s306-symmetric-harmful-verified-r0-A/request.json": {
+      "v5_path": "runs/v5-main-gptoss-306/calls/s306-symmetric-harmful-verified-r0-A/request.json",
+      "sha256": "40f652bb3b9fd56a535962bc997025ad9a668d0c80f048700d2c12cf38ae54f0"
+    },
+    "inputs/v5/gptoss-306/origin/s306-symmetric-harmful-verified-r0-B/request.json": {
+      "v5_path": "runs/v5-main-gptoss-306/calls/s306-symmetric-harmful-verified-r0-B/request.json",
+      "sha256": "1bb3517eb752196112c66c31d25366ebbaa767601aa9a6b66dc309e2aeaede57"
+    },
+    "inputs/v5/gptoss-306/origin/s306-symmetric-legitimate-verified-r0-A/request.json": {
+      "v5_path": "runs/v5-main-gptoss-306/calls/s306-symmetric-legitimate-verified-r0-A/request.json",
+      "sha256": "20fcfa0b6ddd5f7f8869a2d41f43938fab8f35d3c6321afd7fe896c9534f80f1"
+    },
+    "inputs/v5/gptoss-306/origin/s306-symmetric-legitimate-verified-r0-B/request.json": {
+      "v5_path": "runs/v5-main-gptoss-306/calls/s306-symmetric-legitimate-verified-r0-B/request.json",
+      "sha256": "86c6ec3d3789cd6151538a52b902b1274ed6d8afc88792559d2261ba17d300a3"
+    }
+  }
+}

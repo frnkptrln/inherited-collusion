@@ -1,0 +1,38 @@
+{
+  "huggingface_hub_version": "2.3.0",
+  "python_environment": "project .venv",
+  "inspection": "offline source read and pure payload-construction calls; no API-key lookup, request preparation or HTTP call",
+  "source_sha256": {
+    "inference/_client.py": "5680460a9686f44ec0459bb43537724bb7ebccb22d74e74a3326f46f3edc1254",
+    "inference/_providers/_common.py": "4f788a4fa31c36cec67957cadeafa5ec205bba287699315caa4465b909fb1a74",
+    "inference/_providers/deepinfra.py": "9fc708f44afe8cc46ea81225ca8510795b96349e5c05534c42eee9c00d2154f0"
+  },
+  "payload_construction_checks": [
+    {
+      "requested_hub_id": "Qwen/Qwen3.6-35B-A3B",
+      "mapped_provider_id": "Qwen/Qwen3.6-35B-A3B",
+      "payload_model": "Qwen/Qwen3.6-35B-A3B",
+      "payload_options": {
+        "model": "Qwen/Qwen3.6-35B-A3B",
+        "max_tokens": 8192,
+        "temperature": 1.0,
+        "top_p": 0.95,
+        "n": 1
+      },
+      "request_sent": false
+    },
+    {
+      "requested_hub_id": "deepseek-ai/DeepSeek-V3.2",
+      "mapped_provider_id": "deepseek-ai/DeepSeek-V3.2",
+      "payload_model": "deepseek-ai/DeepSeek-V3.2",
+      "payload_options": {
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "max_tokens": 8192,
+        "temperature": 1.0,
+        "top_p": 0.95,
+        "n": 1
+      },
+      "request_sent": false
+    }
+  ]
+}

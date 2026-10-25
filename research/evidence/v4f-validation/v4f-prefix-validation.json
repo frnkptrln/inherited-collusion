@@ -1,0 +1,26 @@
+{
+  "validated_at": "2026-10-23T18:59:41.438191+00:00",
+  "software_only": true,
+  "model_calls": 0,
+  "network_calls": 0,
+  "source_hash": "0925aaf228c3fc283bdb05ca3561b5c9e90d4be519ad8e8aed391cf51e4394d9",
+  "files": {
+    "/tmp/collusion-phase4f/execution/scripts/v4f_runner.py": "a87e3606dc3486ea69a1ff01f1791bf41daa1dd01d5426d81665b18778a17dc6",
+    "/tmp/collusion-phase4f/execution/scripts/run_v4f_study.py": "0440c1196f1ffd935cffc0ee03909c04382bb1046949fd5ae07be725b9d5099f",
+    "/tmp/collusion-phase4f/execution/tests/test_v4f_runner.py": "152df5aed78972f5a6b0390542565016f58165ed4ce8fd2a1f6e2da96c2cff27",
+    "/tmp/collusion-phase4f/execution/tests/v4f_fixtures.py": "8b90e739fbb15a642e237d29d9f9295abba89f64cde9f5150e0f36278e3810dd"
+  },
+  "tests_passed": 13,
+  "tests_failed": 0,
+  "elapsed_seconds": 2.944,
+  "command": "/home/user/projects/collusion-sprint/.venv/bin/python -B -m unittest discover -s /tmp/collusion-phase4f/execution/tests -p test_v4f_runner.py -v",
+  "new_regressions": [
+    "Valid cached episode prefix preserved byte-exact with unresolved reserved tail",
+    "Zero backend calls across staged probes/donors/all and stop_after",
+    "Any different never-dispatched call ID also blocked within inherited-ambiguous case",
+    "Truncated later cached response does not suppress prior valid cached episode",
+    "Global model blocker distinguishes metadata/cache validation from new-dispatch permission",
+    "Dispatcher retains unresolved cases for later cache-only stage reconstruction"
+  ],
+  "code_change": "Execution-only retention of already observed valid prefixes; no parser, prompt, scientific gate or budget change. Actual project not modified by reviewer."
+}

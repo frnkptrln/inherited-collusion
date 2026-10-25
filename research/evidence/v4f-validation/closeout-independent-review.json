@@ -1,0 +1,19 @@
+{
+  "reviewed_at": "2026-10-23T18:49:38.000719+00:00",
+  "reviewer": "independent execution review agent",
+  "file": "/tmp/collusion-phase4f/close_strict_and_install_budget.py",
+  "sha256": "556ef100b2a2dcfc37c55dc6cfc645a5e4f30823b5172b70260e99cb0f6172f7",
+  "method": "read-only source review; not executed; no model/network calls",
+  "finding_resolved": "All18 shared nonblocking source locks now held through inventory and old-ledger retirement, in addition to exclusive dispatcher lock. This closes a direct-run race.",
+  "accepted_invariants": [
+    "Original ledger byte-exact archive before retirement",
+    "Fixed18 bijective source mapping with unchanged model/cohort/seed/repeats/per-case ceiling",
+    "Continuation configs differ only by declared source/new qualification/new budget binding",
+    "Original frozen artifacts checked before writes",
+    "No overwrite; old ledger retired atomically before new consolidated ledger becomes available",
+    "Closure and replacement_ledger keys match final V4F runner interfaces",
+    "Historical1.594 plus consolidated8.328 equals9.922; reused calls are already included"
+  ],
+  "remaining_blockers": [],
+  "execution_precondition": "Strict dispatcher has exited and all source locks acquired; parent executes installer, not reviewer."
+}

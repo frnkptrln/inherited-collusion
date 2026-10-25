@@ -1,0 +1,252 @@
+{
+  "title": "Inherited Collusion: A Gated Audit of Agent Handoffs",
+  "date": "2026-10-23",
+  "author": "Frank Peterlein",
+  "affiliation": "Independent researcher",
+  "analysis_file": "output/analysis/analysis.json",
+  "analysis_sha256": "1ef50a561a76aaef2b94b3c9134f0e0b1bd64b554903d505ce9570f166c2036b",
+  "report_input_sha256": "8d1d41f936002e84103dd9c3dc90bdf3fe556a08d9a04e21c313b2fbba0a86a6",
+  "interpretation": [
+    "All 18 calls are development probes. No donor generation or successor episodes occurred.",
+    "The third attempt has six requested/reported identifier mismatches. Raw gate outcomes are preserved for audit; no capability attribution to the requested or reported model is established.",
+    "Model response identifiers and public catalog mappings do not establish actual served weights. Cause of mismatch unresolved.",
+    "Post-run strict model-ID check was not applied retroactively.",
+    "Costs are provider estimates or hypothetical catalog valuations, not settled invoices."
+  ],
+  "totals": {
+    "calls": 18,
+    "prompt_tokens": 4190,
+    "completion_tokens": 7301,
+    "total_tokens": 11491,
+    "raw_task_passed": 2,
+    "raw_task_count": 6,
+    "raw_note_passed": 12,
+    "raw_note_count": 12,
+    "donor_trials": 0,
+    "successor_episodes": 0,
+    "extension_instances_executed": 0,
+    "extension_instances_prepared": 8,
+    "provider_estimated_cost_usd": "0.00720307",
+    "hypothetical_requested_catalog_cost_usd": "0.01681933",
+    "dispatched_reservations_usd": "0.126",
+    "allocated_run_ceilings_usd": "1.00"
+  },
+  "runs": [
+    {
+      "run_path": "runs/hf-pilot-v1",
+      "source_hash": "9371898c79f065e5462f89a81c5005370c913d3199b923a0212c0c2a69433208",
+      "source_snapshot_verified_by_analysis": true,
+      "requested_model": "Qwen/Qwen3-235B-A22B-Instruct-2507",
+      "reported_models": [
+        "Qwen/Qwen3-235B-A22B-Instruct-2507"
+      ],
+      "mismatched_response_count": 0,
+      "attribution": "no_mismatch_observed",
+      "request_generation_settings": [
+        {
+          "max_tokens": 512,
+          "model": "Qwen/Qwen3-235B-A22B-Instruct-2507",
+          "provider": "deepinfra",
+          "temperature": 0,
+          "top_p": null
+        }
+      ],
+      "calls": 6,
+      "raw_action_gates": {
+        "task_passed": 1,
+        "task_count": 2,
+        "notes_passed": 4,
+        "notes_count": 4
+      },
+      "successor_episodes": 0,
+      "costs": {
+        "reserved_calls": 6,
+        "reserved_usd": 0.018000000000000002,
+        "responses_saved": 6,
+        "responses_with_reported_cost": 6,
+        "reported_estimated_cost_usd": 0.00020812,
+        "responses_missing_reported_cost": 0,
+        "unresolved_calls": 0,
+        "requested_catalog_token_estimate_usd": 0.00020812,
+        "responses_with_requested_catalog_estimate": 6,
+        "prompt_tokens": 1518,
+        "completion_tokens": 130,
+        "total_tokens": 1648
+      },
+      "file_hashes": {
+        "calls/s1-probe-A-comprehension/dispatch.json": "a486fc6421f81b0e9e298975373a9e0a2bda99b8b72775f2c8989941038c20c3",
+        "calls/s1-probe-A-comprehension/request.json": "65279495fecb29795a16c16bef3a29471ccd076cf2019ed9c6ff0af2ebbb68f7",
+        "calls/s1-probe-A-comprehension/response.json": "4aad970bfed6a058f022173007e30e76e6ea074992f637927f1e4df4894a5181",
+        "calls/s1-probe-A-note_T1/dispatch.json": "3aa63b696b12616399b0e21ed402e8a4cb2d5c0723bbc4448efbe44746fac5d7",
+        "calls/s1-probe-A-note_T1/request.json": "2b87ec955d21251c6d916df8d3d0377fdc80ad3c7ed06984459207383c80af15",
+        "calls/s1-probe-A-note_T1/response.json": "6242683b265ebcf190a1511551c72a77bee4fb96553b0ffb44887efc7a93592c",
+        "calls/s1-probe-A-note_T2/dispatch.json": "9891694207e1c693b9a99b32163cab57d8e814d85f08db1be4cee238760abc7a",
+        "calls/s1-probe-A-note_T2/request.json": "8a8e92da264b39c74592a8a8412a86cacf12434136c0a5a23e5bf2486686150f",
+        "calls/s1-probe-A-note_T2/response.json": "dfdb23e8751300f3d830e96de22d374e6568361cec952af76df0e14527ff1a77",
+        "calls/s1-probe-B-comprehension/dispatch.json": "f502252c4c978185bceb508d1b4ad155bd4e5e33c789acc133382077dfa49f92",
+        "calls/s1-probe-B-comprehension/request.json": "f7213a9e8c6eb97d41b0f9da47a9f3f69ca428ffcee9da1daa3b88f32ebc1c2c",
+        "calls/s1-probe-B-comprehension/response.json": "e2a477975aa0b724c18e3e6f6e179f88e1747516fd31e1d7adf2ec1bc2cd94a1",
+        "calls/s1-probe-B-note_T1/dispatch.json": "7ed7f2b137172b9ef1d8ab3727ee93f774c011a5628a34c6a75181a37f3b95b5",
+        "calls/s1-probe-B-note_T1/request.json": "aa8395fe8218a5c85a726ec62cae9352792112f3761cb63a93dc6820cc1e8bee",
+        "calls/s1-probe-B-note_T1/response.json": "1298e01dcf671dc8a602a77ddae01391546dc333530ae4af420441e322ea7c1b",
+        "calls/s1-probe-B-note_T2/dispatch.json": "f0d9d8c64e15209935de00c17e2126411b3f3a54b4fdaceaa8a5c5503e3f3167",
+        "calls/s1-probe-B-note_T2/request.json": "15d1cd82311320a8bd2b9b657d63a9d8a1b7ad92b181d2ee7ec0d3f2e97c3864",
+        "calls/s1-probe-B-note_T2/response.json": "d7f035461781963f8ea33c2cac125de6e59feb77750c6bb83feaff2e0abea7c1",
+        "checkpoints/s1.json": "8105e6c507b92a725b068b5549fe6aaaaf4683cf09613363ebaa1423a47fe555",
+        "gates/s1-probes.json": "9a35738b2225b19e974de931a6fbb0fd82ebf44897adf9d0f4e73599d5595749",
+        "manifest.json": "1d2e7fa4b2920ad49f275009f8e8e5100105e6b5742012e09da3bfa0b6f6c408",
+        "source_snapshot/__init__.py": "57dca31a6d22c7dd313d3b734e1a3dd05f9c970756045033b90bcfcce41288dd",
+        "source_snapshot/backends.py": "9938ccd094658b31f9f89456861363e53a145201b20ac98bf2c3378e8a51b06d",
+        "source_snapshot/manifest.json": "dd4f367145f50feaf22b4c739b6e461482cc822c0f009263ea9c2e184370eeb8",
+        "source_snapshot/runner.py": "e6db7bfd980c40ec2ac04473d9ae2ac88978775fca6ff1ef1c560441b2c38c25",
+        "source_snapshot/scenario.py": "c431350ac6eee5c5faab754dc35972f48895422a41eb379ebfa9efe4b8146bc0",
+        "source_snapshot/storage.py": "d92a7e5c2e7a4224da311e4d9dee0201884c8f2e4e77ff71efa530bedd624d1c",
+        "summary.json": "8d10e9bbb1fb7d2b6571338cc38266ee691b6edb88826cbc28510412e9f2fa62"
+      }
+    },
+    {
+      "run_path": "runs/hf-pilot-table-v1",
+      "source_hash": "1d8b4382f110baa2e5ccdaeabe5988d905ff3d01d550d569e367ee97d8e38e69",
+      "source_snapshot_verified_by_analysis": true,
+      "requested_model": "Qwen/Qwen3-235B-A22B-Instruct-2507",
+      "reported_models": [
+        "Qwen/Qwen3-235B-A22B-Instruct-2507"
+      ],
+      "mismatched_response_count": 0,
+      "attribution": "no_mismatch_observed",
+      "request_generation_settings": [
+        {
+          "max_tokens": 512,
+          "model": "Qwen/Qwen3-235B-A22B-Instruct-2507",
+          "provider": "deepinfra",
+          "temperature": 0,
+          "top_p": null
+        }
+      ],
+      "calls": 6,
+      "raw_action_gates": {
+        "task_passed": 0,
+        "task_count": 2,
+        "notes_passed": 4,
+        "notes_count": 4
+      },
+      "successor_episodes": 0,
+      "costs": {
+        "reserved_calls": 6,
+        "reserved_usd": 0.018000000000000002,
+        "responses_saved": 6,
+        "responses_with_reported_cost": 6,
+        "reported_estimated_cost_usd": 0.00021635000000000003,
+        "responses_missing_reported_cost": 0,
+        "unresolved_calls": 0,
+        "requested_catalog_token_estimate_usd": 0.00021635,
+        "responses_with_requested_catalog_estimate": 6,
+        "prompt_tokens": 1310,
+        "completion_tokens": 179,
+        "total_tokens": 1489
+      },
+      "file_hashes": {
+        "calls/s1-probe-A-comprehension/dispatch.json": "648ad6209eb2781d6bd61a22a23bd1317d5a099c8ba458f0aeef74d70b2df6f5",
+        "calls/s1-probe-A-comprehension/request.json": "98f3d8a4a2e162e41f8ccdd4ef96df86a222710fab8c68138693fe163248beea",
+        "calls/s1-probe-A-comprehension/response.json": "0c3fb8bb7c291f98eb187d0626e483866b7bffc2241c2626a352329c6c321944",
+        "calls/s1-probe-A-note_T1/dispatch.json": "6811d602d9f1cdeecb1249665b1f330e0b82a4bfdb845941238699b292eb5cbe",
+        "calls/s1-probe-A-note_T1/request.json": "2b87ec955d21251c6d916df8d3d0377fdc80ad3c7ed06984459207383c80af15",
+        "calls/s1-probe-A-note_T1/response.json": "6403e9b8cda5cf322b6a1b83ee9d99793c95cb31c3187bd5a57f7826ffa60837",
+        "calls/s1-probe-A-note_T2/dispatch.json": "f88ff1113d8b9f13a31db4ca9facb144e5c08b719d95c621e0de1a530ed77561",
+        "calls/s1-probe-A-note_T2/request.json": "8a8e92da264b39c74592a8a8412a86cacf12434136c0a5a23e5bf2486686150f",
+        "calls/s1-probe-A-note_T2/response.json": "9f1fb1413af388d0d620be106876ee2dd8a0eaaa51964ca03f1a9af7f07ca285",
+        "calls/s1-probe-B-comprehension/dispatch.json": "fcae2d76dfc39ebee15bc7546f274f726e34881185287dbb8895ac2e7c5a7a4d",
+        "calls/s1-probe-B-comprehension/request.json": "76668513dbcbb475880c31f862159f680a22760f6494fae6e5ba4f612b6c51e8",
+        "calls/s1-probe-B-comprehension/response.json": "52bcf90f1e8e2fdfe07b4de0154a4dcb97015f072377db7500d4bc1ec95d4a89",
+        "calls/s1-probe-B-note_T1/dispatch.json": "ccb93bb7a5511a9e12c1e5ba0ddca9b712b65f93091236ffd29a3b355739f586",
+        "calls/s1-probe-B-note_T1/request.json": "aa8395fe8218a5c85a726ec62cae9352792112f3761cb63a93dc6820cc1e8bee",
+        "calls/s1-probe-B-note_T1/response.json": "6f2544fe9e4dc301a01b59b96e86ca93e108393c7cf08afa9ff84ea899ad8968",
+        "calls/s1-probe-B-note_T2/dispatch.json": "315aa44da5d1f7f586f0aee08445d3660548ee832d8290f28880b525a993cf7a",
+        "calls/s1-probe-B-note_T2/request.json": "15d1cd82311320a8bd2b9b657d63a9d8a1b7ad92b181d2ee7ec0d3f2e97c3864",
+        "calls/s1-probe-B-note_T2/response.json": "88915e79c3c1fb52362a73d93d3444f3df43d029766aaf25dd8c0fc93df15c3d",
+        "checkpoints/s1.json": "8105e6c507b92a725b068b5549fe6aaaaf4683cf09613363ebaa1423a47fe555",
+        "gates/s1-probes.json": "15646ed197d69966040e867033f44f97b594c7612195e7ab562b9a050f9def2c",
+        "manifest.json": "ef2b53143475c186a1407d9ca42e693471bdd17323823196e9eb97b38aebf745",
+        "source_snapshot/__init__.py": "57dca31a6d22c7dd313d3b734e1a3dd05f9c970756045033b90bcfcce41288dd",
+        "source_snapshot/backends.py": "9938ccd094658b31f9f89456861363e53a145201b20ac98bf2c3378e8a51b06d",
+        "source_snapshot/manifest.json": "6e7c4dbf2f2bdf6cf123d331376a47b20392f80cbf2f6793166306afe3ae5d15",
+        "source_snapshot/runner.py": "e6db7bfd980c40ec2ac04473d9ae2ac88978775fca6ff1ef1c560441b2c38c25",
+        "source_snapshot/scenario.py": "5adb24cebbea671af96bae28a6db5dee2219e5ee61113aee3d4eea1707122b9e",
+        "source_snapshot/storage.py": "d92a7e5c2e7a4224da311e4d9dee0201884c8f2e4e77ff71efa530bedd624d1c",
+        "summary.json": "8d10e9bbb1fb7d2b6571338cc38266ee691b6edb88826cbc28510412e9f2fa62"
+      }
+    },
+    {
+      "run_path": "runs/hf-pilot-thinking-v1",
+      "source_hash": "27ec5f2c47e3dd9e58f8faab2ecd468c18b3a597f7e752c72fba0a85a68affce",
+      "source_snapshot_verified_by_analysis": true,
+      "requested_model": "Qwen/Qwen3-235B-A22B-Thinking-2507",
+      "reported_models": [
+        "Qwen/Qwen3.6-35B-A3B"
+      ],
+      "mismatched_response_count": 6,
+      "attribution": "invalid",
+      "request_generation_settings": [
+        {
+          "max_tokens": 4096,
+          "model": "Qwen/Qwen3-235B-A22B-Thinking-2507",
+          "provider": "deepinfra",
+          "temperature": 0.6,
+          "top_p": 0.95
+        }
+      ],
+      "calls": 6,
+      "raw_action_gates": {
+        "task_passed": 1,
+        "task_count": 2,
+        "notes_passed": 4,
+        "notes_count": 4
+      },
+      "successor_episodes": 0,
+      "costs": {
+        "reserved_calls": 6,
+        "reserved_usd": 0.09,
+        "responses_saved": 6,
+        "responses_with_reported_cost": 6,
+        "reported_estimated_cost_usd": 0.0067786,
+        "responses_missing_reported_cost": 0,
+        "unresolved_calls": 0,
+        "requested_catalog_token_estimate_usd": 0.016394859999999997,
+        "responses_with_requested_catalog_estimate": 6,
+        "prompt_tokens": 1362,
+        "completion_tokens": 6992,
+        "total_tokens": 8354
+      },
+      "file_hashes": {
+        "calls/s1-probe-A-comprehension/dispatch.json": "63092f5b08809e8f5e65edc914c43e039ca9607dbaed1874a63ff169694554ad",
+        "calls/s1-probe-A-comprehension/request.json": "b22f029fb09629b726ebbd13047dd0e57729a1d54075b067953e5a244af96a0e",
+        "calls/s1-probe-A-comprehension/response.json": "a84fabf6e4c2c8e271569173013f809eed23921d1d669c89bd27eda2e4a8470d",
+        "calls/s1-probe-A-note_T1/dispatch.json": "8efa0a8710063ffdfa2a0a70e34fec9d866f9aa3740eb28649b11451d9c86cfd",
+        "calls/s1-probe-A-note_T1/request.json": "03f19764d87a952611897073938d053af105eeec72104be7da3432a251e9609e",
+        "calls/s1-probe-A-note_T1/response.json": "19bfd26ce25a4fc1657e743848aff1777a3262c6a06fac5088cc7bae81817ddb",
+        "calls/s1-probe-A-note_T2/dispatch.json": "17ef346556fc485e7759d8da91845b42885bac4904d099a2086e433fd96a0dee",
+        "calls/s1-probe-A-note_T2/request.json": "932ba21d7a10dadff79eddf5c61accf198e5b395f7856df0117ca0e2a8d0a57b",
+        "calls/s1-probe-A-note_T2/response.json": "641c04cbe6e9ecd7fcd8611ed20a95933bd768723e2f4ae403bb0228365f8912",
+        "calls/s1-probe-B-comprehension/dispatch.json": "490e4f71d81b8d41fb942d375ed8397f81de79009e01c016ebb245d1eec41fdd",
+        "calls/s1-probe-B-comprehension/request.json": "b253ae0a9ba1fb0b3cac0029d523f189700fd0267d5e5e345f66652e78029f3d",
+        "calls/s1-probe-B-comprehension/response.json": "83da4ad8f89a7afdb9e02328f86767949ff43467ded1ef3ca486afeaacb48326",
+        "calls/s1-probe-B-note_T1/dispatch.json": "6f625c2c99c714bcc589f85b82956a680f00b73fa0b75859f9fc0e6476b6bda4",
+        "calls/s1-probe-B-note_T1/request.json": "d0584538675a0f26b30f6a161d695655ec58b16bf432027bc3999c8576079847",
+        "calls/s1-probe-B-note_T1/response.json": "08b04e28b4209b2dab5ea428ea94e79ef616f3a296381c6aa17b7d1237ff45b2",
+        "calls/s1-probe-B-note_T2/dispatch.json": "3a4dac5a617368d66f8900c1ff3aa581481ddcf51701457b8fffd868ac5090c9",
+        "calls/s1-probe-B-note_T2/request.json": "80acad69cb14ca6100faaa90be409bb2c14b5b5b53cfb2da89e4aeb34d133f96",
+        "calls/s1-probe-B-note_T2/response.json": "fee4b39605860a31995e243c2612b7c917829d79686725ba2f6eaf7c3662988a",
+        "checkpoints/s1.json": "8105e6c507b92a725b068b5549fe6aaaaf4683cf09613363ebaa1423a47fe555",
+        "gates/s1-probes.json": "8d215c8c19b12f00df12be223ce640cae8a81aac64ca50442bbda7b2823906a2",
+        "manifest.json": "c9e45224381b169cf73cacdfe2c4b49f242b5addd0a639c3a09a6cfa500bef63",
+        "source_snapshot/__init__.py": "57dca31a6d22c7dd313d3b734e1a3dd05f9c970756045033b90bcfcce41288dd",
+        "source_snapshot/backends.py": "65c8745dd8a37a3dd278d972376bb510917b869aef5a3bd779786c5da8d65a68",
+        "source_snapshot/manifest.json": "8f37cb80cba05e0f541ff5b392d4b91be7292376b94b51f6bedf537bdb6e0dd7",
+        "source_snapshot/runner.py": "0390b0519eef4117c661dfdee711afa687d75d8e1267050f31a49f72d5503f53",
+        "source_snapshot/scenario.py": "5adb24cebbea671af96bae28a6db5dee2219e5ee61113aee3d4eea1707122b9e",
+        "source_snapshot/storage.py": "d92a7e5c2e7a4224da311e4d9dee0201884c8f2e4e77ff71efa530bedd624d1c",
+        "summary.json": "d539b0d089b17428b2682bf6939d6730a83a502356da1603f5cb91f3c12871f3"
+      }
+    }
+  ]
+}

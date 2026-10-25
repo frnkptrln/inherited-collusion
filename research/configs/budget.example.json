@@ -1,0 +1,15 @@
+{
+  "approved": false,
+  "model": "CHOOSE_EXACT_MODEL_ID",
+  "provider": "CHOOSE_EXPLICIT_HF_PROVIDER",
+  "max_calls": 46,
+  "max_tokens": 384,
+  "max_request_bytes": 16000,
+  "input_usd_per_million": 0,
+  "output_usd_per_million": 0,
+  "reservation_basis_confirmed": false,
+  "max_total_usd": 0,
+  "reserved_usd_per_call": 0,
+  "price_checked_at": "",
+  "approved_by": ""
+}

@@ -1,0 +1,19 @@
+{
+  "passed": true,
+  "mismatches": [],
+  "planned_main_episodes": 512,
+  "saved_episodes": 32,
+  "eligible_episodes": 32,
+  "missing_or_invalid_episodes": 480,
+  "calls_reserved": 188,
+  "responses": 188,
+  "unique_planned_calls": 188,
+  "source_call_counts": {
+    "inherited_v4": 125,
+    "newly_dispatched_v4f": 63
+  },
+  "evidence_class": "SOFTWARE_TEST_ONLY_NOT_RESEARCH_RESULTS",
+  "validated_at": "2026-10-23T18:51:36.896361+00:00",
+  "checker_sha256": "c96c0273e4ce5fbfc23c03eee5c40be4d58dfc31ff1feba6a5fa654534ce4036",
+  "test_scope": "Independent counter against complete synthetic18-run source cohort, including one preserved strict wrapper failure, inherited annotations,63 new calls and32 completed amended episodes."
+}

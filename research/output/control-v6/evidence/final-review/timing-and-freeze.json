@@ -1,0 +1,12 @@
+{
+  "success": true,
+  "frozen_at": "2026-10-25T13:10:54.212708+00:00",
+  "first_dispatch_at": "2026-10-25T13:11:25.463568+00:00",
+  "last_saved_response_dispatch_at": "2026-10-25T13:33:19.022093+00:00",
+  "closed_at": "2026-10-25T13:33:25.543192+00:00",
+  "frozen_artifacts_verified": 194,
+  "dispatches": 239,
+  "responses_saved": 239,
+  "closure_precedes_aggregate_analysis": "operator attestation only; immutable raw inventory verified by both analysis paths",
+  "no_further_model_calls": true
+}

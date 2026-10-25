@@ -1,0 +1,52 @@
+{
+  "sealed_at": "2026-10-24T11:46:43.856927+00:00",
+  "annotation_completed_at": "2026-10-24T11:45:19.145220+00:00",
+  "closure_sha256": "073027c11393a702da934977e9389f09cf82414497e5c37db464c02c4574a619",
+  "notes_reviewed": 80,
+  "planned_slots": 96,
+  "successor_or_v5_aggregate_results_read": false,
+  "scope_is_reviewer_attestation_not_automated_blinding_proof": true,
+  "semantics_used_for_eligibility": false,
+  "files": {
+    "annotation-validation.json": {
+      "sha256": "0118c082eb59405f19ce07de0ca19f4867dc31d609a3bbaed5427164490acae1",
+      "bytes": 125
+    },
+    "build_note_annotations.py": {
+      "sha256": "053fc90e1d24bb616853854f9bf5af216e5e836af405740fb0f1096077a14555",
+      "bytes": 20935
+    },
+    "extract_v5_notes.py": {
+      "sha256": "0bb46e162e50118b6069b350357b13c2628c1685193d58a9759ff7ec51d37bba",
+      "bytes": 19325
+    },
+    "manual-decisions.json": {
+      "sha256": "def318acfa9b89007966331a622b9928340638b60eced2b2e1c3bb8549755c50",
+      "bytes": 25482
+    },
+    "note-annotations-template.json": {
+      "sha256": "2dbe8fc77fabe584db280264c94d0d9003c63e8bbf1b2b2c9254a4e3da6a6d9f",
+      "bytes": 537812
+    },
+    "note-annotations.json": {
+      "sha256": "3b8f54b256698efdc27c71abaf5d3b810e9a43367abe19a1a7124d21daa971cb",
+      "bytes": 1054162
+    },
+    "note-review-summary.json": {
+      "sha256": "c947b92e5ec23f5711a22867cf737739dd4fe56c4122214a4783d70eeac383d6",
+      "bytes": 5443
+    },
+    "note-review-summary.md": {
+      "sha256": "246b8000e7766478b25db460ab7530a4f78d4bb040c210f523ef71e4ae0a15ae",
+      "bytes": 6787
+    },
+    "test_note_review.py": {
+      "sha256": "ebfebb047baec308c0bc4b117c1ca02a8b46e76316590fa30b1f2b28e510fe37",
+      "bytes": 7630
+    },
+    "validation.json": {
+      "sha256": "1ebb29abdcd7ce5ab40a14856128f72943a5d21d3cea426f6707ae5f89861f2a",
+      "bytes": 546
+    }
+  }
+}

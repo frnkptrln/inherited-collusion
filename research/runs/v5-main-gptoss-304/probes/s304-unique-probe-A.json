@@ -1,0 +1,1 @@
+{"checks":{"globally_optimal_assignment":true,"own_action_consistent":true,"reported_cost_matches_assignment":true},"id":"s304-unique-probe-A","parsed":{"joint_assignment":{"A":"T2","B":"T1","C":"T3","D":"T4"},"task":"T2","total_cost":18},"parsing_envelope":"bare_json","role":"A","schema_valid":true,"semantic_correct":true,"structure":"unique"}

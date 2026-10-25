@@ -1,0 +1,99 @@
+{
+  "qwen": {
+    "tokenizer_sha256": "5f9e4d4901a92b997e463c1f46055088b6cca5ca61a6522d1b9f64c4bb81cb42",
+    "model_type": "BPE",
+    "normalizer": {
+      "type": "NFC"
+    },
+    "pre_tokenizer": {
+      "type": "Sequence",
+      "pretokenizers": [
+        {
+          "type": "Split",
+          "pattern": {
+            "Regex": "(?i:'s|'t|'re|'ve|'m|'ll|'d)|[^\\r\\n\\p{L}\\p{N}]?[\\p{L}\\p{M}]+|\\p{N}| ?[^\\s\\p{L}\\p{M}\\p{N}]+[\\r\\n]*|\\s*[\\r\\n]+|\\s+(?!\\S)|\\s+"
+          },
+          "behavior": "Isolated",
+          "invert": false
+        },
+        {
+          "type": "ByteLevel",
+          "add_prefix_space": false,
+          "trim_offsets": false,
+          "use_regex": false
+        }
+      ]
+    },
+    "post_processor": {
+      "type": "ByteLevel",
+      "add_prefix_space": false,
+      "trim_offsets": false,
+      "use_regex": false
+    },
+    "full_byte_alphabet_in_vocab": true,
+    "missing_byte_alphabet_entries": 0,
+    "byte_content_bound": "For this downloaded tokenizer, <= UTF-8 byte length after normalization, before chat-template framing: each normalized byte has a vocabulary token and BPE only merges. Splitting does not duplicate bytes; configured ByteLevel pretokenizer does not prepend a space. Special tokens consume at most one token per nonempty recognized string.",
+    "remaining_assumption": "Provider must use equivalent tokenizer and bounded chat framing; neither is guaranteed by public IDs or this offline inspection."
+  },
+  "deepseek": {
+    "tokenizer_sha256": "cd050be35cae877f8f0aa847f45aa87e23835a56ca32b29b28545597852784e5",
+    "model_type": "BPE",
+    "normalizer": {
+      "type": "Sequence",
+      "normalizers": []
+    },
+    "pre_tokenizer": {
+      "type": "Sequence",
+      "pretokenizers": [
+        {
+          "type": "Split",
+          "pattern": {
+            "Regex": "\\p{N}{1,3}"
+          },
+          "behavior": "Isolated",
+          "invert": false
+        },
+        {
+          "type": "Split",
+          "pattern": {
+            "Regex": "[\u4e00-\u9fa5\u3040-\u309f\u30a0-\u30ff]+"
+          },
+          "behavior": "Isolated",
+          "invert": false
+        },
+        {
+          "type": "Split",
+          "pattern": {
+            "Regex": "[!\"#$%&'()*+,\\-./:;<=>?@\\[\\\\\\]^_`{|}~][A-Za-z]+|[^\r\n\\p{L}\\p{P}\\p{S}]?[\\p{L}\\p{M}]+| ?[\\p{P}\\p{S}]+[\r\n]*|\\s*[\r\n]+|\\s+(?!\\S)|\\s+"
+          },
+          "behavior": "Isolated",
+          "invert": false
+        },
+        {
+          "type": "ByteLevel",
+          "add_prefix_space": false,
+          "trim_offsets": true,
+          "use_regex": false
+        }
+      ]
+    },
+    "post_processor": {
+      "type": "ByteLevel",
+      "add_prefix_space": true,
+      "trim_offsets": false,
+      "use_regex": true
+    },
+    "full_byte_alphabet_in_vocab": true,
+    "missing_byte_alphabet_entries": 0,
+    "byte_content_bound": "For this downloaded tokenizer, <= UTF-8 byte length after normalization, before chat-template framing: each normalized byte has a vocabulary token and BPE only merges. Splitting does not duplicate bytes; configured ByteLevel pretokenizer does not prepend a space. Special tokens consume at most one token per nonempty recognized string.",
+    "remaining_assumption": "Provider must use equivalent tokenizer and bounded chat framing; neither is guaranteed by public IDs or this offline inspection."
+  },
+  "runner_check": {
+    "path": "inherited_collusion/runner.py",
+    "inspected_file_sha256": "1bc4b8ffa506370e9a2a501c263e1dc4d7b9b2d303e45ed74188411b6f0e4a99",
+    "content_bound": "Existing runner measures maximum of raw and NFC-normalized serialized message UTF-8 byte lengths. This covers Qwen NFC expansion and DeepSeek identity normalization for these text-only message contents.",
+    "line_reference": "148-149",
+    "framing_allowance_tokens": 2048,
+    "framing_is_formally_proven": false
+  }
+}

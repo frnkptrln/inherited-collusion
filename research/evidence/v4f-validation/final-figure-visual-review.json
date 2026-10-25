@@ -1,0 +1,20 @@
+{
+  "reviewed_at": "2026-10-23T20:33:37.496962+00:00",
+  "review_method": "Agent visual inspection of all four rendered PNG figures; final changes limited to label positioning, axis-label wrapping, annotation drawing order and legend placement.",
+  "data_selection_changed": false,
+  "population_selection_changed": false,
+  "checks": [
+    "All eight intervention arms included for both populations and both models",
+    "Complete-case counts visible on intervention panels",
+    "Case-level points and equal-case diamonds visible in companion contrast plots",
+    "Legends do not obscure plotted case contrasts",
+    "Missing-data and descriptive-only caveats retained"
+  ],
+  "files": {
+    "scripts/plot_v4_study.py": "01615edc1ed1007a7b64b8c453d9eb88c610bb0d39c7736681e6813f87c39cc9",
+    "output/figures-v4-strict/v4-strict-intervention-outcomes.png": "c35cd629a060c09ef48d1211386b98f2a5215587bbf4bc859028606356ba8c9f",
+    "output/figures-v4-strict/v4-strict-primary-contrasts.png": "90b4f798a40e8a454c156eb4d8f72a6309979ab4cf1435f22a87c10687aad4ce",
+    "output/figures-v4f-amended/v4f-amended-intervention-outcomes.png": "3fc654b57c84417813da727357078b78aca093fb8bb117a380391d6c64f7742f",
+    "output/figures-v4f-amended/v4f-amended-primary-contrasts.png": "1b2442c53ecba4dcb2ee604a7785085c80bb713550485fa60592898414f9d93e"
+  }
+}

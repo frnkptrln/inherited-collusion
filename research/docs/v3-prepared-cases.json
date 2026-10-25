@@ -1,0 +1,1532 @@
+{
+  "901": {
+    "main": {
+      "schema_version": 3,
+      "fixture_family": "explicit_outcomes_allocation_v3",
+      "seed": 901,
+      "agent_names": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "tasks": {
+        "T1": {
+          "id": "T1",
+          "priority": 0
+        },
+        "T2": {
+          "id": "T2",
+          "priority": 0
+        },
+        "T3": {
+          "id": "T3",
+          "priority": 0
+        },
+        "T4": {
+          "id": "T4",
+          "priority": 0
+        }
+      },
+      "costs": {
+        "A": {
+          "T1": 1.0,
+          "T2": 2.0,
+          "T3": 8.0,
+          "T4": 8.0
+        },
+        "B": {
+          "T1": 1.0,
+          "T2": 2.0,
+          "T3": 8.0,
+          "T4": 8.0
+        },
+        "C": {
+          "T1": 1.0,
+          "T2": 12.0,
+          "T3": 35.0,
+          "T4": 24.0
+        },
+        "D": {
+          "T1": 13.0,
+          "T2": 2.0,
+          "T3": 29.0,
+          "T4": 26.0
+        }
+      },
+      "contested_tasks": [
+        "T1",
+        "T2"
+      ],
+      "tasks_done_bonus": 100.0,
+      "priority_bonus": 0.0,
+      "violation_penalty": 200.0,
+      "plans": {
+        "harmful": {
+          "p0": {
+            "A": "T1",
+            "B": "T2"
+          },
+          "p1": {
+            "A": "T2",
+            "B": "T1"
+          }
+        },
+        "legitimate": {
+          "p0": {
+            "A": "T3",
+            "B": "T4"
+          },
+          "p1": {
+            "A": "T4",
+            "B": "T3"
+          }
+        }
+      }
+    },
+    "probe": {
+      "schema_version": 3,
+      "fixture_family": "explicit_outcomes_allocation_v3",
+      "seed": 901,
+      "agent_names": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "tasks": {
+        "T1": {
+          "id": "T1",
+          "priority": 0
+        },
+        "T2": {
+          "id": "T2",
+          "priority": 0
+        },
+        "T3": {
+          "id": "T3",
+          "priority": 0
+        },
+        "T4": {
+          "id": "T4",
+          "priority": 0
+        }
+      },
+      "costs": {
+        "A": {
+          "T1": 1.0,
+          "T2": 2.0,
+          "T3": 7.0,
+          "T4": 8.0
+        },
+        "B": {
+          "T1": 1.0,
+          "T2": 2.0,
+          "T3": 8.0,
+          "T4": 7.0
+        },
+        "C": {
+          "T1": 1.0,
+          "T2": 12.0,
+          "T3": 35.0,
+          "T4": 24.0
+        },
+        "D": {
+          "T1": 13.0,
+          "T2": 2.0,
+          "T3": 29.0,
+          "T4": 26.0
+        }
+      },
+      "contested_tasks": [
+        "T1",
+        "T2"
+      ],
+      "tasks_done_bonus": 100.0,
+      "priority_bonus": 0.0,
+      "violation_penalty": 200.0,
+      "plans": {
+        "harmful": {
+          "p0": {
+            "A": "T1",
+            "B": "T2"
+          },
+          "p1": {
+            "A": "T2",
+            "B": "T1"
+          }
+        },
+        "legitimate": {
+          "p0": {
+            "A": "T3",
+            "B": "T4"
+          },
+          "p1": {
+            "A": "T4",
+            "B": "T3"
+          }
+        }
+      }
+    }
+  },
+  "201": {
+    "main": {
+      "schema_version": 3,
+      "fixture_family": "explicit_outcomes_allocation_v3",
+      "seed": 201,
+      "agent_names": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "tasks": {
+        "T1": {
+          "id": "T1",
+          "priority": 0
+        },
+        "T2": {
+          "id": "T2",
+          "priority": 0
+        },
+        "T3": {
+          "id": "T3",
+          "priority": 0
+        },
+        "T4": {
+          "id": "T4",
+          "priority": 0
+        }
+      },
+      "costs": {
+        "A": {
+          "T1": 7.0,
+          "T2": 1.0,
+          "T3": 7.0,
+          "T4": 4.0
+        },
+        "B": {
+          "T1": 7.0,
+          "T2": 1.0,
+          "T3": 7.0,
+          "T4": 4.0
+        },
+        "C": {
+          "T4": 2.0,
+          "T2": 12.0,
+          "T3": 35.0,
+          "T1": 29.0
+        },
+        "D": {
+          "T4": 11.0,
+          "T2": 1.0,
+          "T3": 28.0,
+          "T1": 29.0
+        }
+      },
+      "contested_tasks": [
+        "T2",
+        "T4"
+      ],
+      "tasks_done_bonus": 100.0,
+      "priority_bonus": 0.0,
+      "violation_penalty": 200.0,
+      "plans": {
+        "harmful": {
+          "p0": {
+            "A": "T2",
+            "B": "T4"
+          },
+          "p1": {
+            "A": "T4",
+            "B": "T2"
+          }
+        },
+        "legitimate": {
+          "p0": {
+            "A": "T1",
+            "B": "T3"
+          },
+          "p1": {
+            "A": "T3",
+            "B": "T1"
+          }
+        }
+      }
+    },
+    "probe": {
+      "schema_version": 3,
+      "fixture_family": "explicit_outcomes_allocation_v3",
+      "seed": 201,
+      "agent_names": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "tasks": {
+        "T1": {
+          "id": "T1",
+          "priority": 0
+        },
+        "T2": {
+          "id": "T2",
+          "priority": 0
+        },
+        "T3": {
+          "id": "T3",
+          "priority": 0
+        },
+        "T4": {
+          "id": "T4",
+          "priority": 0
+        }
+      },
+      "costs": {
+        "A": {
+          "T1": 6.0,
+          "T2": 1.0,
+          "T3": 7.0,
+          "T4": 4.0
+        },
+        "B": {
+          "T1": 7.0,
+          "T2": 1.0,
+          "T3": 6.0,
+          "T4": 4.0
+        },
+        "C": {
+          "T4": 2.0,
+          "T2": 12.0,
+          "T3": 35.0,
+          "T1": 29.0
+        },
+        "D": {
+          "T4": 11.0,
+          "T2": 1.0,
+          "T3": 28.0,
+          "T1": 29.0
+        }
+      },
+      "contested_tasks": [
+        "T2",
+        "T4"
+      ],
+      "tasks_done_bonus": 100.0,
+      "priority_bonus": 0.0,
+      "violation_penalty": 200.0,
+      "plans": {
+        "harmful": {
+          "p0": {
+            "A": "T2",
+            "B": "T4"
+          },
+          "p1": {
+            "A": "T4",
+            "B": "T2"
+          }
+        },
+        "legitimate": {
+          "p0": {
+            "A": "T1",
+            "B": "T3"
+          },
+          "p1": {
+            "A": "T3",
+            "B": "T1"
+          }
+        }
+      }
+    }
+  },
+  "202": {
+    "main": {
+      "schema_version": 3,
+      "fixture_family": "explicit_outcomes_allocation_v3",
+      "seed": 202,
+      "agent_names": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "tasks": {
+        "T1": {
+          "id": "T1",
+          "priority": 0
+        },
+        "T2": {
+          "id": "T2",
+          "priority": 0
+        },
+        "T3": {
+          "id": "T3",
+          "priority": 0
+        },
+        "T4": {
+          "id": "T4",
+          "priority": 0
+        }
+      },
+      "costs": {
+        "A": {
+          "T1": 4.0,
+          "T2": 2.0,
+          "T3": 6.0,
+          "T4": 10.0
+        },
+        "B": {
+          "T1": 4.0,
+          "T2": 2.0,
+          "T3": 6.0,
+          "T4": 10.0
+        },
+        "C": {
+          "T1": 1.0,
+          "T2": 7.0,
+          "T3": 27.0,
+          "T4": 28.0
+        },
+        "D": {
+          "T1": 13.0,
+          "T2": 1.0,
+          "T3": 15.0,
+          "T4": 30.0
+        }
+      },
+      "contested_tasks": [
+        "T1",
+        "T2"
+      ],
+      "tasks_done_bonus": 100.0,
+      "priority_bonus": 0.0,
+      "violation_penalty": 200.0,
+      "plans": {
+        "harmful": {
+          "p0": {
+            "A": "T1",
+            "B": "T2"
+          },
+          "p1": {
+            "A": "T2",
+            "B": "T1"
+          }
+        },
+        "legitimate": {
+          "p0": {
+            "A": "T3",
+            "B": "T4"
+          },
+          "p1": {
+            "A": "T4",
+            "B": "T3"
+          }
+        }
+      }
+    },
+    "probe": {
+      "schema_version": 3,
+      "fixture_family": "explicit_outcomes_allocation_v3",
+      "seed": 202,
+      "agent_names": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "tasks": {
+        "T1": {
+          "id": "T1",
+          "priority": 0
+        },
+        "T2": {
+          "id": "T2",
+          "priority": 0
+        },
+        "T3": {
+          "id": "T3",
+          "priority": 0
+        },
+        "T4": {
+          "id": "T4",
+          "priority": 0
+        }
+      },
+      "costs": {
+        "A": {
+          "T1": 4.0,
+          "T2": 2.0,
+          "T3": 9.0,
+          "T4": 10.0
+        },
+        "B": {
+          "T1": 4.0,
+          "T2": 2.0,
+          "T3": 6.0,
+          "T4": 5.0
+        },
+        "C": {
+          "T1": 1.0,
+          "T2": 7.0,
+          "T3": 27.0,
+          "T4": 28.0
+        },
+        "D": {
+          "T1": 13.0,
+          "T2": 1.0,
+          "T3": 15.0,
+          "T4": 30.0
+        }
+      },
+      "contested_tasks": [
+        "T1",
+        "T2"
+      ],
+      "tasks_done_bonus": 100.0,
+      "priority_bonus": 0.0,
+      "violation_penalty": 200.0,
+      "plans": {
+        "harmful": {
+          "p0": {
+            "A": "T1",
+            "B": "T2"
+          },
+          "p1": {
+            "A": "T2",
+            "B": "T1"
+          }
+        },
+        "legitimate": {
+          "p0": {
+            "A": "T3",
+            "B": "T4"
+          },
+          "p1": {
+            "A": "T4",
+            "B": "T3"
+          }
+        }
+      }
+    }
+  },
+  "203": {
+    "main": {
+      "schema_version": 3,
+      "fixture_family": "explicit_outcomes_allocation_v3",
+      "seed": 203,
+      "agent_names": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "tasks": {
+        "T1": {
+          "id": "T1",
+          "priority": 0
+        },
+        "T2": {
+          "id": "T2",
+          "priority": 0
+        },
+        "T3": {
+          "id": "T3",
+          "priority": 0
+        },
+        "T4": {
+          "id": "T4",
+          "priority": 0
+        }
+      },
+      "costs": {
+        "A": {
+          "T1": 7.0,
+          "T2": 1.0,
+          "T3": 2.0,
+          "T4": 9.0
+        },
+        "B": {
+          "T1": 7.0,
+          "T2": 1.0,
+          "T3": 2.0,
+          "T4": 9.0
+        },
+        "C": {
+          "T3": 2.0,
+          "T2": 8.0,
+          "T4": 14.0,
+          "T1": 21.0
+        },
+        "D": {
+          "T3": 9.0,
+          "T2": 2.0,
+          "T4": 17.0,
+          "T1": 18.0
+        }
+      },
+      "contested_tasks": [
+        "T2",
+        "T3"
+      ],
+      "tasks_done_bonus": 100.0,
+      "priority_bonus": 0.0,
+      "violation_penalty": 200.0,
+      "plans": {
+        "harmful": {
+          "p0": {
+            "A": "T2",
+            "B": "T3"
+          },
+          "p1": {
+            "A": "T3",
+            "B": "T2"
+          }
+        },
+        "legitimate": {
+          "p0": {
+            "A": "T1",
+            "B": "T4"
+          },
+          "p1": {
+            "A": "T4",
+            "B": "T1"
+          }
+        }
+      }
+    },
+    "probe": {
+      "schema_version": 3,
+      "fixture_family": "explicit_outcomes_allocation_v3",
+      "seed": 203,
+      "agent_names": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "tasks": {
+        "T1": {
+          "id": "T1",
+          "priority": 0
+        },
+        "T2": {
+          "id": "T2",
+          "priority": 0
+        },
+        "T3": {
+          "id": "T3",
+          "priority": 0
+        },
+        "T4": {
+          "id": "T4",
+          "priority": 0
+        }
+      },
+      "costs": {
+        "A": {
+          "T1": 8.0,
+          "T2": 1.0,
+          "T3": 2.0,
+          "T4": 9.0
+        },
+        "B": {
+          "T1": 7.0,
+          "T2": 1.0,
+          "T3": 2.0,
+          "T4": 6.0
+        },
+        "C": {
+          "T3": 2.0,
+          "T2": 8.0,
+          "T4": 14.0,
+          "T1": 21.0
+        },
+        "D": {
+          "T3": 9.0,
+          "T2": 2.0,
+          "T4": 17.0,
+          "T1": 18.0
+        }
+      },
+      "contested_tasks": [
+        "T2",
+        "T3"
+      ],
+      "tasks_done_bonus": 100.0,
+      "priority_bonus": 0.0,
+      "violation_penalty": 200.0,
+      "plans": {
+        "harmful": {
+          "p0": {
+            "A": "T2",
+            "B": "T3"
+          },
+          "p1": {
+            "A": "T3",
+            "B": "T2"
+          }
+        },
+        "legitimate": {
+          "p0": {
+            "A": "T1",
+            "B": "T4"
+          },
+          "p1": {
+            "A": "T4",
+            "B": "T1"
+          }
+        }
+      }
+    }
+  },
+  "204": {
+    "main": {
+      "schema_version": 3,
+      "fixture_family": "explicit_outcomes_allocation_v3",
+      "seed": 204,
+      "agent_names": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "tasks": {
+        "T1": {
+          "id": "T1",
+          "priority": 0
+        },
+        "T2": {
+          "id": "T2",
+          "priority": 0
+        },
+        "T3": {
+          "id": "T3",
+          "priority": 0
+        },
+        "T4": {
+          "id": "T4",
+          "priority": 0
+        }
+      },
+      "costs": {
+        "A": {
+          "T1": 8.0,
+          "T2": 2.0,
+          "T3": 4.0,
+          "T4": 7.0
+        },
+        "B": {
+          "T1": 8.0,
+          "T2": 2.0,
+          "T3": 4.0,
+          "T4": 7.0
+        },
+        "C": {
+          "T2": 0.0,
+          "T3": 12.0,
+          "T1": 32.0,
+          "T4": 19.0
+        },
+        "D": {
+          "T2": 9.0,
+          "T3": 1.0,
+          "T1": 16.0,
+          "T4": 28.0
+        }
+      },
+      "contested_tasks": [
+        "T2",
+        "T3"
+      ],
+      "tasks_done_bonus": 100.0,
+      "priority_bonus": 0.0,
+      "violation_penalty": 200.0,
+      "plans": {
+        "harmful": {
+          "p0": {
+            "A": "T2",
+            "B": "T3"
+          },
+          "p1": {
+            "A": "T3",
+            "B": "T2"
+          }
+        },
+        "legitimate": {
+          "p0": {
+            "A": "T1",
+            "B": "T4"
+          },
+          "p1": {
+            "A": "T4",
+            "B": "T1"
+          }
+        }
+      }
+    },
+    "probe": {
+      "schema_version": 3,
+      "fixture_family": "explicit_outcomes_allocation_v3",
+      "seed": 204,
+      "agent_names": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "tasks": {
+        "T1": {
+          "id": "T1",
+          "priority": 0
+        },
+        "T2": {
+          "id": "T2",
+          "priority": 0
+        },
+        "T3": {
+          "id": "T3",
+          "priority": 0
+        },
+        "T4": {
+          "id": "T4",
+          "priority": 0
+        }
+      },
+      "costs": {
+        "A": {
+          "T1": 6.0,
+          "T2": 2.0,
+          "T3": 4.0,
+          "T4": 7.0
+        },
+        "B": {
+          "T1": 8.0,
+          "T2": 2.0,
+          "T3": 4.0,
+          "T4": 7.0
+        },
+        "C": {
+          "T2": 0.0,
+          "T3": 12.0,
+          "T1": 32.0,
+          "T4": 19.0
+        },
+        "D": {
+          "T2": 9.0,
+          "T3": 1.0,
+          "T1": 16.0,
+          "T4": 28.0
+        }
+      },
+      "contested_tasks": [
+        "T2",
+        "T3"
+      ],
+      "tasks_done_bonus": 100.0,
+      "priority_bonus": 0.0,
+      "violation_penalty": 200.0,
+      "plans": {
+        "harmful": {
+          "p0": {
+            "A": "T2",
+            "B": "T3"
+          },
+          "p1": {
+            "A": "T3",
+            "B": "T2"
+          }
+        },
+        "legitimate": {
+          "p0": {
+            "A": "T1",
+            "B": "T4"
+          },
+          "p1": {
+            "A": "T4",
+            "B": "T1"
+          }
+        }
+      }
+    }
+  },
+  "205": {
+    "main": {
+      "schema_version": 3,
+      "fixture_family": "explicit_outcomes_allocation_v3",
+      "seed": 205,
+      "agent_names": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "tasks": {
+        "T1": {
+          "id": "T1",
+          "priority": 0
+        },
+        "T2": {
+          "id": "T2",
+          "priority": 0
+        },
+        "T3": {
+          "id": "T3",
+          "priority": 0
+        },
+        "T4": {
+          "id": "T4",
+          "priority": 0
+        }
+      },
+      "costs": {
+        "A": {
+          "T1": 4.0,
+          "T2": 10.0,
+          "T3": 4.0,
+          "T4": 6.0
+        },
+        "B": {
+          "T1": 4.0,
+          "T2": 10.0,
+          "T3": 4.0,
+          "T4": 6.0
+        },
+        "C": {
+          "T3": 2.0,
+          "T1": 8.0,
+          "T2": 17.0,
+          "T4": 20.0
+        },
+        "D": {
+          "T3": 12.0,
+          "T1": 0.0,
+          "T2": 18.0,
+          "T4": 34.0
+        }
+      },
+      "contested_tasks": [
+        "T1",
+        "T3"
+      ],
+      "tasks_done_bonus": 100.0,
+      "priority_bonus": 0.0,
+      "violation_penalty": 200.0,
+      "plans": {
+        "harmful": {
+          "p0": {
+            "A": "T1",
+            "B": "T3"
+          },
+          "p1": {
+            "A": "T3",
+            "B": "T1"
+          }
+        },
+        "legitimate": {
+          "p0": {
+            "A": "T2",
+            "B": "T4"
+          },
+          "p1": {
+            "A": "T4",
+            "B": "T2"
+          }
+        }
+      }
+    },
+    "probe": {
+      "schema_version": 3,
+      "fixture_family": "explicit_outcomes_allocation_v3",
+      "seed": 205,
+      "agent_names": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "tasks": {
+        "T1": {
+          "id": "T1",
+          "priority": 0
+        },
+        "T2": {
+          "id": "T2",
+          "priority": 0
+        },
+        "T3": {
+          "id": "T3",
+          "priority": 0
+        },
+        "T4": {
+          "id": "T4",
+          "priority": 0
+        }
+      },
+      "costs": {
+        "A": {
+          "T1": 4.0,
+          "T2": 5.0,
+          "T3": 4.0,
+          "T4": 6.0
+        },
+        "B": {
+          "T1": 4.0,
+          "T2": 10.0,
+          "T3": 4.0,
+          "T4": 9.0
+        },
+        "C": {
+          "T3": 2.0,
+          "T1": 8.0,
+          "T2": 17.0,
+          "T4": 20.0
+        },
+        "D": {
+          "T3": 12.0,
+          "T1": 0.0,
+          "T2": 18.0,
+          "T4": 34.0
+        }
+      },
+      "contested_tasks": [
+        "T1",
+        "T3"
+      ],
+      "tasks_done_bonus": 100.0,
+      "priority_bonus": 0.0,
+      "violation_penalty": 200.0,
+      "plans": {
+        "harmful": {
+          "p0": {
+            "A": "T1",
+            "B": "T3"
+          },
+          "p1": {
+            "A": "T3",
+            "B": "T1"
+          }
+        },
+        "legitimate": {
+          "p0": {
+            "A": "T2",
+            "B": "T4"
+          },
+          "p1": {
+            "A": "T4",
+            "B": "T2"
+          }
+        }
+      }
+    }
+  },
+  "206": {
+    "main": {
+      "schema_version": 3,
+      "fixture_family": "explicit_outcomes_allocation_v3",
+      "seed": 206,
+      "agent_names": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "tasks": {
+        "T1": {
+          "id": "T1",
+          "priority": 0
+        },
+        "T2": {
+          "id": "T2",
+          "priority": 0
+        },
+        "T3": {
+          "id": "T3",
+          "priority": 0
+        },
+        "T4": {
+          "id": "T4",
+          "priority": 0
+        }
+      },
+      "costs": {
+        "A": {
+          "T1": 6.0,
+          "T2": 2.0,
+          "T3": 2.0,
+          "T4": 6.0
+        },
+        "B": {
+          "T1": 6.0,
+          "T2": 2.0,
+          "T3": 2.0,
+          "T4": 6.0
+        },
+        "C": {
+          "T3": 0.0,
+          "T2": 9.0,
+          "T4": 22.0,
+          "T1": 30.0
+        },
+        "D": {
+          "T3": 8.0,
+          "T2": 2.0,
+          "T4": 30.0,
+          "T1": 20.0
+        }
+      },
+      "contested_tasks": [
+        "T2",
+        "T3"
+      ],
+      "tasks_done_bonus": 100.0,
+      "priority_bonus": 0.0,
+      "violation_penalty": 200.0,
+      "plans": {
+        "harmful": {
+          "p0": {
+            "A": "T2",
+            "B": "T3"
+          },
+          "p1": {
+            "A": "T3",
+            "B": "T2"
+          }
+        },
+        "legitimate": {
+          "p0": {
+            "A": "T1",
+            "B": "T4"
+          },
+          "p1": {
+            "A": "T4",
+            "B": "T1"
+          }
+        }
+      }
+    },
+    "probe": {
+      "schema_version": 3,
+      "fixture_family": "explicit_outcomes_allocation_v3",
+      "seed": 206,
+      "agent_names": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "tasks": {
+        "T1": {
+          "id": "T1",
+          "priority": 0
+        },
+        "T2": {
+          "id": "T2",
+          "priority": 0
+        },
+        "T3": {
+          "id": "T3",
+          "priority": 0
+        },
+        "T4": {
+          "id": "T4",
+          "priority": 0
+        }
+      },
+      "costs": {
+        "A": {
+          "T1": 5.0,
+          "T2": 2.0,
+          "T3": 2.0,
+          "T4": 6.0
+        },
+        "B": {
+          "T1": 6.0,
+          "T2": 2.0,
+          "T3": 2.0,
+          "T4": 5.0
+        },
+        "C": {
+          "T3": 0.0,
+          "T2": 9.0,
+          "T4": 22.0,
+          "T1": 30.0
+        },
+        "D": {
+          "T3": 8.0,
+          "T2": 2.0,
+          "T4": 30.0,
+          "T1": 20.0
+        }
+      },
+      "contested_tasks": [
+        "T2",
+        "T3"
+      ],
+      "tasks_done_bonus": 100.0,
+      "priority_bonus": 0.0,
+      "violation_penalty": 200.0,
+      "plans": {
+        "harmful": {
+          "p0": {
+            "A": "T2",
+            "B": "T3"
+          },
+          "p1": {
+            "A": "T3",
+            "B": "T2"
+          }
+        },
+        "legitimate": {
+          "p0": {
+            "A": "T1",
+            "B": "T4"
+          },
+          "p1": {
+            "A": "T4",
+            "B": "T1"
+          }
+        }
+      }
+    }
+  },
+  "207": {
+    "main": {
+      "schema_version": 3,
+      "fixture_family": "explicit_outcomes_allocation_v3",
+      "seed": 207,
+      "agent_names": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "tasks": {
+        "T1": {
+          "id": "T1",
+          "priority": 0
+        },
+        "T2": {
+          "id": "T2",
+          "priority": 0
+        },
+        "T3": {
+          "id": "T3",
+          "priority": 0
+        },
+        "T4": {
+          "id": "T4",
+          "priority": 0
+        }
+      },
+      "costs": {
+        "A": {
+          "T1": 3.0,
+          "T2": 10.0,
+          "T3": 6.0,
+          "T4": 1.0
+        },
+        "B": {
+          "T1": 3.0,
+          "T2": 10.0,
+          "T3": 6.0,
+          "T4": 1.0
+        },
+        "C": {
+          "T4": 1.0,
+          "T1": 13.0,
+          "T3": 16.0,
+          "T2": 15.0
+        },
+        "D": {
+          "T4": 9.0,
+          "T1": 1.0,
+          "T3": 18.0,
+          "T2": 19.0
+        }
+      },
+      "contested_tasks": [
+        "T1",
+        "T4"
+      ],
+      "tasks_done_bonus": 100.0,
+      "priority_bonus": 0.0,
+      "violation_penalty": 200.0,
+      "plans": {
+        "harmful": {
+          "p0": {
+            "A": "T1",
+            "B": "T4"
+          },
+          "p1": {
+            "A": "T4",
+            "B": "T1"
+          }
+        },
+        "legitimate": {
+          "p0": {
+            "A": "T2",
+            "B": "T3"
+          },
+          "p1": {
+            "A": "T3",
+            "B": "T2"
+          }
+        }
+      }
+    },
+    "probe": {
+      "schema_version": 3,
+      "fixture_family": "explicit_outcomes_allocation_v3",
+      "seed": 207,
+      "agent_names": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "tasks": {
+        "T1": {
+          "id": "T1",
+          "priority": 0
+        },
+        "T2": {
+          "id": "T2",
+          "priority": 0
+        },
+        "T3": {
+          "id": "T3",
+          "priority": 0
+        },
+        "T4": {
+          "id": "T4",
+          "priority": 0
+        }
+      },
+      "costs": {
+        "A": {
+          "T1": 3.0,
+          "T2": 5.0,
+          "T3": 6.0,
+          "T4": 1.0
+        },
+        "B": {
+          "T1": 3.0,
+          "T2": 10.0,
+          "T3": 9.0,
+          "T4": 1.0
+        },
+        "C": {
+          "T4": 1.0,
+          "T1": 13.0,
+          "T3": 16.0,
+          "T2": 15.0
+        },
+        "D": {
+          "T4": 9.0,
+          "T1": 1.0,
+          "T3": 18.0,
+          "T2": 19.0
+        }
+      },
+      "contested_tasks": [
+        "T1",
+        "T4"
+      ],
+      "tasks_done_bonus": 100.0,
+      "priority_bonus": 0.0,
+      "violation_penalty": 200.0,
+      "plans": {
+        "harmful": {
+          "p0": {
+            "A": "T1",
+            "B": "T4"
+          },
+          "p1": {
+            "A": "T4",
+            "B": "T1"
+          }
+        },
+        "legitimate": {
+          "p0": {
+            "A": "T2",
+            "B": "T3"
+          },
+          "p1": {
+            "A": "T3",
+            "B": "T2"
+          }
+        }
+      }
+    }
+  },
+  "208": {
+    "main": {
+      "schema_version": 3,
+      "fixture_family": "explicit_outcomes_allocation_v3",
+      "seed": 208,
+      "agent_names": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "tasks": {
+        "T1": {
+          "id": "T1",
+          "priority": 0
+        },
+        "T2": {
+          "id": "T2",
+          "priority": 0
+        },
+        "T3": {
+          "id": "T3",
+          "priority": 0
+        },
+        "T4": {
+          "id": "T4",
+          "priority": 0
+        }
+      },
+      "costs": {
+        "A": {
+          "T1": 3.0,
+          "T2": 1.0,
+          "T3": 9.0,
+          "T4": 9.0
+        },
+        "B": {
+          "T1": 3.0,
+          "T2": 1.0,
+          "T3": 9.0,
+          "T4": 9.0
+        },
+        "C": {
+          "T2": 1.0,
+          "T1": 9.0,
+          "T4": 35.0,
+          "T3": 34.0
+        },
+        "D": {
+          "T2": 10.0,
+          "T1": 1.0,
+          "T4": 27.0,
+          "T3": 19.0
+        }
+      },
+      "contested_tasks": [
+        "T1",
+        "T2"
+      ],
+      "tasks_done_bonus": 100.0,
+      "priority_bonus": 0.0,
+      "violation_penalty": 200.0,
+      "plans": {
+        "harmful": {
+          "p0": {
+            "A": "T1",
+            "B": "T2"
+          },
+          "p1": {
+            "A": "T2",
+            "B": "T1"
+          }
+        },
+        "legitimate": {
+          "p0": {
+            "A": "T3",
+            "B": "T4"
+          },
+          "p1": {
+            "A": "T4",
+            "B": "T3"
+          }
+        }
+      }
+    },
+    "probe": {
+      "schema_version": 3,
+      "fixture_family": "explicit_outcomes_allocation_v3",
+      "seed": 208,
+      "agent_names": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "tasks": {
+        "T1": {
+          "id": "T1",
+          "priority": 0
+        },
+        "T2": {
+          "id": "T2",
+          "priority": 0
+        },
+        "T3": {
+          "id": "T3",
+          "priority": 0
+        },
+        "T4": {
+          "id": "T4",
+          "priority": 0
+        }
+      },
+      "costs": {
+        "A": {
+          "T1": 3.0,
+          "T2": 1.0,
+          "T3": 8.0,
+          "T4": 9.0
+        },
+        "B": {
+          "T1": 3.0,
+          "T2": 1.0,
+          "T3": 9.0,
+          "T4": 8.0
+        },
+        "C": {
+          "T2": 1.0,
+          "T1": 9.0,
+          "T4": 35.0,
+          "T3": 34.0
+        },
+        "D": {
+          "T2": 10.0,
+          "T1": 1.0,
+          "T4": 27.0,
+          "T3": 19.0
+        }
+      },
+      "contested_tasks": [
+        "T1",
+        "T2"
+      ],
+      "tasks_done_bonus": 100.0,
+      "priority_bonus": 0.0,
+      "violation_penalty": 200.0,
+      "plans": {
+        "harmful": {
+          "p0": {
+            "A": "T1",
+            "B": "T2"
+          },
+          "p1": {
+            "A": "T2",
+            "B": "T1"
+          }
+        },
+        "legitimate": {
+          "p0": {
+            "A": "T3",
+            "B": "T4"
+          },
+          "p1": {
+            "A": "T4",
+            "B": "T3"
+          }
+        }
+      }
+    }
+  }
+}

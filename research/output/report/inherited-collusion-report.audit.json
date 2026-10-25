@@ -1,0 +1,63 @@
+{
+  "draft": false,
+  "source_sha256": "59537583d295f683fe069b96030a3a56ebadb0387733308cdb926f25bf4b082c",
+  "changed_parts": [
+    "word/document.xml"
+  ],
+  "author": "Frank Peterlein",
+  "development_evidence": [
+    {
+      "path": "runs/hf-pilot-v1",
+      "source_hash": "9371898c79f065e5462f89a81c5005370c913d3199b923a0212c0c2a69433208",
+      "requested_model": "Qwen/Qwen3-235B-A22B-Instruct-2507",
+      "reported_models": [
+        "Qwen/Qwen3-235B-A22B-Instruct-2507"
+      ],
+      "calls": 6,
+      "summary_sha256": "8d10e9bbb1fb7d2b6571338cc38266ee691b6edb88826cbc28510412e9f2fa62"
+    },
+    {
+      "path": "runs/hf-pilot-table-v1",
+      "source_hash": "1d8b4382f110baa2e5ccdaeabe5988d905ff3d01d550d569e367ee97d8e38e69",
+      "requested_model": "Qwen/Qwen3-235B-A22B-Instruct-2507",
+      "reported_models": [
+        "Qwen/Qwen3-235B-A22B-Instruct-2507"
+      ],
+      "calls": 6,
+      "summary_sha256": "8d10e9bbb1fb7d2b6571338cc38266ee691b6edb88826cbc28510412e9f2fa62"
+    },
+    {
+      "path": "runs/hf-pilot-thinking-v1",
+      "source_hash": "27ec5f2c47e3dd9e58f8faab2ecd468c18b3a597f7e752c72fba0a85a68affce",
+      "requested_model": "Qwen/Qwen3-235B-A22B-Thinking-2507",
+      "reported_models": [
+        "Qwen/Qwen3.6-35B-A3B"
+      ],
+      "calls": 6,
+      "summary_sha256": "d539b0d089b17428b2682bf6939d6730a83a502356da1603f5cb91f3c12871f3"
+    }
+  ],
+  "abstract_words": 187,
+  "rendered": true,
+  "pdf": "inherited-collusion-report.pdf",
+  "pages": 7,
+  "main_pages": 5,
+  "visual_review_required": false,
+  "visual_review": {
+    "reviewed_by": "Codex visual inspection, not independent human review",
+    "pages_reviewed": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "template_fidelity_review": "Only intended manuscript slots changed; original title rule, footnote, page geometry, styles and all non-document.xml ZIP parts retained.",
+    "result": "No clipping, table overflow, broken captions, blank pages or unresolved placeholders observed.",
+    "portable_rebuild_byte_identical": true
+  },
+  "docx_sha256": "45729e2bb06c9df7532fe9b753aac024f1d5e012371141e05df01ae2635e1ba9",
+  "pdf_sha256": "e047048749432f5bed254d18e43acdad066d8f3a6bafdb571582e1fcd3d47af9"
+}

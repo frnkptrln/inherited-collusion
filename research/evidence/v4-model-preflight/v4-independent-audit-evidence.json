@@ -1,0 +1,823 @@
+{
+  "allocation_total_usd": 8.328,
+  "historical_usd": 1.594,
+  "total_allocated_usd": 9.922,
+  "configs": [
+    {
+      "id": "v4-qualification-qwen-902",
+      "calls": 6,
+      "ceiling": 0.06
+    },
+    {
+      "id": "v4-main-qwen-201",
+      "calls": 86,
+      "ceiling": 0.86
+    },
+    {
+      "id": "v4-main-qwen-202",
+      "calls": 86,
+      "ceiling": 0.86
+    },
+    {
+      "id": "v4-main-qwen-203",
+      "calls": 86,
+      "ceiling": 0.86
+    },
+    {
+      "id": "v4-main-qwen-204",
+      "calls": 86,
+      "ceiling": 0.86
+    },
+    {
+      "id": "v4-main-qwen-205",
+      "calls": 86,
+      "ceiling": 0.86
+    },
+    {
+      "id": "v4-main-qwen-206",
+      "calls": 86,
+      "ceiling": 0.86
+    },
+    {
+      "id": "v4-main-qwen-207",
+      "calls": 86,
+      "ceiling": 0.86
+    },
+    {
+      "id": "v4-main-qwen-208",
+      "calls": 86,
+      "ceiling": 0.86
+    },
+    {
+      "id": "v4-qualification-gptoss-902",
+      "calls": 6,
+      "ceiling": 0.012
+    },
+    {
+      "id": "v4-main-gptoss-201",
+      "calls": 86,
+      "ceiling": 0.172
+    },
+    {
+      "id": "v4-main-gptoss-202",
+      "calls": 86,
+      "ceiling": 0.172
+    },
+    {
+      "id": "v4-main-gptoss-203",
+      "calls": 86,
+      "ceiling": 0.172
+    },
+    {
+      "id": "v4-main-gptoss-204",
+      "calls": 86,
+      "ceiling": 0.172
+    },
+    {
+      "id": "v4-main-gptoss-205",
+      "calls": 86,
+      "ceiling": 0.172
+    },
+    {
+      "id": "v4-main-gptoss-206",
+      "calls": 86,
+      "ceiling": 0.172
+    },
+    {
+      "id": "v4-main-gptoss-207",
+      "calls": 86,
+      "ceiling": 0.172
+    },
+    {
+      "id": "v4-main-gptoss-208",
+      "calls": 86,
+      "ceiling": 0.172
+    }
+  ],
+  "independent_probe_enumeration": [
+    {
+      "seed": 902,
+      "unique_optimum": {
+        "A": "T3",
+        "B": "T4",
+        "C": "T1",
+        "D": "T2"
+      },
+      "cost": 17.0
+    },
+    {
+      "seed": 201,
+      "unique_optimum": {
+        "A": "T1",
+        "B": "T3",
+        "C": "T4",
+        "D": "T2"
+      },
+      "cost": 15.0
+    },
+    {
+      "seed": 202,
+      "unique_optimum": {
+        "A": "T3",
+        "B": "T4",
+        "C": "T1",
+        "D": "T2"
+      },
+      "cost": 16.0
+    },
+    {
+      "seed": 203,
+      "unique_optimum": {
+        "A": "T1",
+        "B": "T4",
+        "C": "T3",
+        "D": "T2"
+      },
+      "cost": 18.0
+    },
+    {
+      "seed": 204,
+      "unique_optimum": {
+        "A": "T1",
+        "B": "T4",
+        "C": "T2",
+        "D": "T3"
+      },
+      "cost": 14.0
+    },
+    {
+      "seed": 205,
+      "unique_optimum": {
+        "A": "T2",
+        "B": "T4",
+        "C": "T3",
+        "D": "T1"
+      },
+      "cost": 16.0
+    },
+    {
+      "seed": 206,
+      "unique_optimum": {
+        "A": "T1",
+        "B": "T4",
+        "C": "T3",
+        "D": "T2"
+      },
+      "cost": 12.0
+    },
+    {
+      "seed": 207,
+      "unique_optimum": {
+        "A": "T2",
+        "B": "T3",
+        "C": "T4",
+        "D": "T1"
+      },
+      "cost": 16.0
+    },
+    {
+      "seed": 208,
+      "unique_optimum": {
+        "A": "T3",
+        "B": "T4",
+        "C": "T2",
+        "D": "T1"
+      },
+      "cost": 18.0
+    }
+  ],
+  "request_length_stress": [
+    {
+      "seed": 902,
+      "role": "A",
+      "kind": "none",
+      "bytes": 3132,
+      "within_bound": true
+    },
+    {
+      "seed": 902,
+      "role": "A",
+      "kind": "ascii",
+      "bytes": 5198,
+      "within_bound": true
+    },
+    {
+      "seed": 902,
+      "role": "A",
+      "kind": "emoji",
+      "bytes": 11198,
+      "within_bound": false
+    },
+    {
+      "seed": 902,
+      "role": "A",
+      "kind": "NFC",
+      "bytes": 6198,
+      "within_bound": true
+    },
+    {
+      "seed": 902,
+      "role": "A",
+      "kind": "control",
+      "bytes": 15198,
+      "within_bound": false
+    },
+    {
+      "seed": 902,
+      "role": "B",
+      "kind": "none",
+      "bytes": 3132,
+      "within_bound": true
+    },
+    {
+      "seed": 902,
+      "role": "B",
+      "kind": "ascii",
+      "bytes": 5198,
+      "within_bound": true
+    },
+    {
+      "seed": 902,
+      "role": "B",
+      "kind": "emoji",
+      "bytes": 11198,
+      "within_bound": false
+    },
+    {
+      "seed": 902,
+      "role": "B",
+      "kind": "NFC",
+      "bytes": 6198,
+      "within_bound": true
+    },
+    {
+      "seed": 902,
+      "role": "B",
+      "kind": "control",
+      "bytes": 15198,
+      "within_bound": false
+    },
+    {
+      "seed": 201,
+      "role": "A",
+      "kind": "none",
+      "bytes": 3133,
+      "within_bound": true
+    },
+    {
+      "seed": 201,
+      "role": "A",
+      "kind": "ascii",
+      "bytes": 5199,
+      "within_bound": true
+    },
+    {
+      "seed": 201,
+      "role": "A",
+      "kind": "emoji",
+      "bytes": 11199,
+      "within_bound": false
+    },
+    {
+      "seed": 201,
+      "role": "A",
+      "kind": "NFC",
+      "bytes": 6199,
+      "within_bound": true
+    },
+    {
+      "seed": 201,
+      "role": "A",
+      "kind": "control",
+      "bytes": 15199,
+      "within_bound": false
+    },
+    {
+      "seed": 201,
+      "role": "B",
+      "kind": "none",
+      "bytes": 3133,
+      "within_bound": true
+    },
+    {
+      "seed": 201,
+      "role": "B",
+      "kind": "ascii",
+      "bytes": 5199,
+      "within_bound": true
+    },
+    {
+      "seed": 201,
+      "role": "B",
+      "kind": "emoji",
+      "bytes": 11199,
+      "within_bound": false
+    },
+    {
+      "seed": 201,
+      "role": "B",
+      "kind": "NFC",
+      "bytes": 6199,
+      "within_bound": true
+    },
+    {
+      "seed": 201,
+      "role": "B",
+      "kind": "control",
+      "bytes": 15199,
+      "within_bound": false
+    },
+    {
+      "seed": 202,
+      "role": "A",
+      "kind": "none",
+      "bytes": 3136,
+      "within_bound": true
+    },
+    {
+      "seed": 202,
+      "role": "A",
+      "kind": "ascii",
+      "bytes": 5202,
+      "within_bound": true
+    },
+    {
+      "seed": 202,
+      "role": "A",
+      "kind": "emoji",
+      "bytes": 11202,
+      "within_bound": false
+    },
+    {
+      "seed": 202,
+      "role": "A",
+      "kind": "NFC",
+      "bytes": 6202,
+      "within_bound": true
+    },
+    {
+      "seed": 202,
+      "role": "A",
+      "kind": "control",
+      "bytes": 15202,
+      "within_bound": false
+    },
+    {
+      "seed": 202,
+      "role": "B",
+      "kind": "none",
+      "bytes": 3136,
+      "within_bound": true
+    },
+    {
+      "seed": 202,
+      "role": "B",
+      "kind": "ascii",
+      "bytes": 5202,
+      "within_bound": true
+    },
+    {
+      "seed": 202,
+      "role": "B",
+      "kind": "emoji",
+      "bytes": 11202,
+      "within_bound": false
+    },
+    {
+      "seed": 202,
+      "role": "B",
+      "kind": "NFC",
+      "bytes": 6202,
+      "within_bound": true
+    },
+    {
+      "seed": 202,
+      "role": "B",
+      "kind": "control",
+      "bytes": 15202,
+      "within_bound": false
+    },
+    {
+      "seed": 203,
+      "role": "A",
+      "kind": "none",
+      "bytes": 3131,
+      "within_bound": true
+    },
+    {
+      "seed": 203,
+      "role": "A",
+      "kind": "ascii",
+      "bytes": 5197,
+      "within_bound": true
+    },
+    {
+      "seed": 203,
+      "role": "A",
+      "kind": "emoji",
+      "bytes": 11197,
+      "within_bound": false
+    },
+    {
+      "seed": 203,
+      "role": "A",
+      "kind": "NFC",
+      "bytes": 6197,
+      "within_bound": true
+    },
+    {
+      "seed": 203,
+      "role": "A",
+      "kind": "control",
+      "bytes": 15197,
+      "within_bound": false
+    },
+    {
+      "seed": 203,
+      "role": "B",
+      "kind": "none",
+      "bytes": 3131,
+      "within_bound": true
+    },
+    {
+      "seed": 203,
+      "role": "B",
+      "kind": "ascii",
+      "bytes": 5197,
+      "within_bound": true
+    },
+    {
+      "seed": 203,
+      "role": "B",
+      "kind": "emoji",
+      "bytes": 11197,
+      "within_bound": false
+    },
+    {
+      "seed": 203,
+      "role": "B",
+      "kind": "NFC",
+      "bytes": 6197,
+      "within_bound": true
+    },
+    {
+      "seed": 203,
+      "role": "B",
+      "kind": "control",
+      "bytes": 15197,
+      "within_bound": false
+    },
+    {
+      "seed": 204,
+      "role": "A",
+      "kind": "none",
+      "bytes": 3141,
+      "within_bound": true
+    },
+    {
+      "seed": 204,
+      "role": "A",
+      "kind": "ascii",
+      "bytes": 5207,
+      "within_bound": true
+    },
+    {
+      "seed": 204,
+      "role": "A",
+      "kind": "emoji",
+      "bytes": 11207,
+      "within_bound": false
+    },
+    {
+      "seed": 204,
+      "role": "A",
+      "kind": "NFC",
+      "bytes": 6207,
+      "within_bound": true
+    },
+    {
+      "seed": 204,
+      "role": "A",
+      "kind": "control",
+      "bytes": 15207,
+      "within_bound": false
+    },
+    {
+      "seed": 204,
+      "role": "B",
+      "kind": "none",
+      "bytes": 3141,
+      "within_bound": true
+    },
+    {
+      "seed": 204,
+      "role": "B",
+      "kind": "ascii",
+      "bytes": 5207,
+      "within_bound": true
+    },
+    {
+      "seed": 204,
+      "role": "B",
+      "kind": "emoji",
+      "bytes": 11207,
+      "within_bound": false
+    },
+    {
+      "seed": 204,
+      "role": "B",
+      "kind": "NFC",
+      "bytes": 6207,
+      "within_bound": true
+    },
+    {
+      "seed": 204,
+      "role": "B",
+      "kind": "control",
+      "bytes": 15207,
+      "within_bound": false
+    },
+    {
+      "seed": 205,
+      "role": "A",
+      "kind": "none",
+      "bytes": 3145,
+      "within_bound": true
+    },
+    {
+      "seed": 205,
+      "role": "A",
+      "kind": "ascii",
+      "bytes": 5211,
+      "within_bound": true
+    },
+    {
+      "seed": 205,
+      "role": "A",
+      "kind": "emoji",
+      "bytes": 11211,
+      "within_bound": false
+    },
+    {
+      "seed": 205,
+      "role": "A",
+      "kind": "NFC",
+      "bytes": 6211,
+      "within_bound": true
+    },
+    {
+      "seed": 205,
+      "role": "A",
+      "kind": "control",
+      "bytes": 15211,
+      "within_bound": false
+    },
+    {
+      "seed": 205,
+      "role": "B",
+      "kind": "none",
+      "bytes": 3145,
+      "within_bound": true
+    },
+    {
+      "seed": 205,
+      "role": "B",
+      "kind": "ascii",
+      "bytes": 5211,
+      "within_bound": true
+    },
+    {
+      "seed": 205,
+      "role": "B",
+      "kind": "emoji",
+      "bytes": 11211,
+      "within_bound": false
+    },
+    {
+      "seed": 205,
+      "role": "B",
+      "kind": "NFC",
+      "bytes": 6211,
+      "within_bound": true
+    },
+    {
+      "seed": 205,
+      "role": "B",
+      "kind": "control",
+      "bytes": 15211,
+      "within_bound": false
+    },
+    {
+      "seed": 206,
+      "role": "A",
+      "kind": "none",
+      "bytes": 3140,
+      "within_bound": true
+    },
+    {
+      "seed": 206,
+      "role": "A",
+      "kind": "ascii",
+      "bytes": 5206,
+      "within_bound": true
+    },
+    {
+      "seed": 206,
+      "role": "A",
+      "kind": "emoji",
+      "bytes": 11206,
+      "within_bound": false
+    },
+    {
+      "seed": 206,
+      "role": "A",
+      "kind": "NFC",
+      "bytes": 6206,
+      "within_bound": true
+    },
+    {
+      "seed": 206,
+      "role": "A",
+      "kind": "control",
+      "bytes": 15206,
+      "within_bound": false
+    },
+    {
+      "seed": 206,
+      "role": "B",
+      "kind": "none",
+      "bytes": 3140,
+      "within_bound": true
+    },
+    {
+      "seed": 206,
+      "role": "B",
+      "kind": "ascii",
+      "bytes": 5206,
+      "within_bound": true
+    },
+    {
+      "seed": 206,
+      "role": "B",
+      "kind": "emoji",
+      "bytes": 11206,
+      "within_bound": false
+    },
+    {
+      "seed": 206,
+      "role": "B",
+      "kind": "NFC",
+      "bytes": 6206,
+      "within_bound": true
+    },
+    {
+      "seed": 206,
+      "role": "B",
+      "kind": "control",
+      "bytes": 15206,
+      "within_bound": false
+    },
+    {
+      "seed": 207,
+      "role": "A",
+      "kind": "none",
+      "bytes": 3136,
+      "within_bound": true
+    },
+    {
+      "seed": 207,
+      "role": "A",
+      "kind": "ascii",
+      "bytes": 5202,
+      "within_bound": true
+    },
+    {
+      "seed": 207,
+      "role": "A",
+      "kind": "emoji",
+      "bytes": 11202,
+      "within_bound": false
+    },
+    {
+      "seed": 207,
+      "role": "A",
+      "kind": "NFC",
+      "bytes": 6202,
+      "within_bound": true
+    },
+    {
+      "seed": 207,
+      "role": "A",
+      "kind": "control",
+      "bytes": 15202,
+      "within_bound": false
+    },
+    {
+      "seed": 207,
+      "role": "B",
+      "kind": "none",
+      "bytes": 3136,
+      "within_bound": true
+    },
+    {
+      "seed": 207,
+      "role": "B",
+      "kind": "ascii",
+      "bytes": 5202,
+      "within_bound": true
+    },
+    {
+      "seed": 207,
+      "role": "B",
+      "kind": "emoji",
+      "bytes": 11202,
+      "within_bound": false
+    },
+    {
+      "seed": 207,
+      "role": "B",
+      "kind": "NFC",
+      "bytes": 6202,
+      "within_bound": true
+    },
+    {
+      "seed": 207,
+      "role": "B",
+      "kind": "control",
+      "bytes": 15202,
+      "within_bound": false
+    },
+    {
+      "seed": 208,
+      "role": "A",
+      "kind": "none",
+      "bytes": 3132,
+      "within_bound": true
+    },
+    {
+      "seed": 208,
+      "role": "A",
+      "kind": "ascii",
+      "bytes": 5198,
+      "within_bound": true
+    },
+    {
+      "seed": 208,
+      "role": "A",
+      "kind": "emoji",
+      "bytes": 11198,
+      "within_bound": false
+    },
+    {
+      "seed": 208,
+      "role": "A",
+      "kind": "NFC",
+      "bytes": 6198,
+      "within_bound": true
+    },
+    {
+      "seed": 208,
+      "role": "A",
+      "kind": "control",
+      "bytes": 15198,
+      "within_bound": false
+    },
+    {
+      "seed": 208,
+      "role": "B",
+      "kind": "none",
+      "bytes": 3132,
+      "within_bound": true
+    },
+    {
+      "seed": 208,
+      "role": "B",
+      "kind": "ascii",
+      "bytes": 5198,
+      "within_bound": true
+    },
+    {
+      "seed": 208,
+      "role": "B",
+      "kind": "emoji",
+      "bytes": 11198,
+      "within_bound": false
+    },
+    {
+      "seed": 208,
+      "role": "B",
+      "kind": "NFC",
+      "bytes": 6198,
+      "within_bound": true
+    },
+    {
+      "seed": 208,
+      "role": "B",
+      "kind": "control",
+      "bytes": 15198,
+      "within_bound": false
+    }
+  ],
+  "note_bound_assertion": "Oversize notes must fail technical validation; no truncation/replacement",
+  "paid_calls": 0
+}

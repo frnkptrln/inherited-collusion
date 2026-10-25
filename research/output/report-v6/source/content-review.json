@@ -1,0 +1,121 @@
+{
+  "schema_version": 1,
+  "status": "PASS",
+  "reviewed_at": "2026-10-25T13:50:21.224855+00:00",
+  "reviewer": "Independent scientific protocol, arithmetic and manuscript reviewer agent",
+  "reviewed_source": "output/report-v6/source/report-input.json",
+  "reviewed_source_sha256": "0c2de397b7cdc5d65bca42b3ea901a348f6a049f175af29f7866608d0e26a8ce",
+  "ready_for_final_content": true,
+  "scope": "Scientific content and numerical consistency, not DOCX/PDF visual layout. No study data or frozen code modified.",
+  "initial_source_sha256": "ebb44231456627e89f329e16957c2fd83ec34a8c76aa71c79810cade51998e95",
+  "resolved_findings": [
+    {
+      "location": "Appendix B / block49",
+      "issue": "Main methods promised exact routing in Appendix B, but routing and exact model IDs were absent.",
+      "resolution": "Now states exact Qwen and GPT-OSS model IDs, Hugging Face Inference Providers, explicitly selected DeepInfra, and unspecified reasoning defaults."
+    },
+    {
+      "location": "Appendix A / block42",
+      "issue": "The phrase the follow-up adds six clusters could be misread as describing V6.",
+      "resolution": "Now explicitly identifies the V5 structural control and says V6 reuses available symmetric donor cases."
+    },
+    {
+      "location": "Appendix A / block45",
+      "issue": "GPT-OSS failed convention-following criterion was not explicitly scoped to the original audit.",
+      "resolution": "Now specifies original V4/V4F actual-task convention checks."
+    }
+  ],
+  "unresolved_findings": [],
+  "numeric_verification": {
+    "new_arm_table_rows_checked": 12,
+    "new_contrast_table_rows_checked": 16,
+    "new_numeric_or_count_cells_checked_automatically": 156,
+    "historical_tables_compared_byte_equivalent_headers_rows": 7,
+    "historical_table_block_indices": [
+      84,
+      86,
+      90,
+      92,
+      101,
+      107,
+      111
+    ],
+    "mismatches": 0,
+    "rounding_tolerance": 0.00051,
+    "main_primary_rows_and_abstract": "Manually checked against closed V6 analysis and independent raw review."
+  },
+  "checked_claim_boundaries": [
+    "Qwen primary harmful effect +0.50 uses3 common complete cases and3/6 verified versus6/6 in each tie arm. Four-case availability and all-observed4/7 versus8/8 figures are distinct and explicitly separated.",
+    "Qwen observed case-weighted verified mean0.625 is correctly distinguished from pooled4/7. Missingness range[0.375,0.500] covers only the four retained donor cases.",
+    "GPT-OSS primary effect+0.625 uses6cases and4/12 verified versus11/12 first and12/12 last. Both legitimate comparisons and all16 direction-specific contrast rows agree with analysis.",
+    "All119 valid V6 episodes, including baseline, have zero outsider loss and joint harm. Abstract, main text, figure caption and appendix correctly identify coordination improvement rather than additional observed harm reduction.",
+    "Finite completion ranges are repeatedly distinguished from confidence intervals, independent populations and coverage of missing historical donor cases.",
+    "Shared-policy intervention is separated from claims about internal verification, a unique mechanism, necessity of the reminder, spontaneous collusion, broad safety or independent task-family replication.",
+    "Q303 format failure and absent partner call are accurately characterized without extraction, repair or declaring a known joint result. The sole GPT306 tie failure is retained and prevents a perfect-reliability claim.",
+    "V4/V4F overlap, post-start amendment, different case denominators and historical versus fresh successor populations are explicit. V5 structural changes include regenerated notes; V6 fixes both notes and costs.",
+    "Historical cost totals, incrementalV6 estimate0.323019210, total3.214604295, commitment ceiling14.736 and five unresolved historical calls are accurately scoped and not described as invoices.",
+    "V6 freeze13:10:54.212708UTC precedes earliest retained dispatch receipt13:11:25.463568UTC; closure13:33:25.543192UTC,194frozen artifacts and1286sealed raw files match evidence."
+  ],
+  "new_reference_scope": [
+    {
+      "reference": 5,
+      "url": "https://arxiv.org/html/2609.32939v1",
+      "verification": "Official arXiv title, authors, version, abstract and introduction independently opened. Supports narrow description of concurrent-agent collisions and shared division of labor from public roles and task context; no performance claim borrowed."
+    },
+    {
+      "reference": 6,
+      "url": "https://arxiv.org/html/2601.22184v2",
+      "verification": "Official arXiv title, authors, version, abstract and introduction independently opened. Supports focal points and learning-free coordination strategies without communication; no novelty priority or quantitative performance claim borrowed."
+    }
+  ],
+  "evidence_hashes": {
+    "output/control-v6/analysis/v6-analysis.json": "fc2e7b4c2c9c0184fbf613ebca019b1787dad3c55d3e30f88e66eb0b7acbb277",
+    "output/control-v6/analysis/independent-raw-check.json": "c9cbc902b772e8e37f8f2b92b1186a813a331df3096ff9e08089600093b4b79e",
+    "output/control-v6/evidence/final-review/scientific-review.json": "a7e75f7f0376ad87514e45ead5679ecd27ae06656c2b55f0c723bac18aae6831",
+    "output/control-v6/docs/v6-freeze.json": "61229eec71d79b409b376a8c7e8c002e64a18285dd4901d147525bd939ec245c",
+    "output/control-v6/docs/v6-closeout-record.json": "7eb8604581dd4629a55a721128099070cf72f5daf6291096e12100173594aea3"
+  },
+  "limitations": [
+    "This is AI-assisted content review, not independent human scientific verification.",
+    "Visual page layout was not reviewed in this pass; the parent and author agents handle the rendered artifacts.",
+    "PASS binds the exact reviewed source hash; content changes require review of the differences."
+  ],
+  "layout_only_rebinding": {
+    "previous_reviewed_source_sha256": "2d6f7bd2ff6a2e450bdd7792019b4e974abd8ba349a7726b20fc28b4fa5ca72a",
+    "new_reviewed_source_sha256": "0c2de397b7cdc5d65bca42b3ea901a348f6a049f175af29f7866608d0e26a8ce",
+    "verification": "Exact recursive JSON comparison. Only four table-width integers and the matching portable adapter hash differ. All prose, numeric results, headers, figure paths/hashes, captions and experimental evidence bindings are unchanged.",
+    "changed_paths": [
+      "/blocks/128/widths/1",
+      "/blocks/128/widths/2",
+      "/blocks/130/widths/1",
+      "/blocks/130/widths/2",
+      "/supplementary_inputs/8/sha256"
+    ],
+    "tables": [
+      "I2",
+      "I3"
+    ],
+    "old_widths": [
+      1150,
+      2150,
+      650,
+      900,
+      1850,
+      1260,
+      1400
+    ],
+    "new_widths": [
+      1150,
+      2000,
+      800,
+      900,
+      1850,
+      1260,
+      1400
+    ],
+    "adapter_path": "integrate_closed_results.py",
+    "adapter_sha256": "84f1045e6ecd51a49e642ae77c753bb4e210900ccc68ff80f428889faaf686c8",
+    "adapter_hash_verified": true,
+    "scientific_content_pass_retained": true
+  }
+}

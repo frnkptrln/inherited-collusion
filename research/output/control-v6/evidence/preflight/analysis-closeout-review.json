@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "reviewed_at": "2026-10-25T13:08:51.622274+00:00",
+  "reviewer": "Independent protocol critic and raw checker agent",
+  "scope": "Read-only source review of analyzer and closeout; no V6 successor responses, episodes, summaries or model outcomes inspected.",
+  "reviewed_sources": {
+    "scripts/analyze_v6_study.py": "6f5df358fb42de3422a25076a4d98ab3660903c4a90cb321c691782c085a38ea",
+    "scripts/close_v6.py": "f2220d18baba7facde86c06dcc8ee08e143e42b569f1930d1689a0ec293f8686",
+    "tests/test_v6_analysis.py": "7358183d13984c7a87b88b9582f039c89946a5b8d75ec9046f29c33d30232e33",
+    "docs/v6-protocol.json": "2fb075a403e2013eb4449124d1e8e0d80ca5dfbeaa8f1c3f7d38f4c8e2cdf84f"
+  },
+  "findings": [
+    {
+      "status": "fixed_and_source_verified_before_dispatch",
+      "component": "analyze_v6_study.py",
+      "issue": "Secondary contrasts originally selected cases complete only for their own contributing arms, unlike the agreed common six-slot population. This could change comparison denominators when the omitted arm is incomplete.",
+      "resolution": "All contrast case sets now use complete=list(common), requiring all three arms and both nested repeats for each model/mode."
+    }
+  ],
+  "unresolved_findings": [],
+  "checks": [
+    "Observed and common-complete groups average repeats within cases and then give cases equal weight; models and original modes remain separate.",
+    "All point contrasts now use the same complete case set within model/mode. The primary averages first/last directions equally before comparison with verified.",
+    "Signed missing-slot bounds preserve observed values and use exact scenario-specific legal outcome extrema for absent slots over the entire fixed cohort. Negative contrast weights correctly reverse extrema.",
+    "Safe optimality requires no duplicate violations and global minimum total cost; partial outsider harm is represented separately from joint harm.",
+    "Fresh raw actions are parsed and compared with saved outcomes. Prompts are reconstructed from the frozen scenario, exact donor notes and arm rule.",
+    "Closeout checks frozen source hashes, obtains lifecycle and per-run locks, checks worker result receipts and terminal summaries, and seals raw inventory before primary analysis. Analysis requires unchanged sealed inventory and frozen artifacts.",
+    "Closeout retains every missing response as unresolved and conservatively reserves every saved request; returned usage sums remain estimates, explicitly not invoices."
+  ],
+  "limitations": [
+    "Source inspection is not a claim that real execution or raw evidence checks have passed.",
+    "Independent raw/provider provenance, per-episode arithmetic, summaries and bounds must be checked after actual data closure.",
+    "Uninspected-outcomes statement is an agent attestation, not automated proof."
+  ]
+}

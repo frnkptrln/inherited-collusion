@@ -1,0 +1,140 @@
+{
+  "schema_version": 1,
+  "authorized_total_usd": 15,
+  "historical_allocated_usd": 9.922,
+  "phase_max_usd": 4.896,
+  "authorization": "Frank Peterlein explicitly requested the unique safe-optimum control and allowed discretionary use within total USD15.",
+  "created_at": "2026-10-24T10:24:55.132959+00:00",
+  "no_cloud_jobs": true,
+  "freeze_record": "/home/user/projects/collusion-sprint/docs/v5-freeze.json",
+  "historical_details": {
+    "initial_pilots_retained_ceiling_usd": 1.0,
+    "v3_pilots_retained_ceiling_usd": 0.594,
+    "v4_and_v4f_consolidated_retained_ceiling_usd": 8.328,
+    "known_returned_response_estimate_usd": 1.922675947,
+    "unresolved_old_calls_retained": 4,
+    "no_old_allocations_released": true
+  },
+  "allocations": {
+    "v5-main-qwen-301": {
+      "config": "configs/v5/v5-main-qwen-301.json",
+      "config_digest": "ac8d60cb1497dd20836c5e969dbb235dafa8e1b6499e990306cd832666e1092c",
+      "max_total_usd": 0.68,
+      "model": "Qwen/Qwen3.6-35B-A3B",
+      "seed": 301,
+      "repeats": 2,
+      "cohort": "main",
+      "status": "allocated"
+    },
+    "v5-main-qwen-302": {
+      "config": "configs/v5/v5-main-qwen-302.json",
+      "config_digest": "15c52f01de0f4246b0f3f42eb5808184890ade89cf5c9c07b3b4d70134b2f5b0",
+      "max_total_usd": 0.68,
+      "model": "Qwen/Qwen3.6-35B-A3B",
+      "seed": 302,
+      "repeats": 2,
+      "cohort": "main",
+      "status": "allocated"
+    },
+    "v5-main-qwen-303": {
+      "config": "configs/v5/v5-main-qwen-303.json",
+      "config_digest": "07c0195d099527ed091fa36bd99f8fdf2c2fa164c0a926df2735c78f6cfccf7b",
+      "max_total_usd": 0.68,
+      "model": "Qwen/Qwen3.6-35B-A3B",
+      "seed": 303,
+      "repeats": 2,
+      "cohort": "main",
+      "status": "allocated"
+    },
+    "v5-main-qwen-304": {
+      "config": "configs/v5/v5-main-qwen-304.json",
+      "config_digest": "a0aa8fbebc9baede6f542e27cc9db920b7667e904734da93d45d5eaf7ff05a47",
+      "max_total_usd": 0.68,
+      "model": "Qwen/Qwen3.6-35B-A3B",
+      "seed": 304,
+      "repeats": 2,
+      "cohort": "main",
+      "status": "allocated"
+    },
+    "v5-main-qwen-305": {
+      "config": "configs/v5/v5-main-qwen-305.json",
+      "config_digest": "9b867bf31ead9e4d7b4fa4ec68862d3f2ba0a62c40e9edd7eb6b7d508fddd46b",
+      "max_total_usd": 0.68,
+      "model": "Qwen/Qwen3.6-35B-A3B",
+      "seed": 305,
+      "repeats": 2,
+      "cohort": "main",
+      "status": "allocated"
+    },
+    "v5-main-qwen-306": {
+      "config": "configs/v5/v5-main-qwen-306.json",
+      "config_digest": "bc2833c5baa6c3001023194f8563951c42aafd76a30fc8b335aeea225223ee25",
+      "max_total_usd": 0.68,
+      "model": "Qwen/Qwen3.6-35B-A3B",
+      "seed": 306,
+      "repeats": 2,
+      "cohort": "main",
+      "status": "allocated"
+    },
+    "v5-main-gptoss-301": {
+      "config": "configs/v5/v5-main-gptoss-301.json",
+      "config_digest": "60a406a8054bfae847bd605af498c1e559e3ca7a2f16c21c3a6fccf7b8102a2f",
+      "max_total_usd": 0.136,
+      "model": "openai/gpt-oss-120b",
+      "seed": 301,
+      "repeats": 2,
+      "cohort": "main",
+      "status": "allocated"
+    },
+    "v5-main-gptoss-302": {
+      "config": "configs/v5/v5-main-gptoss-302.json",
+      "config_digest": "3e39ce7b9f63f68658d554603c2dda08516ef9b6d1ad64ea3916ae16f0b4961d",
+      "max_total_usd": 0.136,
+      "model": "openai/gpt-oss-120b",
+      "seed": 302,
+      "repeats": 2,
+      "cohort": "main",
+      "status": "allocated"
+    },
+    "v5-main-gptoss-303": {
+      "config": "configs/v5/v5-main-gptoss-303.json",
+      "config_digest": "c03c4c337afa91f704aad5def48372ded11da3b7f1c7a1bc666a09eb0d535271",
+      "max_total_usd": 0.136,
+      "model": "openai/gpt-oss-120b",
+      "seed": 303,
+      "repeats": 2,
+      "cohort": "main",
+      "status": "allocated"
+    },
+    "v5-main-gptoss-304": {
+      "config": "configs/v5/v5-main-gptoss-304.json",
+      "config_digest": "ca63b7a6fea596eebc830f2b8e8d4a18d87e1ee69fee8015523786180969744d",
+      "max_total_usd": 0.136,
+      "model": "openai/gpt-oss-120b",
+      "seed": 304,
+      "repeats": 2,
+      "cohort": "main",
+      "status": "allocated"
+    },
+    "v5-main-gptoss-305": {
+      "config": "configs/v5/v5-main-gptoss-305.json",
+      "config_digest": "ac8e3a00ff312cc92a5ea955eaf8a5e1c2c6cc13855cb0a8b7ca5626cb965685",
+      "max_total_usd": 0.136,
+      "model": "openai/gpt-oss-120b",
+      "seed": 305,
+      "repeats": 2,
+      "cohort": "main",
+      "status": "allocated"
+    },
+    "v5-main-gptoss-306": {
+      "config": "configs/v5/v5-main-gptoss-306.json",
+      "config_digest": "d6d553f873a4c88d30f862942057b62468089a5b439b53a6533be869f5b1556a",
+      "max_total_usd": 0.136,
+      "model": "openai/gpt-oss-120b",
+      "seed": 306,
+      "repeats": 2,
+      "cohort": "main",
+      "status": "allocated"
+    }
+  }
+}

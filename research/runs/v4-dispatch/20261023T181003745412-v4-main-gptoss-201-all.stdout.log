@@ -1,0 +1,15 @@
+{
+  "evidence_class": "RAW_HANDOFF_SOURCE_PAIRING_STUDY",
+  "status": "completed",
+  "complete": true,
+  "reserved_calls": 86,
+  "episodes": 32,
+  "technical_gates": {
+    "probes": true,
+    "harmful-p0-technical": true,
+    "harmful-p1-technical": true,
+    "legitimate-p0-technical": true,
+    "legitimate-p1-technical": true
+  },
+  "annotation_state": "completed"
+}

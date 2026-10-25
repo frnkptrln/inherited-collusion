@@ -1,0 +1,214 @@
+{
+  "checked_at": "2026-10-24T10:24:55.132959+00:00",
+  "no_jobs_started": true,
+  "auth": {
+    "exit_code": 0,
+    "user_frnk_present": true
+  },
+  "jobs": {
+    "exit_code": 0,
+    "job_count": 47,
+    "status_counts": {
+      "COMPLETED": 35,
+      "ERROR": 10,
+      "CANCELED": 2
+    },
+    "commands_omitted": true
+  },
+  "models": [
+    {
+      "id": "Qwen/Qwen3.6-35B-A3B",
+      "object": "model",
+      "created": 1776232759,
+      "owned_by": "Qwen",
+      "architecture": {
+        "input_modalities": [
+          "text",
+          "image"
+        ],
+        "output_modalities": [
+          "text"
+        ]
+      },
+      "providers": [
+        {
+          "provider": "featherless-ai",
+          "status": "live",
+          "is_free": false,
+          "is_model_author": false
+        },
+        {
+          "provider": "scaleway",
+          "status": "live",
+          "pricing": {
+            "input": 0.285,
+            "output": 1.71
+          },
+          "is_free": false,
+          "supports_tools": true,
+          "supports_structured_output": true,
+          "first_token_latency_ms": 372.2,
+          "throughput": 203.72821241410512,
+          "is_model_author": false
+        },
+        {
+          "provider": "deepinfra",
+          "status": "live",
+          "context_length": 262144,
+          "pricing": {
+            "input": 0.1,
+            "output": 0.95
+          },
+          "is_free": false,
+          "supports_tools": true,
+          "supports_structured_output": true,
+          "first_token_latency_ms": 265,
+          "throughput": 60.0862058735212,
+          "is_model_author": false
+        }
+      ]
+    },
+    {
+      "id": "openai/gpt-oss-120b",
+      "object": "model",
+      "created": 1754346786,
+      "owned_by": "openai",
+      "architecture": {
+        "input_modalities": [
+          "text"
+        ],
+        "output_modalities": [
+          "text"
+        ]
+      },
+      "providers": [
+        {
+          "provider": "groq",
+          "status": "live",
+          "context_length": 131072,
+          "pricing": {
+            "input": 0.15,
+            "output": 0.75
+          },
+          "is_free": false,
+          "supports_tools": true,
+          "supports_structured_output": true,
+          "first_token_latency_ms": 250,
+          "throughput": 406.9237944372145,
+          "is_model_author": false
+        },
+        {
+          "provider": "novita",
+          "status": "live",
+          "context_length": 131072,
+          "pricing": {
+            "input": 0.05,
+            "output": 0.25
+          },
+          "is_free": false,
+          "supports_tools": true,
+          "supports_structured_output": true,
+          "first_token_latency_ms": 4648,
+          "throughput": 119.27480916030535,
+          "is_model_author": false
+        },
+        {
+          "provider": "cerebras",
+          "status": "live",
+          "context_length": 131072,
+          "pricing": {
+            "input": 0.35,
+            "output": 0.75
+          },
+          "is_free": false,
+          "supports_tools": true,
+          "supports_structured_output": true,
+          "first_token_latency_ms": 258,
+          "throughput": 1073.4097546451642,
+          "is_model_author": false
+        },
+        {
+          "provider": "nscale",
+          "status": "live",
+          "context_length": 131072,
+          "pricing": {
+            "input": 0.1,
+            "output": 0.4
+          },
+          "is_free": false,
+          "supports_tools": true,
+          "supports_structured_output": true,
+          "first_token_latency_ms": 343.6,
+          "throughput": 107.75725790971094,
+          "is_model_author": false
+        },
+        {
+          "provider": "featherless-ai",
+          "status": "live",
+          "is_free": false,
+          "is_model_author": false
+        },
+        {
+          "provider": "scaleway",
+          "status": "live",
+          "pricing": {
+            "input": 0.171,
+            "output": 0.684
+          },
+          "is_free": false,
+          "supports_tools": true,
+          "supports_structured_output": true,
+          "first_token_latency_ms": 255.8,
+          "throughput": 158.07425276736254,
+          "is_model_author": false
+        },
+        {
+          "provider": "baseten",
+          "status": "live",
+          "context_length": 128072,
+          "pricing": {
+            "input": 0.1,
+            "output": 0.5
+          },
+          "is_free": false,
+          "supports_tools": true,
+          "supports_structured_output": true,
+          "first_token_latency_ms": 171.8,
+          "throughput": 259.1302045865508,
+          "is_model_author": false
+        },
+        {
+          "provider": "ovhcloud",
+          "status": "live",
+          "context_length": 131072,
+          "pricing": {
+            "input": 0.09,
+            "output": 0.47
+          },
+          "is_free": false,
+          "supports_tools": true,
+          "supports_structured_output": true,
+          "first_token_latency_ms": 927,
+          "throughput": 37.47498703070465,
+          "is_model_author": false
+        },
+        {
+          "provider": "deepinfra",
+          "status": "live",
+          "context_length": 131072,
+          "pricing": {
+            "input": 0.037,
+            "output": 0.16999999999999998
+          },
+          "is_free": false,
+          "supports_tools": true,
+          "supports_structured_output": true,
+          "first_token_latency_ms": 228,
+          "throughput": 76.38469750557898,
+          "is_model_author": false
+        }
+      ]
+    }
+  ],
+  "source": "https://router.huggingface.co/v1/models"
+}

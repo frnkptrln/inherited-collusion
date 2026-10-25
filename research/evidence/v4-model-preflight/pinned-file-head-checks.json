@@ -1,0 +1,23 @@
+[
+  {
+    "url": "https://huggingface.co/openai/gpt-oss-120b/resolve/b5c939de8f754692c1647ca79fbf85e8c1e70f8a/tokenizer.json",
+    "status": 200,
+    "etag": "\"c55846686d68918bb333fea55bb0c66fba7ff4aa4b2c3f34145a521ddf4050c6\"",
+    "x_repo_commit": null,
+    "content_length": "27868174"
+  },
+  {
+    "url": "https://huggingface.co/openai/gpt-oss-120b/resolve/b5c939de8f754692c1647ca79fbf85e8c1e70f8a/tokenizer_config.json",
+    "status": 200,
+    "etag": "\"c021cddb0a9dd35b1bf83a9f145be2d9b3757891\"",
+    "x_repo_commit": "b5c939de8f754692c1647ca79fbf85e8c1e70f8a",
+    "content_length": "4200"
+  },
+  {
+    "url": "https://huggingface.co/openai/gpt-oss-120b/resolve/b5c939de8f754692c1647ca79fbf85e8c1e70f8a/chat_template.jinja",
+    "status": 200,
+    "etag": "\"dc7bb11927d29f653ba2740f2db2c688fd77592f\"",
+    "x_repo_commit": "b5c939de8f754692c1647ca79fbf85e8c1e70f8a",
+    "content_length": "16738"
+  }
+]

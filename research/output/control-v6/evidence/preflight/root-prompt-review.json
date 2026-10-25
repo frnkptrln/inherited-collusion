@@ -1,0 +1,11 @@
+{
+  "cases": 10,
+  "notes": 40,
+  "all_three_arm_prompts": 120,
+  "baseline_exactly_matches_historical_raw": true,
+  "tie_addendum_is_sole_prompt_difference": true,
+  "max_serialized_bytes": 4632,
+  "approved_byte_ceiling": 10000,
+  "distinct_safe_targets_in_all_cases": true,
+  "paid_calls": 0
+}

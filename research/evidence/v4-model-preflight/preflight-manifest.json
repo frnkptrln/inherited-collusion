@@ -1,0 +1,106 @@
+{
+  "created_at": "2026-10-23T17:47:09.900756+00:00",
+  "scope": "All files in this public preflight folder except this manifest; no paid requests or credentials",
+  "files": [
+    {
+      "file": "analyze_preflight.py",
+      "bytes": 6740,
+      "sha256": "fdb3c23c76c641cbe41ad2d4963dedd577e319ff8a1592f54d513f96cac048a9"
+    },
+    {
+      "file": "deepinfra-chat-schema.md",
+      "bytes": 33126,
+      "sha256": "d97d838a22499a8eb2dc13cfd46e6b6970f69267e2aac897185bd6060bc20405"
+    },
+    {
+      "file": "deepinfra-model-api.html",
+      "bytes": 469902,
+      "sha256": "531ff46723780208c38588c62d29b72d2b78a98c37b54345fc23eab1c7815fac"
+    },
+    {
+      "file": "deepinfra-model.html",
+      "bytes": 488914,
+      "sha256": "273fff9651eff9960c1e1abe977d994c3770173dcf5ab269b5903269fcbd0c93"
+    },
+    {
+      "file": "deepinfra-reasoning.md",
+      "bytes": 6245,
+      "sha256": "0f84b7fdf7b846944468d52b352d75d63129acdcd769994261b4b0a1b7af7260"
+    },
+    {
+      "file": "fetch_public_sources.py",
+      "bytes": 1815,
+      "sha256": "93f1815f7a740a3509af551de87e7fee8001d32fe5ae393d36a0e01d31c51bbc"
+    },
+    {
+      "file": "fetch_supplement.py",
+      "bytes": 1548,
+      "sha256": "24e490ae97e65b549b044959631ddf7b33cfcbf024728d639c4c038a25a443ff"
+    },
+    {
+      "file": "gpt-oss-chat-template.jinja",
+      "bytes": 16738,
+      "sha256": "a4c9919cbbd4acdd51ccffe22da049264b1b73e59055fa58811a99efbd7c8146"
+    },
+    {
+      "file": "gpt-oss-mapping.json",
+      "bytes": 1349,
+      "sha256": "2e218237fd6d1c6f256b262b50a77823c2989c6e4e4529666024bb6ad14228c6"
+    },
+    {
+      "file": "gpt-oss-readme.md",
+      "bytes": 7111,
+      "sha256": "92b0408cf5dce04e4c5e4e5f2be0361da710d3650baefd7d7519badd1c687919"
+    },
+    {
+      "file": "gpt-oss-tokenizer-config.json",
+      "bytes": 4200,
+      "sha256": "9279e942392b742d633c7adbb89ebe002c98399db8926a7af5125c726f404070"
+    },
+    {
+      "file": "gpt-oss-tokenizer.json",
+      "bytes": 27868174,
+      "sha256": "0614fe83cadab421296e664e1f48f4261fa8fef6e03e63bb75c20f38e37d07d3"
+    },
+    {
+      "file": "model-preflight.json",
+      "bytes": 9561,
+      "sha256": "284f8576c54fe17efc817c04bf811a6392915bfb27eff36cc24fe1a1bb6f54bd"
+    },
+    {
+      "file": "model-preflight.md",
+      "bytes": 6078,
+      "sha256": "673c108bc64d912e8b432cc9782a1ce092a5b9a37ddbc1093b37fa3c16a53fba"
+    },
+    {
+      "file": "openai-model-doc.md",
+      "bytes": 1497,
+      "sha256": "c48d6022b8bcd1210f72db8cd0fe6d9928d99106a3a1005b490fed667bd5b59d"
+    },
+    {
+      "file": "pinned-file-head-checks.json",
+      "bytes": 915,
+      "sha256": "1acceead988be4e8187cc87fb786193879b342cb35f07fe21e3f1247843fe381"
+    },
+    {
+      "file": "retrieval-index.json",
+      "bytes": 3023,
+      "sha256": "886a87c21de4bfe94cca43a4f6a627f198d0ed29d7c94c59fbde768df1928aee"
+    },
+    {
+      "file": "router-models.json",
+      "bytes": 82160,
+      "sha256": "dfe910cd0154fb3280cc3052d7d6b1a34dddd321636af0dda7792fb4ebc3732d"
+    },
+    {
+      "file": "sdk-inspection.json",
+      "bytes": 961,
+      "sha256": "5a0b4e9042289192196d57cdcf2bb288aa3392bb4b96d8f230ea588e5e5ea3a9"
+    },
+    {
+      "file": "tokenizer-bound-inspection.json",
+      "bytes": 1894,
+      "sha256": "f24bd5b13bf488ed84f10313267331b8bfce5852b32190337f02f073a306b82b"
+    }
+  ]
+}

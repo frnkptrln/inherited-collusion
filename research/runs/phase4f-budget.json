@@ -1,0 +1,222 @@
+{
+  "schema_version": 1,
+  "authorized_total_usd": 15,
+  "historical_allocated_usd": 1.594,
+  "phase_max_usd": 9,
+  "created_at": "2026-10-23T18:30:29.252819+00:00",
+  "historical_details": {
+    "initial_three_pilots_retained_ceiling_usd": 1,
+    "v3_qwen_pilot_retained_ceiling_usd": 0.324,
+    "v3_deepseek_pilot_retained_ceiling_usd": 0.27,
+    "unused_v3_main_allocations_retired_usd": 7.568,
+    "retirement_record": "docs/v3-closeout-record.json"
+  },
+  "authorization": "Original discretionary USD15 authorization unchanged; format-only continuation chosen by Codex and separately documented; no increased planned calls or phase ceiling.",
+  "allocations": {
+    "v4f-qualification-qwen-902": {
+      "config_digest": "cb8a8bb28ed036bc26a98926bec962ff290f6bef61453e0934c805a7b1b4d617",
+      "max_total_usd": 0.06,
+      "model": "Qwen/Qwen3.6-35B-A3B",
+      "status": "allocated",
+      "cohort": "qualification",
+      "seed": 902,
+      "repeats": 0,
+      "config": "configs/v4f/v4f-qualification-qwen-902.json",
+      "source_run_id": "v4-qualification-qwen-902"
+    },
+    "v4f-main-qwen-201": {
+      "config_digest": "fb9cebd79eabb8c5ec55260e49e2096530d3a684211acab90493336bb877a4a3",
+      "max_total_usd": 0.86,
+      "model": "Qwen/Qwen3.6-35B-A3B",
+      "status": "allocated",
+      "cohort": "main",
+      "seed": 201,
+      "repeats": 2,
+      "config": "configs/v4f/v4f-main-qwen-201.json",
+      "source_run_id": "v4-main-qwen-201"
+    },
+    "v4f-main-qwen-202": {
+      "config_digest": "95af2c3c0b87a692296397ec970e900836a1a2751eb0114d33c6a2ba7c34fe4f",
+      "max_total_usd": 0.86,
+      "model": "Qwen/Qwen3.6-35B-A3B",
+      "status": "allocated",
+      "cohort": "main",
+      "seed": 202,
+      "repeats": 2,
+      "config": "configs/v4f/v4f-main-qwen-202.json",
+      "source_run_id": "v4-main-qwen-202"
+    },
+    "v4f-main-qwen-203": {
+      "config_digest": "3caa5916f2162fee4b02012569562710b6e20af816285c088c0da743dbd06e63",
+      "max_total_usd": 0.86,
+      "model": "Qwen/Qwen3.6-35B-A3B",
+      "status": "allocated",
+      "cohort": "main",
+      "seed": 203,
+      "repeats": 2,
+      "config": "configs/v4f/v4f-main-qwen-203.json",
+      "source_run_id": "v4-main-qwen-203"
+    },
+    "v4f-main-qwen-204": {
+      "config_digest": "4d49b63d9962f10d88efb0add98cefa7e23ff997bd62e272a6893e4f7519b0ba",
+      "max_total_usd": 0.86,
+      "model": "Qwen/Qwen3.6-35B-A3B",
+      "status": "allocated",
+      "cohort": "main",
+      "seed": 204,
+      "repeats": 2,
+      "config": "configs/v4f/v4f-main-qwen-204.json",
+      "source_run_id": "v4-main-qwen-204"
+    },
+    "v4f-main-qwen-205": {
+      "config_digest": "dc671f0b9cfda90bdb0c56c34c6a0d21113a68ea3a7ad85819a83a0d89d35b9b",
+      "max_total_usd": 0.86,
+      "model": "Qwen/Qwen3.6-35B-A3B",
+      "status": "allocated",
+      "cohort": "main",
+      "seed": 205,
+      "repeats": 2,
+      "config": "configs/v4f/v4f-main-qwen-205.json",
+      "source_run_id": "v4-main-qwen-205"
+    },
+    "v4f-main-qwen-206": {
+      "config_digest": "e5d9aac5c52783b91fe2b8cbab50cb9ee4fc7c0ffa8150364656891f246b05c2",
+      "max_total_usd": 0.86,
+      "model": "Qwen/Qwen3.6-35B-A3B",
+      "status": "allocated",
+      "cohort": "main",
+      "seed": 206,
+      "repeats": 2,
+      "config": "configs/v4f/v4f-main-qwen-206.json",
+      "source_run_id": "v4-main-qwen-206"
+    },
+    "v4f-main-qwen-207": {
+      "config_digest": "b50172f163ee9489ff905ecda108c72e147ba8525ed25964035da1089f090014",
+      "max_total_usd": 0.86,
+      "model": "Qwen/Qwen3.6-35B-A3B",
+      "status": "allocated",
+      "cohort": "main",
+      "seed": 207,
+      "repeats": 2,
+      "config": "configs/v4f/v4f-main-qwen-207.json",
+      "source_run_id": "v4-main-qwen-207"
+    },
+    "v4f-main-qwen-208": {
+      "config_digest": "55f3fa6cc1d4cc4921077a83314440789540e6ca99298062b8a71c01b3e59510",
+      "max_total_usd": 0.86,
+      "model": "Qwen/Qwen3.6-35B-A3B",
+      "status": "allocated",
+      "cohort": "main",
+      "seed": 208,
+      "repeats": 2,
+      "config": "configs/v4f/v4f-main-qwen-208.json",
+      "source_run_id": "v4-main-qwen-208"
+    },
+    "v4f-qualification-gptoss-902": {
+      "config_digest": "c150a3798732e999ee65b3db2d66d5e21cb96961bd7433f63cda9ad089284953",
+      "max_total_usd": 0.012,
+      "model": "openai/gpt-oss-120b",
+      "status": "allocated",
+      "cohort": "qualification",
+      "seed": 902,
+      "repeats": 0,
+      "config": "configs/v4f/v4f-qualification-gptoss-902.json",
+      "source_run_id": "v4-qualification-gptoss-902"
+    },
+    "v4f-main-gptoss-201": {
+      "config_digest": "f2f0ee95d576a8aee9760a06c465e60175037add65a4f642fde0baa520a9b3f9",
+      "max_total_usd": 0.172,
+      "model": "openai/gpt-oss-120b",
+      "status": "allocated",
+      "cohort": "main",
+      "seed": 201,
+      "repeats": 2,
+      "config": "configs/v4f/v4f-main-gptoss-201.json",
+      "source_run_id": "v4-main-gptoss-201"
+    },
+    "v4f-main-gptoss-202": {
+      "config_digest": "7b23ea6882134f4a4d95cdba1ab06abf21f1ae34de3734c863ddd72738b9d287",
+      "max_total_usd": 0.172,
+      "model": "openai/gpt-oss-120b",
+      "status": "allocated",
+      "cohort": "main",
+      "seed": 202,
+      "repeats": 2,
+      "config": "configs/v4f/v4f-main-gptoss-202.json",
+      "source_run_id": "v4-main-gptoss-202"
+    },
+    "v4f-main-gptoss-203": {
+      "config_digest": "3b9ab57a17a28986992012e6ff25bc0d787afebf040e14669ad68bdee0d9910b",
+      "max_total_usd": 0.172,
+      "model": "openai/gpt-oss-120b",
+      "status": "allocated",
+      "cohort": "main",
+      "seed": 203,
+      "repeats": 2,
+      "config": "configs/v4f/v4f-main-gptoss-203.json",
+      "source_run_id": "v4-main-gptoss-203"
+    },
+    "v4f-main-gptoss-204": {
+      "config_digest": "ea10c25749826b9d3e71cef2038a15e90e1e5e0b6db2ae5d41923763ce5a3755",
+      "max_total_usd": 0.172,
+      "model": "openai/gpt-oss-120b",
+      "status": "allocated",
+      "cohort": "main",
+      "seed": 204,
+      "repeats": 2,
+      "config": "configs/v4f/v4f-main-gptoss-204.json",
+      "source_run_id": "v4-main-gptoss-204"
+    },
+    "v4f-main-gptoss-205": {
+      "config_digest": "1f9d52087fac702daaf1b8c0b9655c629e1ed6d7b47e8bbc1a1ccf748a69bac1",
+      "max_total_usd": 0.172,
+      "model": "openai/gpt-oss-120b",
+      "status": "allocated",
+      "cohort": "main",
+      "seed": 205,
+      "repeats": 2,
+      "config": "configs/v4f/v4f-main-gptoss-205.json",
+      "source_run_id": "v4-main-gptoss-205"
+    },
+    "v4f-main-gptoss-206": {
+      "config_digest": "75e11eb8db5bd1970741d7b69678695c08648b1957b858f7bcaf80ec06d88e2b",
+      "max_total_usd": 0.172,
+      "model": "openai/gpt-oss-120b",
+      "status": "allocated",
+      "cohort": "main",
+      "seed": 206,
+      "repeats": 2,
+      "config": "configs/v4f/v4f-main-gptoss-206.json",
+      "source_run_id": "v4-main-gptoss-206"
+    },
+    "v4f-main-gptoss-207": {
+      "config_digest": "a454d63e3bce02d6a5082a615e5fe60942c804875623d843e0eceba38608b0bf",
+      "max_total_usd": 0.172,
+      "model": "openai/gpt-oss-120b",
+      "status": "allocated",
+      "cohort": "main",
+      "seed": 207,
+      "repeats": 2,
+      "config": "configs/v4f/v4f-main-gptoss-207.json",
+      "source_run_id": "v4-main-gptoss-207"
+    },
+    "v4f-main-gptoss-208": {
+      "config_digest": "edc1078da70d501a16db0b5f9449ab9ef5bdd62f890396329982013cf5652a2b",
+      "max_total_usd": 0.172,
+      "model": "openai/gpt-oss-120b",
+      "status": "allocated",
+      "cohort": "main",
+      "seed": 208,
+      "repeats": 2,
+      "config": "configs/v4f/v4f-main-gptoss-208.json",
+      "source_run_id": "v4-main-gptoss-208"
+    }
+  },
+  "no_cloud_jobs": true,
+  "reasoning_effort": "not sent; provider default unspecified",
+  "phase": "V4F format-only continuation; consolidated V4+V4F unique call slots",
+  "source_ledger_archive": "/home/user/projects/collusion-sprint/evidence/v4f-closeout/phase4-budget.original.json",
+  "source_closure_record": "/home/user/projects/collusion-sprint/docs/v4-strict-closeout-record.json",
+  "preparation_manifest": "/home/user/projects/collusion-sprint/docs/v4f-preparation.json",
+  "freeze_record": "/home/user/projects/collusion-sprint/docs/v4f-freeze.json"
+}

@@ -1,0 +1,15 @@
+{
+  "evidence_class": "DESCRIPTIVE_ENUMERATED_GAME",
+  "status": "note_review_required",
+  "complete": false,
+  "episodes": 0,
+  "expected_episodes": 16,
+  "reserved_calls": 22,
+  "gates": {
+    "s901-probes": true,
+    "s901-harmful-p0": true,
+    "s901-harmful-p1": true,
+    "s901-legitimate-p0": true,
+    "s901-legitimate-p1": true
+  }
+}

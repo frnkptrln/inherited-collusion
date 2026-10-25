@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "input_sha256": "0c2de397b7cdc5d65bca42b3ea901a348f6a049f175af29f7866608d0e26a8ce",
+  "rebuilt_input_sha256": "0c2de397b7cdc5d65bca42b3ea901a348f6a049f175af29f7866608d0e26a8ce",
+  "original_docx_sha256": "448cbfcf859f7958e3fe1d6490ef684b7970850289f89091792b4de6187c53f0",
+  "source_sha256": "3266610823758fbcfe0efc1b990edea8d61bc336db54f1c5c26a158a56fb13d1",
+  "copied_evidence_files": 37,
+  "docx_members_compared": 18,
+  "changed_docx_members": [],
+  "original_project_and_report_reads_denied": true,
+  "network_and_child_processes_denied_in_rebuild": true,
+  "isolated_python": true,
+  "pdf_render_repeated": false,
+  "scope": "Exact input bytes and DOCX package-member bytes reproduce from portable copies. This is not a full research ZIP verification."
+}

@@ -1,0 +1,458 @@
+{
+  "checked_at": "2026-10-23T17:54:33.261741+00:00",
+  "reviewer": "independent Codex report/readiness agent",
+  "scope": "Read-only raw final-content, full-assignment, input provenance, identity, finish and usage audit; no inference",
+  "expected_unique_assignment": {
+    "A": "T3",
+    "B": "T4",
+    "C": "T1",
+    "D": "T2"
+  },
+  "expected_total_cost": 17.0,
+  "models": {
+    "qwen": {
+      "model": "Qwen/Qwen3.6-35B-A3B",
+      "source_hash": "c2eb3261a675d530d1c33f61a462f7f04424503dd6721da2023538e79aed09f7",
+      "responses_observed": 6,
+      "complete_six_response_audit": true,
+      "all_observed_passed": true,
+      "fully_qualified_in_this_audit": true,
+      "prompt_tokens": 3008,
+      "completion_tokens": 9310,
+      "estimated_cost_usd": 0.0091453,
+      "calls": [
+        {
+          "call_id": "s902-probe-A-comprehension",
+          "parsed_final_content": {
+            "task": "T3",
+            "joint_assignment": {
+              "A": "T3",
+              "B": "T4",
+              "C": "T1",
+              "D": "T2"
+            },
+            "total_cost": 17
+          },
+          "checks": {
+            "exact_complete_assignment": true,
+            "exact_total_cost": true,
+            "own_role_action": true,
+            "role_consistency": true,
+            "exact_frozen_prompt": true,
+            "exact_model_id": true,
+            "complete_finish": true,
+            "exact_generation": true,
+            "usage_prompt_bound": true,
+            "usage_completion_bound": true,
+            "usage_total_consistent": true,
+            "cost_reserved": true,
+            "cost_catalog_consistent": true
+          },
+          "passed": true,
+          "usage": {
+            "completion_tokens": 3935,
+            "estimated_cost": 0.0038670500000000003,
+            "prompt_tokens": 1288,
+            "prompt_tokens_details": {
+              "cache_write_tokens": null,
+              "cached_tokens": 0
+            },
+            "total_tokens": 5223
+          },
+          "prompt_token_bound": 5105,
+          "catalog_cost_usd": 0.00386705,
+          "response_sha256": "b17e11c050dbec42a89e50e9b3a7b09c3ede0e35f984f279d2d615ee69058a73",
+          "request_sha256": "17bddfc61e592c91ada50a21ecfe38a07e9039ee71040e2ef3e7ddb477a64eba"
+        },
+        {
+          "call_id": "s902-probe-A-note_T1",
+          "parsed_final_content": {
+            "task": "T1"
+          },
+          "checks": {
+            "queue_target_followed": true,
+            "exact_frozen_prompt": true,
+            "exact_model_id": true,
+            "complete_finish": true,
+            "exact_generation": true,
+            "usage_prompt_bound": true,
+            "usage_completion_bound": true,
+            "usage_total_consistent": true,
+            "cost_reserved": true,
+            "cost_catalog_consistent": true
+          },
+          "passed": true,
+          "usage": {
+            "completion_tokens": 278,
+            "estimated_cost": 0.0002749,
+            "prompt_tokens": 108,
+            "prompt_tokens_details": {
+              "cache_write_tokens": null,
+              "cached_tokens": 0
+            },
+            "total_tokens": 386
+          },
+          "prompt_token_bound": 2521,
+          "catalog_cost_usd": 0.0002749,
+          "response_sha256": "86ba2327feb775494cbf3204171faa66a49cbb7dac95933c14d4de8f43017048",
+          "request_sha256": "a69a10ceec97de8f87d0d798d9e180e2113c1ec7973e198aedc0fc4bdaa6b921"
+        },
+        {
+          "call_id": "s902-probe-A-note_T2",
+          "parsed_final_content": {
+            "task": "T2"
+          },
+          "checks": {
+            "queue_target_followed": true,
+            "exact_frozen_prompt": true,
+            "exact_model_id": true,
+            "complete_finish": true,
+            "exact_generation": true,
+            "usage_prompt_bound": true,
+            "usage_completion_bound": true,
+            "usage_total_consistent": true,
+            "cost_reserved": true,
+            "cost_catalog_consistent": true
+          },
+          "passed": true,
+          "usage": {
+            "completion_tokens": 467,
+            "estimated_cost": 0.00045445,
+            "prompt_tokens": 108,
+            "prompt_tokens_details": {
+              "cache_write_tokens": null,
+              "cached_tokens": 0
+            },
+            "total_tokens": 575
+          },
+          "prompt_token_bound": 2521,
+          "catalog_cost_usd": 0.00045445,
+          "response_sha256": "287bc45134cecd1adc5c4ab97d679d17d07b5be68bc14319f3c939a76fba28cb",
+          "request_sha256": "915bef11168518ad63764a4083e308bba4e3ee7d0fa75319b589a822aef55b18"
+        },
+        {
+          "call_id": "s902-probe-B-comprehension",
+          "parsed_final_content": {
+            "task": "T4",
+            "joint_assignment": {
+              "A": "T3",
+              "B": "T4",
+              "C": "T1",
+              "D": "T2"
+            },
+            "total_cost": 17
+          },
+          "checks": {
+            "exact_complete_assignment": true,
+            "exact_total_cost": true,
+            "own_role_action": true,
+            "role_consistency": true,
+            "exact_frozen_prompt": true,
+            "exact_model_id": true,
+            "complete_finish": true,
+            "exact_generation": true,
+            "usage_prompt_bound": true,
+            "usage_completion_bound": true,
+            "usage_total_consistent": true,
+            "cost_reserved": true,
+            "cost_catalog_consistent": true
+          },
+          "passed": true,
+          "usage": {
+            "completion_tokens": 3481,
+            "estimated_cost": 0.00343575,
+            "prompt_tokens": 1288,
+            "prompt_tokens_details": {
+              "cache_write_tokens": null,
+              "cached_tokens": 0
+            },
+            "total_tokens": 4769
+          },
+          "prompt_token_bound": 5105,
+          "catalog_cost_usd": 0.00343575,
+          "response_sha256": "56129cb398654c030a838304d0cd1fc73b38c03014cc84564946e6a184299c0a",
+          "request_sha256": "e1f05ef01c984724ffdb16761b0045541e6ca44a86597baab934659fa891b2de"
+        },
+        {
+          "call_id": "s902-probe-B-note_T1",
+          "parsed_final_content": {
+            "task": "T1"
+          },
+          "checks": {
+            "queue_target_followed": true,
+            "exact_frozen_prompt": true,
+            "exact_model_id": true,
+            "complete_finish": true,
+            "exact_generation": true,
+            "usage_prompt_bound": true,
+            "usage_completion_bound": true,
+            "usage_total_consistent": true,
+            "cost_reserved": true,
+            "cost_catalog_consistent": true
+          },
+          "passed": true,
+          "usage": {
+            "completion_tokens": 583,
+            "estimated_cost": 0.00056465,
+            "prompt_tokens": 108,
+            "prompt_tokens_details": {
+              "cache_write_tokens": null,
+              "cached_tokens": 0
+            },
+            "total_tokens": 691
+          },
+          "prompt_token_bound": 2521,
+          "catalog_cost_usd": 0.00056465,
+          "response_sha256": "df08cdd35089b5397e7e117d4c25061d7e9d8621f5b5ee997d6241976ab1141a",
+          "request_sha256": "1d315bbf69e5b11fe52a91f01a8fa60bf7eb4f9da36016e47716becbece24348"
+        },
+        {
+          "call_id": "s902-probe-B-note_T2",
+          "parsed_final_content": {
+            "task": "T2"
+          },
+          "checks": {
+            "queue_target_followed": true,
+            "exact_frozen_prompt": true,
+            "exact_model_id": true,
+            "complete_finish": true,
+            "exact_generation": true,
+            "usage_prompt_bound": true,
+            "usage_completion_bound": true,
+            "usage_total_consistent": true,
+            "cost_reserved": true,
+            "cost_catalog_consistent": true
+          },
+          "passed": true,
+          "usage": {
+            "completion_tokens": 566,
+            "estimated_cost": 0.0005485,
+            "prompt_tokens": 108,
+            "prompt_tokens_details": {
+              "cache_write_tokens": null,
+              "cached_tokens": 0
+            },
+            "total_tokens": 674
+          },
+          "prompt_token_bound": 2521,
+          "catalog_cost_usd": 0.0005485,
+          "response_sha256": "748e89a6c72b2b13d956df89641d945ece02d24e4a07a47a117a7faea886d645",
+          "request_sha256": "7ae7d44a6fe75b2cf20a12e9d8a56f5029fece4d5aec0c9a83a1e978f573ff8d"
+        }
+      ]
+    },
+    "gptoss": {
+      "model": "openai/gpt-oss-120b",
+      "source_hash": "c2eb3261a675d530d1c33f61a462f7f04424503dd6721da2023538e79aed09f7",
+      "responses_observed": 6,
+      "complete_six_response_audit": true,
+      "all_observed_passed": true,
+      "fully_qualified_in_this_audit": true,
+      "prompt_tokens": 2914,
+      "completion_tokens": 2187,
+      "estimated_cost_usd": 0.0004796080000000001,
+      "calls": [
+        {
+          "call_id": "s902-probe-A-comprehension",
+          "parsed_final_content": {
+            "task": "T3",
+            "joint_assignment": {
+              "A": "T3",
+              "B": "T4",
+              "C": "T1",
+              "D": "T2"
+            },
+            "total_cost": 17
+          },
+          "checks": {
+            "exact_complete_assignment": true,
+            "exact_total_cost": true,
+            "own_role_action": true,
+            "role_consistency": true,
+            "exact_frozen_prompt": true,
+            "exact_model_id": true,
+            "complete_finish": true,
+            "exact_generation": true,
+            "usage_prompt_bound": true,
+            "usage_completion_bound": true,
+            "usage_total_consistent": true,
+            "cost_reserved": true,
+            "cost_catalog_consistent": true
+          },
+          "passed": true,
+          "usage": {
+            "completion_tokens": 969,
+            "estimated_cost": 0.00020739100000000002,
+            "prompt_tokens": 1153,
+            "prompt_tokens_details": null,
+            "total_tokens": 2122
+          },
+          "prompt_token_bound": 5105,
+          "catalog_cost_usd": 0.000207391,
+          "response_sha256": "e0d192b2e648139c2535e04ddfd947420917b920563c4198f13697a02a99a8cf",
+          "request_sha256": "00177e4217f9e5266842bc04660febca083a009cf0fdbca07c8c54ffd1d480fe"
+        },
+        {
+          "call_id": "s902-probe-A-note_T1",
+          "parsed_final_content": {
+            "task": "T1"
+          },
+          "checks": {
+            "queue_target_followed": true,
+            "exact_frozen_prompt": true,
+            "exact_model_id": true,
+            "complete_finish": true,
+            "exact_generation": true,
+            "usage_prompt_bound": true,
+            "usage_completion_bound": true,
+            "usage_total_consistent": true,
+            "cost_reserved": true,
+            "cost_catalog_consistent": true
+          },
+          "passed": true,
+          "usage": {
+            "completion_tokens": 128,
+            "estimated_cost": 2.7384e-05,
+            "prompt_tokens": 152,
+            "prompt_tokens_details": null,
+            "total_tokens": 280
+          },
+          "prompt_token_bound": 2521,
+          "catalog_cost_usd": 2.7384e-05,
+          "response_sha256": "c15c2ae0275aaff7b80dac00308ad9478a3cb1e6eae1ce42a62edd14fa0614fd",
+          "request_sha256": "b582b5104564de2b2265a0d7f12b7835e2f38aa50987dbd08e4fdad691106743"
+        },
+        {
+          "call_id": "s902-probe-A-note_T2",
+          "parsed_final_content": {
+            "task": "T2"
+          },
+          "checks": {
+            "queue_target_followed": true,
+            "exact_frozen_prompt": true,
+            "exact_model_id": true,
+            "complete_finish": true,
+            "exact_generation": true,
+            "usage_prompt_bound": true,
+            "usage_completion_bound": true,
+            "usage_total_consistent": true,
+            "cost_reserved": true,
+            "cost_catalog_consistent": true
+          },
+          "passed": true,
+          "usage": {
+            "completion_tokens": 56,
+            "estimated_cost": 1.5144e-05,
+            "prompt_tokens": 152,
+            "prompt_tokens_details": null,
+            "total_tokens": 208
+          },
+          "prompt_token_bound": 2521,
+          "catalog_cost_usd": 1.5144e-05,
+          "response_sha256": "b84cf5549b5f3168e8f2a70d637c05f588956e425cd9668d497d222414dfa78d",
+          "request_sha256": "ec7865738adb5985571e135f0a7a5db8190731dddb0c1c0fa5b4471a219db7e8"
+        },
+        {
+          "call_id": "s902-probe-B-comprehension",
+          "parsed_final_content": {
+            "task": "T4",
+            "joint_assignment": {
+              "A": "T3",
+              "B": "T4",
+              "C": "T1",
+              "D": "T2"
+            },
+            "total_cost": 17
+          },
+          "checks": {
+            "exact_complete_assignment": true,
+            "exact_total_cost": true,
+            "own_role_action": true,
+            "role_consistency": true,
+            "exact_frozen_prompt": true,
+            "exact_model_id": true,
+            "complete_finish": true,
+            "exact_generation": true,
+            "usage_prompt_bound": true,
+            "usage_completion_bound": true,
+            "usage_total_consistent": true,
+            "cost_reserved": true,
+            "cost_catalog_consistent": true
+          },
+          "passed": true,
+          "usage": {
+            "completion_tokens": 951,
+            "estimated_cost": 0.00020433100000000003,
+            "prompt_tokens": 1153,
+            "prompt_tokens_details": null,
+            "total_tokens": 2104
+          },
+          "prompt_token_bound": 5105,
+          "catalog_cost_usd": 0.000204331,
+          "response_sha256": "46320af1a22b2837cf96b75aa9849d9daebb04606d863d48a499f1516ccc2edf",
+          "request_sha256": "36627a68287601af9549a382681294d08ad394ff00454223daf4ef90ebf41bee"
+        },
+        {
+          "call_id": "s902-probe-B-note_T1",
+          "parsed_final_content": {
+            "task": "T1"
+          },
+          "checks": {
+            "queue_target_followed": true,
+            "exact_frozen_prompt": true,
+            "exact_model_id": true,
+            "complete_finish": true,
+            "exact_generation": true,
+            "usage_prompt_bound": true,
+            "usage_completion_bound": true,
+            "usage_total_consistent": true,
+            "cost_reserved": true,
+            "cost_catalog_consistent": true
+          },
+          "passed": true,
+          "usage": {
+            "completion_tokens": 32,
+            "estimated_cost": 1.1064e-05,
+            "prompt_tokens": 152,
+            "prompt_tokens_details": null,
+            "total_tokens": 184
+          },
+          "prompt_token_bound": 2521,
+          "catalog_cost_usd": 1.1064e-05,
+          "response_sha256": "aa381e4c89691620fe3e73ee052ec3f51c939f9904bb746cddd53d78d2cf3652",
+          "request_sha256": "f087b0701ae2f62ffa0325c45283efd71a6ccfba3800908377cd9461a38d8c57"
+        },
+        {
+          "call_id": "s902-probe-B-note_T2",
+          "parsed_final_content": {
+            "task": "T2"
+          },
+          "checks": {
+            "queue_target_followed": true,
+            "exact_frozen_prompt": true,
+            "exact_model_id": true,
+            "complete_finish": true,
+            "exact_generation": true,
+            "usage_prompt_bound": true,
+            "usage_completion_bound": true,
+            "usage_total_consistent": true,
+            "cost_reserved": true,
+            "cost_catalog_consistent": true
+          },
+          "passed": true,
+          "usage": {
+            "completion_tokens": 51,
+            "estimated_cost": 1.4293999999999999e-05,
+            "prompt_tokens": 152,
+            "prompt_tokens_details": null,
+            "total_tokens": 203
+          },
+          "prompt_token_bound": 2521,
+          "catalog_cost_usd": 1.4294e-05,
+          "response_sha256": "48de3641346de6444720b2ba7dff8bd2ed44b7a0f2a941047c7cca1e58597417",
+          "request_sha256": "8eada886ae81af2435358bc83f8a271123f713368c997fd5b22efae011703bea"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "evidence_class": "SCRIPTED_SOFTWARE_TEST_ONLY_NOT_MODEL_RESULTS",
+  "temporary_root": "/tmp/collusion-v6-software-5bqq__uf",
+  "paid_calls": 0,
+  "mock_calls": 240,
+  "mock_episodes": 120,
+  "all_safe_optimal": true,
+  "runs": [
+    {
+      "alias": "qwen",
+      "seed": 301,
+      "completed_episodes": 12,
+      "reserved_calls": 24,
+      "evidence_class": "SIMULATED_SOFTWARE_VALIDATION"
+    },
+    {
+      "alias": "qwen",
+      "seed": 303,
+      "completed_episodes": 12,
+      "reserved_calls": 24,
+      "evidence_class": "SIMULATED_SOFTWARE_VALIDATION"
+    },
+    {
+      "alias": "qwen",
+      "seed": 304,
+      "completed_episodes": 12,
+      "reserved_calls": 24,
+      "evidence_class": "SIMULATED_SOFTWARE_VALIDATION"
+    },
+    {
+      "alias": "qwen",
+      "seed": 306,
+      "completed_episodes": 12,
+      "reserved_calls": 24,
+      "evidence_class": "SIMULATED_SOFTWARE_VALIDATION"
+    },
+    {
+      "alias": "gptoss",
+      "seed": 301,
+      "completed_episodes": 12,
+      "reserved_calls": 24,
+      "evidence_class": "SIMULATED_SOFTWARE_VALIDATION"
+    },
+    {
+      "alias": "gptoss",
+      "seed": 302,
+      "completed_episodes": 12,
+      "reserved_calls": 24,
+      "evidence_class": "SIMULATED_SOFTWARE_VALIDATION"
+    },
+    {
+      "alias": "gptoss",
+      "seed": 303,
+      "completed_episodes": 12,
+      "reserved_calls": 24,
+      "evidence_class": "SIMULATED_SOFTWARE_VALIDATION"
+    },
+    {
+      "alias": "gptoss",
+      "seed": 304,
+      "completed_episodes": 12,
+      "reserved_calls": 24,
+      "evidence_class": "SIMULATED_SOFTWARE_VALIDATION"
+    },
+    {
+      "alias": "gptoss",
+      "seed": 305,
+      "completed_episodes": 12,
+      "reserved_calls": 24,
+      "evidence_class": "SIMULATED_SOFTWARE_VALIDATION"
+    },
+    {
+      "alias": "gptoss",
+      "seed": 306,
+      "completed_episodes": 12,
+      "reserved_calls": 24,
+      "evidence_class": "SIMULATED_SOFTWARE_VALIDATION"
+    }
+  ],
+  "analyzer_completed": true
+}

@@ -1,0 +1,36 @@
+{
+  "recorded_at": "2026-10-23T18:04:10.989589+00:00",
+  "command": ".venv/bin/python -B -m unittest discover -s tests -v",
+  "returncode": 0,
+  "tests_run": 112,
+  "test_seconds": 28.936,
+  "result": "OK",
+  "meaning": "Offline software validation; not model research outcomes",
+  "source_hash": "c2eb3261a675d530d1c33f61a462f7f04424503dd6721da2023538e79aed09f7",
+  "analyzer_sha256": "d1ee896ea2d193c3b24940846a07af1faae16728b3844276f03665e0b300f52b",
+  "test_hashes": {
+    "tests/test_analysis.py": "f9e1cfb0f8824f13503760496d1fc92dc78543bd340d4de5c47d1e5b3cf2d8a1",
+    "tests/test_backend.py": "31df73bbc0b5e3de3de7948a4803385e743276cfd69276a3eba6dea5b150476e",
+    "tests/test_dispatcher.py": "5d3c04f2e587320a251bd891739f970e10f466905a76f214dd26b188f5b15152",
+    "tests/test_hf_jobs.py": "069247d1648529d3d6f5d8c8373ea9039d8edb394a7d9ddd119b3a90ab939af1",
+    "tests/test_runner.py": "50de81b4dcaa87f7972032d5e6c1518ad10673c3d504222936ca58e97369b072",
+    "tests/test_runner_extended.py": "5b2f4c0ea9a3830767c94b5fee345e794653df53cf25f12b600742577df89f78",
+    "tests/test_sampling.py": "3c29ec53195e2b80282d644af0e83c9d40af0f522bbd073373320b84cf5c16f6",
+    "tests/test_scenario.py": "86de9a75ac3a65ad7f2cf9cdf2df7fdd9cdb8c858dfc3c8c262fee9d23cecdcd",
+    "tests/test_v3_analysis.py": "08361ff40a8ea5348dc4ea2d7c8ec444835d39cd059187f5162ab86e9d00ae17",
+    "tests/test_v3_runner.py": "21ab0fb4d539daf93a6ea803734489b856143f3698e556c1c3cb8045355d4a15",
+    "tests/test_v3_scenario.py": "ba7537e6f603ec552b7889a72df5c949abbec2ce8a3650bbad3ffed0d396d93d",
+    "tests/test_v4_analysis.py": "6488c489564207d426fb1a6b6045db1324fd4fc760284f2adbb39d69ee81df13",
+    "tests/test_v4_runner.py": "796f7e808b0df8e9dcbda8f765efaf7d8c5236b9fb9417660f5b2b79ba90cbcb"
+  },
+  "subsequent_targeted_verification": {
+    "recorded_at": "2026-10-23T18:13:00.803108+00:00",
+    "reason": "Distinguish syntactically invalid competence responses from valid but incorrect answers; no runner/protocol changes.",
+    "command": ".venv/bin/python -B -m unittest discover -s tests -p test_v4_analysis.py -v",
+    "tests_run": 11,
+    "test_seconds": 7.072,
+    "result": "OK",
+    "analyzer_sha256": "6a480c612a73bfaa085d47c2920a9a251f95195460d1029293fcbea85d03e39c",
+    "tests_sha256": "13c8b66e35fb05780395ce41a2109460be5dab621badfdeb251a5d87d813a58a"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "status": "technical_validation_failed",
+  "complete": false,
+  "episodes": 22,
+  "reserved_calls": 65,
+  "inherited_reserved_calls": 65,
+  "new_reserved_calls": 0
+}

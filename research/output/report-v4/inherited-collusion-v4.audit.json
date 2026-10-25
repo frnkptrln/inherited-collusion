@@ -1,0 +1,217 @@
+{
+  "draft": false,
+  "source_sha256": "59537583d295f683fe069b96030a3a56ebadb0387733308cdb926f25bf4b082c",
+  "changed_parts": [
+    "word/document.xml",
+    "word/_rels/document.xml.rels",
+    "[Content_Types].xml"
+  ],
+  "added_parts": [
+    "word/media/v4-figure-1.png",
+    "word/media/v4-figure-2.png"
+  ],
+  "figures": [
+    {
+      "path": "output/figures-v4-strict/v4-strict-intervention-outcomes.png",
+      "sha256": "c35cd629a060c09ef48d1211386b98f2a5215587bbf4bc859028606356ba8c9f",
+      "part": "word/media/v4-figure-1.png"
+    },
+    {
+      "path": "output/figures-v4f-amended/v4f-amended-intervention-outcomes.png",
+      "sha256": "3fc654b57c84417813da727357078b78aca093fb8bb117a380391d6c64f7742f",
+      "part": "word/media/v4-figure-2.png"
+    }
+  ],
+  "author": "Frank Peterlein",
+  "development_evidence": [],
+  "abstract_words": 223,
+  "rendered": true,
+  "evidence_inputs": [
+    {
+      "path": "output/analysis-v4/analysis.json",
+      "sha256": "b6fcde1f992abe567956a3a075005423f726672d3338c07ad59827026fe1d277"
+    },
+    {
+      "path": "output/analysis-v4f/analysis.json",
+      "sha256": "8e6c914ad8eb493119c885c644158f858c7a9d1da10eea651c56bb93d8ff7125"
+    },
+    {
+      "path": "docs/v4-protocol.md",
+      "sha256": "0e4ee6ee0c6ecc22c165dad1327265290136a3281e0c9b5a539c1ebd190411d9"
+    },
+    {
+      "path": "docs/v4-protocol.json",
+      "sha256": "f4704293e2eb9fefaac2431da55a890e804afc5224573c884929069a3e01c2e0"
+    },
+    {
+      "path": "docs/v4-freeze.json",
+      "sha256": "6a10ad79cf90bbedab250b7886dc5a466df9651fdabe721f7e44700980a01187"
+    },
+    {
+      "path": "docs/v4f-freeze.json",
+      "sha256": "86b21c48e62edc5a610bd3205332bd33590059c4b2612ab524f6d3b5d0ef31ea"
+    },
+    {
+      "path": "docs/v4f-preparation.json",
+      "sha256": "263537f767666934a1fad10866b7f243eaa842cf738d3b7a01004149a34b20bc"
+    },
+    {
+      "path": "docs/v4f-outcome-visibility-note.json",
+      "sha256": "32d6b377f6a0d931488759c24f9cf07ab099468f200cfaa6a93cf0a11f31b969"
+    },
+    {
+      "path": "docs/v3-closeout-record.json",
+      "sha256": "25fc93ad2ad1c3620a5e3522048919d3204d8f152f95baa2413e33341c5719c9"
+    },
+    {
+      "path": "runs/phase4f-budget.json",
+      "sha256": "2bfa94c84697d6b005f615dd90b1040d167d47c6eb0a9fc477826e83de707435"
+    }
+  ],
+  "phase": "V4 strict primary and V4F post-start amended descriptive audit; editorial and post hoc review 2026-10-24",
+  "supplementary_inputs": [
+    {
+      "path": "baseline_diagnostic.py",
+      "sha256": "862347f67a02d85b8e2cb84756265cab77402c16389b9ff52df6f4628da3f958"
+    },
+    {
+      "path": "test_baseline_diagnostic.py",
+      "sha256": "e4f324f9282a111a010dd57244c064c47da2f39c4b2b05cc06f5edf58b8914f0"
+    },
+    {
+      "path": "baseline-diagnostic.json",
+      "sha256": "20b69ac9a633254d57fb0d36028a2f65e8fab221fd29fb241baf75408c94f76c"
+    },
+    {
+      "path": "baseline-review.md",
+      "sha256": "c01b135e3d34df502469efd09eeee8d298e577a832a64588e02055adf3e4585c"
+    },
+    {
+      "path": "check_baseline_independent.py",
+      "sha256": "1215ec232a95d5f9d12e18d0ae0a42467bcecceedc2eb305311b04151c56e86b"
+    },
+    {
+      "path": "baseline-crosscheck.json",
+      "sha256": "cd4f12d5fc133b3a1c17595213f0da14173eb81d81a82ef9aefa0b9c223d80dc"
+    }
+  ],
+  "posthoc_review": {
+    "date": "2026-10-24",
+    "classification": "POSTHOC_DIAGNOSTIC_NOT_PRESPECIFIED",
+    "source": "baseline-diagnostic.json",
+    "selection": "Original verification common cases in both modes, requiring both harmful facts-only draws; no outcome-value filtering",
+    "strict_Qwen_exception": "facts 1/2 duplicate episodes; verified 2/2"
+  },
+  "pdf": "inherited-collusion-v4.pdf",
+  "docx": "inherited-collusion-v4.docx",
+  "pdf_sha256": "a73dbfe2f69b817d188c3dbbcaf280f6b8e9bc178702ac4cf302296fb7e7d90d",
+  "docx_sha256": "e998c28d770ddd61cd0c481afc0c12b2ad9dcc8b810a6e4e7d990b1d50e627a6",
+  "pdf_bytes": 710253,
+  "pages": 14,
+  "main_pages": 8,
+  "visual_review_required": false,
+  "visual_review_completed": true,
+  "visual_review_record": "source/visual-review.json",
+  "visual_review_record_sha256": "23ec72c9c6b4d260fb3bfa06b86e85339c8bc556bc9c905d29df33b7e809a035",
+  "report_input_sha256": "1a084035c969b85abd9e5eeb35f56b41dc2bf9f2ca28fd9b620659fefaceb66c",
+  "scientific_review_record": "source/content-review.json",
+  "scientific_review_record_sha256": "aecf591050d7645b00985f1ce82f9a71b8fbafda9ea2572438932767453bbdba",
+  "scientific_reviewed_input_sha256": "5b4b1c5b5f9e1e1faf0bea019543223a52f1b1eebed610a7d6d122cf580dde35",
+  "final_metadata_only_delta": "Updated portable independent-checker and independent-proof digests; all manuscript content unchanged.",
+  "portable_docx_rebuild": "PASS: all member names and uncompressed member bytes match the rendered DOCX.",
+  "editorial_revision_record": "source/editorial-revision.json",
+  "source_files": [
+    {
+      "path": "source/README.md",
+      "sha256": "af73b57fd524cbbd4ec7ac7afb26c7b229835690738dda525879cf7c71c656d9"
+    },
+    {
+      "path": "source/artifact.md",
+      "sha256": "820fe82bc4101b16a27a1e966a68f9a5c96fe231e3c21ce2f7f313d8b158db32"
+    },
+    {
+      "path": "source/baseline-crosscheck.json",
+      "sha256": "cd4f12d5fc133b3a1c17595213f0da14173eb81d81a82ef9aefa0b9c223d80dc"
+    },
+    {
+      "path": "source/baseline-diagnostic.json",
+      "sha256": "20b69ac9a633254d57fb0d36028a2f65e8fab221fd29fb241baf75408c94f76c"
+    },
+    {
+      "path": "source/baseline-review.md",
+      "sha256": "c01b135e3d34df502469efd09eeee8d298e577a832a64588e02055adf3e4585c"
+    },
+    {
+      "path": "source/baseline_diagnostic.py",
+      "sha256": "862347f67a02d85b8e2cb84756265cab77402c16389b9ff52df6f4628da3f958"
+    },
+    {
+      "path": "source/build_report.py",
+      "sha256": "1c5d011112bf1235f5958ba844a5245289f06494a9cb5a6dd9d072de5a3b0a3d"
+    },
+    {
+      "path": "source/check_baseline_independent.py",
+      "sha256": "1215ec232a95d5f9d12e18d0ae0a42467bcecceedc2eb305311b04151c56e86b"
+    },
+    {
+      "path": "source/content-review.json",
+      "sha256": "aecf591050d7645b00985f1ce82f9a71b8fbafda9ea2572438932767453bbdba"
+    },
+    {
+      "path": "source/dependency-versions.json",
+      "sha256": "09a993507c958f4f7d068bcb4e55fbbe10086b7042411238c76702d2e096df76"
+    },
+    {
+      "path": "source/editorial-revision.json",
+      "sha256": "2ec0361d107a89a89e203dc6d4877ba2a0901aad61d707d9ffe5bc4a517bb6f7"
+    },
+    {
+      "path": "source/final-text-check.txt",
+      "sha256": "df8008154fc72f46e92f41c8279f91eb9b2e9cfdedc131b5bd5a9b3af79d09b0"
+    },
+    {
+      "path": "source/official-template.docx",
+      "sha256": "59537583d295f683fe069b96030a3a56ebadb0387733308cdb926f25bf4b082c"
+    },
+    {
+      "path": "source/portable-build-check.json",
+      "sha256": "bdf14f879792492c11bd9892de6e5ef9313a06206f2f555c672845b666aa0559"
+    },
+    {
+      "path": "source/posthoc-portable-smoke.json",
+      "sha256": "284852d7328dc9f77ca53f1c1ffbff9cf94bed166eb51ba1256d1d87d671f9b2"
+    },
+    {
+      "path": "source/prepare_draft_input.py",
+      "sha256": "f7993e5e904b0ee1faec4cab315869a5b3b6146603d275bd3b087b9c84c4f3ad"
+    },
+    {
+      "path": "source/prepare_final_input.py",
+      "sha256": "3ff1d437612912de3b644da67f84374c130c4a3376fdcd911834588b704503eb"
+    },
+    {
+      "path": "source/report-input.json",
+      "sha256": "1a084035c969b85abd9e5eeb35f56b41dc2bf9f2ca28fd9b620659fefaceb66c"
+    },
+    {
+      "path": "source/requirements-report.txt",
+      "sha256": "fd63f0284177f2fb89e5f307492e9b256e1a3ddae329ef7fb54107dee6fc20ab"
+    },
+    {
+      "path": "source/template-inspection.md",
+      "sha256": "e04e39a709163a1d1afc61cfa29e3bc47f892fe1ba9797ef72bf755a3f46d548"
+    },
+    {
+      "path": "source/template-package-inventory.json",
+      "sha256": "505f5691c975ec39edd022297c4434e1fe5f2fb3f506858ffd401f5242c82ea2"
+    },
+    {
+      "path": "source/test_baseline_diagnostic.py",
+      "sha256": "e4f324f9282a111a010dd57244c064c47da2f39c4b2b05cc06f5edf58b8914f0"
+    },
+    {
+      "path": "source/visual-review.json",
+      "sha256": "23ec72c9c6b4d260fb3bfa06b86e85339c8bc556bc9c905d29df33b7e809a035"
+    }
+  ]
+}

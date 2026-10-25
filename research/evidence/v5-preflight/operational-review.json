@@ -1,0 +1,56 @@
+{
+  "reviewed_at": "2026-10-24T10:31:31.140225+00:00",
+  "mode": "READ_ONLY_SOURCE_REVIEW_NO_MODEL_CALLS",
+  "status": "CHANGES_REQUIRED_BEFORE_FREEZE",
+  "source_hashes": {
+    "run_v5_study.py": "e4c7c149050e6db7f9a5f1cc2a648a09822fc04e550542c2f2a2fecfa9383190",
+    "close_v5_study.py": "f67e6629d4b4699debc32e8070840a50e04e9b6a8a25d46a73f1288a34c7c072",
+    "analyze_v5_study.py": "01e3b03808f96f63a9faa77949fe6520e1ac5299d6a7b803e55386eade3cc9e4"
+  },
+  "positive_checks": [
+    "subprocess.run is synchronous; no shell background operation",
+    "ThreadPoolExecutor context waits for submitted workers",
+    "No retry loop in dispatcher",
+    "Per-invocation start/stdout/stderr/result files are separate and durable",
+    "Dispatcher verifies frozen artifacts and its own digest before scheduling",
+    "Model and seed choices are constrained and max_parallel is bounded1..8"
+  ],
+  "findings": [
+    {
+      "priority": "P1",
+      "file": "close_v5_study.py",
+      "lines": [
+        20,
+        32
+      ],
+      "issue": "A stale all-stage receipt does not establish that no newer worker is running; inventories and summaries are read without all case locks.",
+      "required_change": "Hold all12 shared RunLocks while checking every start/result pair, terminal summaries and inventory and while writing closure. Runner must check closure before every new dispatch. Reject active/unpaired invocations and unknown/nonterminal statuses.",
+      "reproduction_shape": "Completed prior all invocation plus newer all invocation with start/no result and an unchanged prior summary currently passes the receipt check."
+    },
+    {
+      "priority": "P1",
+      "file": "analyze_v5_study.py",
+      "lines": [
+        58,
+        74
+      ],
+      "issue": "Inventory excludes summaries/worker receipts; current analyzer does not compare recorded closure summary hashes or enforce provenance freeze/source/ledger bindings.",
+      "required_change": "Validate closure summary digests and freeze/protocol/source/config/ledger before deriving prospective status; bind lifecycle evidence or retain explicit independently verified records.",
+      "coordination": "Sent to root and scientific_review; analysis still under development."
+    },
+    {
+      "priority": "P2",
+      "file": "close_v5_study.py",
+      "lines": [
+        31,
+        31
+      ],
+      "issue": "Outcome-blinding boolean is hard-coded and cannot be inferred from file closure.",
+      "required_change": "Treat this as an explicit operator attestation with any visibility deviations recorded, rather than a machine-verified fact."
+    }
+  ],
+  "scope_limits": [
+    "V5 runner was not yet present in the inspected runtime tree; actual cached-response, retry, lock and global-budget guards require its independent review.",
+    "No frozen runtime files or study artifacts edited; no live outcomes or accounts accessed."
+  ]
+}

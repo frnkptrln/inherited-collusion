@@ -1,0 +1,123 @@
+{
+  "schema_version": 1,
+  "authorized_total_usd": 15,
+  "historical_allocated_usd": 13.488,
+  "phase_max_usd": 1.248,
+  "authorization": "User authorized scientific follow-up and discretionary spending within cumulative USD15.",
+  "created_at": "2026-10-25T13:01:04.685001+00:00",
+  "freeze_record": "/home/user/Dokumente/ChatGPT/AI Collusion Sprint/output/control-v6/docs/v6-freeze.json",
+  "allocations": {
+    "v6-qwen-301": {
+      "config": "configs/v6-qwen-301.json",
+      "config_digest": "b8e6d8f92fb507af0efd03383807ccac6fe9764bb8ce8db1560e9e9c275bb8d0",
+      "max_total_usd": 0.24,
+      "model": "Qwen/Qwen3.6-35B-A3B",
+      "alias": "qwen",
+      "seed": 301,
+      "repeats": 2,
+      "status": "allocated"
+    },
+    "v6-qwen-303": {
+      "config": "configs/v6-qwen-303.json",
+      "config_digest": "10a301082c75f2cd169fa993611d091cbedae6b0924a1fc39571e2e76fec7ffa",
+      "max_total_usd": 0.24,
+      "model": "Qwen/Qwen3.6-35B-A3B",
+      "alias": "qwen",
+      "seed": 303,
+      "repeats": 2,
+      "status": "allocated"
+    },
+    "v6-qwen-304": {
+      "config": "configs/v6-qwen-304.json",
+      "config_digest": "a987af3051fbf29a7689b93acf5c8c69ca2c5b5a223607d3e55426f4b71f76e3",
+      "max_total_usd": 0.24,
+      "model": "Qwen/Qwen3.6-35B-A3B",
+      "alias": "qwen",
+      "seed": 304,
+      "repeats": 2,
+      "status": "allocated"
+    },
+    "v6-qwen-306": {
+      "config": "configs/v6-qwen-306.json",
+      "config_digest": "72cab2ae563febb6bfdea6b462770599cc4f8d641ef6aeb892d6f3dae2668ff2",
+      "max_total_usd": 0.24,
+      "model": "Qwen/Qwen3.6-35B-A3B",
+      "alias": "qwen",
+      "seed": 306,
+      "repeats": 2,
+      "status": "allocated"
+    },
+    "v6-gptoss-301": {
+      "config": "configs/v6-gptoss-301.json",
+      "config_digest": "990365babe83c6e6dc117d6f3d2f9f6af6a9312bbd94a426177e990618800d71",
+      "max_total_usd": 0.048,
+      "model": "openai/gpt-oss-120b",
+      "alias": "gptoss",
+      "seed": 301,
+      "repeats": 2,
+      "status": "allocated"
+    },
+    "v6-gptoss-302": {
+      "config": "configs/v6-gptoss-302.json",
+      "config_digest": "7a1deaf4698528f2ccd8fb81d6bd94558ab517a60e2446604b2b9ff40c45ecc8",
+      "max_total_usd": 0.048,
+      "model": "openai/gpt-oss-120b",
+      "alias": "gptoss",
+      "seed": 302,
+      "repeats": 2,
+      "status": "allocated"
+    },
+    "v6-gptoss-303": {
+      "config": "configs/v6-gptoss-303.json",
+      "config_digest": "d8475962f2d6339784d389a7827a853b786f0b07ea3fb4521e1f393d8a6de26c",
+      "max_total_usd": 0.048,
+      "model": "openai/gpt-oss-120b",
+      "alias": "gptoss",
+      "seed": 303,
+      "repeats": 2,
+      "status": "allocated"
+    },
+    "v6-gptoss-304": {
+      "config": "configs/v6-gptoss-304.json",
+      "config_digest": "dfdcf19525f0c78761083ba40985d54950a6864a61aecdeef7f8a6612fe1a5c3",
+      "max_total_usd": 0.048,
+      "model": "openai/gpt-oss-120b",
+      "alias": "gptoss",
+      "seed": 304,
+      "repeats": 2,
+      "status": "allocated"
+    },
+    "v6-gptoss-305": {
+      "config": "configs/v6-gptoss-305.json",
+      "config_digest": "6cb34585960691437bb3bd83beafe0e53b26f40657e5a2c7cfab977893a57ae6",
+      "max_total_usd": 0.048,
+      "model": "openai/gpt-oss-120b",
+      "alias": "gptoss",
+      "seed": 305,
+      "repeats": 2,
+      "status": "allocated"
+    },
+    "v6-gptoss-306": {
+      "config": "configs/v6-gptoss-306.json",
+      "config_digest": "68de29f2ebac3d2a22a58826a42eb985b232525ebb211fd579c4a937131b0928",
+      "max_total_usd": 0.048,
+      "model": "openai/gpt-oss-120b",
+      "alias": "gptoss",
+      "seed": 306,
+      "repeats": 2,
+      "status": "allocated"
+    }
+  },
+  "historical_details": {
+    "authorized_total_usd": 15,
+    "historical_pre_v5_allocations_retained_usd": 9.922,
+    "all_v5_dispatched_request_reservations_retained_usd": 3.566,
+    "historical_allocated_usd": 13.488,
+    "phase_max_usd": 1.248,
+    "combined_ceiling_usd": 14.736,
+    "unused_closed_v5_allocation_released_usd": 1.33,
+    "known_prior_returned_estimate_usd": 2.891585085,
+    "invoice_verified": false,
+    "no_cloud_jobs": true
+  }
+}

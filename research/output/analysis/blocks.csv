@@ -1,0 +1,4 @@
+run,run_path,block_id,seed,attempted,evidence,gate_status,raw_gate_status,attribution_valid,expected_episodes,valid_episodes,protocol_error_episodes,not_run_episodes,eligible_complete_block,reserved_calls,unresolved_calls
+hf-pilot-v1,/home/user/projects/collusion-sprint/runs/hf-pilot-v1,hf-pilot-v1:s1,1,True,model_observations,failed,failed,True,12,0,0,12,False,6,0
+hf-pilot-table-v1,/home/user/projects/collusion-sprint/runs/hf-pilot-table-v1,hf-pilot-table-v1:s1,1,True,model_observations,failed,failed,True,12,0,0,12,False,6,0
+hf-pilot-thinking-v1,/home/user/projects/collusion-sprint/runs/hf-pilot-thinking-v1,hf-pilot-thinking-v1:s1,1,True,invalid_model_attribution,invalid_model_attribution,failed,False,12,0,0,12,False,6,0

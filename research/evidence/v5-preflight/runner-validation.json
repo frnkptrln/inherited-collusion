@@ -1,0 +1,14 @@
+{
+  "recorded_at": "2026-10-24T10:35:14.918939+00:00",
+  "tests_passed": 13,
+  "failures": 0,
+  "duration_seconds": 2.345,
+  "command": "PYTHONPATH=/home/user/projects/collusion-sprint python -B -m unittest discover -s output/control-v5-preparation/runtime/tests -p test_v5_runner.py -v",
+  "scope": "Offline runner tests only; model/HF behaviour simulated. No inference or network calls. Existing historical source unchanged.",
+  "hashes": {
+    "runtime/scripts/v5_runner.py": "070a520e0aada74df6be5b51f8dcbe545c0ee900befd0b8d4d33fb8c838ca615",
+    "runtime/tests/test_v5_runner.py": "31f19cdfbb68846db59da55679231523759e9655a0ff79cbdc50f570ab19d961",
+    "runtime/scripts/v5_scenario.py": "36617a41c89d782a13184a2fdb580929e1e1ecc1e7896efb9aaec8d525c6b946"
+  },
+  "additional_regression": "Closeout appearing after the initial existence check and before lock acquisition cannot write manifest, source snapshot or dispatch."
+}

@@ -1,0 +1,144 @@
+{
+  "schema": "final-report-visual-review-v1",
+  "checked_at": "2026-10-24T11:59:41.317502+00:00",
+  "status": "PASS",
+  "reviewer": "Codex report-readiness agent; AI-assisted visual review, not independent human verification",
+  "input_sha256": "ca7905043e3ad6b417f741bae5d048d487e37af03cd5d3a09b961294c4d7faeb",
+  "content_review": {
+    "path": "content-review.json",
+    "sha256": "523ba6a72a022ba9e5feca635019c470697d7baca6d909b368721af7bfdccd38",
+    "reviewed_candidate_sha256": "99275cd9e1d3051b182120fe37d8bc5027bcded1cdd51ab63f56ecfab8147795",
+    "only_post_review_change": "ready_for_final false to true; reconstructed candidate hash matched"
+  },
+  "artifacts": [
+    {
+      "path": "inherited-collusion-v5.docx",
+      "sha256": "752ff5817064b482dd0db0fa0a5bd98041cd66c7ef030b19d3abeab1bec8b724",
+      "bytes": 946531
+    },
+    {
+      "path": "inherited-collusion-v5.pdf",
+      "sha256": "d063b0d95cb96d727c88dd1aabac2c475e2b6343a42e0cecfb5589ba3d307d39",
+      "bytes": 852389
+    }
+  ],
+  "total_pages": 19,
+  "main_pages": 8,
+  "references_begin_page": 9,
+  "abstract_words": 201,
+  "pages_inspected": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19
+  ],
+  "inspection": "Each final page PNG was opened at original resolution. Text, table borders and repeated headers, charts, captions, margins, symbols and page breaks were checked. No material clipping, overlaps or missing glyphs observed. Pages 13–14 retain the exact earlier plots; all 12 new harmful rows fit on page 7.",
+  "page_images": [
+    {
+      "page": 1,
+      "sha256": "e607523afead96e1cd8ceea122a5c485dd959e165f13454bb15eb8df460fe7be"
+    },
+    {
+      "page": 2,
+      "sha256": "f7793941ce782f14fc8b2518425848a771bc589419dfdc60ea2901975f9369de"
+    },
+    {
+      "page": 3,
+      "sha256": "f43d81be0bf58910fa2770979a0ed76bde4c1f35ee2f3a2ce0da5aee4967f3cd"
+    },
+    {
+      "page": 4,
+      "sha256": "c4cfb8a9d7a7dd2314412a91d32dc16b803cffe1b56b3ec84e10501fb057faab"
+    },
+    {
+      "page": 5,
+      "sha256": "f49ed640b49d2b77d486eee5fbbd6feeba6ae9b8e588579c97f011849268422a"
+    },
+    {
+      "page": 6,
+      "sha256": "ffa602918d07d3e623285e1f4698b41bc21324e272e4f1f4834ba8fd63105ffe"
+    },
+    {
+      "page": 7,
+      "sha256": "ba34ca8cf0f2d8164af985e77b5231f3e00a1eeaaaf2b8b50a93c9d77c60cd37"
+    },
+    {
+      "page": 8,
+      "sha256": "5a266e2f66c082589ad7cc6fd33ee07aa75d80a617880cc12b38ec0cf65484b6"
+    },
+    {
+      "page": 9,
+      "sha256": "bef3770b4fad30553dd894ce77027b718611d4d8766c83a394a1d9581cfc7fbe"
+    },
+    {
+      "page": 10,
+      "sha256": "444b821641369e1bb1f3430d7c3c9612b360e114370b457861d03f4ed913a684"
+    },
+    {
+      "page": 11,
+      "sha256": "f652b7eb47d687495a69851a9b65f095d6cf308ec355010ba8e9602dd2eaa368"
+    },
+    {
+      "page": 12,
+      "sha256": "1b8fa3fd1958943add5925f962565b1fd3ff44ba477fd6eef3a1b50aeabde769"
+    },
+    {
+      "page": 13,
+      "sha256": "86b0282f88dcea3f6bf70de0a1110ca091105bfe0c8bbdd50e71938038c77497"
+    },
+    {
+      "page": 14,
+      "sha256": "070b2a0f11dca28acb4c8a6c9e849f4eb0e4a169864b0f055a3434d2c29547fd"
+    },
+    {
+      "page": 15,
+      "sha256": "1797901c15422b013446b6151f5ccc74721bb2c5997c4af3b8094060dbcdc6fd"
+    },
+    {
+      "page": 16,
+      "sha256": "45d4d5d70eaae2b58fd2126ae75c55605aa1f77325d7e08be7200571aa0f64de"
+    },
+    {
+      "page": 17,
+      "sha256": "d75c96c7df171a5e086fe43aa1e36615024d3f3bf44199c216fe8d2a76e7d174"
+    },
+    {
+      "page": 18,
+      "sha256": "8e93778303ab693a950c5f54910310ca912d99ae8868a67aa59cafe5855bf0f3"
+    },
+    {
+      "page": 19,
+      "sha256": "f4e5632f8a80aae0b7ad4fe6045bf8c5b19f59189da313c8e518f0c272951338"
+    }
+  ],
+  "checks": {
+    "no_empty_pages": true,
+    "no_unresolved_markers": true,
+    "pdf_under_25MB": true,
+    "all_pdf_fonts_embedded": true,
+    "original_v4_tables_and_figures_unchanged": true
+  },
+  "pdf_fonts": "name                                 type              encoding         emb sub uni object ID\n------------------------------------ ----------------- ---------------- --- --- --- ---------\nBAAAAA+OldStandardTT-Bold            TrueType          WinAnsi          yes yes yes   1248  0\nCAAAAA+OldStandardTT-Bold            TrueType          WinAnsi          yes yes yes   1253  0\nDAAAAA+OldStandardTT-Regular         TrueType          WinAnsi          yes yes yes   1243  0\nEAAAAA+OldStandardTT-Bold            TrueType          WinAnsi          yes yes yes   1268  0\nFAAAAA+LiberationSans                TrueType          WinAnsi          yes yes yes   1228  0\nGAAAAA+OldStandardTT-Regular         TrueType          WinAnsi          yes yes yes   1238  0\nHAAAAA+OldStandardTT-Bold            TrueType          WinAnsi          yes yes yes   1273  0\nIAAAAA+OldStandardTT-Bold            TrueType          WinAnsi          yes yes yes   1263  0\nJAAAAA+OldStandardTT-Bold            TrueType          WinAnsi          yes yes yes   1258  0\nKAAAAA+NotoSerif-Bold                TrueType          WinAnsi          yes yes yes   1233  0\n",
+  "renderer": "Documents render_docx.py using bundled LibreOffice only",
+  "portable_rebuild": {
+    "path": "portable-build-check.json",
+    "sha256": "fc3f51bffce8d854eb11a26d2c46a3040e2d61fce79d754b2594a4e5544e8052",
+    "scope": "Input byte-identical; all 17 uncompressed DOCX members identical; no PDF-render or model reproduction claim"
+  },
+  "remaining_scope": "Actual full V5 archive reproduction is performed separately by the parent; no submission or publication performed."
+}

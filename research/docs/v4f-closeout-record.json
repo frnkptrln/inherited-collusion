@@ -1,0 +1,20 @@
+{
+  "closed_at": "2026-10-23T20:24:53.122794+00:00",
+  "all_dispatchers_confirmed_finished_by_operator": true,
+  "no_dispatcher_or_runner_process_observed": true,
+  "all_run_locks_verified_idle": true,
+  "dataset": "V4F post-start format amendment",
+  "run_count": 18,
+  "unique_requests_including_v4_once": 1249,
+  "returned_responses": 1245,
+  "new_v4f_requests": 170,
+  "inherited_v4_requests": 1079,
+  "inventory": "/home/user/projects/collusion-sprint/evidence/v4f-closeout/amended-final-inventory.json",
+  "inventory_sha256": "aa78f6293989cdccd00a9e68a3f7ebd7fb1abc11292ec2144a4a4467b28f18a9",
+  "ledger_sha256": "2bfa94c84697d6b005f615dd90b1040d167d47c6eb0a9fc477826e83de707435",
+  "freeze_sha256": "86b21c48e62edc5a610bd3205332bd33590059c4b2612ab524f6d3b5d0ef31ea",
+  "frozen_artifacts_unchanged": true,
+  "no_model_level_effect_aggregation_before_closure": true,
+  "partial_case_visibility_disclosure": "docs/v4f-outcome-visibility-note.json",
+  "future_calls_policy": "No further calls are planned in these allocations. Frozen ledger retained verbatim for reproducibility; no retries or new slots authorized by this closure."
+}

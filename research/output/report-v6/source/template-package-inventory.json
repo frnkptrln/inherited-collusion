@@ -1,0 +1,92 @@
+[
+  {
+    "path": "word/footnotes.xml",
+    "bytes": 3457,
+    "sha256": "704ae7342a598a0aebdc6f6a7c9c1939a2f0a4818e9dbecb19959011e3507344",
+    "classification": "preserve-only"
+  },
+  {
+    "path": "word/_rels/footnotes.xml.rels",
+    "bytes": 385,
+    "sha256": "f217306a6b12b5441bc65be447446760c008fc2b0bbc616381f8464c7dfd0c85",
+    "classification": "preserve-only"
+  },
+  {
+    "path": "word/numbering.xml",
+    "bytes": 11522,
+    "sha256": "17b764b10bafb4b1ad14856f3fdc493e2199bb6bbe5f9e60f74bcd5753f55795",
+    "classification": "preserve-only"
+  },
+  {
+    "path": "word/settings.xml",
+    "bytes": 2152,
+    "sha256": "26f2853fde05b88d4b0a9da0bb016d56a896901f60c9272dddf33c3f3fa61e4a",
+    "classification": "preserve-only"
+  },
+  {
+    "path": "word/fontTable.xml",
+    "bytes": 2045,
+    "sha256": "41f6cd0d5be3467d325ce77d754cf1432b548fab1f478eb0a3aeb896ba206752",
+    "classification": "preserve-only"
+  },
+  {
+    "path": "word/_rels/fontTable.xml.rels",
+    "bytes": 590,
+    "sha256": "9badf90f7dd1a2e38e307c16f6d2dd7eead417b354beb9154b1f3f51d8bea361",
+    "classification": "preserve-only"
+  },
+  {
+    "path": "word/styles.xml",
+    "bytes": 6423,
+    "sha256": "10c66367541c8c212714639d98f88a860ca5c203d9b95ac4dbee0b30b81d6821",
+    "classification": "preserve-only"
+  },
+  {
+    "path": "word/document.xml",
+    "bytes": 79773,
+    "sha256": "3e3048f330a287948b520bf1cf0dc61793c46c44be2a3589dac6f961d2e087fe",
+    "classification": "editable"
+  },
+  {
+    "path": "word/_rels/document.xml.rels",
+    "bytes": 1145,
+    "sha256": "a2f6cbe07732bdbe4d2be656ac1f274c0de4eb99db3e39bf11328ab355a84906",
+    "classification": "preserve-only"
+  },
+  {
+    "path": "_rels/.rels",
+    "bytes": 298,
+    "sha256": "1cc87395d4a229f21c23af406724de12dd9454071925f983e4b648a7b2be8cc5",
+    "classification": "preserve-only"
+  },
+  {
+    "path": "word/fonts/OldStandardTT-regular.ttf",
+    "bytes": 242700,
+    "sha256": "cf759c9617e8d9a74ccc3fcdc8670a25d1e016e6e4cf55c378e79f70bf45520b",
+    "classification": "preserve-only"
+  },
+  {
+    "path": "word/theme/theme1.xml",
+    "bytes": 7643,
+    "sha256": "b2295d3198893d2c03f5e584c749a15751b798aefdcd9bee2889f13903d68cb2",
+    "classification": "preserve-only"
+  },
+  {
+    "path": "word/fonts/OldStandardTT-bold.ttf",
+    "bytes": 260156,
+    "sha256": "fcd2340207253ef61a6a02694b9a43cd54159867518edfd4788b0916f1fc92a3",
+    "classification": "preserve-only"
+  },
+  {
+    "path": "word/fonts/OldStandardTT-italic.ttf",
+    "bytes": 267016,
+    "sha256": "722168792ee2dda09d07ab6443bdd4743469b86e3d233e5bf8e96e3951afb98c",
+    "classification": "preserve-only"
+  },
+  {
+    "path": "[Content_Types].xml",
+    "bytes": 1368,
+    "sha256": "d0ae6f5b5cdb2f37a7d642baadd62ae6cd7d35e4be63274f9f43388b6bc90df5",
+    "classification": "preserve-only"
+  }
+]

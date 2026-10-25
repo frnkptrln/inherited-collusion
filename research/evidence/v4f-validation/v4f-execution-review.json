@@ -1,0 +1,45 @@
+{
+  "reviewed_at": "2026-10-23T18:40:58.733685+00:00",
+  "reviewer": "Codex report_readiness agent; independent code review, not independent human verification",
+  "scope": "Read-only V4F execution and dispatcher audit; no paid calls and no treatment-effect aggregates inspected",
+  "blocking_findings": [],
+  "offline_tests": {
+    "suite": "test_v4f_runner.py",
+    "passed": 11,
+    "duration_seconds": 2.118,
+    "backend": "software-only mock fixtures"
+  },
+  "sha256": {
+    "/tmp/collusion-phase4f/execution/scripts/v4f_runner.py": "a87e3606dc3486ea69a1ff01f1791bf41daa1dd01d5426d81665b18778a17dc6",
+    "/tmp/collusion-phase4f/execution/scripts/run_v4f_study.py": "0440c1196f1ffd935cffc0ee03909c04382bb1046949fd5ae07be725b9d5099f",
+    "/tmp/collusion-phase4f/execution/tests/test_v4f_runner.py": "152df5aed78972f5a6b0390542565016f58165ed4ce8fd2a1f6e2da96c2cff27",
+    "/tmp/collusion-phase4f/execution/tests/v4f_fixtures.py": "8b90e739fbb15a642e237d29d9f9295abba89f64cde9f5150e0f36278e3810dd"
+  },
+  "live_all18_barrier_check": "pending installation and final strict closeout; full synthetic 18-root path passed",
+  "checks": [
+    "Single exact whole-response json fence only; unchanged strict body/schema and substantive gates",
+    "Byte-exact request/response/dispatch/invocation copies; replay requires unchanged requested messages and generation",
+    "Inherited unresolved calls never redispatched; preserved old call IDs; per-run counts include old reservations",
+    "All18 prepared roots, strict closure, original ledger retirement, archived allocation and execution artifacts bound before new HF dispatch",
+    "Inherited global identity/truncation/usage markers block new calls for same model",
+    "Original annotation receipt must precede original successor invocations; inheritance receipt acknowledges old invocations and precedes new successors",
+    "Dispatcher bounded to fixed ledger/cohort/seeds, at most eight parallel runs, no retries",
+    "Mock tests exercise positive all18 seal, tampered retirement, global inherited blocker, wrapper parsing, exact reuse, annotation ancestry and unresolved dispatch"
+  ],
+  "final_provenance_delta": {
+    "reviewed_at": "2026-10-23T18:41:57.414991+00:00",
+    "change": "Bind exact original config digest/model/case/ceiling to archived allocation; enforce each old allocation mapped once and per-case ceilings unchanged; use floating tolerance for aggregate ceiling",
+    "independent_targeted_regression": "CohortBarrierTests.test_all18_prepared_retired_and_global_old_model_blockers passed in 0.666 seconds",
+    "owner_reported_full_suite": "11 tests passed after delta, 2.204 seconds",
+    "combined_source_hash": "61e7910af7b02186fb312373f6ad2d44c3c8d9cffe3ab23fc695c2e30b723aa0",
+    "blocking_findings": []
+  },
+  "final_isolated_verification": {
+    "result": "138 offline tests passed, each module in a fresh process",
+    "wall_seconds": 28.713,
+    "proof_path": "/tmp/collusion-phase4f/v4f-full-suite-review.json",
+    "result_sha256": "2e88b102c39cfe70789e81e0d31a041dd1ddcd1c7cc68965b876ca28c4d8dfa7",
+    "source_changes": []
+  },
+  "final_prefix_delta": "Read-only targeted review accepted; preserved valid cached prefix before unresolved/truncated tail with no new affected-case dispatch; end-to-end analysis retains eligible prefix and missing denominators."
+}

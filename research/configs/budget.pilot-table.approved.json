@@ -1,0 +1,20 @@
+{
+  "approved": true,
+  "model": "Qwen/Qwen3-235B-A22B-Instruct-2507",
+  "provider": "deepinfra",
+  "max_calls": 46,
+  "max_tokens": 512,
+  "max_request_bytes": 16000,
+  "input_usd_per_million": 0.09,
+  "output_usd_per_million": 0.55,
+  "reservation_basis_confirmed": true,
+  "max_total_usd": 0.15,
+  "reserved_usd_per_call": 0.003,
+  "price_checked_at": "2026-10-23T16:22:37.052228+00:00",
+  "approved_by": "Frank Peterlein: du kannst gern das budget nutzen nach eigenem ermessen (2026-10-23)",
+  "model_hub_revision": "ac9c66cc9b46af7306746a9250f23d47083d689e",
+  "tokenizer_evidence": "docs/model-preflight-2026-10-23.json",
+  "reservation_assumptions": "NFC-normalized UTF-8 input bound for ByteLevel BPE; two text messages, no tools; 2048 framing-token allowance; SDK one POST, no automatic retry.",
+  "protocol_revision": "v1.2-cost-table",
+  "reason_for_revision": "The preserved v1 pilot failed role B comprehension before any donors or successors; only factual cost presentation changed."
+}

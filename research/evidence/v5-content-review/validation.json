@@ -1,0 +1,12 @@
+{
+  "validated_at": "2026-10-24T11:08:18.937815+00:00",
+  "tests_passed": 5,
+  "command": "/usr/bin/python -I -S -B output/control-v5-preparation/content-review/test_note_review.py -v",
+  "evidence_class": "SOFTWARE_TEST_ONLY_NOT_RESEARCH_RESULTS",
+  "models_called": false,
+  "actual_v5_notes_or_aggregate_outcomes_read": false,
+  "source_sha256": {
+    "extract_v5_notes.py": "0bb46e162e50118b6069b350357b13c2628c1685193d58a9759ff7ec51d37bba",
+    "test_note_review.py": "ebfebb047baec308c0bc4b117c1ca02a8b46e76316590fa30b1f2b28e510fe37"
+  }
+}

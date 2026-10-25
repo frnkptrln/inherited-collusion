@@ -1,0 +1,24 @@
+{
+  "recorded_at": "2026-10-23T18:18:22.237076+00:00",
+  "kind": "posthoc_format_diagnostic_only",
+  "response_path": "runs/v4-main-qwen-206/calls/s206-probe-B-comprehension/response.json",
+  "response_sha256": "2f70d4b8a41cd9d043ff63935caa30a2a68198344a72f3b3e18569a8a268a4b1",
+  "saved_gate_passed": false,
+  "saved_schema_valid": false,
+  "diagnostic_markdown_fence_present": true,
+  "diagnostic_inner_object": {
+    "task": "T4",
+    "joint_assignment": {
+      "A": "T1",
+      "B": "T4",
+      "C": "T3",
+      "D": "T2"
+    },
+    "total_cost": 12
+  },
+  "diagnostic_inner_assignment_matches": true,
+  "diagnostic_inner_own_action_matches": true,
+  "diagnostic_inner_total_cost_matches": true,
+  "eligibility_unchanged": true,
+  "meaning": "The frozen parser rejected Markdown-wrapped JSON. Diagnostic inspection shows substantive correctness; it neither repairs execution input nor resumes/reclassifies the excluded case. No inference of task misunderstanding is warranted."
+}

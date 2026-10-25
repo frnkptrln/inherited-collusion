@@ -1,0 +1,168 @@
+{
+  "runs": [
+    {
+      "run": "v4-qualification-qwen-902",
+      "status": "completed",
+      "requests": 6,
+      "responses": 6,
+      "donor_pairs": 0,
+      "episodes": 0,
+      "provider_estimated_usd": 0.0091453
+    },
+    {
+      "run": "v4-main-qwen-201",
+      "status": "technical_validation_failed",
+      "requests": 36,
+      "responses": 36,
+      "donor_pairs": 4,
+      "episodes": 7,
+      "provider_estimated_usd": 0.09023245
+    },
+    {
+      "run": "v4-main-qwen-202",
+      "status": "technical_validation_failed",
+      "requests": 55,
+      "responses": 55,
+      "donor_pairs": 4,
+      "episodes": 17,
+      "provider_estimated_usd": 0.1384287
+    },
+    {
+      "run": "v4-main-qwen-203",
+      "status": "completed",
+      "requests": 86,
+      "responses": 86,
+      "donor_pairs": 4,
+      "episodes": 32,
+      "provider_estimated_usd": 0.25093395
+    },
+    {
+      "run": "v4-main-qwen-204",
+      "status": "technical_validation_failed",
+      "requests": 39,
+      "responses": 39,
+      "donor_pairs": 4,
+      "episodes": 9,
+      "provider_estimated_usd": 0.097178
+    },
+    {
+      "run": "v4-main-qwen-205",
+      "status": "technical_validation_failed",
+      "requests": 65,
+      "responses": 65,
+      "donor_pairs": 4,
+      "episodes": 22,
+      "provider_estimated_usd": 0.18891445
+    },
+    {
+      "run": "v4-main-qwen-206",
+      "status": "technical_validation_failed",
+      "requests": 6,
+      "responses": 6,
+      "donor_pairs": 0,
+      "episodes": 0,
+      "provider_estimated_usd": 0.01076285
+    },
+    {
+      "run": "v4-main-qwen-207",
+      "status": "technical_validation_failed",
+      "requests": 69,
+      "responses": 69,
+      "donor_pairs": 4,
+      "episodes": 24,
+      "provider_estimated_usd": 0.1912834
+    },
+    {
+      "run": "v4-main-qwen-208",
+      "status": "technical_validation_failed",
+      "requests": 66,
+      "responses": 66,
+      "donor_pairs": 4,
+      "episodes": 22,
+      "provider_estimated_usd": 0.19574525
+    },
+    {
+      "run": "v4-qualification-gptoss-902",
+      "status": "completed",
+      "requests": 6,
+      "responses": 6,
+      "donor_pairs": 0,
+      "episodes": 0,
+      "provider_estimated_usd": 0.00047961
+    },
+    {
+      "run": "v4-main-gptoss-201",
+      "status": "completed",
+      "requests": 86,
+      "responses": 86,
+      "donor_pairs": 4,
+      "episodes": 32,
+      "provider_estimated_usd": 0.01940738
+    },
+    {
+      "run": "v4-main-gptoss-202",
+      "status": "unresolved_provider_call",
+      "requests": 73,
+      "responses": 72,
+      "donor_pairs": 4,
+      "episodes": 25,
+      "provider_estimated_usd": 0.01624269
+    },
+    {
+      "run": "v4-main-gptoss-203",
+      "status": "completed",
+      "requests": 86,
+      "responses": 86,
+      "donor_pairs": 4,
+      "episodes": 32,
+      "provider_estimated_usd": 0.01971524
+    },
+    {
+      "run": "v4-main-gptoss-204",
+      "status": "unresolved_provider_call",
+      "requests": 56,
+      "responses": 55,
+      "donor_pairs": 4,
+      "episodes": 16,
+      "provider_estimated_usd": 0.01174637
+    },
+    {
+      "run": "v4-main-gptoss-205",
+      "status": "completed",
+      "requests": 86,
+      "responses": 86,
+      "donor_pairs": 4,
+      "episodes": 32,
+      "provider_estimated_usd": 0.02517583
+    },
+    {
+      "run": "v4-main-gptoss-206",
+      "status": "completed",
+      "requests": 86,
+      "responses": 86,
+      "donor_pairs": 4,
+      "episodes": 32,
+      "provider_estimated_usd": 0.02117307
+    },
+    {
+      "run": "v4-main-gptoss-207",
+      "status": "completed",
+      "requests": 86,
+      "responses": 86,
+      "donor_pairs": 4,
+      "episodes": 32,
+      "provider_estimated_usd": 0.02307185
+    },
+    {
+      "run": "v4-main-gptoss-208",
+      "status": "completed",
+      "requests": 86,
+      "responses": 86,
+      "donor_pairs": 4,
+      "episodes": 32,
+      "provider_estimated_usd": 0.02003882
+    }
+  ],
+  "provider_estimated_phase_usd": 1.32967521,
+  "usage_anomalies": []
+}

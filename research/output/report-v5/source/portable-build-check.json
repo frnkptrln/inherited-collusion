@@ -1,0 +1,13 @@
+{
+  "checked_at": "2026-10-24T11:54:57.124560+00:00",
+  "passed": true,
+  "input_sha256": "ca7905043e3ad6b417f741bae5d048d487e37af03cd5d3a09b961294c4d7faeb",
+  "original_docx_sha256": "752ff5817064b482dd0db0fa0a5bd98041cd66c7ef030b19d3abeab1bec8b724",
+  "copied_project_files": 31,
+  "identical_uncompressed_docx_members": 17,
+  "input_regeneration_byte_identical": true,
+  "original_project_reads_denied": true,
+  "network_and_child_processes_denied": true,
+  "scope": "Generator and DOCX build only; no PDF render or model reproduction",
+  "limitation": "Python audit hooks are trusted-code checks, not an operating-system security sandbox"
+}

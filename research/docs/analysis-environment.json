@@ -1,0 +1,10 @@
+{
+  "observed_python": "3.14.8",
+  "figure_dependencies": {
+    "matplotlib": "3.11.2",
+    "numpy": "2.5.4"
+  },
+  "analysis_and_independent_check_dependencies": "Python standard library only",
+  "report_requirements": "output/report-v4/source/requirements-report.txt",
+  "pdf_rendering": "External LibreOffice/Poppler required; separately documented by report builder"
+}

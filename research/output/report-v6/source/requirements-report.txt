@@ -1,0 +1,8 @@
+lxml==6.1.1
+Pillow==12.3.0
+pypdf==6.10.0
+# Optional Documents renderer Python dependency:
+pdf2image==1.17.0
+
+# Reproducible scientific chart using the bundled chart library
+reportlab==4.4.9

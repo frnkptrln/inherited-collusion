@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "status": "PASS",
+  "created_at": "2026-10-25T14:23:58.818164+00:00",
+  "source_archive_sha256": "723969b927749d95e29bacc7c0fc3f4308672085a9615ea1cd5561bd9ec7247f",
+  "archive_members_preserved_byte_exact": 18334,
+  "inventoried_research_files": 18333,
+  "original_relative_layout_preserved_beneath": "research/",
+  "full_archive_included": "artifacts/inherited-collusion-v6-research-package.zip",
+  "original_delivery_files_byte_exact": 8,
+  "credential_scan": {
+    "patterns": [
+      "hf_token",
+      "openai_key",
+      "github_token",
+      "private_key",
+      "aws_access_key"
+    ],
+    "findings": [],
+    "scope": "All uncompressed research archive member bytes; no token values are logged."
+  },
+  "excluded_local_material": [
+    ".venv and installed packages",
+    "credential stores and environment secrets",
+    "local scratch directories not in verified research package"
+  ],
+  "raw_auth_or_account_dumps_imported": false,
+  "preserved_redacted_preflight_summaries": true,
+  "new_model_calls": 0,
+  "git_initialized": false,
+  "remote_actions": false,
+  "repository_url": "https://github.com/frnkptrln/inherited-collusion",
+  "import_map_sha256": "c7fa8be05902918f828f731196684ad93814ca1474f42e131af4cb489a6e1aae",
+  "staged_offline_verification": "staged-offline-verification.json",
+  "staged_offline_verification_sha256": "7a3bcde3791998774b66bea9310b001447a192c2ce706b14a471ba2baf1a24f3",
+  "documented_repository_root_command_tested": true,
+  "all_historical_analyses_recomputed": true,
+  "tested_python_version": "3.14.8 (main, Oct 13 2026, 10:33:10) [GCC 16.2.1 20260810]",
+  "completed_at": "2026-10-25T14:28:56.944946+00:00",
+  "notes": [
+    "This is the initial immutable research import and repository documentation check; the separate template-formatted edition may be added later.",
+    "The initial import map is retained in the task workspace; original research file hashes remain fully available in research/PACKAGE-MANIFEST-v6.json.",
+    "No network calls, model calls, git commits, or remote mutations were made by this staging task."
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "reviewed_at": "2026-10-23T18:50:57.939299+00:00",
+  "reviewer": "independent execution-review agent",
+  "scope": "Read-only source audit and synthetic full-cohort tests; no live outcome aggregation, no model calls, no edits to analyzer or frozen execution code",
+  "files": {
+    "/tmp/collusion-phase4f/analysis/scripts/analyze_v4f_study.py": "107ba80f262741ba93071c674625b932cdb102b9852506be51e7c3ec2a8f63b5",
+    "/tmp/collusion-phase4f/analysis/scripts/strict_bounds.py": "cb7d829af5b8fead61d4e20f0534bfb38c6a089ed1e7749b50afe0301d2fbefb",
+    "/tmp/collusion-phase4f/analysis/tests/test_v4f_analysis.py": "4ade13e3483c13006014c8c858e2c3ac1161f0e4a815a6aec64eac1430e297d9"
+  },
+  "tests": {
+    "passed": 12,
+    "failed": 0,
+    "elapsed_seconds": 4.163,
+    "command": "/home/user/projects/collusion-sprint/.venv/bin/python -B -m unittest discover -s /tmp/collusion-phase4f/analysis/tests -p 'test*.py' -v",
+    "evidence": "Tool result 67eee3; all7 analyzer and5 bounds tests passed"
+  },
+  "accepted_properties": [
+    "Independent exact whole-response JSON-envelope recognition; substantive schema and comprehension remain distinct",
+    "Original strict source inventory, raw bytes, manifests, configs, annotations, retired ledger and all18 preparation seal checked",
+    "Frozen artifacts verified through supplied-project-only path rebasing; original location unavailable test passes",
+    "Exact archived allocation/config digest and per-case ceilings retained",
+    "New calls timestamped after closure/freeze; original model blockers preserved",
+    "Inherited review chronology checked against old and new successor invocations, including mixed episodes",
+    "Raw response identity, finish reason, content, usage and request generation revalidated",
+    "Semantic annotations do not exclude primary episodes; faithful subset remains secondary",
+    "Paired contrasts use equal-case/repeat weights; missing data retain planned denominators and are not zero-imputed",
+    "Inherited and new responses/costs separately tagged, unique call slots counted once",
+    "Optional strict analysis bound to exact18 original manifests, episode set and call/response totals",
+    "Strict and amended logical completion bounds remain separate, explicitly post-start and not confidence intervals"
+  ],
+  "resolved_findings": [
+    "Added frozen artifact byte verification with offline rebasing",
+    "Added exact archived/current per-case allocation binding",
+    "Added exact-source binding for optional strict-analysis input"
+  ],
+  "remaining_blockers": [],
+  "limitations": [
+    "Production strict and amended analyzers/runners must run in separate processes because the format adapter mutates imported parser aliases in memory. Tests for these separate modes likewise run per module/subprocess.",
+    "This audit validates software with synthetic data. Final real-data audit and independent raw scoring remain pending dataset closure."
+  ]
+}

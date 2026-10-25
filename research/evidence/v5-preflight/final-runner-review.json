@@ -1,0 +1,47 @@
+{
+  "reviewed_at": "2026-10-24T10:37:28.224959+00:00",
+  "scope": "Independent source and offline-test audit; no inference, no outcome reads",
+  "status": "PASS",
+  "source_hashes": {
+    "scripts/v5_runner.py": "070a520e0aada74df6be5b51f8dcbe545c0ee900befd0b8d4d33fb8c838ca615",
+    "scripts/v5_scenario.py": "36617a41c89d782a13184a2fdb580929e1e1ecc1e7896efb9aaec8d525c6b946",
+    "scripts/run_v5_study.py": "4014906d817ef51c0bc6dad1d3f080488db296c47c6b0d21712a4c3f3e18db2f",
+    "scripts/close_v5_study.py": "65498085179c99b6564e14dda69313810305a2b71b9d5349062111ee43fd29db",
+    "scripts/analyze_v5_study.py": "e38639d2d1c14254a7904015f63456705ee3d94850c8b0c1e99f3c8e9e3d28f0",
+    "tests/test_v5_runner.py": "31f19cdfbb68846db59da55679231523759e9655a0ff79cbdc50f570ab19d961"
+  },
+  "verification": [
+    "Read full runner and12original tests plus added closure race test",
+    "Independently ran original12tests:PASS,3.232s",
+    "Independently ran added inside-lock closure race test:PASS",
+    "No model calls: tests use CountingBackend and disposable fixtures",
+    "Final synthetic lifecycle checks PASS: held phase lock blocks both dispatcher/closer; closed dispatcher creates no invocation log/child process; null usage returns unknown."
+  ],
+  "scientific_checks": [
+    "Task geometry preserves selected reference and harmful-plan payoffs; regenerated notes remain structure-specific",
+    "Six cases and nested repeats use fixed shuffled schedules, identical schedule across models",
+    "Diagnostic comprehension semantic failures do not select cases; malformed response remains technical stop",
+    "Original assigned actions must execute and round0 is saved before note calls",
+    "Matched and verified use exactly same retained per-structure/mode note pair; no content-quality filtering",
+    "HFBackend sends messages/settings only, never metadata targets or structure/mode labels",
+    "Prompt byte check includes actual note Unicode and both raw/NFC serialized bytes"
+  ],
+  "operational_checks": [
+    "All12fixed allocations and total14.818USD ceiling bound before every fresh HF dispatch",
+    "Each68call ceiling includes persisted unresolved requests",
+    "Requests and first_dispatch persist before backend; response before identity/usage/schema checks",
+    "Unresolved request never retried and valid cache prefix is replayed without new backend calls",
+    "Model-ID, finish and usage markers prevent new calls across same-model cases",
+    "Run and per-call closure guards; inside-lock recheck added and tested",
+    "Closer now holds12runlocks, checks all start/result pairs and terminal status allowlist",
+    "Cost accounting now tolerates null/non-dict usage and reports missing coverage",
+    "Shared phase lock spans full dispatcher lifecycle and closer; closure checked within lock before dispatcher logging, plus inside case lock before runner mutations."
+  ],
+  "remaining_item": null,
+  "limitations": [
+    "Provider-reported IDs/usage do not authenticate served weights or invoice amounts",
+    "Concurrent calls already in flight cannot be undone after another case detects a global failure",
+    "Analyzer substantive/raw checker review owned by scientific_review; this audit checks relevant binding/closure deltas only"
+  ],
+  "scientific_review": "Independent scientific-analysis-review.json PASS on synthetic816requests/288episodes; not evidence of model performance."
+}

@@ -1,0 +1,198 @@
+{
+  "checked_at": "2026-10-23T17:18:21.263843+00:00",
+  "scope": "Public metadata, author documentation, provider documentation and local SDK inspection only. No inference requests, jobs, account queries or project modifications.",
+  "models": [
+    {
+      "hub_model_id": "Qwen/Qwen3.6-35B-A3B",
+      "family": "qwen",
+      "hub_revision": "995ad96eacd98c81ed38be0c5b274b04031597b0",
+      "provider": "deepinfra",
+      "provider_id": "Qwen/Qwen3.6-35B-A3B",
+      "mapping_status": "live",
+      "mapping_task": "conversational",
+      "other_public_mappings": {
+        "featherless-ai": {
+          "status": "live",
+          "providerId": "Qwen/Qwen3.6-35B-A3B",
+          "task": "conversational",
+          "isModelAuthor": false
+        },
+        "scaleway": {
+          "status": "live",
+          "providerId": "qwen3.6-35b-a3b",
+          "task": "conversational",
+          "isModelAuthor": false
+        }
+      },
+      "catalog_provider": {
+        "provider": "deepinfra",
+        "status": "live",
+        "context_length": 262144,
+        "pricing": {
+          "input": 0.1,
+          "output": 0.95
+        },
+        "is_free": false,
+        "supports_tools": true,
+        "supports_structured_output": true,
+        "first_token_latency_ms": 235,
+        "throughput": 96.05933027424237,
+        "is_model_author": false
+      },
+      "tokenizer_config_model_max_length": 262144,
+      "serving_precision_claim_on_provider_page": "fp8",
+      "official_sampling_guidance": {
+        "temperature": 1.0,
+        "top_p": 0.95,
+        "top_k": 20,
+        "presence_penalty": 1.5,
+        "min_p": 0.0,
+        "repetition_penalty": 1.0
+      },
+      "limitations": [
+        "Catalog availability is not an authenticated inference or account-credit check.",
+        "Hub revision documents inspected artifacts; it does not pin provider weights.",
+        "Exact response-model equality is necessary for this study but is not proof of served weights."
+      ],
+      "chosen_generation": {
+        "temperature": 0.6,
+        "top_p": 0.95,
+        "max_tokens": 4096,
+        "n": 1,
+        "tools": null,
+        "response_format": null,
+        "extra_body": null
+      },
+      "generation_setting_interpretation": "Uniform study configuration selected by investigators; temperature is below the authors general/local 1.0 guidance. No claim of optimal model quality.",
+      "max_request_bytes": 10000,
+      "framing_allowance_tokens": 2048,
+      "input_token_reservation": 12048,
+      "chosen_provisional_max_cost_usd": "0.005096",
+      "chosen_reservation_usd": "0.006",
+      "context_headroom_tokens": 246000
+    },
+    {
+      "hub_model_id": "deepseek-ai/DeepSeek-V3.2",
+      "family": "deepseek",
+      "hub_revision": "a7e62ac04ecb2c0a54d736dc46601c5606cf10a6",
+      "provider": "deepinfra",
+      "provider_id": "deepseek-ai/DeepSeek-V3.2",
+      "mapping_status": "live",
+      "mapping_task": "conversational",
+      "other_public_mappings": {
+        "novita": {
+          "status": "error",
+          "providerId": "deepseek/deepseek-v3.2",
+          "task": "conversational",
+          "isModelAuthor": false
+        },
+        "featherless-ai": {
+          "status": "error",
+          "providerId": "deepseek-ai/DeepSeek-V3.2",
+          "task": "conversational",
+          "isModelAuthor": false
+        }
+      },
+      "catalog_provider": {
+        "provider": "deepinfra",
+        "status": "live",
+        "context_length": 16384,
+        "pricing": {
+          "input": 0.26,
+          "output": 0.38
+        },
+        "is_free": false,
+        "supports_tools": true,
+        "supports_structured_output": true,
+        "first_token_latency_ms": 632,
+        "throughput": 22.21235006663705,
+        "is_model_author": false
+      },
+      "tokenizer_config_model_max_length": 131072,
+      "serving_precision_claim_on_provider_page": "fp4",
+      "official_sampling_guidance": {
+        "temperature": 1.0,
+        "top_p": 0.95
+      },
+      "limitations": [
+        "Catalog availability is not an authenticated inference or account-credit check.",
+        "Hub revision documents inspected artifacts; it does not pin provider weights.",
+        "Exact response-model equality is necessary for this study but is not proof of served weights."
+      ],
+      "chosen_generation": {
+        "temperature": 0.6,
+        "top_p": 0.95,
+        "max_tokens": 4096,
+        "n": 1,
+        "tools": null,
+        "response_format": null,
+        "extra_body": null
+      },
+      "generation_setting_interpretation": "Uniform study configuration selected by investigators; temperature is below the authors general/local 1.0 guidance. No claim of optimal model quality.",
+      "max_request_bytes": 10000,
+      "framing_allowance_tokens": 2048,
+      "input_token_reservation": 12048,
+      "chosen_provisional_max_cost_usd": "0.00468896",
+      "chosen_reservation_usd": "0.005",
+      "context_headroom_tokens": 240
+    }
+  ],
+  "budget": {
+    "global_authorized_usd": "15.00",
+    "historical_reserved_usd": "0.126",
+    "historical_provider_estimate_usd": "0.00720307",
+    "remaining_after_historical_reserve_usd": "14.874",
+    "server_side_billing_cap_established": false,
+    "planned_main_phase_cap_usd": "8.00",
+    "planned_pilot_cap_usd": "0.60",
+    "prior_allocated_run_ceilings_usd": "1.00",
+    "conservative_planned_cap_total_usd": "9.60",
+    "interpretation": "Planning ceilings; not incurred spend. Historical dispatched reservations and provider estimates are separately retained."
+  },
+  "input_budget": {
+    "requested_max_utf8_bytes": 10000,
+    "provisional_framing_allowance_tokens": 2048,
+    "provisional_input_token_reservation": 12048,
+    "assumption": "For downloaded tokenizers the normalized content byte bound is supported by complete ByteLevel BPE byte vocabularies; the additional 2048 tokens for provider chat framing remains an assumption, not a formal guarantee. Existing runner checks max(raw UTF-8 bytes, NFC-normalized UTF-8 bytes). Text only, no tools or attachments.",
+    "deepseek_safe_content_byte_limits_under_this_assumption": {
+      "4096_output": 10240,
+      "8192_output": 6144
+    },
+    "deepseek_hf_context_length": 16384,
+    "deepseek_author_tokenizer_max_length": 131072,
+    "enforcement": "Use lower provider catalog context unless verified otherwise. Reject oversize requests or count exact encoded prompt tokens before dispatch; never silently truncate.",
+    "deepseek_context_headroom_tokens": 240,
+    "tokenizer_bound_inspection_file": "tokenizer-bound-inspection.json"
+  },
+  "sdk_inspection_file": "sdk-inspection.json",
+  "required_first_paid_checks": [
+    "One identity+competence call per candidate before any batch; stop immediately on absent or mismatched response.model.",
+    "Store requested hub ID, mapped providerId, actual payload.model, provider, generation parameters, full response, usage and finish_reason.",
+    "Treat finish_reason=length, malformed final answer or unexpected token/cost overrun as invalid; preserve and stop rather than silently retry.",
+    "Gate task competence on more than one frozen asymmetric case; simple note following is a separate control.",
+    "Freeze prompt, task definitions, provider route, decoding and output cap before successor study; separate remediation from confirmatory data.",
+    "Any 4096-token length termination is a failed preflight/invalid episode under this fixed configuration; preserve it and do not increase the cap to rescue the observation."
+  ],
+  "sources": {
+    "hf_catalog": "https://router.huggingface.co/v1/models",
+    "hf_catalog_ui": "https://huggingface.co/inference/models",
+    "hf_pricing": "https://huggingface.co/docs/inference-providers/en/pricing",
+    "hf_mapping_docs": "https://huggingface.co/docs/inference-providers/en/hub-api",
+    "qwen_provider": "https://deepinfra.com/Qwen/Qwen3.6-35B-A3B",
+    "deepseek_provider": "https://deepinfra.com/deepseek-ai/DeepSeek-V3.2",
+    "qwen_author": "https://huggingface.co/Qwen/Qwen3.6-35B-A3B/blob/995ad96eacd98c81ed38be0c5b274b04031597b0/README.md",
+    "deepseek_author": "https://huggingface.co/deepseek-ai/DeepSeek-V3.2/blob/a7e62ac04ecb2c0a54d736dc46601c5606cf10a6/README.md",
+    "provider_reasoning": "https://docs.deepinfra.com/chat/reasoning.md",
+    "provider_api_schema": "https://docs.deepinfra.com/api-reference/chat-completions/openai-chat-completions.md"
+  },
+  "status": "Final metadata preflight for parent-selected routes and 4096-token study cap; no inference performed by this agent.",
+  "sdk_route": {
+    "provider": "deepinfra",
+    "url": "https://router.huggingface.co/deepinfra/v1/openai/chat/completions",
+    "hub_model_equals_provider_id": true,
+    "automatic_provider_selection_configured": false,
+    "automatic_model_substitution_configured": false,
+    "scope": "Inspected client behavior; remote serving weights remain unverified.",
+    "sdk_version": "2.3.0"
+  }
+}

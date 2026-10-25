@@ -1,0 +1,46 @@
+{
+  "checked_at": "2026-10-23T19:01:55.814678+00:00",
+  "evidence_class": "SOFTWARE_TEST_ONLY_NOT_RESEARCH_RESULTS",
+  "method": "Independent raw checker against two disposable synthetic full-cohort fixtures; no actual research outcomes accessed.",
+  "fixtures": [
+    "single fenced inherited successor recovered without resampling",
+    "valid cached prefix retained before unresolved inherited call, zero new dispatches"
+  ],
+  "comparisons": [
+    {
+      "passed": true,
+      "mismatches": [],
+      "planned_main_episodes": 512,
+      "saved_episodes": 32,
+      "eligible_episodes": 32,
+      "missing_or_invalid_episodes": 480,
+      "calls_reserved": 188,
+      "responses": 188,
+      "unique_planned_calls": 188,
+      "source_call_counts": {
+        "inherited_v4": 125,
+        "newly_dispatched_v4f": 63
+      },
+      "unresolved_provider_calls": 0
+    },
+    {
+      "passed": true,
+      "mismatches": [],
+      "planned_main_episodes": 512,
+      "saved_episodes": 2,
+      "eligible_episodes": 2,
+      "missing_or_invalid_episodes": 510,
+      "calls_reserved": 129,
+      "responses": 128,
+      "unique_planned_calls": 129,
+      "source_call_counts": {
+        "inherited_v4": 129
+      },
+      "unresolved_provider_calls": 1
+    }
+  ],
+  "checker_sha256": "d21b3890afe8b3564b0965c4c2066b3f874425e11b577f3332cd6d0391d06e6c",
+  "analyzer_sha256": "107ba80f262741ba93071c674625b932cdb102b9852506be51e7c3ec2a8f63b5",
+  "test_sha256": "fb998d4605a07d363ab5785ca0a4c2a8c7b6a99caa382bafcc92751db71cb096",
+  "passed": true
+}

@@ -1,0 +1,21 @@
+{
+  "huggingface_hub_version": "2.3.0",
+  "scope": "Pure payload construction and source read only. No client instantiation, token lookup, request preparation or HTTP request.",
+  "source_sha256": {
+    "inference/_client.py": "5680460a9686f44ec0459bb43537724bb7ebccb22d74e74a3326f46f3edc1254",
+    "inference/_providers/_common.py": "4f788a4fa31c36cec67957cadeafa5ec205bba287699315caa4465b909fb1a74",
+    "inference/_providers/deepinfra.py": "9fc708f44afe8cc46ea81225ca8510795b96349e5c05534c42eee9c00d2154f0"
+  },
+  "payload_model": "openai/gpt-oss-120b",
+  "payload_generation": {
+    "model": "openai/gpt-oss-120b",
+    "max_tokens": 8192,
+    "temperature": 0.6,
+    "top_p": 0.95
+  },
+  "reasoning_effort_sent": false,
+  "extra_body_sent": false,
+  "provider": "deepinfra",
+  "route": "https://router.huggingface.co/deepinfra/v1/openai/chat/completions",
+  "response_validation": "SDK parses returned model field; study runner must strictly compare it."
+}

@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "verified_at": "2026-10-25T13:52:43.875067+00:00",
+  "passed": true,
+  "archive_sha256": "723969b927749d95e29bacc7c0fc3f4308672085a9615ea1cd5561bd9ec7247f",
+  "manifest_sha256": "e45602c78040b8d3b5a7d86f8f6080c4719e34fff5aebbcceba64cf7dd7ee544",
+  "package_inventory_verified": true,
+  "packaged_files": 18333,
+  "baseline_inventoried_files_preserved_byte_exact": 16769,
+  "baseline_zip_members_preserved_byte_exact": 16770,
+  "historical_v5_offline_pass_retained": true,
+  "historical_reproduction": {
+    "recomputed": true,
+    "byte_exact_baseline_members": 16770,
+    "source_archive_sha256": "1a07ea5fa12e3ea13b80cdaa943d4c75f99533232799ad8336b343f99709737d",
+    "reconstructed_archive_sha256": "ad006b3cf6a829ac6f30065966e5df6d7ff20d1fc69c466a5178172d88a8272f",
+    "receipt": "historical-recheck/offline-verification.json",
+    "receipt_sha256": "09fb45a24879fd51cb46e65850dd18ce706f7a7f48092a4b8513bbd97090effa"
+  },
+  "v6_analysis_recomputed": true,
+  "v6_analysis_exact_json_equal": true,
+  "v6_independent_recomputed": true,
+  "v6_independent_exact_json_equal": true,
+  "v6_crosscomparison_recomputed": true,
+  "v6_crosscomparison_exact_json_equal": true,
+  "v6_allowed_json_differences": [],
+  "v6_analysis_packaged_sha256": "fc2e7b4c2c9c0184fbf613ebca019b1787dad3c55d3e30f88e66eb0b7acbb277",
+  "v6_analysis_recomputed_sha256": "fc2e7b4c2c9c0184fbf613ebca019b1787dad3c55d3e30f88e66eb0b7acbb277",
+  "v6_check_packaged_sha256": "c9cbc902b772e8e37f8f2b92b1186a813a331df3096ff9e08089600093b4b79e",
+  "v6_check_recomputed_sha256": "c9cbc902b772e8e37f8f2b92b1186a813a331df3096ff9e08089600093b4b79e",
+  "verifier_sha256": "c2d7e6b6a37c2dd592ee579e6dd754c21fe5b20c799976c130a7443ab4cd25e8",
+  "original_source_directories_read_access_denied": [
+    "/home/user/projects/collusion-sprint",
+    "/home/user/Dokumente/ChatGPT/AI Collusion Sprint",
+    "/home/user/Dokumente/ChatGPT/AI Collusion Sprint/output/control-v6",
+    "/home/user/Dokumente/ChatGPT/AI Collusion Sprint/output/report-v6"
+  ],
+  "network_and_subprocess_creation_denied_in_v6_analysis": true,
+  "isolated_stdlib_python": true,
+  "models_called": false,
+  "isolation_scope": "Python audit hooks in trusted analysis processes; not an OS adversarial-code sandbox.",
+  "not_checked": "This run does not rerender figures, DOCX or PDF; sources and requirements are inventoried."
+}

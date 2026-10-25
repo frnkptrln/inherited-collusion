@@ -1,0 +1,22 @@
+{
+  "approved": true,
+  "model": "Qwen/Qwen3-235B-A22B-Thinking-2507",
+  "provider": "deepinfra",
+  "max_calls": 46,
+  "max_tokens": 4096,
+  "max_request_bytes": 16000,
+  "input_usd_per_million": 0.23,
+  "output_usd_per_million": 2.3,
+  "reservation_basis_confirmed": true,
+  "max_total_usd": 0.7,
+  "reserved_usd_per_call": 0.015,
+  "price_checked_at": "2026-10-23T16:38:41.909414+00:00",
+  "approved_by": "Frank Peterlein: du kannst gern das budget nutzen nach eigenem ermessen (2026-10-23)",
+  "tokenizer_evidence": "docs/model-preflight-thinking-2026-10-23.json",
+  "reservation_assumptions": "NFC-normalized UTF-8 input bound for ByteLevel BPE; two text messages, no tools; 2048 framing-token allowance; SDK one POST, no automatic retry.",
+  "protocol_revision": "v1.3-thinking",
+  "reason_for_revision": "Final competence remediation after two preserved Instruct pilots failed before donors/successors. Same table fixture; Thinking model and sampling per model card, bounded output. No selection on collusion outcome.",
+  "temperature": 0.6,
+  "top_p": 0.95,
+  "model_hub_revision": "6cbffae6d8e28b986a6b17bd36f42f9fa0f1f0a5"
+}

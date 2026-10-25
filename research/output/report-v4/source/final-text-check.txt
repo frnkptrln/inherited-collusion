@@ -1,0 +1,1 @@
+PASS: 8 main pages; 14 total pages; References begins page9; 223-word abstract; no unresolved markers; PDF under25MB. All3 table row arrays and both figure records unchanged. Frozen analysis input hashes retained.
