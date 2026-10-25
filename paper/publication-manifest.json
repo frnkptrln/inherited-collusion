@@ -4,7 +4,7 @@
   "destination": "paper/",
   "evidence_root": "../research",
   "canonical_basename": "inherited-collusion-revised",
-  "compatibility_aliases_allowed": "Byte-identical inherited-collusion-submission.pdf/docx/audit.json may be added by repository owner.",
+  "compatibility_aliases_allowed": "inherited-collusion-submission.pdf/docx are the submitted edition: the canonical files plus accepted editorial changes, recorded in inherited-collusion-submission.audit.json.",
   "rebuild_command": "python paper/source/build_report.py --project-root research --out paper/inherited-collusion-revised.docx",
   "files": [
     {
@@ -254,8 +254,8 @@
     },
     {
       "path": "source/README.md",
-      "sha256": "db805ef7c9ebf6b45eccfcea524b8fbc95909885ae3a6fc7a44b737c0e2cb85a",
-      "bytes": 5079
+      "sha256": "f1dbcd5f10b135fa95656536a872e834184697c9da0adfb8fa6a100a8d77069d",
+      "bytes": 5291
     },
     {
       "path": "source/artifact.md",

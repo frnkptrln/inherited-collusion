@@ -1,6 +1,6 @@
 # Revised manuscript in the personal Apart template
 
-The editable DOCX and reviewed PDF are a narrative revision of the retained submission, with a separately frozen factorial follow-up. The previous template edition and its scientific evidence remain preserved. The private repository is https://github.com/frnkptrln/inherited-collusion (access restricted).
+The editable DOCX and reviewed PDF are a narrative revision of the retained submission, with a separately frozen factorial follow-up. The previous template edition and its scientific evidence remain preserved. The repository is https://github.com/frnkptrln/inherited-collusion, public with the sprint submission.
 
 ## Build from the retained inputs
 
@@ -30,4 +30,4 @@ The final audit and visual-review record bind the delivered PDF, DOCX, manuscrip
 
 Final visual inspection corrected the historical Appendix I cross-reference from Figure 1 to Figure I1 after the unchanged figure was moved. This is the only wording change inside the retained historical appendix paragraphs; numerical table payloads and figure bytes remain exact.
 
-The canonical filenames for this edition are `inherited-collusion-revised.docx`, `.pdf` and `.audit.json`. The repository may also retain byte-identical `inherited-collusion-submission.*` aliases for existing links. Build and integrity commands use the canonical revised names; aliases do not represent another analysis or manuscript.
+The canonical filenames for this edition are `inherited-collusion-revised.docx`, `.pdf` and `.audit.json`. `inherited-collusion-submission.docx` and `.pdf` are the submitted edition: the canonical files plus accepted editorial changes to the abstract, Appendices A, C and G, Code and Data and the LLM Usage Statement, recorded in `inherited-collusion-submission.audit.json`. Build and integrity commands, including the preservation check, use the canonical revised names; the submitted edition changes no analysis, table, figure or number.
