@@ -1,0 +1,60 @@
+{
+  "status": "PASS",
+  "review_type": "Final scientific claims and data consistency; independent agent-assisted review, not independent human replication",
+  "reviewed_at": "2026-10-25T16:02:18.722917+00:00",
+  "reviewed_report_input_sha256": "b126fe52c7c74b895b50a39b71aaed52cf0d2c0187f385bdfb505b01d6253626",
+  "reviewed_content_sha256_excluding_ready_for_final": "bed373eedd3dcfe73b4b82ca9cf74ef8fa466d7e483e489c349d6a6741be7eed",
+  "permitted_followup_change": {
+    "field": "ready_for_final",
+    "from": false,
+    "to": true,
+    "all_other_source_fields": "must remain identical"
+  },
+  "abstract_words": 186,
+  "historical_claim_checks": 48,
+  "new_control_table_display_checks": 210,
+  "new_main_figure_raw_episode_checks": 66,
+  "new_main_figure_metric_checks": 462,
+  "raw_v7_failure_episodes_read": 3,
+  "raw_v7_role_final_answers_read": 6,
+  "all_historical_tables_and_figures_preserved": true,
+  "main_conclusions_supported": true,
+  "causal_and_population_limits_adequate": true,
+  "authorship_statement_supported_by_user_reply": true,
+  "unresolved_scientific_findings": [],
+  "resolved_precision_points": [
+    "Original paired-note contrast identified as prespecified orientation-specific contrast.",
+    "Structural intervention notes/matrix confound retained.",
+    "New conditional interaction distinguished from universal verification necessity.",
+    "Partial harm and joint-harm endpoints distinguished in main/appendix tables.",
+    "Three new failures explicitly clustered in two donor cases.",
+    "Point/finite-completion ranges distinguish five versus six GPT cases and are not confidence intervals.",
+    "Raw failure pattern described as observed action rather than internal mechanism.",
+    "Unused budget release includes rounding headroom.",
+    "Abstract uses valid episodes rather than ambiguous outputs."
+  ],
+  "input_checks": {
+    "historical-review.json": "f8840630c96e2036200efb8ce03df021ca883e4561a3862c848e424ea5afbde6",
+    "final-table-check.json": "45ddbb62a2651ca94a85418b803e2411685b3f5cda7d81e7aae23f1716f24676",
+    "closed-v7-review.json": "0c02bc8a6ff7e994050f0e9c99fdb6e5037964aa29bbf465c12035d60e6843b9",
+    "figure-raw-check.json": "14eb27136401b24e8b934d11e178c3dc8b48d03fd33d69b7e2ce6d3d38d75854"
+  },
+  "remaining_non_scientific_gates": [
+    "Final DOCX/PDF render and all-page visual review",
+    "Final file hashes and private-repository publication verification"
+  ],
+  "delta_review": {
+    "prior_review_sha256": "6b384754e03e1360de239321713340e14ab8730fdacd073c6084603dd6a8efac",
+    "prior_ready_source_sha256": "809ccf7fcfee160d2eadd327643b673a879fd89d27405dfcd1f00be9433f91bc",
+    "changes_verified": [
+      "Appendix I common-case baseline reference changed Figure1 to correct moved FigureI1",
+      "TableJ3 Cases header shortened to n, every value unchanged",
+      "Supplementary integrator source hash updated and matches saved integrate_v7_results.py",
+      "ready_for_final reset true to false for final rebuild"
+    ],
+    "all_other_source_fields_identical": true,
+    "prior_source_matches_previously_approved_content_digest": true,
+    "new_table_checks_repeated": 210,
+    "supplementary_integrator_sha256": "b8330d4cd8e1fa817580ca2e9ddbeaa0a0c21cd72f4e08eb3bc2672bf4de8663"
+  }
+}

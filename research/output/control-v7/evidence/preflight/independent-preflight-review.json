@@ -1,0 +1,55 @@
+{
+  "status": "PASS",
+  "success": true,
+  "reviewed_at": "2026-10-25T15:17:04.819868+00:00",
+  "reviewer": "Codex independent validation agent",
+  "paid_calls": 0,
+  "jobs_started": 0,
+  "dispatch_authorized_by_this_review": false,
+  "reviewed_sha256": {
+    "output/control-v7/scripts/v7_runner.py": "5b613826e717bf8c404d33e468df0ee37387339d0cd63d713b5a36706197afd5",
+    "output/control-v7/scripts/v5_runner.py": "070a520e0aada74df6be5b51f8dcbe545c0ee900befd0b8d4d33fb8c838ca615",
+    "output/control-v7/scripts/run_v7_study.py": "d68d8bb09c5721f237c2c613df928a7ea697eb256dd48285730df85dbc3010c0",
+    "output/control-v7/scripts/analyze_v7_study.py": "0050302ea6ab6af99de3d0a05f4c5e385daca8231c59f4ca1674d1ebaf2f58c9",
+    "output/control-v7/scripts/close_v7.py": "9f05cf3a01865d35f4784fdf45c6625d75ea24d92063f7e8d6fbc7ca1f2e0425",
+    "output/control-v7/scripts/freeze_v7.py": "b5de1c6e60982280d7155a648d30f7adfaaaa103eccd515bc2c4198fdf2232a6",
+    "output/control-v7/inherited_collusion/backends.py": "f376dfd20fe1ec3ab9172f8567c06a71c1a72e869e31787bc2109a3bd81a8873",
+    "output/control-v7/docs/v7-protocol.json": "ba47ac60bb378faffd89c0ac8121bee7e7d67a7868afadda170d7d72dc1bc58c",
+    "output/control-v7/tests/test_v7.py": "cf99d9f62aea889d1cd4f3664700d58568ee98d26a335c0213fe4ce31adbd83b",
+    "output/revision-validation/check_v7_raw.py": "949d338c03a9a33f0482461e74faa8b0a3c402d165ecf0f69b9e5727eb8bdf3b",
+    "output/revision-validation/test_independent_v7.py": "2f85f61aa99624055484d8c44aa3b5b3a0c912adc353567cbd7c693d94f291f9",
+    "output/revision-validation/preflight-independent.json": "7bcc56bd8152f62026ebc5e27d278e505ec84969f4f038e86544348a664697da"
+  },
+  "independent_checks": {
+    "protocol_cases": 10,
+    "factorial_arms": 4,
+    "directions_per_arm": 2,
+    "planned_joint_episodes": 80,
+    "maximum_calls": 160,
+    "exact_prompt_reconstructions": 160,
+    "legal_outcome_direction_metric_comparisons": 320,
+    "software_tests_passed": 4,
+    "software_tests_are_not_model_evidence": true,
+    "full_mock_joint_episodes": 80,
+    "raw_tamper_detection": true,
+    "note_and_reminder_omission_detection": true,
+    "primary_missing_slot_bound_qwen": [
+      -0.125,
+      0
+    ],
+    "analysis_independent_arithmetic": "Python fractions, no runner/scorer/analyzer imports in checker"
+  },
+  "budget": {
+    "historical_full_dispatched_reservation_usd": 12.374,
+    "new_maximum_reservation_usd": 0.832,
+    "combined_ceiling_usd": 13.206
+  },
+  "conclusions": [
+    "Prompt factors change only complete role-note presence and exact reminder presence; shared rule, public factual context, output format and neutral system stay fixed.",
+    "No response or partner choice is appended to the other role context. HF transport ignores private audit/scoring metadata.",
+    "Direction-averaged case-weighted primary interaction and all four simple effects match the frozen protocol; nested directions are not independent replicates.",
+    "Requests are durable before dispatch; responses before parse. Ambiguous calls are not replayed, and no replacement draws follow format failure.",
+    "All effects are conditional on the explicit safe rule and availability-selected donor cohort; no general necessity or equivalence conclusion is justified by a null."
+  ],
+  "remaining_gate": "Parent must copy/hash-bind checker and review, issue root-validation, freeze all sources before any paid call, and apply checker after raw closure."
+}

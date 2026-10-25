@@ -1,0 +1,46 @@
+{
+  "status": "PASS",
+  "review_type": "Final scientific claims and data consistency; independent agent-assisted review, not independent human replication",
+  "reviewed_at": "2026-10-25T15:54:39.238159+00:00",
+  "reviewed_report_input_sha256": "04f796fb1e85e9888ca1b1ee00d6e242f33d1a1e1e4005c4bb0fb176ce8daf72",
+  "reviewed_content_sha256_excluding_ready_for_final": "6373464f5f029cc2398af3b2b01cfcb2d45e9524da6e90d32998d7baa3681c9e",
+  "permitted_followup_change": {
+    "field": "ready_for_final",
+    "from": false,
+    "to": true,
+    "all_other_source_fields": "must remain identical"
+  },
+  "abstract_words": 186,
+  "historical_claim_checks": 48,
+  "new_control_table_display_checks": 210,
+  "new_main_figure_raw_episode_checks": 66,
+  "new_main_figure_metric_checks": 462,
+  "raw_v7_failure_episodes_read": 3,
+  "raw_v7_role_final_answers_read": 6,
+  "all_historical_tables_and_figures_preserved": true,
+  "main_conclusions_supported": true,
+  "causal_and_population_limits_adequate": true,
+  "authorship_statement_supported_by_user_reply": true,
+  "unresolved_scientific_findings": [],
+  "resolved_precision_points": [
+    "Original paired-note contrast identified as prespecified orientation-specific contrast.",
+    "Structural intervention notes/matrix confound retained.",
+    "New conditional interaction distinguished from universal verification necessity.",
+    "Partial harm and joint-harm endpoints distinguished in main/appendix tables.",
+    "Three new failures explicitly clustered in two donor cases.",
+    "Point/finite-completion ranges distinguish five versus six GPT cases and are not confidence intervals.",
+    "Raw failure pattern described as observed action rather than internal mechanism.",
+    "Unused budget release includes rounding headroom.",
+    "Abstract uses valid episodes rather than ambiguous outputs."
+  ],
+  "input_checks": {
+    "historical-review.json": "f8840630c96e2036200efb8ce03df021ca883e4561a3862c848e424ea5afbde6",
+    "final-table-check.json": "94161504ebf9eeba0b27982f6410293090b7df80bf6b7f9146fd634feec1d4cf",
+    "closed-v7-review.json": "0c02bc8a6ff7e994050f0e9c99fdb6e5037964aa29bbf465c12035d60e6843b9",
+    "figure-raw-check.json": "14eb27136401b24e8b934d11e178c3dc8b48d03fd33d69b7e2ce6d3d38d75854"
+  },
+  "remaining_non_scientific_gates": [
+    "Final DOCX/PDF render and all-page visual review",
+    "Final file hashes and private-repository publication verification"
+  ]
+}

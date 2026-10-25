@@ -1,0 +1,69 @@
+{
+  "episodes": [
+    {
+      "arm": "absent_unverified",
+      "direction": "last",
+      "role_order": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "arm": "harmful_verified",
+      "direction": "last",
+      "role_order": [
+        "B",
+        "A"
+      ]
+    },
+    {
+      "arm": "absent_verified",
+      "direction": "last",
+      "role_order": [
+        "B",
+        "A"
+      ]
+    },
+    {
+      "arm": "harmful_verified",
+      "direction": "first",
+      "role_order": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "arm": "absent_verified",
+      "direction": "first",
+      "role_order": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "arm": "harmful_unverified",
+      "direction": "last",
+      "role_order": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "arm": "harmful_unverified",
+      "direction": "first",
+      "role_order": [
+        "B",
+        "A"
+      ]
+    },
+    {
+      "arm": "absent_unverified",
+      "direction": "first",
+      "role_order": [
+        "B",
+        "A"
+      ]
+    }
+  ],
+  "counterbalance": "Opposite role order across the two fixed rule directions in each factorial cell; directions are not independent replicates."
+}

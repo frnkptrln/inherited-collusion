@@ -1,0 +1,22 @@
+{
+  "status": "PASS",
+  "checked_at": "2026-10-25T16:08:46.427610+00:00",
+  "manifest_files_checked": 87,
+  "final_page_images": 32,
+  "compatibility_aliases_byte_identical": true,
+  "readme_local_links_resolve": true,
+  "changed_preexisting_historical_research_or_archive_files": 0,
+  "credential_pattern_files_scanned": 1257,
+  "credential_matches": [],
+  "scan_scope": "Known token/private-key patterns including uncompressed DOCX XML; not exhaustive secret detection",
+  "new_files": 1219,
+  "existing_changed_or_deleted_files": 44,
+  "paper_portable_rebuild": "repository-evidence/revised-paper-portable-rebuild.json",
+  "new_research_offline_check": "repository-evidence/v7-offline-verification.json",
+  "publication_manifest_sha256": "851f733f031887c8d4f72676f6e3f7fdeec322677d4d4a207d463a8b966048fd",
+  "staged_whitespace_check": {
+    "status": "PASS_WITH_DOCUMENTED_FROZEN_SNAPSHOT_EXCEPTION",
+    "exception": "Eleven identical check_v7_raw.py frozen source copies contain one extra blank line at EOF. Preserved byte-for-byte because hashes were frozen before data collection.",
+    "all_other_default_whitespace_checks": "PASS"
+  }
+}

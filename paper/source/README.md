@@ -1,33 +1,33 @@
-# Personal-template edition
+# Revised manuscript in the personal Apart template
 
-The final DOCX is editable; the PDF is its reviewed export. This is a formatting edition of the approved V6 paper, not a new experiment. The private repository is `https://github.com/frnkptrln/inherited-collusion` (access restricted).
+The editable DOCX and reviewed PDF are a narrative revision of the retained submission, with a separately frozen factorial follow-up. The previous template edition and its scientific evidence remain preserved. The private repository is https://github.com/frnkptrln/inherited-collusion (access restricted).
 
-The authoritative personal Google Docs export is retained in `../reference/` with URL and hashes. `personal-apart-template.docx` is the identical build copy. The user requested its title rules, author component, narrow abstract, Old Standard TT typography and section structure. The six main headings now follow that source. Scientific prose, 13 tables, three figure payloads, references, limitations and historical evidence remain unchanged; the Code and Data paragraph is new and the existing AI disclosure is repeated under the template's LLM Usage Statement. `content-mapping.json` and `check_preservation.py` verify the transformation against `verified-v6-input.json`.
+## Build from the retained inputs
 
-## Build after cloning the private repository
-
-From the repository root, with Python dependencies from `requirements-report.txt` installed into your chosen environment:
+From the repository root, after installing `paper/source/requirements-report.txt` in a Python environment:
 
 ```bash
-python paper/source/build_report.py --project-root research --out paper/inherited-collusion-submission.docx
-python paper/source/check_preservation.py --docx paper/inherited-collusion-submission.docx --out paper/source/preservation-check.json
+python paper/source/build_report.py --project-root research --out paper/inherited-collusion-revised.docx
+python paper/source/check_revision_preservation.py --docx paper/inherited-collusion-revised.docx --out paper/source/preservation-check.json
+python paper/source/check_portable_rebuild.py --project-root research --out paper/source/portable-rebuild.json
 ```
 
-All evidence and figure paths are resolved beneath the explicitly supplied `--project-root`. No original workspace path, network, HF credentials, paid calls or research rerun is required. Supplementary evidence is bundled under `source/baseline-evidence/`. The official Old Standard TT font files and OFL license are under `assets/fonts/`.
+`report-input.json` is the canonical manuscript input. The builder checks its evidence and supplementary hashes and refuses final output while `ready_for_final` is false or unresolved markers remain. Research evidence paths resolve beneath the explicit `--project-root`; new manuscript figure paths marked `local_path` resolve inside `paper/`. No original workspace path, network, HF credential, paid call or research rerun is needed to rebuild the DOCX. `verified-template-input.json` preserves the previous approved input, and `editorial-mapping.json` identifies the retained material. The preservation check requires all 13 historical scientific tables, all three historical figures, the original evidence bindings and all historical appendix paragraphs to survive the rewrite.
 
-## PDF rendering
+`prepare_revision.py` prepares the explicitly unfinished editorial draft. It must not be run over the delivered final input: it intentionally restores unresolved follow-up placeholders. The closed-data integration script is the route for regenerating the complete final input. It runs the draft preparation itself, verifies the closed study and independent comparison, then derives the new table rows. To regenerate for review, run `python paper/source/integrate_v7_results.py --project-root research`; it deliberately resets `ready_for_final` to false so a regenerated input cannot silently reuse an old approval. A normal document rebuild uses the delivered input directly and does not run either preparation stage.
 
-The authoring environment used the Codex workspace Python and Documents `render_docx.py`, with the bundled LibreOffice and Poppler. Add `--render --renderer /path/to/render_docx.py` to the build command to reproduce page images and a PDF using that skill. The builder creates a temporary, task-local fontconfig referencing the retained fonts; it does not install system fonts. A separately installed compatible LibreOffice/Poppler can export an editable copy elsewhere, but cross-platform pixel-identical layout is not guaranteed. Do not confuse numeric analysis reproduction with document rendering.
+## Figure and PDF rendering
 
-In this workspace the runtime was `/home/user/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3` and the office executable was `/home/user/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/override/soffice`. These paths document the observed environment, not portable requirements. The build accepts an explicit renderer path. `dependency-versions.json` records Python libraries.
+`plot_handoff_diagnostic.py` recreates the new main figure from the saved post-hoc diagnostic under `source/baseline-evidence/`, checking embedded row metrics before plotting. It accepts an explicit diagnostic SHA-256, output directory and Poppler `pdftoppm` path. Its audit binds the input, plotting source and image files. This figure does not introduce a newly selected outcome subset.
 
-## Fidelity and intentional adaptations
+The authoritative personal template is retained under `reference/`; `source/personal-apart-template.docx` is the identical build copy. Its Old Standard TT fonts and OFL license are under `assets/fonts/`. The builder preserves the native template title rules, footnote, author component, abstract container, styles and typography. The previously reviewed single-author geometry correction is retained. Main text remains at 11 points; scientific tables use 10 points.
 
-- Letter page and one-inch margins, native 20-point title, 14-point headings and 11-point body, exact embedded font/style/theme/numbering/settings/footnote parts retained.
-- Thick upper rule, thin lower rule, sprint footnote and “With Apart Research” retained as explicitly requested.
-- Six placeholder authors become one centered author and affiliation; the existing scientific subtitle occupies a centered line. The exported inner author grid incorrectly reports 2,070 twips despite the Google PDF's wider visible wrapper. It is normalized to 7,185 twips for faithful single-author rendering. The reference export itself remains immutable.
-- Abstract guidance italics/underlining are removed while its indented container is retained. Guidance boxes, sample contributions and sample independent-verification assertions are removed.
-- Scientific tables/figures have no populated counterpart in the reference: restrained native-font tables with repeated headers and the exact prior figure bytes are added. Six-point body paragraph separation makes the completed prose readable without changing body font size. Title and abstract consume a full first page; the resulting main text is seven pages, within the approved eight-page cap. The template recommends four pages but does not mandate that limit.
-- The supplied Google PDF is four pages; the unmodified exported DOCX renders to five pages locally because of its nested-table geometry. Only the filled paper has been corrected; the final page inspection is authoritative for this edition.
+For PDF and page PNGs, add `--render --renderer /path/to/render_docx.py`. The authoring environment uses the Codex Documents renderer, bundled LibreOffice and Poppler, with a temporary task-local fontconfig containing the retained fonts. No fonts are installed globally. `dependency-versions.json` records Python dependencies. Cross-platform pixel-identical rendering is not assumed; numeric research reproduction is separate from document layout reproduction.
 
-All 27 final pages were visually reviewed. `visual-review.json` identifies page hashes and reviewer coverage; final files are bound in `../inherited-collusion-submission.audit.json`. Older research reports and their frozen artifacts are retained unchanged in `research/`.
+Observed authoring runtime: `/home/user/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3`. The office executable is exclusively `/home/user/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/override/soffice`; no desktop office process is used or stopped. These paths document this environment and are not hardcoded portable requirements.
+
+The final audit and visual-review record bind the delivered PDF, DOCX, manuscript input and all 32 reviewed page images. The main text occupies seven pages and the abstract has 186 words. The isolated DOCX rebuild passed with original report/evidence-root reads, network and child processes denied. Intermediate drafts are excluded from the publication manifest.
+
+Final visual inspection corrected the historical Appendix I cross-reference from Figure 1 to Figure I1 after the unchanged figure was moved. This is the only wording change inside the retained historical appendix paragraphs; numerical table payloads and figure bytes remain exact.
+
+The canonical filenames for this edition are `inherited-collusion-revised.docx`, `.pdf` and `.audit.json`. The repository may also retain byte-identical `inherited-collusion-submission.*` aliases for existing links. Build and integrity commands use the canonical revised names; aliases do not represent another analysis or manuscript.

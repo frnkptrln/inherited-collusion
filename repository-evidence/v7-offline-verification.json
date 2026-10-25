@@ -1,0 +1,28 @@
+{
+  "status": "PASS",
+  "scientific_analysis_identical": true,
+  "independent_raw_check": "PASS",
+  "requests": 160,
+  "responses": 159,
+  "valid_joint_episodes": 79,
+  "network_denied": true,
+  "original_checkout_access_denied": true,
+  "subprocesses_denied_inside_analyses": true,
+  "temporary_output": "/tmp/inherited-v7-offline-5u30qeyb",
+  "commands": [
+    {
+      "script": "research/output/control-v7/scripts/analyze_v7_study.py",
+      "exit_code": 0,
+      "stdout": "{\"eligible_joint_episodes\": 79, \"planned_joint_episodes\": 80, \"out\": \"/tmp/inherited-v7-offline-5u30qeyb/analysis.json\"}\n",
+      "stderr": ""
+    },
+    {
+      "script": "research/output/control-v7/scripts/check_v7_raw.py",
+      "exit_code": 0,
+      "stdout": "{\"status\": \"PASS\", \"preflight\": false, \"requests\": 160, \"responses\": 159, \"eligible_joint_episodes\": 79}\n",
+      "stderr": ""
+    }
+  ],
+  "analysis_sha256": "56194c997902c8639b34371c82b7d7fe0041a49b4c6a701b53ef68df9ee6d4a0",
+  "scope": "New V7 record; historical V6 archive remains byte-unchanged and was previously verified."
+}

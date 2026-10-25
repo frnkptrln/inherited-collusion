@@ -1,85 +1,60 @@
 {
-  "schema_version": 1,
   "status": "PASS",
-  "reviewed_at": "2026-10-25T14:43:56.976484+00:00",
-  "reviewer": "Independent scientific preservation reviewer agent",
-  "scope": "Scientific content preservation and disclosure review for reformatting into the personal Apart Research template; no experiments or frozen study artifacts changed.",
-  "bindings": {
-    "baseline_input": {
-      "path": "/home/user/Dokumente/ChatGPT/AI Collusion Sprint/output/report-v6/source/report-input.json",
-      "sha256": "0c2de397b7cdc5d65bca42b3ea901a348f6a049f175af29f7866608d0e26a8ce"
-    },
-    "final_input": {
-      "path": "/home/user/Dokumente/ChatGPT/AI Collusion Sprint/output/report-template-aligned/source/report-input.json",
-      "sha256": "a9a1fbbfaf1d6bf44a09cdde6472fbe1b53b6a78f7dc93314ff048720218326e"
-    },
-    "final_docx": {
-      "path": "/home/user/Dokumente/ChatGPT/AI Collusion Sprint/output/report-template-aligned/inherited-collusion-submission.docx",
-      "sha256": "dd923862a41701df70216d6dfb0ba32bdd2195ea112ac5d0f227addc87791c39"
-    },
-    "final_pdf": {
-      "path": "/home/user/Dokumente/ChatGPT/AI Collusion Sprint/output/report-template-aligned/inherited-collusion-submission.pdf",
-      "sha256": "f0536da99cfc818e1e67a9f493dd591effe07ac14c65adfb2c82fbd31d8dfa8e"
-    },
-    "content_mapping": {
-      "path": "/home/user/Dokumente/ChatGPT/AI Collusion Sprint/output/report-template-aligned/source/content-mapping.json",
-      "sha256": "7707b7896e2dee7611fe111e13c39f68baaa90fb59d1dcecc27e969aa1145226"
-    },
-    "template_docx_sha256": "09b19967687472e94f4a89e7510d9cd8d6da4692fb56f03fd2dc60148bd8417a"
+  "review_type": "Final scientific claims and data consistency; independent agent-assisted review, not independent human replication",
+  "reviewed_at": "2026-10-25T16:02:18.722917+00:00",
+  "reviewed_report_input_sha256": "b126fe52c7c74b895b50a39b71aaed52cf0d2c0187f385bdfb505b01d6253626",
+  "reviewed_content_sha256_excluding_ready_for_final": "bed373eedd3dcfe73b4b82ca9cf74ef8fa466d7e483e489c349d6a6741be7eed",
+  "permitted_followup_change": {
+    "field": "ready_for_final",
+    "from": false,
+    "to": true,
+    "all_other_source_fields": "must remain identical"
   },
-  "preservation": {
-    "mapped_block_instances": 129,
-    "unique_original_blocks_preserved": 128,
-    "only_removed_original_blocks": "Six main-section headings, replaced by personal-template headings.",
-    "all_original_scientific_prose_captions_and_appendices": "Verbatim equality verified by mapping, not just numerical similarity.",
-    "title_subtitle_author_affiliation_abstract": "Unchanged scientific content. Title is presented in uppercase in the DOCX as a template style.",
-    "all_scientific_table_payloads_preserved": 13,
-    "all_figure_content_bindings_preserved": 3,
-    "all_thirteen_scientific_tables_found_once_in_final_docx": true,
-    "all_three_figure_bytes_found_in_final_docx": true,
-    "every_source_paragraph_heading_and_caption_present_exactly_in_docx": true,
-    "abstract_present_exactly_in_docx": true,
-    "new_template_heading_set_present": true,
-    "template_guidance_or_author_placeholders_remaining": false
+  "abstract_words": 186,
+  "historical_claim_checks": 48,
+  "new_control_table_display_checks": 210,
+  "new_main_figure_raw_episode_checks": 66,
+  "new_main_figure_metric_checks": 462,
+  "raw_v7_failure_episodes_read": 3,
+  "raw_v7_role_final_answers_read": 6,
+  "all_historical_tables_and_figures_preserved": true,
+  "main_conclusions_supported": true,
+  "causal_and_population_limits_adequate": true,
+  "authorship_statement_supported_by_user_reply": true,
+  "unresolved_scientific_findings": [],
+  "resolved_precision_points": [
+    "Original paired-note contrast identified as prespecified orientation-specific contrast.",
+    "Structural intervention notes/matrix confound retained.",
+    "New conditional interaction distinguished from universal verification necessity.",
+    "Partial harm and joint-harm endpoints distinguished in main/appendix tables.",
+    "Three new failures explicitly clustered in two donor cases.",
+    "Point/finite-completion ranges distinguish five versus six GPT cases and are not confidence intervals.",
+    "Raw failure pattern described as observed action rather than internal mechanism.",
+    "Unused budget release includes rounding headroom.",
+    "Abstract uses valid episodes rather than ambiguous outputs."
+  ],
+  "input_checks": {
+    "historical-review.json": "f8840630c96e2036200efb8ce03df021ca883e4561a3862c848e424ea5afbde6",
+    "final-table-check.json": "45ddbb62a2651ca94a85418b803e2411685b3f5cda7d81e7aae23f1716f24676",
+    "closed-v7-review.json": "0c02bc8a6ff7e994050f0e9c99fdb6e5037964aa29bbf465c12035d60e6843b9",
+    "figure-raw-check.json": "14eb27136401b24e8b934d11e178c3dc8b48d03fd33d69b7e2ce6d3d38d75854"
   },
-  "substantive_additions": [
-    {
-      "section": "Code and Data",
-      "assessment": "Accurate restricted-access disclosure, with actual private repository URL and local archive availability. Does not claim a public release.",
-      "text": "Code, raw model responses, frozen protocols, analyses and report sources are retained in the private repository https://github.com/frnkptrln/inherited-collusion. Access is restricted; this is not a public data release. The complete local research archive and its offline reproduction checks remain available to the author.",
-      "repository_evidence": "repository-readonly-check.json; independent read-only GitHub repository visibility and committed import receipt plus local reproduction evidence."
-    },
-    {
-      "section": "LLM Usage Statement",
-      "assessment": "Repeats the already approved broad Codex assistance disclosure verbatim under the template heading. It explicitly distinguishes AI-assisted checks from independent human verification and does not invent author contributions.",
-      "existing_disclosure_preserved_in_appendix_C": true,
-      "end_disclosure_same_text": true
-    }
+  "remaining_non_scientific_gates": [
+    "Final DOCX/PDF render and all-page visual review",
+    "Final file hashes and private-repository publication verification"
   ],
-  "scientific_guards_retained": [
-    "Qwen three common harmful cases versus four available donor cases; +0.50 complete-case effect and [0.375,0.500] fixed-cohort completion range.",
-    "GPT-OSS six-case +0.625 effect; all119 valid V6 episodes have zero outsider loss and joint harm, including baseline; improvement remains a coordination result.",
-    "All16 contrast rows, legitimate controls, the Q303 invalid joint slot and the sole GPT tie-rule duplicate remain unchanged.",
-    "No confidence-interval, p-value, spontaneous-collusion, universal safeguard, recipient-capability ranking or independent-human-verification claim introduced.",
-    "V4/V4F overlap, amended versus strict populations, V5 joint task/note changes and V6 fresh fixed-input comparison remain explicit.",
-    "Reordering leaves table and figure numbers, cross-references, captions and appendix labels intact."
-  ],
-  "resolved_findings": [],
-  "unresolved_findings": [],
-  "repository_scope": {
-    "repository": "frnkptrln/inherited-collusion",
-    "visibility_independently_read": "private",
-    "read_commit": "e26a3c3b9f45e1f4e47e09b7389f6beb1d3a4ac0",
-    "committed_import_receipt_read": true,
-    "committed_import_receipt_matches_local": true,
-    "new_template_edition_remote_push": "Separate final operational step for root; not falsely claimed verified by this review."
-  },
-  "limitations": [
-    "This reviewer verifies scientific source and DOCX content, not all-page rendered typography. Visual review is handled separately by root, author and repository reviewer.",
-    "PASS is bound to the exact input/DOCX/PDF hashes above. Subsequent content changes require review of the differences.",
-    "Repository verification independently checks private visibility and the committed import receipt, not a second full download of every remote archive member."
-  ],
-  "new_model_calls": 0,
-  "remote_mutations": 0,
-  "modified_report_or_study_artifacts": false
+  "delta_review": {
+    "prior_review_sha256": "6b384754e03e1360de239321713340e14ab8730fdacd073c6084603dd6a8efac",
+    "prior_ready_source_sha256": "809ccf7fcfee160d2eadd327643b673a879fd89d27405dfcd1f00be9433f91bc",
+    "changes_verified": [
+      "Appendix I common-case baseline reference changed Figure1 to correct moved FigureI1",
+      "TableJ3 Cases header shortened to n, every value unchanged",
+      "Supplementary integrator source hash updated and matches saved integrate_v7_results.py",
+      "ready_for_final reset true to false for final rebuild"
+    ],
+    "all_other_source_fields_identical": true,
+    "prior_source_matches_previously_approved_content_digest": true,
+    "new_table_checks_repeated": 210,
+    "supplementary_integrator_sha256": "b8330d4cd8e1fa817580ca2e9ddbeaa0a0c21cd72f4e08eb3bc2672bf4de8663"
+  }
 }

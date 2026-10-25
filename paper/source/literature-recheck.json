@@ -1,0 +1,12 @@
+{
+  "retrieved_at": "2026-10-25T15:22:30.533791+00:00",
+  "primary_url": "https://arxiv.org/html/2610.04083v1",
+  "section": "V Discussion and Limitations",
+  "source_lines_read": [
+    249,
+    257
+  ],
+  "claim": "Das et al. discuss potential utility degradation from treating agent communications as untrusted and costs imposed by stronger safeguards on legitimate persistent state. This is prior conceptual discussion, not a new trade-off discovery claimed by this report.",
+  "use": "Related Work, reference [2]",
+  "quoted_words": 0
+}

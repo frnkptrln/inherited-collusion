@@ -1,19 +1,15 @@
 {
   "status": "PASS",
-  "baseline_sha256": "0c2de397b7cdc5d65bca42b3ea901a348f6a049f175af29f7866608d0e26a8ce",
-  "input_sha256": "a9a1fbbfaf1d6bf44a09cdde6472fbe1b53b6a78f7dc93314ff048720218326e",
-  "docx_sha256": "dd923862a41701df70216d6dfb0ba32bdd2195ea112ac5d0f227addc87791c39",
-  "mapped_blocks": 129,
-  "scientific_tables": 13,
-  "figures": 3,
-  "abstract_words": 194,
-  "unchanged_evidence_bindings": 32,
-  "only_changed_template_parts": [
-    "word/document.xml",
-    "word/_rels/document.xml.rels",
-    "[Content_Types].xml"
+  "scope": "Scientific payload and historical appendix preservation; main prose is intentionally rewritten and separately reviewed.",
+  "prior_input_sha256": "a9a1fbbfaf1d6bf44a09cdde6472fbe1b53b6a78f7dc93314ff048720218326e",
+  "input_sha256": "e3d48cb0ae3e38f60558528ddd056903c53b1f4ac873dc35beb1ac9633dd41bd",
+  "historical_table_payloads_preserved": 13,
+  "historical_figure_bytes_preserved": 3,
+  "historical_appendix_paragraphs_preserved": 61,
+  "historical_reference_corrections": [
+    "One Figure 1 reference corrected to Figure I1 after relocating the unchanged figure."
   ],
-  "all_mapped_prose_and_tables_unchanged": true,
-  "all_scientific_figure_bytes_unchanged": true,
-  "template_placeholders_absent": true
+  "unchanged_historical_evidence_bindings": 32,
+  "ready_for_final": true,
+  "docx_sha256": "a5b461d3435809d9f8ffdf1c89c8a71f26f4c039f0efcc71027cc4574964dbaf"
 }

@@ -9,28 +9,38 @@
   "added_parts": [
     "word/media/v4-figure-1.png",
     "word/media/v4-figure-2.png",
-    "word/media/v4-figure-3.png"
+    "word/media/v4-figure-3.png",
+    "word/media/v4-figure-4.png"
   ],
   "figures": [
     {
-      "path": "output/report-v6/figures/v6-safe-conventions.png",
-      "sha256": "9facead891c652c9b13d3b61ee2fe6eb256c326554227dadeb9f61209de8ca9b",
+      "path": "figures/handoff-diagnostic.png",
+      "root": "report",
+      "sha256": "94cf2ae95120e113eecf3eac04f5bd4b8f1829ec815c9865baff1776018ec62d",
       "part": "word/media/v4-figure-1.png"
     },
     {
       "path": "output/figures-v4-strict/v4-strict-intervention-outcomes.png",
+      "root": "research",
       "sha256": "c35cd629a060c09ef48d1211386b98f2a5215587bbf4bc859028606356ba8c9f",
       "part": "word/media/v4-figure-2.png"
     },
     {
       "path": "output/figures-v4f-amended/v4f-amended-intervention-outcomes.png",
+      "root": "research",
       "sha256": "3fc654b57c84417813da727357078b78aca093fb8bb117a380391d6c64f7742f",
       "part": "word/media/v4-figure-3.png"
+    },
+    {
+      "path": "output/report-v6/figures/v6-safe-conventions.png",
+      "root": "research",
+      "sha256": "9facead891c652c9b13d3b61ee2fe6eb256c326554227dadeb9f61209de8ca9b",
+      "part": "word/media/v4-figure-4.png"
     }
   ],
   "author": "Frank Peterlein",
   "development_evidence": [],
-  "abstract_words": 194,
+  "abstract_words": 186,
   "rendered": true,
   "evidence_inputs": [
     {
@@ -160,9 +170,29 @@
     {
       "path": "output/report-v6/figures/v6-safe-conventions.audit.json",
       "sha256": "1f9bf0c5e41cf1977ea759659c9dcd71beeee4e7aecb351326f63096fbcb7c34"
+    },
+    {
+      "path": "output/control-v7/analysis/v7-analysis.json",
+      "sha256": "56194c997902c8639b34371c82b7d7fe0041a49b4c6a701b53ef68df9ee6d4a0"
+    },
+    {
+      "path": "output/control-v7/analysis/independent-raw-check.json",
+      "sha256": "0dea5db96671ae0e98fd75bf4bb5a39cd81c8f57fa70fa91ddc575901dc48fd1"
+    },
+    {
+      "path": "output/control-v7/docs/v7-closeout-record.json",
+      "sha256": "c59fd0625805fe766b19f159c402beacb81944bd994cd7f74013d6d9fbf53157"
+    },
+    {
+      "path": "output/control-v7/docs/v7-protocol.json",
+      "sha256": "ba47ac60bb378faffd89c0ac8121bee7e7d67a7868afadda170d7d72dc1bc58c"
+    },
+    {
+      "path": "output/control-v7/docs/v7-freeze.json",
+      "sha256": "192fb6e11972b5fd3ff2eb774c029b260b02c2a7b0a6f63dac0946e8f93520e3"
     }
   ],
-  "phase": "Closed V6 fixed-handoff comparison with retained V4/V4F/V5 history",
+  "phase": "REVISED_HANDOFF_STUDY_WITH_CLOSED_FACTORIAL_CONTROL",
   "supplementary_inputs": [
     {
       "path": "baseline-evidence/baseline_diagnostic.py",
@@ -197,8 +227,28 @@
       "sha256": "d1e9b27221372fbc7bd0c31f3c7f950d39830c0bd67e4f96687872eae9fba262"
     },
     {
-      "path": "baseline-evidence/integrate_closed_results.py",
-      "sha256": "84f1045e6ecd51a49e642ae77c753bb4e210900ccc68ff80f428889faaf686c8"
+      "path": "verified-template-input.json",
+      "sha256": "a9a1fbbfaf1d6bf44a09cdde6472fbe1b53b6a78f7dc93314ff048720218326e"
+    },
+    {
+      "path": "plot_handoff_diagnostic.py",
+      "sha256": "b381b4f71adc81050635efd4d843fe46ce9ab31fb0f20bc65b342a9382a307cb"
+    },
+    {
+      "path": "historical-review/historical-review.json",
+      "sha256": "c873b2d45f000846396bdd0ee4527138c4b669127d534051b7a9223f7b7c5e99"
+    },
+    {
+      "path": "historical-review/figure-raw-check.json",
+      "sha256": "14eb27136401b24e8b934d11e178c3dc8b48d03fd33d69b7e2ce6d3d38d75854"
+    },
+    {
+      "path": "literature-recheck.json",
+      "sha256": "ed2c61c790415ddd41b06c2fb447eecfad898f9c4b33da453667fb86da131f44"
+    },
+    {
+      "path": "integrate_v7_results.py",
+      "sha256": "b8330d4cd8e1fa817580ca2e9ddbeaa0a0c21cd72f4e08eb3bc2672bf4de8663"
     }
   ],
   "posthoc_review": {
@@ -208,8 +258,8 @@
     "selection": "Original verification common cases in both modes, requiring both harmful facts-only draws; no outcome-value filtering",
     "strict_Qwen_exception": "facts 1/2 duplicate episodes; verified 2/2"
   },
-  "input_sha256": "a9a1fbbfaf1d6bf44a09cdde6472fbe1b53b6a78f7dc93314ff048720218326e",
-  "builder_sha256": "36854f98452adfb54c9da40cc0c54d438b6743576978fe62c85d3eebeb79ee39",
+  "input_sha256": "e3d48cb0ae3e38f60558528ddd056903c53b1f4ac873dc35beb1ac9633dd41bd",
+  "builder_sha256": "e1b42c3b71107ac42d3dde5ed94543abb97498f7c4483ddf9efc17110957e1da",
   "follow_up": {
     "status": "CLOSED; independent arithmetic checks passed",
     "planned_joint_episodes": 120,
@@ -253,45 +303,75 @@
       ]
     }
   },
-  "pdf": "inherited-collusion-submission.pdf",
-  "pages": 27,
+  "pdf": "inherited-collusion-revised.pdf",
+  "pages": 32,
   "main_pages": 7,
   "visual_review_required": false,
   "visual_review_status": "PASS",
-  "baseline_input_sha256": "0c2de397b7cdc5d65bca42b3ea901a348f6a049f175af29f7866608d0e26a8ce",
+  "finalized_at": "2026-10-25T16:07:09.239817+00:00",
+  "factorial_control": {
+    "status": "CLOSED; independent raw arithmetic PASS",
+    "planned_joint_episodes": 80,
+    "eligible_joint_episodes": 79,
+    "requests": 160,
+    "responses": 159,
+    "common_complete_cases": {
+      "qwen": [
+        301,
+        303,
+        304,
+        306
+      ],
+      "gptoss": [
+        301,
+        302,
+        303,
+        304,
+        305
+      ]
+    },
+    "all_arms_have_shared_rule": true,
+    "new_legitimate_note_arm": false,
+    "no_pooling_with_prior_studies": true,
+    "primary": "note_by_verification_interaction"
+  },
+  "publication_scope": "Scientific narrative revision and closed factorial control; private repository access restricted; all prior scientific table payloads and figure bytes retained. One historical figure cross-reference corrected after relocation.",
   "artifact_files": [
     {
-      "path": "inherited-collusion-submission.docx",
-      "sha256": "dd923862a41701df70216d6dfb0ba32bdd2195ea112ac5d0f227addc87791c39",
-      "bytes": 1151189
+      "path": "inherited-collusion-revised.docx",
+      "sha256": "a5b461d3435809d9f8ffdf1c89c8a71f26f4c039f0efcc71027cc4574964dbaf",
+      "bytes": 1312489
     },
     {
-      "path": "inherited-collusion-submission.pdf",
-      "sha256": "f0536da99cfc818e1e67a9f493dd591effe07ac14c65adfb2c82fbd31d8dfa8e",
-      "bytes": 1188882
+      "path": "inherited-collusion-revised.pdf",
+      "sha256": "393924c892be9dfb1d6bc5d2eb3cf5b79ec0304358ee9de85ae6745b73907d3d",
+      "bytes": 1521691
     }
   ],
   "final_reviews": [
     {
       "path": "source/content-review.json",
-      "sha256": "708836e07d88fde60f453581f1ec6eba728302191c5eb1b66fca8b90e9863b7c"
+      "sha256": "68f19b4a31d93bb1d8dd885a0372ed199a5341342f6c19c1fbc5d0400c3cd01e"
     },
     {
       "path": "source/visual-review.json",
-      "sha256": "5f0f3de1bf64d1cccadaae8ec1dc1b4a1d95f9b3e8abcc101f0a695a3bdbe3a7"
+      "sha256": "1ded1e9fb239b8d5f3e175a743bddba737bb4959ede376dbc2b46e3ce622f902"
     },
     {
       "path": "source/preservation-check.json",
-      "sha256": "324b42dd6811b31b84cba49a5cd509e3f755cf43d8cb42ae045d2fb9c6d92be7"
+      "sha256": "69ff0edc9f15ae3fb55acb8136eab621e606b07623ac08432ad0e5971f03b3c0"
     },
     {
       "path": "source/portable-rebuild.json",
-      "sha256": "fdaf0950bd044fe83953a4d36090593f3cd2dbf130fb1a65eb89d33f25186b1a"
+      "sha256": "1cda3f65ba43d08328387f71942c676a1fae07f57e2cf703a48aef698753db4c"
     },
     {
       "path": "source/font-audit.json",
-      "sha256": "57379a0a0e691295cc06ce95fae9e105e9913af2260bce59b249c1311bc217ae"
+      "sha256": "0957fe83ec6bc9d6338ca64c2cd14c28d2b07be78b75b82a8daa6b1e9bf879b8"
+    },
+    {
+      "path": "source/style-lint.json",
+      "sha256": "b417dcdcb7c685cfa9c2e6665410e1598937ad9399c0c25e11498ebdf0207558"
     }
-  ],
-  "publication_scope": "Formatting edition of verified V6; private repository access restricted; no new model calls or scientific values."
+  ]
 }

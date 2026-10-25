@@ -1,0 +1,12 @@
+{
+  "success": true,
+  "historical_conservative_exposure_usd": 12.374,
+  "phase_reserved_usd": 0.832,
+  "combined_conservative_ceiling_usd": 13.206,
+  "invoice_verified": false,
+  "basis": "Full original reservation retained for every historical dispatched request, including unresolved; only never-dispatched slots and unused headroom released.",
+  "source_reconciliation_sha256": "088dedbc6f6abdb2edd1b1f3e2fb5b2ea8e904a997b3646d80342aa8c6936d50",
+  "pricing_sha256": "bb463d2ad34114184eeb7f353ef4959dba6906fdfec5619f5b99e1c154dfcbbf",
+  "parent_budget_review_pending": false,
+  "parent_budget_review_passed": true
+}

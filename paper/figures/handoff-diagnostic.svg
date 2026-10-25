@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg
+  PUBLIC '-//W3C//DTD SVG 1.0//EN'
+  'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
+<svg width="468" height="323" preserveAspectRatio="xMinYMin meet" viewBox="0 0 468 323" xmlns="http://www.w3.org/2000/svg" version="1.0" fill-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<title>...</title>
+	<desc>...</desc>
+	<clipPath id="clip">
+		<rect x="0" y="0" width="468" height="323"/>
+	</clipPath>
+	<g id="group" transform="scale(1,-1) translate(0,-323)" style="clip-path: url(#clip)">
+		<g transform="">
+			<text x="34" y="303" style="font-family: ChartBold; font-size: 10px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,606) scale(1,-1)">Qwen3.6-35B-A3B</text>
+			<text x="34" y="289" style="font-family: Chart; font-size: 9px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,578) scale(1,-1)">Joint harmful allocation</text>
+			<text x="34" y="276" style="font-family: Chart; font-size: 8px;fill: rgb(21%,25%,31%); stroke:none;" transform="translate(0,552) scale(1,-1)">5 common cases; 10 episodes per arm</text>
+			<g transform="">
+				<path d="M 34,193 L 216,193 Z" style="stroke: rgb(89%,90%,92%); stroke-linecap: butt; stroke-width: 0.4;"/>
+				<path d="M 34,228 L 216,228 Z" style="stroke: rgb(89%,90%,92%); stroke-linecap: butt; stroke-width: 0.4;"/>
+				<path d="M 34,263 L 216,263 Z" style="stroke: rgb(89%,90%,92%); stroke-linecap: butt; stroke-width: 0.4;"/>
+				<g transform="">
+					<rect x="103.33333333333333" y="193.0" width="43.33333333333333" height="35.0" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(70%,32%,3%); fill-rule: evenodd;"/>
+					<g transform="">
+						<g transform=" matrix(1,0,0,1,64.333333,195)">
+							<text x="-8.982421875" y="1.5999999999999996" style="font-family: Chart; font-size: 8px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,3) scale(1,-1)">0/10</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,125,230)">
+							<text x="-8.982421875" y="1.5999999999999996" style="font-family: Chart; font-size: 8px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,3) scale(1,-1)">5/10</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,185.666667,195)">
+							<text x="-8.982421875" y="1.5999999999999996" style="font-family: Chart; font-size: 8px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,3) scale(1,-1)">0/10</text>
+						</g>
+					</g>
+				</g>
+				<g transform="">
+					<g transform="">
+						<path d="M 34,193 L 216,193 Z" style="stroke: rgb(61%,63%,68%); stroke-linecap: butt; stroke-width: 1;"/>
+					</g>
+					<g transform="">
+						<path d="M 34,193 L 34,188 Z" style="stroke: rgb(61%,63%,68%); stroke-linecap: butt; stroke-width: 1;"/>
+						<path d="M 94.666667,193 L 94.666667,188 Z" style="stroke: rgb(61%,63%,68%); stroke-linecap: butt; stroke-width: 1;"/>
+						<path d="M 155.333333,193 L 155.333333,188 Z" style="stroke: rgb(61%,63%,68%); stroke-linecap: butt; stroke-width: 1;"/>
+						<path d="M 216,193 L 216,188 Z" style="stroke: rgb(61%,63%,68%); stroke-linecap: butt; stroke-width: 1;"/>
+					</g>
+					<g transform="">
+						<g transform=" matrix(1,0,0,1,64.333333,189)">
+							<text x="-20.3359375" y="-8.0" style="font-family: Chart; font-size: 8px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-16) scale(1,-1)">Facts only</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,125,189)">
+							<text x="-21.662109375" y="-8.0" style="font-family: Chart; font-size: 8px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-16) scale(1,-1)">Both notes</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,185.666667,189)">
+							<text x="-28.806640625" y="-8.0" style="font-family: Chart; font-size: 8px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-16) scale(1,-1)">Notes + verify</text>
+						</g>
+					</g>
+				</g>
+				<g transform="">
+					<g transform="">
+						<path d="M 34,193 L 34,263 Z" style="stroke: rgb(61%,63%,68%); stroke-linecap: butt; stroke-width: 1;"/>
+					</g>
+					<g transform="">
+						<path d="M 34,193 L 29,193 Z" style="stroke: rgb(61%,63%,68%); stroke-linecap: butt; stroke-width: 1;"/>
+						<path d="M 34,228 L 29,228 Z" style="stroke: rgb(61%,63%,68%); stroke-linecap: butt; stroke-width: 1;"/>
+						<path d="M 34,263 L 29,263 Z" style="stroke: rgb(61%,63%,68%); stroke-linecap: butt; stroke-width: 1;"/>
+					</g>
+					<g transform="">
+						<g transform=" matrix(1,0,0,1,29,193)">
+							<text x="-12.69140625" y="-3.2" style="font-family: Chart; font-size: 8px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-6) scale(1,-1)">0%</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,29,228)">
+							<text x="-17.78125" y="-3.2" style="font-family: Chart; font-size: 8px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-6) scale(1,-1)">50%</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,29,263)">
+							<text x="-22.87109375" y="-3.2" style="font-family: Chart; font-size: 8px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-6) scale(1,-1)">100%</text>
+						</g>
+					</g>
+				</g>
+			</g>
+			<text x="268" y="303" style="font-family: ChartBold; font-size: 10px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,606) scale(1,-1)">Qwen3.6-35B-A3B</text>
+			<text x="268" y="289" style="font-family: Chart; font-size: 9px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,578) scale(1,-1)">Duplicate task claim</text>
+			<text x="268" y="276" style="font-family: Chart; font-size: 8px;fill: rgb(21%,25%,31%); stroke:none;" transform="translate(0,552) scale(1,-1)">5 common cases; 10 episodes per arm</text>
+			<g transform="">
+				<path d="M 268,193 L 450,193 Z" style="stroke: rgb(89%,90%,92%); stroke-linecap: butt; stroke-width: 0.4;"/>
+				<path d="M 268,228 L 450,228 Z" style="stroke: rgb(89%,90%,92%); stroke-linecap: butt; stroke-width: 0.4;"/>
+				<path d="M 268,263 L 450,263 Z" style="stroke: rgb(89%,90%,92%); stroke-linecap: butt; stroke-width: 0.4;"/>
+				<g transform="">
+					<rect x="276.6666666666667" y="193.0" width="43.333333333333314" height="35.0" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(39%,45%,54%); fill-rule: evenodd;"/>
+					<rect x="398.0" y="193.0" width="43.333333333333314" height="35.0" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(5%,46%,43%); fill-rule: evenodd;"/>
+					<g transform="">
+						<g transform=" matrix(1,0,0,1,298.333333,230)">
+							<text x="-8.982421875" y="1.5999999999999996" style="font-family: Chart; font-size: 8px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,3) scale(1,-1)">5/10</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,359,195)">
+							<text x="-8.982421875" y="1.5999999999999996" style="font-family: Chart; font-size: 8px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,3) scale(1,-1)">0/10</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,419.666667,230)">
+							<text x="-8.982421875" y="1.5999999999999996" style="font-family: Chart; font-size: 8px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,3) scale(1,-1)">5/10</text>
+						</g>
+					</g>
+				</g>
+				<g transform="">
+					<g transform="">
+						<path d="M 268,193 L 450,193 Z" style="stroke: rgb(61%,63%,68%); stroke-linecap: butt; stroke-width: 1;"/>
+					</g>
+					<g transform="">
+						<path d="M 268,193 L 268,188 Z" style="stroke: rgb(61%,63%,68%); stroke-linecap: butt; stroke-width: 1;"/>
+						<path d="M 328.666667,193 L 328.666667,188 Z" style="stroke: rgb(61%,63%,68%); stroke-linecap: butt; stroke-width: 1;"/>
+						<path d="M 389.333333,193 L 389.333333,188 Z" style="stroke: rgb(61%,63%,68%); stroke-linecap: butt; stroke-width: 1;"/>
+						<path d="M 450,193 L 450,188 Z" style="stroke: rgb(61%,63%,68%); stroke-linecap: butt; stroke-width: 1;"/>
+					</g>
+					<g transform="">
+						<g transform=" matrix(1,0,0,1,298.333333,189)">
+							<text x="-20.3359375" y="-8.0" style="font-family: Chart; font-size: 8px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-16) scale(1,-1)">Facts only</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,359,189)">
+							<text x="-21.662109375" y="-8.0" style="font-family: Chart; font-size: 8px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-16) scale(1,-1)">Both notes</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,419.666667,189)">
+							<text x="-28.806640625" y="-8.0" style="font-family: Chart; font-size: 8px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-16) scale(1,-1)">Notes + verify</text>
+						</g>
+					</g>
+				</g>
+				<g transform="">
+					<g transform="">
+						<path d="M 268,193 L 268,263 Z" style="stroke: rgb(61%,63%,68%); stroke-linecap: butt; stroke-width: 1;"/>
+					</g>
+					<g transform="">
+						<path d="M 268,193 L 263,193 Z" style="stroke: rgb(61%,63%,68%); stroke-linecap: butt; stroke-width: 1;"/>
+						<path d="M 268,228 L 263,228 Z" style="stroke: rgb(61%,63%,68%); stroke-linecap: butt; stroke-width: 1;"/>
+						<path d="M 268,263 L 263,263 Z" style="stroke: rgb(61%,63%,68%); stroke-linecap: butt; stroke-width: 1;"/>
+					</g>
+					<g transform="">
+						<g transform=" matrix(1,0,0,1,263,193)">
+							<text x="-12.69140625" y="-3.2" style="font-family: Chart; font-size: 8px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-6) scale(1,-1)">0%</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,263,228)">
+							<text x="-17.78125" y="-3.2" style="font-family: Chart; font-size: 8px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-6) scale(1,-1)">50%</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,263,263)">
+							<text x="-22.87109375" y="-3.2" style="font-family: Chart; font-size: 8px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-6) scale(1,-1)">100%</text>
+						</g>
+					</g>
+				</g>
+			</g>
+			<text x="34" y="160" style="font-family: ChartBold; font-size: 10px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,320) scale(1,-1)">GPT-OSS-120B</text>
+			<text x="34" y="146" style="font-family: Chart; font-size: 9px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,292) scale(1,-1)">Joint harmful allocation</text>
+			<text x="34" y="133" style="font-family: Chart; font-size: 8px;fill: rgb(21%,25%,31%); stroke:none;" transform="translate(0,266) scale(1,-1)">6 common cases; 12 episodes per arm</text>
+			<g transform="">
+				<path d="M 34,50 L 216,50 Z" style="stroke: rgb(89%,90%,92%); stroke-linecap: butt; stroke-width: 0.4;"/>
+				<path d="M 34,85 L 216,85 Z" style="stroke: rgb(89%,90%,92%); stroke-linecap: butt; stroke-width: 0.4;"/>
+				<path d="M 34,120 L 216,120 Z" style="stroke: rgb(89%,90%,92%); stroke-linecap: butt; stroke-width: 0.4;"/>
+				<g transform="">
+					<rect x="103.33333333333333" y="50.0" width="43.33333333333333" height="29.16666666666667" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(70%,32%,3%); fill-rule: evenodd;"/>
+					<g transform="">
+						<g transform=" matrix(1,0,0,1,64.333333,52)">
+							<text x="-8.982421875" y="1.5999999999999996" style="font-family: Chart; font-size: 8px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,3) scale(1,-1)">0/12</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,125,81.166667)">
+							<text x="-8.982421875" y="1.5999999999999996" style="font-family: Chart; font-size: 8px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,3) scale(1,-1)">5/12</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,185.666667,52)">
+							<text x="-8.982421875" y="1.5999999999999996" style="font-family: Chart; font-size: 8px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,3) scale(1,-1)">0/12</text>
+						</g>
+					</g>
+				</g>
+				<g transform="">
+					<g transform="">
+						<path d="M 34,50 L 216,50 Z" style="stroke: rgb(61%,63%,68%); stroke-linecap: butt; stroke-width: 1;"/>
+					</g>
+					<g transform="">
+						<path d="M 34,50 L 34,45 Z" style="stroke: rgb(61%,63%,68%); stroke-linecap: butt; stroke-width: 1;"/>
+						<path d="M 94.666667,50 L 94.666667,45 Z" style="stroke: rgb(61%,63%,68%); stroke-linecap: butt; stroke-width: 1;"/>
+						<path d="M 155.333333,50 L 155.333333,45 Z" style="stroke: rgb(61%,63%,68%); stroke-linecap: butt; stroke-width: 1;"/>
+						<path d="M 216,50 L 216,45 Z" style="stroke: rgb(61%,63%,68%); stroke-linecap: butt; stroke-width: 1;"/>
+					</g>
+					<g transform="">
+						<g transform=" matrix(1,0,0,1,64.333333,46)">
+							<text x="-20.3359375" y="-8.0" style="font-family: Chart; font-size: 8px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-16) scale(1,-1)">Facts only</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,125,46)">
+							<text x="-21.662109375" y="-8.0" style="font-family: Chart; font-size: 8px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-16) scale(1,-1)">Both notes</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,185.666667,46)">
+							<text x="-28.806640625" y="-8.0" style="font-family: Chart; font-size: 8px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-16) scale(1,-1)">Notes + verify</text>
+						</g>
+					</g>
+				</g>
+				<g transform="">
+					<g transform="">
+						<path d="M 34,50 L 34,120 Z" style="stroke: rgb(61%,63%,68%); stroke-linecap: butt; stroke-width: 1;"/>
+					</g>
+					<g transform="">
+						<path d="M 34,50 L 29,50 Z" style="stroke: rgb(61%,63%,68%); stroke-linecap: butt; stroke-width: 1;"/>
+						<path d="M 34,85 L 29,85 Z" style="stroke: rgb(61%,63%,68%); stroke-linecap: butt; stroke-width: 1;"/>
+						<path d="M 34,120 L 29,120 Z" style="stroke: rgb(61%,63%,68%); stroke-linecap: butt; stroke-width: 1;"/>
+					</g>
+					<g transform="">
+						<g transform=" matrix(1,0,0,1,29,50)">
+							<text x="-12.69140625" y="-3.2" style="font-family: Chart; font-size: 8px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-6) scale(1,-1)">0%</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,29,85)">
+							<text x="-17.78125" y="-3.2" style="font-family: Chart; font-size: 8px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-6) scale(1,-1)">50%</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,29,120)">
+							<text x="-22.87109375" y="-3.2" style="font-family: Chart; font-size: 8px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-6) scale(1,-1)">100%</text>
+						</g>
+					</g>
+				</g>
+			</g>
+			<text x="268" y="160" style="font-family: ChartBold; font-size: 10px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,320) scale(1,-1)">GPT-OSS-120B</text>
+			<text x="268" y="146" style="font-family: Chart; font-size: 9px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,292) scale(1,-1)">Duplicate task claim</text>
+			<text x="268" y="133" style="font-family: Chart; font-size: 8px;fill: rgb(21%,25%,31%); stroke:none;" transform="translate(0,266) scale(1,-1)">6 common cases; 12 episodes per arm</text>
+			<g transform="">
+				<path d="M 268,50 L 450,50 Z" style="stroke: rgb(89%,90%,92%); stroke-linecap: butt; stroke-width: 0.4;"/>
+				<path d="M 268,85 L 450,85 Z" style="stroke: rgb(89%,90%,92%); stroke-linecap: butt; stroke-width: 0.4;"/>
+				<path d="M 268,120 L 450,120 Z" style="stroke: rgb(89%,90%,92%); stroke-linecap: butt; stroke-width: 0.4;"/>
+				<g transform="">
+					<rect x="276.6666666666667" y="50.0" width="43.333333333333314" height="35.0" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(39%,45%,54%); fill-rule: evenodd;"/>
+					<rect x="398.0" y="50.0" width="43.333333333333314" height="35.0" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(5%,46%,43%); fill-rule: evenodd;"/>
+					<g transform="">
+						<g transform=" matrix(1,0,0,1,298.333333,87)">
+							<text x="-8.982421875" y="1.5999999999999996" style="font-family: Chart; font-size: 8px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,3) scale(1,-1)">6/12</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,359,52)">
+							<text x="-8.982421875" y="1.5999999999999996" style="font-family: Chart; font-size: 8px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,3) scale(1,-1)">0/12</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,419.666667,87)">
+							<text x="-8.982421875" y="1.5999999999999996" style="font-family: Chart; font-size: 8px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,3) scale(1,-1)">6/12</text>
+						</g>
+					</g>
+				</g>
+				<g transform="">
+					<g transform="">
+						<path d="M 268,50 L 450,50 Z" style="stroke: rgb(61%,63%,68%); stroke-linecap: butt; stroke-width: 1;"/>
+					</g>
+					<g transform="">
+						<path d="M 268,50 L 268,45 Z" style="stroke: rgb(61%,63%,68%); stroke-linecap: butt; stroke-width: 1;"/>
+						<path d="M 328.666667,50 L 328.666667,45 Z" style="stroke: rgb(61%,63%,68%); stroke-linecap: butt; stroke-width: 1;"/>
+						<path d="M 389.333333,50 L 389.333333,45 Z" style="stroke: rgb(61%,63%,68%); stroke-linecap: butt; stroke-width: 1;"/>
+						<path d="M 450,50 L 450,45 Z" style="stroke: rgb(61%,63%,68%); stroke-linecap: butt; stroke-width: 1;"/>
+					</g>
+					<g transform="">
+						<g transform=" matrix(1,0,0,1,298.333333,46)">
+							<text x="-20.3359375" y="-8.0" style="font-family: Chart; font-size: 8px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-16) scale(1,-1)">Facts only</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,359,46)">
+							<text x="-21.662109375" y="-8.0" style="font-family: Chart; font-size: 8px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-16) scale(1,-1)">Both notes</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,419.666667,46)">
+							<text x="-28.806640625" y="-8.0" style="font-family: Chart; font-size: 8px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-16) scale(1,-1)">Notes + verify</text>
+						</g>
+					</g>
+				</g>
+				<g transform="">
+					<g transform="">
+						<path d="M 268,50 L 268,120 Z" style="stroke: rgb(61%,63%,68%); stroke-linecap: butt; stroke-width: 1;"/>
+					</g>
+					<g transform="">
+						<path d="M 268,50 L 263,50 Z" style="stroke: rgb(61%,63%,68%); stroke-linecap: butt; stroke-width: 1;"/>
+						<path d="M 268,85 L 263,85 Z" style="stroke: rgb(61%,63%,68%); stroke-linecap: butt; stroke-width: 1;"/>
+						<path d="M 268,120 L 263,120 Z" style="stroke: rgb(61%,63%,68%); stroke-linecap: butt; stroke-width: 1;"/>
+					</g>
+					<g transform="">
+						<g transform=" matrix(1,0,0,1,263,50)">
+							<text x="-12.69140625" y="-3.2" style="font-family: Chart; font-size: 8px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-6) scale(1,-1)">0%</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,263,85)">
+							<text x="-17.78125" y="-3.2" style="font-family: Chart; font-size: 8px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-6) scale(1,-1)">50%</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,263,120)">
+							<text x="-22.87109375" y="-3.2" style="font-family: Chart; font-size: 8px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-6) scale(1,-1)">100%</text>
+						</g>
+					</g>
+				</g>
+			</g>
+			<text x="0" y="17" style="font-family: Chart; font-size: 8px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,34) scale(1,-1)">Post-hoc common-case diagnostic from the format-expanded handoff audit.</text>
+			<text x="0" y="5" style="font-family: Chart; font-size: 8px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,10) scale(1,-1)">Two draws per case. Labels give events / valid episodes in this common-case subset.</text>
+		</g>
+	</g>
+</svg>

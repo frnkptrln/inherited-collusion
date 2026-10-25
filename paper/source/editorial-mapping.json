@@ -1,0 +1,556 @@
+{
+  "prior_template_input_sha256": "a9a1fbbfaf1d6bf44a09cdde6472fbe1b53b6a78f7dc93314ff048720218326e",
+  "retained_blocks": [
+    {
+      "prior_block": 22,
+      "new_block": 20,
+      "changes": {}
+    },
+    {
+      "prior_block": 26,
+      "new_block": 23,
+      "changes": {}
+    },
+    {
+      "prior_block": 33,
+      "new_block": 32,
+      "changes": {}
+    },
+    {
+      "prior_block": 34,
+      "new_block": 33,
+      "changes": {}
+    },
+    {
+      "prior_block": 35,
+      "new_block": 34,
+      "changes": {}
+    },
+    {
+      "prior_block": 36,
+      "new_block": 35,
+      "changes": {}
+    },
+    {
+      "prior_block": 37,
+      "new_block": 36,
+      "changes": {}
+    },
+    {
+      "prior_block": 38,
+      "new_block": 37,
+      "changes": {}
+    },
+    {
+      "prior_block": 39,
+      "new_block": 38,
+      "changes": {}
+    },
+    {
+      "prior_block": 40,
+      "new_block": 39,
+      "changes": {}
+    },
+    {
+      "prior_block": 41,
+      "new_block": 40,
+      "changes": {}
+    },
+    {
+      "prior_block": 42,
+      "new_block": 41,
+      "changes": {}
+    },
+    {
+      "prior_block": 43,
+      "new_block": 42,
+      "changes": {}
+    },
+    {
+      "prior_block": 44,
+      "new_block": 43,
+      "changes": {}
+    },
+    {
+      "prior_block": 45,
+      "new_block": 44,
+      "changes": {}
+    },
+    {
+      "prior_block": 46,
+      "new_block": 45,
+      "changes": {}
+    },
+    {
+      "prior_block": 47,
+      "new_block": 46,
+      "changes": {}
+    },
+    {
+      "prior_block": 48,
+      "new_block": 47,
+      "changes": {}
+    },
+    {
+      "prior_block": 49,
+      "new_block": 49,
+      "changes": {}
+    },
+    {
+      "prior_block": 50,
+      "new_block": 50,
+      "changes": {}
+    },
+    {
+      "prior_block": 51,
+      "new_block": 51,
+      "changes": {}
+    },
+    {
+      "prior_block": 52,
+      "new_block": 52,
+      "changes": {}
+    },
+    {
+      "prior_block": 53,
+      "new_block": 53,
+      "changes": {}
+    },
+    {
+      "prior_block": 54,
+      "new_block": 54,
+      "changes": {}
+    },
+    {
+      "prior_block": 55,
+      "new_block": 55,
+      "changes": {}
+    },
+    {
+      "prior_block": 56,
+      "new_block": 56,
+      "changes": {}
+    },
+    {
+      "prior_block": 57,
+      "new_block": 57,
+      "changes": {}
+    },
+    {
+      "prior_block": 58,
+      "new_block": 58,
+      "changes": {}
+    },
+    {
+      "prior_block": 59,
+      "new_block": 59,
+      "changes": {}
+    },
+    {
+      "prior_block": 60,
+      "new_block": 60,
+      "changes": {}
+    },
+    {
+      "prior_block": 61,
+      "new_block": 61,
+      "changes": {}
+    },
+    {
+      "prior_block": 62,
+      "new_block": 62,
+      "changes": {}
+    },
+    {
+      "prior_block": 63,
+      "new_block": 63,
+      "changes": {}
+    },
+    {
+      "prior_block": 64,
+      "new_block": 64,
+      "changes": {}
+    },
+    {
+      "prior_block": 65,
+      "new_block": 65,
+      "changes": {}
+    },
+    {
+      "prior_block": 66,
+      "new_block": 66,
+      "changes": {}
+    },
+    {
+      "prior_block": 67,
+      "new_block": 67,
+      "changes": {}
+    },
+    {
+      "prior_block": 68,
+      "new_block": 68,
+      "changes": {}
+    },
+    {
+      "prior_block": 69,
+      "new_block": 69,
+      "changes": {}
+    },
+    {
+      "prior_block": 70,
+      "new_block": 70,
+      "changes": {}
+    },
+    {
+      "prior_block": 71,
+      "new_block": 71,
+      "changes": {}
+    },
+    {
+      "prior_block": 72,
+      "new_block": 72,
+      "changes": {}
+    },
+    {
+      "prior_block": 73,
+      "new_block": 73,
+      "changes": {}
+    },
+    {
+      "prior_block": 74,
+      "new_block": 74,
+      "changes": {}
+    },
+    {
+      "prior_block": 75,
+      "new_block": 75,
+      "changes": {}
+    },
+    {
+      "prior_block": 76,
+      "new_block": 76,
+      "changes": {}
+    },
+    {
+      "prior_block": 77,
+      "new_block": 77,
+      "changes": {}
+    },
+    {
+      "prior_block": 78,
+      "new_block": 78,
+      "changes": {}
+    },
+    {
+      "prior_block": 79,
+      "new_block": 79,
+      "changes": {}
+    },
+    {
+      "prior_block": 80,
+      "new_block": 80,
+      "changes": {}
+    },
+    {
+      "prior_block": 81,
+      "new_block": 81,
+      "changes": {}
+    },
+    {
+      "prior_block": 82,
+      "new_block": 82,
+      "changes": {}
+    },
+    {
+      "prior_block": 83,
+      "new_block": 83,
+      "changes": {}
+    },
+    {
+      "prior_block": 84,
+      "new_block": 84,
+      "changes": {}
+    },
+    {
+      "prior_block": 85,
+      "new_block": 85,
+      "changes": {}
+    },
+    {
+      "prior_block": 86,
+      "new_block": 86,
+      "changes": {}
+    },
+    {
+      "prior_block": 87,
+      "new_block": 87,
+      "changes": {}
+    },
+    {
+      "prior_block": 88,
+      "new_block": 88,
+      "changes": {}
+    },
+    {
+      "prior_block": 89,
+      "new_block": 89,
+      "changes": {}
+    },
+    {
+      "prior_block": 90,
+      "new_block": 90,
+      "changes": {}
+    },
+    {
+      "prior_block": 91,
+      "new_block": 91,
+      "changes": {}
+    },
+    {
+      "prior_block": 92,
+      "new_block": 92,
+      "changes": {}
+    },
+    {
+      "prior_block": 93,
+      "new_block": 93,
+      "changes": {}
+    },
+    {
+      "prior_block": 94,
+      "new_block": 94,
+      "changes": {}
+    },
+    {
+      "prior_block": 95,
+      "new_block": 95,
+      "changes": {}
+    },
+    {
+      "prior_block": 96,
+      "new_block": 96,
+      "changes": {}
+    },
+    {
+      "prior_block": 97,
+      "new_block": 97,
+      "changes": {}
+    },
+    {
+      "prior_block": 98,
+      "new_block": 98,
+      "changes": {}
+    },
+    {
+      "prior_block": 18,
+      "new_block": 100,
+      "changes": {}
+    },
+    {
+      "prior_block": 99,
+      "new_block": 101,
+      "changes": {}
+    },
+    {
+      "prior_block": 100,
+      "new_block": 102,
+      "changes": {}
+    },
+    {
+      "prior_block": 101,
+      "new_block": 103,
+      "changes": {}
+    },
+    {
+      "prior_block": 102,
+      "new_block": 104,
+      "changes": {}
+    },
+    {
+      "prior_block": 103,
+      "new_block": 105,
+      "changes": {}
+    },
+    {
+      "prior_block": 104,
+      "new_block": 106,
+      "changes": {}
+    },
+    {
+      "prior_block": 105,
+      "new_block": 107,
+      "changes": {}
+    },
+    {
+      "prior_block": 106,
+      "new_block": 108,
+      "changes": {}
+    },
+    {
+      "prior_block": 107,
+      "new_block": 109,
+      "changes": {}
+    },
+    {
+      "prior_block": 108,
+      "new_block": 110,
+      "changes": {}
+    },
+    {
+      "prior_block": 109,
+      "new_block": 111,
+      "changes": {}
+    },
+    {
+      "prior_block": 110,
+      "new_block": 112,
+      "changes": {}
+    },
+    {
+      "prior_block": 111,
+      "new_block": 113,
+      "changes": {}
+    },
+    {
+      "prior_block": 112,
+      "new_block": 114,
+      "changes": {}
+    },
+    {
+      "prior_block": 113,
+      "new_block": 115,
+      "changes": {}
+    },
+    {
+      "prior_block": 114,
+      "new_block": 116,
+      "changes": {}
+    },
+    {
+      "prior_block": 115,
+      "new_block": 117,
+      "changes": {}
+    },
+    {
+      "prior_block": 116,
+      "new_block": 118,
+      "changes": {}
+    },
+    {
+      "prior_block": 117,
+      "new_block": 119,
+      "changes": {}
+    },
+    {
+      "prior_block": 118,
+      "new_block": 120,
+      "changes": {}
+    },
+    {
+      "prior_block": 119,
+      "new_block": 121,
+      "changes": {}
+    },
+    {
+      "prior_block": 120,
+      "new_block": 122,
+      "changes": {}
+    },
+    {
+      "prior_block": 24,
+      "new_block": 123,
+      "changes": {
+        "caption_number": "Figure I1"
+      }
+    },
+    {
+      "prior_block": 121,
+      "new_block": 124,
+      "changes": {}
+    },
+    {
+      "prior_block": 122,
+      "new_block": 125,
+      "changes": {}
+    },
+    {
+      "prior_block": 123,
+      "new_block": 126,
+      "changes": {}
+    },
+    {
+      "prior_block": 124,
+      "new_block": 127,
+      "changes": {}
+    },
+    {
+      "prior_block": 125,
+      "new_block": 128,
+      "changes": {}
+    },
+    {
+      "prior_block": 126,
+      "new_block": 129,
+      "changes": {}
+    },
+    {
+      "prior_block": 127,
+      "new_block": 130,
+      "changes": {}
+    },
+    {
+      "prior_block": 128,
+      "new_block": 131,
+      "changes": {}
+    },
+    {
+      "prior_block": 129,
+      "new_block": 132,
+      "changes": {}
+    },
+    {
+      "prior_block": 130,
+      "new_block": 133,
+      "changes": {}
+    },
+    {
+      "prior_block": 131,
+      "new_block": 134,
+      "changes": {}
+    },
+    {
+      "prior_block": 132,
+      "new_block": 135,
+      "changes": {}
+    },
+    {
+      "prior_block": 133,
+      "new_block": 136,
+      "changes": {}
+    },
+    {
+      "prior_block": 134,
+      "new_block": 137,
+      "changes": {}
+    },
+    {
+      "prior_block": 135,
+      "new_block": 138,
+      "changes": {}
+    },
+    {
+      "prior_block": 136,
+      "new_block": 141,
+      "changes": {}
+    }
+  ],
+  "historical_table_payloads": 13,
+  "historical_figures": 3,
+  "new_figure": "Saved post-hoc common-case diagnostic",
+  "main_text_rewritten": true,
+  "pending_control": false,
+  "new_factorial_control": {
+    "analysis_sha256": "56194c997902c8639b34371c82b7d7fe0041a49b4c6a701b53ef68df9ee6d4a0",
+    "source": "Fresh, closed V7; all prior historical payloads preserved"
+  }
+}

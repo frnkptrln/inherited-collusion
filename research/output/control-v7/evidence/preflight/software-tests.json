@@ -1,0 +1,28 @@
+{
+  "success": true,
+  "checked_at": "2026-10-25T15:13:07.184352+00:00",
+  "command": "/home/user/projects/collusion-sprint/.venv/bin/python -B -m unittest discover -s output/control-v7/tests -v",
+  "tests_run": 11,
+  "tests_passed": 11,
+  "seconds": 3.74,
+  "paid_calls": 0,
+  "evidence_class": "SOFTWARE_TEST_ONLY_NOT_MODEL_EVIDENCE",
+  "covered": [
+    "Exact note omission and exact reminder omission while other prompt bytes are equal",
+    "No note text leaking into absent-note prompts",
+    "All80 episodes/160calls and .832 reserved cap",
+    "Opposite role order across fixed directions",
+    "Safe-optimal and direction-specific adherence differ correctly",
+    "Persistent request/response resume and idempotency",
+    "No replay after ambiguous dispatch",
+    "Schema failure retained and stops case",
+    "80-episode mock analysis and missing-case logical bounds",
+    "Dispatch blocked without parent-approved freeze",
+    "Signed primary factorial interaction weights",
+    "HF client construction and request kwargs never include software-test oracle target or audit metadata",
+    "Schema-failed re-invocation never adds new draws",
+    "Dispatcher --max-parallel5 rejects before any dispatch with code2 (separate CLI check)"
+  ],
+  "source_hash": "53d6289802d6aa800e843dd9a1c1b75ab1828e2b295060f61bd8a069345fb5f9",
+  "test_sha256": "cf99d9f62aea889d1cd4f3664700d58568ee98d26a335c0213fe4ce31adbd83b"
+}

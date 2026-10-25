@@ -1,0 +1,12 @@
+{
+  "checked_at": "2026-10-25T15:07:35.130708+00:00",
+  "authenticated_user_frnk": true,
+  "job_count": 47,
+  "job_status_counts": {
+    "COMPLETED": 35,
+    "ERROR": 10,
+    "CANCELED": 2
+  },
+  "jobs_started": 0,
+  "tokens_recorded": false
+}

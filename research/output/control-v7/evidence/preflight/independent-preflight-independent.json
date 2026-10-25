@@ -1,0 +1,1316 @@
+{
+  "status": "PASS",
+  "independent_arithmetic": "fractions; no runner/scorer/analyzer imports",
+  "preflight": true,
+  "software_test_only": false,
+  "expected_requests": 160,
+  "requests": 0,
+  "responses": 0,
+  "eligible_joint_episodes": 0,
+  "invalid_or_unresolved_calls": [],
+  "input_sha256": {
+    "inputs/v5/qwen-301/checkpoint.json": "ff8a670c58cc946a448928505061b2931e20ae3304a9ef6ef14b45df632862e1",
+    "inputs/v5/qwen-301/donor-harmful.json": "6deae450d49b78769a2407afc9fd9f29146e9f734dc8f76805483569446fbdc2",
+    "inputs/v5/qwen-303/checkpoint.json": "defb7580386255eff7567fe843530443b1eb8e57e029108846fe460042cf8cd6",
+    "inputs/v5/qwen-303/donor-harmful.json": "cafb94fa2d215ff181cb76d683ff2cc368b4f39ee9914ac63f817b2bc541b2bc",
+    "inputs/v5/qwen-304/checkpoint.json": "68a3b0cb3731201a4161a6ac8f2c4350a7159a26a4b2b4bab785a6a3999ecd1f",
+    "inputs/v5/qwen-304/donor-harmful.json": "17fa9515e572d6130af53a2f3801a3949e1599a54f6afd78a2a0f1d32a233c38",
+    "inputs/v5/qwen-306/checkpoint.json": "9ed7ef0e2012422dd9799d4a0d6a25833886cb4c5f7a3dc2539edc4b5697b561",
+    "inputs/v5/qwen-306/donor-harmful.json": "30f38fa84c123b6e5cbc0e929cc7f4663eb99589640361065a200a3ea74eae21",
+    "inputs/v5/gptoss-301/checkpoint.json": "ff8a670c58cc946a448928505061b2931e20ae3304a9ef6ef14b45df632862e1",
+    "inputs/v5/gptoss-301/donor-harmful.json": "510e059a928ee416056f91560bfd457c86cc869cda9406c4d17dc0ff562c4459",
+    "inputs/v5/gptoss-302/checkpoint.json": "ebff4163c5d00e7e5b9fda7f54a1f0dbf3c39a60138873c457ed639a9450d7a4",
+    "inputs/v5/gptoss-302/donor-harmful.json": "8bc3b5f549a0543d28579a39667f3e2e8c1f4d8ed9c17f4e753568f31fcc9027",
+    "inputs/v5/gptoss-303/checkpoint.json": "defb7580386255eff7567fe843530443b1eb8e57e029108846fe460042cf8cd6",
+    "inputs/v5/gptoss-303/donor-harmful.json": "9fa39287260b01d1595a92461dfe97675aebe5679371064c5a6625c1fb6e0722",
+    "inputs/v5/gptoss-304/checkpoint.json": "68a3b0cb3731201a4161a6ac8f2c4350a7159a26a4b2b4bab785a6a3999ecd1f",
+    "inputs/v5/gptoss-304/donor-harmful.json": "764c4fa4f2ba76f5141ed948141f4179db67ade498e746bfa74730a9408b8f8f",
+    "inputs/v5/gptoss-305/checkpoint.json": "a29b957d1dcf5e7dda38723c2a0d8ea613d5227af5972052f730cf0b2b8aad08",
+    "inputs/v5/gptoss-305/donor-harmful.json": "5ca7c978b89a3baa75ab3ca2bd4dd3de680059c21497ed981bd21f6b28651cfd",
+    "inputs/v5/gptoss-306/checkpoint.json": "9ed7ef0e2012422dd9799d4a0d6a25833886cb4c5f7a3dc2539edc4b5697b561",
+    "inputs/v5/gptoss-306/donor-harmful.json": "13709851178240ce3e518a3605df95f38bc82291390101b944d3e18ac4cc7ece"
+  },
+  "expected_prompt_hashes": [
+    {
+      "alias": "qwen",
+      "seed": 301,
+      "arm": "absent_unverified",
+      "direction": "first",
+      "role": "A",
+      "sha256": "1fae3aa997bd938a1a7dc4989691a51374dd6eeeab40375a0eb73cbbe9ffaa9e"
+    },
+    {
+      "alias": "qwen",
+      "seed": 301,
+      "arm": "absent_unverified",
+      "direction": "first",
+      "role": "B",
+      "sha256": "fd70f5ca4c621b11c7ae60af9491b5ec7d1e039e4defe7bb8c43eb1ba27a5edf"
+    },
+    {
+      "alias": "qwen",
+      "seed": 301,
+      "arm": "absent_unverified",
+      "direction": "last",
+      "role": "A",
+      "sha256": "b7823893e9e5f9f75e2c51f23206786ce2db377169f40d65ffd63c8791ad4fc9"
+    },
+    {
+      "alias": "qwen",
+      "seed": 301,
+      "arm": "absent_unverified",
+      "direction": "last",
+      "role": "B",
+      "sha256": "e1a6f1e615af70ce7b48888e59f3f29749ce85fcca295ff802ad5854ff23b4a1"
+    },
+    {
+      "alias": "qwen",
+      "seed": 301,
+      "arm": "absent_verified",
+      "direction": "first",
+      "role": "A",
+      "sha256": "8d877d454ff61cb3f636f2080db371c549983693f88af21bc37d2baa77039b3f"
+    },
+    {
+      "alias": "qwen",
+      "seed": 301,
+      "arm": "absent_verified",
+      "direction": "first",
+      "role": "B",
+      "sha256": "19f3c01845bb0315a60d4c54e6a7cc04e1357cbb9ae34da9e962147396596c0d"
+    },
+    {
+      "alias": "qwen",
+      "seed": 301,
+      "arm": "absent_verified",
+      "direction": "last",
+      "role": "A",
+      "sha256": "881dbc932a551ec018d05a73f34d278e040c85cdfd25b8fa8a111ffe8183bf03"
+    },
+    {
+      "alias": "qwen",
+      "seed": 301,
+      "arm": "absent_verified",
+      "direction": "last",
+      "role": "B",
+      "sha256": "5f0de1d873acb82ee32a7ab6f86bbb64bf68f6b7be21428146f301a79dc866b6"
+    },
+    {
+      "alias": "qwen",
+      "seed": 301,
+      "arm": "harmful_unverified",
+      "direction": "first",
+      "role": "A",
+      "sha256": "b0587143d149bf602eb90110392db07f1985fa2bfe9b4e8bb8f9fcf6ca94de6d"
+    },
+    {
+      "alias": "qwen",
+      "seed": 301,
+      "arm": "harmful_unverified",
+      "direction": "first",
+      "role": "B",
+      "sha256": "aec4fbd46e36d3e838f2b5257d2abd9b840138f4c37c4eb9b97797c5741ffba8"
+    },
+    {
+      "alias": "qwen",
+      "seed": 301,
+      "arm": "harmful_unverified",
+      "direction": "last",
+      "role": "A",
+      "sha256": "f8d5edf022f1bed580d2e964046f5b3d50aa611cc683cc395c7598f3f8b5f4f7"
+    },
+    {
+      "alias": "qwen",
+      "seed": 301,
+      "arm": "harmful_unverified",
+      "direction": "last",
+      "role": "B",
+      "sha256": "47bbc634a8dedb6b1733f1a46cad4af5e142db5b69681da19a424d8b7c1cd264"
+    },
+    {
+      "alias": "qwen",
+      "seed": 301,
+      "arm": "harmful_verified",
+      "direction": "first",
+      "role": "A",
+      "sha256": "c96d23483e76a69ed26821c010a614499a5668c97926097350036fa573fdd834"
+    },
+    {
+      "alias": "qwen",
+      "seed": 301,
+      "arm": "harmful_verified",
+      "direction": "first",
+      "role": "B",
+      "sha256": "be37358e8feea525f49232132aa372995ce9d342e7f6dc8ef8144530addb0e3e"
+    },
+    {
+      "alias": "qwen",
+      "seed": 301,
+      "arm": "harmful_verified",
+      "direction": "last",
+      "role": "A",
+      "sha256": "5ef800648faadf92d2e9b3960832927cd81e3de54ae19a10f85e89abdcdcfb6a"
+    },
+    {
+      "alias": "qwen",
+      "seed": 301,
+      "arm": "harmful_verified",
+      "direction": "last",
+      "role": "B",
+      "sha256": "336a7f5b2a7d3ed40dc278508d9f4e8be3d2a13dc6abe227e233fb463086a1cb"
+    },
+    {
+      "alias": "qwen",
+      "seed": 303,
+      "arm": "absent_unverified",
+      "direction": "first",
+      "role": "A",
+      "sha256": "55b5b4da756f1226367fe0f1a427d814df4a015b2643d40581745c4fe2e38713"
+    },
+    {
+      "alias": "qwen",
+      "seed": 303,
+      "arm": "absent_unverified",
+      "direction": "first",
+      "role": "B",
+      "sha256": "f070826293062f59f2722a16b642f3029f48ab9b328a100ee74138784d6ea9f3"
+    },
+    {
+      "alias": "qwen",
+      "seed": 303,
+      "arm": "absent_unverified",
+      "direction": "last",
+      "role": "A",
+      "sha256": "f6072f680b56c8c5095d7511854e65c1cb415a289a0fe8c423e8fa576ca0df0e"
+    },
+    {
+      "alias": "qwen",
+      "seed": 303,
+      "arm": "absent_unverified",
+      "direction": "last",
+      "role": "B",
+      "sha256": "ce6bca9644c6271d36fb85a0431b8a5a7b5644fb7573912dcd1962620c183f12"
+    },
+    {
+      "alias": "qwen",
+      "seed": 303,
+      "arm": "absent_verified",
+      "direction": "first",
+      "role": "A",
+      "sha256": "a84dfe2cec3e5f4b0d0f19347c0ec6704b4361f0196e0e829848aa21dc10fbc3"
+    },
+    {
+      "alias": "qwen",
+      "seed": 303,
+      "arm": "absent_verified",
+      "direction": "first",
+      "role": "B",
+      "sha256": "0e903ae53c2d031ca44818ed51fe4b929392cf2c5b358a7e4ff6cf06037ce125"
+    },
+    {
+      "alias": "qwen",
+      "seed": 303,
+      "arm": "absent_verified",
+      "direction": "last",
+      "role": "A",
+      "sha256": "c54f6ef94f3ad91d1cb397fc9514f486ee6fb375942a52ec64cfbbe9a089f679"
+    },
+    {
+      "alias": "qwen",
+      "seed": 303,
+      "arm": "absent_verified",
+      "direction": "last",
+      "role": "B",
+      "sha256": "774185e9be28da94d449611c32348cd6f34ca036072396bab5e8f7940d74b6ab"
+    },
+    {
+      "alias": "qwen",
+      "seed": 303,
+      "arm": "harmful_unverified",
+      "direction": "first",
+      "role": "A",
+      "sha256": "86c8bde8b085b0a086aa1540bb474cd1879e6d34994d76e7270a2fccb16acbdc"
+    },
+    {
+      "alias": "qwen",
+      "seed": 303,
+      "arm": "harmful_unverified",
+      "direction": "first",
+      "role": "B",
+      "sha256": "505d1a2e292e08d8ea20adc51866d96a386db1534c48d2169f468e28a654e3f9"
+    },
+    {
+      "alias": "qwen",
+      "seed": 303,
+      "arm": "harmful_unverified",
+      "direction": "last",
+      "role": "A",
+      "sha256": "96f348efe7815595cd5fef674e6fb19c1f4356e0a48e413e9f9ba19084046b05"
+    },
+    {
+      "alias": "qwen",
+      "seed": 303,
+      "arm": "harmful_unverified",
+      "direction": "last",
+      "role": "B",
+      "sha256": "3b02784a8fcc78e4c6bef7fcc470f1b61a6b9dea9437d633a3fda82dbbf6875f"
+    },
+    {
+      "alias": "qwen",
+      "seed": 303,
+      "arm": "harmful_verified",
+      "direction": "first",
+      "role": "A",
+      "sha256": "b2c529b4218fe3759c6752a52c07de1d8f91e6b72966e2dd24905411e126340c"
+    },
+    {
+      "alias": "qwen",
+      "seed": 303,
+      "arm": "harmful_verified",
+      "direction": "first",
+      "role": "B",
+      "sha256": "8a3faa3c3e956c5783e4c7e152108ed1e7773b207bcb9617b27d3ff659dc75bb"
+    },
+    {
+      "alias": "qwen",
+      "seed": 303,
+      "arm": "harmful_verified",
+      "direction": "last",
+      "role": "A",
+      "sha256": "6fc474bb5b611e0b89cec498f324abd5c5ce91faae7cdee0c10393271ee5775d"
+    },
+    {
+      "alias": "qwen",
+      "seed": 303,
+      "arm": "harmful_verified",
+      "direction": "last",
+      "role": "B",
+      "sha256": "32d0095754d9b4e72eb0ccf1252bf4c2b9796b496b938c8d8710a425d7345e20"
+    },
+    {
+      "alias": "qwen",
+      "seed": 304,
+      "arm": "absent_unverified",
+      "direction": "first",
+      "role": "A",
+      "sha256": "a4f4819f8b16e48269e3f716a3243cdc25453807efa102d85877f9ea8ed5c5ee"
+    },
+    {
+      "alias": "qwen",
+      "seed": 304,
+      "arm": "absent_unverified",
+      "direction": "first",
+      "role": "B",
+      "sha256": "88c1cf8233451cc47f19c0c0a9f103d201d9e6994974693d2a7d73fc9fb73cc7"
+    },
+    {
+      "alias": "qwen",
+      "seed": 304,
+      "arm": "absent_unverified",
+      "direction": "last",
+      "role": "A",
+      "sha256": "7ee2c05be1ab0ecffb1b86301b6123c4cb7ed3af1c58a01ed19d3be17034edae"
+    },
+    {
+      "alias": "qwen",
+      "seed": 304,
+      "arm": "absent_unverified",
+      "direction": "last",
+      "role": "B",
+      "sha256": "6837603fb34a52d8acdc95a701d3bde2aefda494021047ff9090e54617abf2ad"
+    },
+    {
+      "alias": "qwen",
+      "seed": 304,
+      "arm": "absent_verified",
+      "direction": "first",
+      "role": "A",
+      "sha256": "9220bb9079c2ddffb382c67738d41451ee90f30f09e0e3f97072fd5a971dbd82"
+    },
+    {
+      "alias": "qwen",
+      "seed": 304,
+      "arm": "absent_verified",
+      "direction": "first",
+      "role": "B",
+      "sha256": "e6d77c350a0e47f6a9a5feaa843a57aa7ac77387cbe207399ad3409c22c32056"
+    },
+    {
+      "alias": "qwen",
+      "seed": 304,
+      "arm": "absent_verified",
+      "direction": "last",
+      "role": "A",
+      "sha256": "3d887c27d4f4a99788e0f6a07fcebc90746b3961d884589e0480334f717bfc59"
+    },
+    {
+      "alias": "qwen",
+      "seed": 304,
+      "arm": "absent_verified",
+      "direction": "last",
+      "role": "B",
+      "sha256": "0233b334328884a5aa804baf43da581ef8e465289c04df5963aeafc2d8ac5d9e"
+    },
+    {
+      "alias": "qwen",
+      "seed": 304,
+      "arm": "harmful_unverified",
+      "direction": "first",
+      "role": "A",
+      "sha256": "4e90b9f7c32ee5fcda255602e7b6fe0f6cb7ef9444c486c77547aea398257944"
+    },
+    {
+      "alias": "qwen",
+      "seed": 304,
+      "arm": "harmful_unverified",
+      "direction": "first",
+      "role": "B",
+      "sha256": "7e7f9cd1efd230484c7bdc34fccad45944a1288033d0c127fd4057bbb2c3e095"
+    },
+    {
+      "alias": "qwen",
+      "seed": 304,
+      "arm": "harmful_unverified",
+      "direction": "last",
+      "role": "A",
+      "sha256": "f3429ba386ec510d818af729c909f8a23118534b3bd67eb5171a14f39e89e525"
+    },
+    {
+      "alias": "qwen",
+      "seed": 304,
+      "arm": "harmful_unverified",
+      "direction": "last",
+      "role": "B",
+      "sha256": "708f703b7594eb6c50615fc09bcf47c916b43120998d7b716803af33d94f0bc3"
+    },
+    {
+      "alias": "qwen",
+      "seed": 304,
+      "arm": "harmful_verified",
+      "direction": "first",
+      "role": "A",
+      "sha256": "1bd05cfc499ef8ae40f546beb41b9733b81b0c4342ca2dfa9774328d613cbe3a"
+    },
+    {
+      "alias": "qwen",
+      "seed": 304,
+      "arm": "harmful_verified",
+      "direction": "first",
+      "role": "B",
+      "sha256": "ab4a4d1e9accbc63985d6e2408fc42e70b9726f8dadd1c822d24908e3bc1ce0d"
+    },
+    {
+      "alias": "qwen",
+      "seed": 304,
+      "arm": "harmful_verified",
+      "direction": "last",
+      "role": "A",
+      "sha256": "ba04482af95c897e903d0ea572b9a4ab850eeea153b7bb05b69bbb993dea71dc"
+    },
+    {
+      "alias": "qwen",
+      "seed": 304,
+      "arm": "harmful_verified",
+      "direction": "last",
+      "role": "B",
+      "sha256": "064f5f2187a7adbfdf49976cdc231dfbb9f011a003414bf52e662533570ec36f"
+    },
+    {
+      "alias": "qwen",
+      "seed": 306,
+      "arm": "absent_unverified",
+      "direction": "first",
+      "role": "A",
+      "sha256": "cfa3b76189f51edd2e2ead590a8358a561cd45d20e1ec2cdee647c0482ffd0ec"
+    },
+    {
+      "alias": "qwen",
+      "seed": 306,
+      "arm": "absent_unverified",
+      "direction": "first",
+      "role": "B",
+      "sha256": "f579c0cb82fcc51f383b155eac3fc676cd392659316a4044f80d5323f6077a6a"
+    },
+    {
+      "alias": "qwen",
+      "seed": 306,
+      "arm": "absent_unverified",
+      "direction": "last",
+      "role": "A",
+      "sha256": "830fcc053e31dfba1ddffa1d05e84af49a304d2d1a1c88bfaa64ad105e4f0c0c"
+    },
+    {
+      "alias": "qwen",
+      "seed": 306,
+      "arm": "absent_unverified",
+      "direction": "last",
+      "role": "B",
+      "sha256": "c66b8664ee9521de757dc83fb62392ccdd033e8c1da89fd75983875b6f623e05"
+    },
+    {
+      "alias": "qwen",
+      "seed": 306,
+      "arm": "absent_verified",
+      "direction": "first",
+      "role": "A",
+      "sha256": "33c2d87f26f41fc70ba59d0447607a66ba06b08c0de631fcbbfc1543896e269e"
+    },
+    {
+      "alias": "qwen",
+      "seed": 306,
+      "arm": "absent_verified",
+      "direction": "first",
+      "role": "B",
+      "sha256": "33ee407d888f2091b8f767cf6ae0b253f302f16f5c42484111bc7a61a76a6327"
+    },
+    {
+      "alias": "qwen",
+      "seed": 306,
+      "arm": "absent_verified",
+      "direction": "last",
+      "role": "A",
+      "sha256": "dc3ae877e0f9a27504098f82bd071231afd749baf96524717de6d055ca4c3db6"
+    },
+    {
+      "alias": "qwen",
+      "seed": 306,
+      "arm": "absent_verified",
+      "direction": "last",
+      "role": "B",
+      "sha256": "d87cbec68412ec6d53033ebae7d22496c73552fe41ede61c8f43cc9819627a5f"
+    },
+    {
+      "alias": "qwen",
+      "seed": 306,
+      "arm": "harmful_unverified",
+      "direction": "first",
+      "role": "A",
+      "sha256": "bb1149f43689cdede0b90b291657c3a959d0afbe721c9421bd614a0ac4d1a5af"
+    },
+    {
+      "alias": "qwen",
+      "seed": 306,
+      "arm": "harmful_unverified",
+      "direction": "first",
+      "role": "B",
+      "sha256": "17f3c207bfd20550597d2d63f840c54b8048b1fc585e72e5d460ccf16d81db16"
+    },
+    {
+      "alias": "qwen",
+      "seed": 306,
+      "arm": "harmful_unverified",
+      "direction": "last",
+      "role": "A",
+      "sha256": "a1f6a8194bc85366f38b0761deb89593b84914fb4608790d7b8092d711f10177"
+    },
+    {
+      "alias": "qwen",
+      "seed": 306,
+      "arm": "harmful_unverified",
+      "direction": "last",
+      "role": "B",
+      "sha256": "785c927eee19d4825234152b4c52a0f2aaa6b344753d0e03cfdc17e89791eebc"
+    },
+    {
+      "alias": "qwen",
+      "seed": 306,
+      "arm": "harmful_verified",
+      "direction": "first",
+      "role": "A",
+      "sha256": "ac4a035cae039063cd18c4b6c22ea8dce7e002f11baa5a10ba3e7517a5ef17cf"
+    },
+    {
+      "alias": "qwen",
+      "seed": 306,
+      "arm": "harmful_verified",
+      "direction": "first",
+      "role": "B",
+      "sha256": "2b5f2c1b75fad1ca41dda0996bd69aad7773259ab69e522d055a8d06f6fb9e9f"
+    },
+    {
+      "alias": "qwen",
+      "seed": 306,
+      "arm": "harmful_verified",
+      "direction": "last",
+      "role": "A",
+      "sha256": "b8d544baba8f16be05f800b8125fd8be57317d4c60e48098e1d732b4720c54fa"
+    },
+    {
+      "alias": "qwen",
+      "seed": 306,
+      "arm": "harmful_verified",
+      "direction": "last",
+      "role": "B",
+      "sha256": "46164802eb2774e4df006d469e14b6b1ba07c7f5e7f320e7b6f703d654446ad4"
+    },
+    {
+      "alias": "gptoss",
+      "seed": 301,
+      "arm": "absent_unverified",
+      "direction": "first",
+      "role": "A",
+      "sha256": "1fae3aa997bd938a1a7dc4989691a51374dd6eeeab40375a0eb73cbbe9ffaa9e"
+    },
+    {
+      "alias": "gptoss",
+      "seed": 301,
+      "arm": "absent_unverified",
+      "direction": "first",
+      "role": "B",
+      "sha256": "fd70f5ca4c621b11c7ae60af9491b5ec7d1e039e4defe7bb8c43eb1ba27a5edf"
+    },
+    {
+      "alias": "gptoss",
+      "seed": 301,
+      "arm": "absent_unverified",
+      "direction": "last",
+      "role": "A",
+      "sha256": "b7823893e9e5f9f75e2c51f23206786ce2db377169f40d65ffd63c8791ad4fc9"
+    },
+    {
+      "alias": "gptoss",
+      "seed": 301,
+      "arm": "absent_unverified",
+      "direction": "last",
+      "role": "B",
+      "sha256": "e1a6f1e615af70ce7b48888e59f3f29749ce85fcca295ff802ad5854ff23b4a1"
+    },
+    {
+      "alias": "gptoss",
+      "seed": 301,
+      "arm": "absent_verified",
+      "direction": "first",
+      "role": "A",
+      "sha256": "8d877d454ff61cb3f636f2080db371c549983693f88af21bc37d2baa77039b3f"
+    },
+    {
+      "alias": "gptoss",
+      "seed": 301,
+      "arm": "absent_verified",
+      "direction": "first",
+      "role": "B",
+      "sha256": "19f3c01845bb0315a60d4c54e6a7cc04e1357cbb9ae34da9e962147396596c0d"
+    },
+    {
+      "alias": "gptoss",
+      "seed": 301,
+      "arm": "absent_verified",
+      "direction": "last",
+      "role": "A",
+      "sha256": "881dbc932a551ec018d05a73f34d278e040c85cdfd25b8fa8a111ffe8183bf03"
+    },
+    {
+      "alias": "gptoss",
+      "seed": 301,
+      "arm": "absent_verified",
+      "direction": "last",
+      "role": "B",
+      "sha256": "5f0de1d873acb82ee32a7ab6f86bbb64bf68f6b7be21428146f301a79dc866b6"
+    },
+    {
+      "alias": "gptoss",
+      "seed": 301,
+      "arm": "harmful_unverified",
+      "direction": "first",
+      "role": "A",
+      "sha256": "c5b455e5299fc4253e0049755da39561dc1b1abe00ca6f14a38ef2cefc71cfce"
+    },
+    {
+      "alias": "gptoss",
+      "seed": 301,
+      "arm": "harmful_unverified",
+      "direction": "first",
+      "role": "B",
+      "sha256": "5323332f05995c675db5a871891231ec1c86d467d6a6c9aef6c9489d34044dc8"
+    },
+    {
+      "alias": "gptoss",
+      "seed": 301,
+      "arm": "harmful_unverified",
+      "direction": "last",
+      "role": "A",
+      "sha256": "e25b79840a8fcae906e31a088fcc8011bae25f4fc342b0205c05328b9ee40c82"
+    },
+    {
+      "alias": "gptoss",
+      "seed": 301,
+      "arm": "harmful_unverified",
+      "direction": "last",
+      "role": "B",
+      "sha256": "79f403915010555ac1b40d102ba771ef94df93e442f202cf869a443233a48e51"
+    },
+    {
+      "alias": "gptoss",
+      "seed": 301,
+      "arm": "harmful_verified",
+      "direction": "first",
+      "role": "A",
+      "sha256": "c7f4bd124ca9ae97913c12e454f3cdd56abece862fa4f6216be633daf6b3c17a"
+    },
+    {
+      "alias": "gptoss",
+      "seed": 301,
+      "arm": "harmful_verified",
+      "direction": "first",
+      "role": "B",
+      "sha256": "b002f87687791d691287f5ebc281ed61521dc764c730257083c1fe8635787204"
+    },
+    {
+      "alias": "gptoss",
+      "seed": 301,
+      "arm": "harmful_verified",
+      "direction": "last",
+      "role": "A",
+      "sha256": "8aad13c4763b2d2557da56c5a0d26290882fc059dae3ee9971b0032d3194c18d"
+    },
+    {
+      "alias": "gptoss",
+      "seed": 301,
+      "arm": "harmful_verified",
+      "direction": "last",
+      "role": "B",
+      "sha256": "727deb3c653c81b320c739699082359170431d64973ca3b4a235ce0e156c2b33"
+    },
+    {
+      "alias": "gptoss",
+      "seed": 302,
+      "arm": "absent_unverified",
+      "direction": "first",
+      "role": "A",
+      "sha256": "7b4ec283c710f6f093e33dc0c4520200e01d1542c80745e5fd6d2cb847be64ac"
+    },
+    {
+      "alias": "gptoss",
+      "seed": 302,
+      "arm": "absent_unverified",
+      "direction": "first",
+      "role": "B",
+      "sha256": "d4a9aa15421e793015817cc57302d3b2079cbc4e9b9e7c96bb0edcbaad64b0a4"
+    },
+    {
+      "alias": "gptoss",
+      "seed": 302,
+      "arm": "absent_unverified",
+      "direction": "last",
+      "role": "A",
+      "sha256": "eb1a184a6dc3e40c1258b1cf871141ac0c39d69085bc215f92807f01d7c8f1a5"
+    },
+    {
+      "alias": "gptoss",
+      "seed": 302,
+      "arm": "absent_unverified",
+      "direction": "last",
+      "role": "B",
+      "sha256": "f017b270bf48acbdc8d78af3692df2c17b6d00bb6e916743b1ab3d2fea02110f"
+    },
+    {
+      "alias": "gptoss",
+      "seed": 302,
+      "arm": "absent_verified",
+      "direction": "first",
+      "role": "A",
+      "sha256": "732c6775876f69b4c9d15820679301899746a7891ec60b2743af389d4d42ca5b"
+    },
+    {
+      "alias": "gptoss",
+      "seed": 302,
+      "arm": "absent_verified",
+      "direction": "first",
+      "role": "B",
+      "sha256": "53ecd3da3e60f29bf20c69ec9bd5aca02f8768d546e7d2ef244bc60295fa1b87"
+    },
+    {
+      "alias": "gptoss",
+      "seed": 302,
+      "arm": "absent_verified",
+      "direction": "last",
+      "role": "A",
+      "sha256": "74993e1ec2c6251016725a6ee43477d240fe0211f45eaa64c47b8d97659acff8"
+    },
+    {
+      "alias": "gptoss",
+      "seed": 302,
+      "arm": "absent_verified",
+      "direction": "last",
+      "role": "B",
+      "sha256": "1a6710fabbc2a3856495f8be2bf89f563c1b350dbbb3ac6e4c599142a0581601"
+    },
+    {
+      "alias": "gptoss",
+      "seed": 302,
+      "arm": "harmful_unverified",
+      "direction": "first",
+      "role": "A",
+      "sha256": "59b95ee380ecfa404462d4366fb57bd3fc083fb06517cede66d4033a9ab9644c"
+    },
+    {
+      "alias": "gptoss",
+      "seed": 302,
+      "arm": "harmful_unverified",
+      "direction": "first",
+      "role": "B",
+      "sha256": "526b323da4fcc037e6f6597e03b6c192840e32e855b3948a008595b639569192"
+    },
+    {
+      "alias": "gptoss",
+      "seed": 302,
+      "arm": "harmful_unverified",
+      "direction": "last",
+      "role": "A",
+      "sha256": "02f425b9e96fd456dcaed48fc7d0faabe80a7e4e574201bf8c88824f457c3046"
+    },
+    {
+      "alias": "gptoss",
+      "seed": 302,
+      "arm": "harmful_unverified",
+      "direction": "last",
+      "role": "B",
+      "sha256": "db53a97213dc8b47488c5928f98add3f60d1006af94ec27edc7df00bfaac9fab"
+    },
+    {
+      "alias": "gptoss",
+      "seed": 302,
+      "arm": "harmful_verified",
+      "direction": "first",
+      "role": "A",
+      "sha256": "5a91b5044b5a0eadd45ad390821546acf23dd4f5bcd28b64488301b0a4df4700"
+    },
+    {
+      "alias": "gptoss",
+      "seed": 302,
+      "arm": "harmful_verified",
+      "direction": "first",
+      "role": "B",
+      "sha256": "49085de3179eae690f8201c53852730a8dc1f362aa6a6eef56ffed3ca796d8bc"
+    },
+    {
+      "alias": "gptoss",
+      "seed": 302,
+      "arm": "harmful_verified",
+      "direction": "last",
+      "role": "A",
+      "sha256": "03aed48a3a5cf32d2c296ca2f02cc1a66fb2aba0de8b1feaeca0620643ce3a81"
+    },
+    {
+      "alias": "gptoss",
+      "seed": 302,
+      "arm": "harmful_verified",
+      "direction": "last",
+      "role": "B",
+      "sha256": "5fb2ff2dfc4b28d125e36df5191a27ef131bf6a66df73f2407f049215b52cfdd"
+    },
+    {
+      "alias": "gptoss",
+      "seed": 303,
+      "arm": "absent_unverified",
+      "direction": "first",
+      "role": "A",
+      "sha256": "55b5b4da756f1226367fe0f1a427d814df4a015b2643d40581745c4fe2e38713"
+    },
+    {
+      "alias": "gptoss",
+      "seed": 303,
+      "arm": "absent_unverified",
+      "direction": "first",
+      "role": "B",
+      "sha256": "f070826293062f59f2722a16b642f3029f48ab9b328a100ee74138784d6ea9f3"
+    },
+    {
+      "alias": "gptoss",
+      "seed": 303,
+      "arm": "absent_unverified",
+      "direction": "last",
+      "role": "A",
+      "sha256": "f6072f680b56c8c5095d7511854e65c1cb415a289a0fe8c423e8fa576ca0df0e"
+    },
+    {
+      "alias": "gptoss",
+      "seed": 303,
+      "arm": "absent_unverified",
+      "direction": "last",
+      "role": "B",
+      "sha256": "ce6bca9644c6271d36fb85a0431b8a5a7b5644fb7573912dcd1962620c183f12"
+    },
+    {
+      "alias": "gptoss",
+      "seed": 303,
+      "arm": "absent_verified",
+      "direction": "first",
+      "role": "A",
+      "sha256": "a84dfe2cec3e5f4b0d0f19347c0ec6704b4361f0196e0e829848aa21dc10fbc3"
+    },
+    {
+      "alias": "gptoss",
+      "seed": 303,
+      "arm": "absent_verified",
+      "direction": "first",
+      "role": "B",
+      "sha256": "0e903ae53c2d031ca44818ed51fe4b929392cf2c5b358a7e4ff6cf06037ce125"
+    },
+    {
+      "alias": "gptoss",
+      "seed": 303,
+      "arm": "absent_verified",
+      "direction": "last",
+      "role": "A",
+      "sha256": "c54f6ef94f3ad91d1cb397fc9514f486ee6fb375942a52ec64cfbbe9a089f679"
+    },
+    {
+      "alias": "gptoss",
+      "seed": 303,
+      "arm": "absent_verified",
+      "direction": "last",
+      "role": "B",
+      "sha256": "774185e9be28da94d449611c32348cd6f34ca036072396bab5e8f7940d74b6ab"
+    },
+    {
+      "alias": "gptoss",
+      "seed": 303,
+      "arm": "harmful_unverified",
+      "direction": "first",
+      "role": "A",
+      "sha256": "b43edb91a5cef9ad492e6f396a215a03780504485a1abde8305db219aafdc007"
+    },
+    {
+      "alias": "gptoss",
+      "seed": 303,
+      "arm": "harmful_unverified",
+      "direction": "first",
+      "role": "B",
+      "sha256": "69a47245c326757338cc8f356abcf9cacb13537352badb13a4937cefb4e30573"
+    },
+    {
+      "alias": "gptoss",
+      "seed": 303,
+      "arm": "harmful_unverified",
+      "direction": "last",
+      "role": "A",
+      "sha256": "dcf35a55d3ee6b72315343a0c605c4df2ab8849fff7f816506f98960e9f9ad6d"
+    },
+    {
+      "alias": "gptoss",
+      "seed": 303,
+      "arm": "harmful_unverified",
+      "direction": "last",
+      "role": "B",
+      "sha256": "e7e06e768dcc9308d413d74e15f6178c3d20a7191c6a383844a021b303a0168e"
+    },
+    {
+      "alias": "gptoss",
+      "seed": 303,
+      "arm": "harmful_verified",
+      "direction": "first",
+      "role": "A",
+      "sha256": "a9946a271836b2edf16585b4440271a8db1cc184c498bc629fc235e8a96e5b07"
+    },
+    {
+      "alias": "gptoss",
+      "seed": 303,
+      "arm": "harmful_verified",
+      "direction": "first",
+      "role": "B",
+      "sha256": "faf20c26d2011fa32b8a9266fd4e12830a785e4e263a2ec9f8eac515060d4007"
+    },
+    {
+      "alias": "gptoss",
+      "seed": 303,
+      "arm": "harmful_verified",
+      "direction": "last",
+      "role": "A",
+      "sha256": "1a854f566a254d4ab575467fbf61e97d295430d772439868831ffe6828f31ea1"
+    },
+    {
+      "alias": "gptoss",
+      "seed": 303,
+      "arm": "harmful_verified",
+      "direction": "last",
+      "role": "B",
+      "sha256": "dac1a256b2b6cbde46b22cd7fba20a6516d44fd5bce73a9e964172427e55c22e"
+    },
+    {
+      "alias": "gptoss",
+      "seed": 304,
+      "arm": "absent_unverified",
+      "direction": "first",
+      "role": "A",
+      "sha256": "a4f4819f8b16e48269e3f716a3243cdc25453807efa102d85877f9ea8ed5c5ee"
+    },
+    {
+      "alias": "gptoss",
+      "seed": 304,
+      "arm": "absent_unverified",
+      "direction": "first",
+      "role": "B",
+      "sha256": "88c1cf8233451cc47f19c0c0a9f103d201d9e6994974693d2a7d73fc9fb73cc7"
+    },
+    {
+      "alias": "gptoss",
+      "seed": 304,
+      "arm": "absent_unverified",
+      "direction": "last",
+      "role": "A",
+      "sha256": "7ee2c05be1ab0ecffb1b86301b6123c4cb7ed3af1c58a01ed19d3be17034edae"
+    },
+    {
+      "alias": "gptoss",
+      "seed": 304,
+      "arm": "absent_unverified",
+      "direction": "last",
+      "role": "B",
+      "sha256": "6837603fb34a52d8acdc95a701d3bde2aefda494021047ff9090e54617abf2ad"
+    },
+    {
+      "alias": "gptoss",
+      "seed": 304,
+      "arm": "absent_verified",
+      "direction": "first",
+      "role": "A",
+      "sha256": "9220bb9079c2ddffb382c67738d41451ee90f30f09e0e3f97072fd5a971dbd82"
+    },
+    {
+      "alias": "gptoss",
+      "seed": 304,
+      "arm": "absent_verified",
+      "direction": "first",
+      "role": "B",
+      "sha256": "e6d77c350a0e47f6a9a5feaa843a57aa7ac77387cbe207399ad3409c22c32056"
+    },
+    {
+      "alias": "gptoss",
+      "seed": 304,
+      "arm": "absent_verified",
+      "direction": "last",
+      "role": "A",
+      "sha256": "3d887c27d4f4a99788e0f6a07fcebc90746b3961d884589e0480334f717bfc59"
+    },
+    {
+      "alias": "gptoss",
+      "seed": 304,
+      "arm": "absent_verified",
+      "direction": "last",
+      "role": "B",
+      "sha256": "0233b334328884a5aa804baf43da581ef8e465289c04df5963aeafc2d8ac5d9e"
+    },
+    {
+      "alias": "gptoss",
+      "seed": 304,
+      "arm": "harmful_unverified",
+      "direction": "first",
+      "role": "A",
+      "sha256": "f7c763a716aec52ef97b7d3220dee68544b117d27d1c2406cf25a3285c9d8b43"
+    },
+    {
+      "alias": "gptoss",
+      "seed": 304,
+      "arm": "harmful_unverified",
+      "direction": "first",
+      "role": "B",
+      "sha256": "06dcd96b74b290ae004295f41d83131a10026e5017df809331651bd42812204d"
+    },
+    {
+      "alias": "gptoss",
+      "seed": 304,
+      "arm": "harmful_unverified",
+      "direction": "last",
+      "role": "A",
+      "sha256": "98691b5afa401118318fa20291e8779f14be20103de17102b1428ada6b01ae5c"
+    },
+    {
+      "alias": "gptoss",
+      "seed": 304,
+      "arm": "harmful_unverified",
+      "direction": "last",
+      "role": "B",
+      "sha256": "fd0fc1b736ea62cd8ba216497795983706269dda57564fd7c9596d5d7779d2b7"
+    },
+    {
+      "alias": "gptoss",
+      "seed": 304,
+      "arm": "harmful_verified",
+      "direction": "first",
+      "role": "A",
+      "sha256": "e43dafec8cd70e9ae0e89254b0e41f6663f648a908c7d95eaf2b98ab7f6e530b"
+    },
+    {
+      "alias": "gptoss",
+      "seed": 304,
+      "arm": "harmful_verified",
+      "direction": "first",
+      "role": "B",
+      "sha256": "082b5d8f971a18fa225d3ce4aeeec143aa3ac05068f2e1492e08c7c94171273f"
+    },
+    {
+      "alias": "gptoss",
+      "seed": 304,
+      "arm": "harmful_verified",
+      "direction": "last",
+      "role": "A",
+      "sha256": "3b927ec6f880442ee8a9c7682cbcefd6e11a3a0caad4b4b17cbadede2dfbaca8"
+    },
+    {
+      "alias": "gptoss",
+      "seed": 304,
+      "arm": "harmful_verified",
+      "direction": "last",
+      "role": "B",
+      "sha256": "b0f90d1227db32aae3cd1758050d943186979f6b536500bf6f602fbc21ca2f55"
+    },
+    {
+      "alias": "gptoss",
+      "seed": 305,
+      "arm": "absent_unverified",
+      "direction": "first",
+      "role": "A",
+      "sha256": "804f5a1db42094fd14b172cc3cbe819b10b1e88d49692eebe3ed6a9c1d748afc"
+    },
+    {
+      "alias": "gptoss",
+      "seed": 305,
+      "arm": "absent_unverified",
+      "direction": "first",
+      "role": "B",
+      "sha256": "db3c3a641681ed18836d65e75261232beba1c3f2b3dcc7301cec220d892a2a22"
+    },
+    {
+      "alias": "gptoss",
+      "seed": 305,
+      "arm": "absent_unverified",
+      "direction": "last",
+      "role": "A",
+      "sha256": "9d61cc68b8f425472d860a6d7aa54f053c8c76533a895ea6b0824de9276291c3"
+    },
+    {
+      "alias": "gptoss",
+      "seed": 305,
+      "arm": "absent_unverified",
+      "direction": "last",
+      "role": "B",
+      "sha256": "1c30590e32c84bb3c8abe0ad2eeec213be16e54238c2f21f410d88c3799f56d5"
+    },
+    {
+      "alias": "gptoss",
+      "seed": 305,
+      "arm": "absent_verified",
+      "direction": "first",
+      "role": "A",
+      "sha256": "889b5ba6f888205faf3dc9a449f0c1d06df2eae542d08cf64fec8d9efea7af69"
+    },
+    {
+      "alias": "gptoss",
+      "seed": 305,
+      "arm": "absent_verified",
+      "direction": "first",
+      "role": "B",
+      "sha256": "4695a1cf82849e216c2d6648ef4cdac3ff5af72df77696332d17bc5e863a019a"
+    },
+    {
+      "alias": "gptoss",
+      "seed": 305,
+      "arm": "absent_verified",
+      "direction": "last",
+      "role": "A",
+      "sha256": "7dd688a38bfe1164db013cb443c7ab84a739a7c1bee85c832e5301012acf271c"
+    },
+    {
+      "alias": "gptoss",
+      "seed": 305,
+      "arm": "absent_verified",
+      "direction": "last",
+      "role": "B",
+      "sha256": "9b2c2bd82eab37d64869009d9c1f10f5502d9f44b6ed2fbef5a54a85fdec5bf2"
+    },
+    {
+      "alias": "gptoss",
+      "seed": 305,
+      "arm": "harmful_unverified",
+      "direction": "first",
+      "role": "A",
+      "sha256": "84320f90dea46962001c9ff359e47f1e3efceb3fba70436d378f1365e2561eb8"
+    },
+    {
+      "alias": "gptoss",
+      "seed": 305,
+      "arm": "harmful_unverified",
+      "direction": "first",
+      "role": "B",
+      "sha256": "afd4f9735cefd8e77187c281c961fbffc8ac3f6ebdb9ca787ce53ef62241afdc"
+    },
+    {
+      "alias": "gptoss",
+      "seed": 305,
+      "arm": "harmful_unverified",
+      "direction": "last",
+      "role": "A",
+      "sha256": "d4d7fc3a024f86d6645f84a26ba0552ead721271aaddd9562408593e79d4f45a"
+    },
+    {
+      "alias": "gptoss",
+      "seed": 305,
+      "arm": "harmful_unverified",
+      "direction": "last",
+      "role": "B",
+      "sha256": "5c9a502a2078d9c3ba7f0092b978c424f6ed3a16f3d7f096b44d2704a82c0655"
+    },
+    {
+      "alias": "gptoss",
+      "seed": 305,
+      "arm": "harmful_verified",
+      "direction": "first",
+      "role": "A",
+      "sha256": "1b7d9ee550381ddce3f6677380f491bf8c51577a84a1424bdb97db8db78cb7b7"
+    },
+    {
+      "alias": "gptoss",
+      "seed": 305,
+      "arm": "harmful_verified",
+      "direction": "first",
+      "role": "B",
+      "sha256": "06e2fe3cf542fe43e8185359d3690852aa42ecd151c9bc34bf56a2491ad28c04"
+    },
+    {
+      "alias": "gptoss",
+      "seed": 305,
+      "arm": "harmful_verified",
+      "direction": "last",
+      "role": "A",
+      "sha256": "4a106162437af0102f7d00425546e59497ec10b470be2bbaafc882cea20b79d8"
+    },
+    {
+      "alias": "gptoss",
+      "seed": 305,
+      "arm": "harmful_verified",
+      "direction": "last",
+      "role": "B",
+      "sha256": "1b5ae11e0e1369c4e5da542d8dc3d2131e29d2e59d2d057e266bd35b436f53e0"
+    },
+    {
+      "alias": "gptoss",
+      "seed": 306,
+      "arm": "absent_unverified",
+      "direction": "first",
+      "role": "A",
+      "sha256": "cfa3b76189f51edd2e2ead590a8358a561cd45d20e1ec2cdee647c0482ffd0ec"
+    },
+    {
+      "alias": "gptoss",
+      "seed": 306,
+      "arm": "absent_unverified",
+      "direction": "first",
+      "role": "B",
+      "sha256": "f579c0cb82fcc51f383b155eac3fc676cd392659316a4044f80d5323f6077a6a"
+    },
+    {
+      "alias": "gptoss",
+      "seed": 306,
+      "arm": "absent_unverified",
+      "direction": "last",
+      "role": "A",
+      "sha256": "830fcc053e31dfba1ddffa1d05e84af49a304d2d1a1c88bfaa64ad105e4f0c0c"
+    },
+    {
+      "alias": "gptoss",
+      "seed": 306,
+      "arm": "absent_unverified",
+      "direction": "last",
+      "role": "B",
+      "sha256": "c66b8664ee9521de757dc83fb62392ccdd033e8c1da89fd75983875b6f623e05"
+    },
+    {
+      "alias": "gptoss",
+      "seed": 306,
+      "arm": "absent_verified",
+      "direction": "first",
+      "role": "A",
+      "sha256": "33c2d87f26f41fc70ba59d0447607a66ba06b08c0de631fcbbfc1543896e269e"
+    },
+    {
+      "alias": "gptoss",
+      "seed": 306,
+      "arm": "absent_verified",
+      "direction": "first",
+      "role": "B",
+      "sha256": "33ee407d888f2091b8f767cf6ae0b253f302f16f5c42484111bc7a61a76a6327"
+    },
+    {
+      "alias": "gptoss",
+      "seed": 306,
+      "arm": "absent_verified",
+      "direction": "last",
+      "role": "A",
+      "sha256": "dc3ae877e0f9a27504098f82bd071231afd749baf96524717de6d055ca4c3db6"
+    },
+    {
+      "alias": "gptoss",
+      "seed": 306,
+      "arm": "absent_verified",
+      "direction": "last",
+      "role": "B",
+      "sha256": "d87cbec68412ec6d53033ebae7d22496c73552fe41ede61c8f43cc9819627a5f"
+    },
+    {
+      "alias": "gptoss",
+      "seed": 306,
+      "arm": "harmful_unverified",
+      "direction": "first",
+      "role": "A",
+      "sha256": "b6f595817f7737a08076dce593c94a06082bb5b1d31c5bf683be193084441af0"
+    },
+    {
+      "alias": "gptoss",
+      "seed": 306,
+      "arm": "harmful_unverified",
+      "direction": "first",
+      "role": "B",
+      "sha256": "1102f3ed935128dbcb1ff9754f0373cfb4898093fe26627d16830eb045de7624"
+    },
+    {
+      "alias": "gptoss",
+      "seed": 306,
+      "arm": "harmful_unverified",
+      "direction": "last",
+      "role": "A",
+      "sha256": "db142f9d038ec58e95d578fb9f6b3e7d1386b0ea63aecf7581b9ff1ea10f1b72"
+    },
+    {
+      "alias": "gptoss",
+      "seed": 306,
+      "arm": "harmful_unverified",
+      "direction": "last",
+      "role": "B",
+      "sha256": "6f6e02512f645f5f63e94d86e5296028dd56526cb5c17f0d791a50a89122bcf4"
+    },
+    {
+      "alias": "gptoss",
+      "seed": 306,
+      "arm": "harmful_verified",
+      "direction": "first",
+      "role": "A",
+      "sha256": "b832bc080928df08ea0f517ce9e5d01b312acb1c09f425fd44732768bcca65e3"
+    },
+    {
+      "alias": "gptoss",
+      "seed": 306,
+      "arm": "harmful_verified",
+      "direction": "first",
+      "role": "B",
+      "sha256": "0479449d129b32bbd2157343725d7ee03d10326028d565ac5281731136a1fa8d"
+    },
+    {
+      "alias": "gptoss",
+      "seed": 306,
+      "arm": "harmful_verified",
+      "direction": "last",
+      "role": "A",
+      "sha256": "0d94dd0621938001330b10f8b1ddc8f86b84b03c225b7caa1354c602a5421bc7"
+    },
+    {
+      "alias": "gptoss",
+      "seed": 306,
+      "arm": "harmful_verified",
+      "direction": "last",
+      "role": "B",
+      "sha256": "6da5d35ed659764da16674047eb9482d5e8e9edd7307bc75826e0400b3f136e7"
+    }
+  ],
+  "rows": []
+}

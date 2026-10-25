@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "authorized_total_usd": 15,
+  "historical_conservative_exposure_usd": 12.374,
+  "phase_max_usd": 0.832,
+  "freeze_record": "docs/v7-freeze.json",
+  "allocations": {
+    "v7-qwen-301": {
+      "status": "allocated",
+      "model": "Qwen/Qwen3.6-35B-A3B",
+      "seed": 301,
+      "max_total_usd": 0.16,
+      "config": "configs/v7-qwen-301.json",
+      "config_digest": "ecea778aaa82612571be5a479df1ea07f383998d41085f6b9e0c49d32295b461"
+    },
+    "v7-qwen-303": {
+      "status": "allocated",
+      "model": "Qwen/Qwen3.6-35B-A3B",
+      "seed": 303,
+      "max_total_usd": 0.16,
+      "config": "configs/v7-qwen-303.json",
+      "config_digest": "fb03904db9a17244c57f31ab61820096666fd69a4c71f7f2f5124c4624f97e77"
+    },
+    "v7-qwen-304": {
+      "status": "allocated",
+      "model": "Qwen/Qwen3.6-35B-A3B",
+      "seed": 304,
+      "max_total_usd": 0.16,
+      "config": "configs/v7-qwen-304.json",
+      "config_digest": "3c69ca34569933b3f32e50e2b82727903d46c3e86a6d14db2c9c1c5deb7bf253"
+    },
+    "v7-qwen-306": {
+      "status": "allocated",
+      "model": "Qwen/Qwen3.6-35B-A3B",
+      "seed": 306,
+      "max_total_usd": 0.16,
+      "config": "configs/v7-qwen-306.json",
+      "config_digest": "0cf3d5c5fe2c626e3873f71b11910484802a3bbd7f8a5e91e583431c1411b622"
+    },
+    "v7-gptoss-301": {
+      "status": "allocated",
+      "model": "openai/gpt-oss-120b",
+      "seed": 301,
+      "max_total_usd": 0.032,
+      "config": "configs/v7-gptoss-301.json",
+      "config_digest": "479baf1ecc13ad6fe18bbaf2386894fd6e3aee1020e4ff4eb4d945c4b8c65c6d"
+    },
+    "v7-gptoss-302": {
+      "status": "allocated",
+      "model": "openai/gpt-oss-120b",
+      "seed": 302,
+      "max_total_usd": 0.032,
+      "config": "configs/v7-gptoss-302.json",
+      "config_digest": "7d754d0dbde03cc16955a8c905ac8342a051ea3f1d62ad9c225615c64d4008d2"
+    },
+    "v7-gptoss-303": {
+      "status": "allocated",
+      "model": "openai/gpt-oss-120b",
+      "seed": 303,
+      "max_total_usd": 0.032,
+      "config": "configs/v7-gptoss-303.json",
+      "config_digest": "46b7f183f8d3749009026a36be45fb80d072fce8ce261895b23fa990be42dab6"
+    },
+    "v7-gptoss-304": {
+      "status": "allocated",
+      "model": "openai/gpt-oss-120b",
+      "seed": 304,
+      "max_total_usd": 0.032,
+      "config": "configs/v7-gptoss-304.json",
+      "config_digest": "46414e8bb88a721044eaac91c3f71d9d402cb281ad099b28117a8a89b5e00187"
+    },
+    "v7-gptoss-305": {
+      "status": "allocated",
+      "model": "openai/gpt-oss-120b",
+      "seed": 305,
+      "max_total_usd": 0.032,
+      "config": "configs/v7-gptoss-305.json",
+      "config_digest": "5715400522e046fdd6c3c2eeb984386913519069f68c82470bf686c2e00bb231"
+    },
+    "v7-gptoss-306": {
+      "status": "allocated",
+      "model": "openai/gpt-oss-120b",
+      "seed": 306,
+      "max_total_usd": 0.032,
+      "config": "configs/v7-gptoss-306.json",
+      "config_digest": "33afb14e092b1cd709054fdfb78285d9a0d8ba0865bb319cfe8bafeab44c8eeb"
+    }
+  },
+  "known_prior_returned_response_estimate_usd": 3.214604295
+}

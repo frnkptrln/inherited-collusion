@@ -1,0 +1,43 @@
+{
+  "status": "PASS",
+  "reviewer": "Codex root visual review",
+  "reviewed_at": "2026-10-25T15:56:53.110668+00:00",
+  "pages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "method": "Opened every listed final PNG and inspected text, figure, tables, margins and page transitions. PDF text bounds separately confirmed standard margins during preparation.",
+  "findings": [],
+  "checked": [
+    "Title, author, affiliation and186wordabstract fit firstpage",
+    "Figure1andcaption fully together",
+    "Allmainnumeric tables legible, no clipping oroverlap",
+    "No missingglyphs orbroken mathematicalsymbols",
+    "Mainbodyparagraphflows andpagebreaks readable",
+    "CodeData section andprivateURL present"
+  ],
+  "page_sha256": {
+    "1": "e84e334424b58f130570ff00bbf34ec75dbcc4d62c6b2dd1f0f44035c2ce00d6",
+    "2": "5105d690626bd18e2d46d7c262845c7cbb73cbdb6761620ab690ed7aed5a0332",
+    "3": "b3ad2a6a878131b4aabc9e445af36c868b95ff2f3db5f60f74b3423c1d200b32",
+    "4": "e71fc8938fbcedfe2184ec59b32cf71e2049820d4140a8ded3ac7c3fa245c2ca",
+    "5": "ddddfc14fe962d8e795acd476c6706fc0e0f5d05a719c4415543f6b1a3ccfb59",
+    "6": "2e0c326c8ab6c52a6ef85494a95652fc2283779cb7fa76963782799e439da26e",
+    "7": "5ec7c83d373eede47fcfd67f9ed9607e6f7265a438e02513ebd6fac7ec633539"
+  },
+  "pdf_sha256": "393924c892be9dfb1d6bc5d2eb3cf5b79ec0304358ee9de85ae6745b73907d3d",
+  "docx_sha256": "a5b461d3435809d9f8ffdf1c89c8a71f26f4c039f0efcc71027cc4574964dbaf",
+  "input_sha256": "e3d48cb0ae3e38f60558528ddd056903c53b1f4ac873dc35beb1ac9633dd41bd",
+  "rebound_at": "2026-10-25T16:04:39.507800+00:00",
+  "prior_render_binding": {
+    "pdf_sha256": "34f8f02f9a712d68080fa9d02c3e766c18aee0f5d5a94f878b3b2ae6f513cc21",
+    "docx_sha256": "906563346698ea010a238d72878e910beee1a7966dba62fcea082d590120e75d",
+    "input_sha256": "809ccf7fcfee160d2eadd327643b673a879fd89d27405dfcd1f00be9433f91bc"
+  },
+  "rebind_method": "All seven previously opened and reviewed PNG files remain byte-identical after final Appendix I cross-reference and Appendix J header corrections; no new visual inspection claimed for unchanged pages."
+}

@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "checks": 210,
+  "paper_input_sha256": "b126fe52c7c74b895b50a39b71aaed52cf0d2c0187f385bdfb505b01d6253626",
+  "analysis_sha256": "56194c997902c8639b34371c82b7d7fe0041a49b4c6a701b53ef68df9ee6d4a0",
+  "checker_sha256": "ef6fec80f1211344fc2d332479819db0dd9098c62b677efe5e9785aadc8eb023",
+  "scope": "New main Table3 and AppendixJ TablesJ1,J2,J3; numerical display tolerance0.000501 for three-decimal rounded values, counts exact"
+}

@@ -1,0 +1,29 @@
+{
+  "status": "PASS",
+  "reviewed_at": "2026-10-25T16:03:29.726306+00:00",
+  "scope": "Read-only numerical, scientific-claim and attribution consistency of README.md and CITATION.cff; no edits",
+  "files": {
+    "README.md": "4fad0069928a942537ff53758514ba6ff257d31cd37a51ec31f1ba36d84f9a26",
+    "CITATION.cff": "d459069cce523576213b19e87666a5feaf48453c884cca897846bc4578234e85"
+  },
+  "checks": [
+    "Latest paper title/subtitle and Frank Peterlein affiliation match manuscript",
+    "Original coalition explicitly induced; no spontaneous-collusion claim",
+    "Paired-note contrasts .50/.43 and distinct five/seven case denominators correct",
+    "Posthoc common-case duplicates5/10and6/12correct, no unavoidable-safety-cost claim",
+    "Structural notes/matrix confound and fixed-note119episodezero-harm baseline stated",
+    "V7 complete-caseTable agrees exactly with paper and closedanalysis:fourQwen/fiveGPTcases",
+    "Three partialharmepisodes in two cases; GPTeffectonecasebothdirections and Qeffectonecaseonedirection stated",
+    "Primaryinteractions .125/.200 agree, all-observedGPTdenominators12/11/12/12 distinguishcommon10each",
+    "79/80joint,160requests159responses,oneunresolvednotretried correct",
+    "LogicalboundsQ[.125,.125],GPT[1/6,1/4] distinguishavailablecasecohort and notCI",
+    "Costs approximately .224new and3.439known,13.206fullreservedceiling,15authorized; sixunresolvedreserved andinvoiceunverified correct",
+    "No new legitimate-note arm; no population necessity or significance claim",
+    "Authorship manuscript review duringdevelopment matches userstatement; no invented independenthumanreplication",
+    "CITATION preferred-citation describes researchreportpreparedforsprint, without fabricatedjournal,DOIorpublicationstatus"
+  ],
+  "scientific_findings": [],
+  "notes": [
+    "Repository import/link/access checks and remote publication remain parent responsibility."
+  ]
+}

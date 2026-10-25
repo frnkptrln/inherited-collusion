@@ -1,0 +1,47 @@
+{
+  "checked_at": "2026-10-25T15:05:46.830333+00:00",
+  "credential_saved_or_printed": false,
+  "http_status": 200,
+  "models": [
+    {
+      "id": "Qwen/Qwen3.6-35B-A3B",
+      "provider_metadata": {
+        "context_length": 262144,
+        "first_token_latency_ms": 382.8,
+        "is_free": false,
+        "is_model_author": false,
+        "pricing": {
+          "input": 0.1,
+          "output": 0.95
+        },
+        "provider": "deepinfra",
+        "status": "live",
+        "supports_structured_output": true,
+        "supports_tools": true,
+        "throughput": 172.70412291345616
+      }
+    },
+    {
+      "id": "openai/gpt-oss-120b",
+      "provider_metadata": {
+        "context_length": 131072,
+        "first_token_latency_ms": 312.8,
+        "is_free": false,
+        "is_model_author": false,
+        "pricing": {
+          "input": 0.037,
+          "output": 0.16999999999999998
+        },
+        "provider": "deepinfra",
+        "status": "live",
+        "supports_structured_output": true,
+        "supports_tools": true,
+        "throughput": 62.87798181546352
+      }
+    }
+  ],
+  "no_jobs_started": true,
+  "no_model_requests": true,
+  "response_sha256": "682f4f9504a6056cfbbb7cc1517f25d25625574665191efe59c9a9e4ed1d1ded",
+  "source": "https://router.huggingface.co/v1/models"
+}

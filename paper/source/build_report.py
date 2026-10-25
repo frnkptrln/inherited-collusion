@@ -309,7 +309,7 @@ def build(spec, output, draft, project_root, artifact_root=None):
                 body.append(make_table(body_pattern, block["headers"], block["rows"], block.get("widths")))
                 body.append(make_p(body_pattern, "", after=3))
             elif kind == "figure":
-                path = Path(block["path"])
+                path = (BUILD.parent / block["local_path"]) if block.get("local_path") else Path(block["path"])
                 if not path.is_absolute():
                     path = artifact_root / path
                 image_data = path.read_bytes()
@@ -326,10 +326,12 @@ def build(spec, output, draft, project_root, artifact_root=None):
                 ET.SubElement(relationships, "{" + REL_NS + "}Relationship", Id=rid,
                               Type=DOC_REL_NS + "/image", Target=f"media/v4-figure-{index}.png")
                 additions[name] = image_data
-                figure_evidence.append({"path": block["path"], "sha256": sha, "part": name})
+                figure_evidence.append({"path": block.get("local_path", block["path"]), "root": "report" if block.get("local_path") else "research", "sha256": sha, "part": name})
                 body.append(picture_paragraph(body_pattern, rid, index, image_data,
                                               block.get("width_inches", 6.5), block.get("alt", block["caption"])))
-                body.append(make_p(body_pattern, block["caption"], size=10, after=6))
+                cap = make_p(body_pattern, block["caption"], size=10, after=6)
+                prop(prop(cap, "pPr"), "keepLines", val="1")
+                body.append(cap)
             elif kind == "development_table":
                 body.append(make_table(body_pattern, ["Run", "Requested model", "Reported model", "Task", "Note", "Successor episodes"], dev_rows, [900, 2400, 2400, 700, 700, 2260]))
                 body.append(make_p(body_pattern, "", after=3))

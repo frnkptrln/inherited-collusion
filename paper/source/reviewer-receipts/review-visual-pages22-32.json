@@ -1,0 +1,66 @@
+{
+  "status": "PASS",
+  "success": true,
+  "reviewer": "Codex independent visual QA agent",
+  "reviewed_at": "2026-10-25T16:04:39.467230+00:00",
+  "scope": "Final rendered pages22–32 individually viewed at original resolution. Pages27,31,32 re-viewed after fixes; remaining8 image bytes unchanged from inspected render.",
+  "pages": [
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32
+  ],
+  "page_sha256": {
+    "22": "d85743ff5d90d6a2d8c9f8dfaca662efe8f0fb8bcc07d614c67155689bd0e8f4",
+    "23": "a2bc66cff9fc1f5e5806d08cbf029bb247f065d3d0e8b828f90e54a755eb2510",
+    "24": "5a2009b8b80bcb58ff67ccaded0526299357e1fc7295355d945c8d3ea71c24c2",
+    "25": "823b2f59d97b7206b4a946d82519b8b5bd92d3c4ca5af4828dd710a557899e08",
+    "26": "12041461570eccf09c06e8fc603e975853fe2e71aa2e74a9821ed1391dc89e89",
+    "27": "fc36b28dd4cb0faaa5f23de69d67ae861e69e6b19880dc3414fd1ca864401960",
+    "28": "2a724fa37e9218e5b5cfff26654ef6d14a442ce21320af1bf177d970cb64127b",
+    "29": "a69857e346787bc14d7f965f3c46340ed08e108d8b51c65fa3426979b56f1466",
+    "30": "4348fc1bae540bf3949d532f0bedaa728843f2104febf28b1db8012f9abddbcb",
+    "31": "880c6590a1e76f0769bf2644dbdc951555b0013175dedfec2ea586d90f41e359",
+    "32": "b70618480f910c8c49f130ab525343987156c16f96a80ec80b4a35d9d80d5d04"
+  },
+  "pdf_sha256": "393924c892be9dfb1d6bc5d2eb3cf5b79ec0304358ee9de85ae6745b73907d3d",
+  "docx_sha256": "a5b461d3435809d9f8ffdf1c89c8a71f26f4c039f0efcc71027cc4574964dbaf",
+  "input_sha256": "e3d48cb0ae3e38f60558528ddd056903c53b1f4ac873dc35beb1ac9633dd41bd",
+  "changed_pages_reinspected": [
+    27,
+    31,
+    32
+  ],
+  "findings": [],
+  "resolved_findings": [
+    {
+      "page": 27,
+      "change": "Reference now correctly says FigureI1."
+    },
+    {
+      "page": 31,
+      "change": "TableJ3 case-count header shortened to n; no word split."
+    }
+  ],
+  "checks": {
+    "clipping": false,
+    "overlap": false,
+    "missing_glyphs": false,
+    "broken_table_rows": false,
+    "table_continuation_headers": true,
+    "figure_readable": true,
+    "captions_readable": true,
+    "page_flow_acceptable": true
+  },
+  "notes": [
+    "Page24 has whitespace at the end of AppendixH before the deliberate new-page AppendixI; no content loss.",
+    "TableJ3 contraction improves paragraph flow onpages31–32."
+  ]
+}

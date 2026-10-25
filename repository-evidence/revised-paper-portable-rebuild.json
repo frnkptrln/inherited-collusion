@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "input_sha256": "e3d48cb0ae3e38f60558528ddd056903c53b1f4ac873dc35beb1ac9633dd41bd",
+  "builder_sha256": "e1b42c3b71107ac42d3dde5ed94543abb97498f7c4483ddf9efc17110957e1da",
+  "source_docx_sha256": "a5b461d3435809d9f8ffdf1c89c8a71f26f4c039f0efcc71027cc4574964dbaf",
+  "isolated_evidence_files": 40,
+  "local_figures": 1,
+  "all_docx_package_part_bytes_identical": true,
+  "original_report_and_evidence_root_reads_denied": true,
+  "network_and_subprocess_denied_inside_builder": true,
+  "scope": "Editable DOCX package rebuild; PDF pixel identity is a separate render check."
+}

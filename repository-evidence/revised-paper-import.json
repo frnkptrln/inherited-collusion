@@ -1,0 +1,53 @@
+{
+  "status": "PASS",
+  "created_at": "2026-10-25T16:08:04.826946+00:00",
+  "publication_manifest_sha256": "851f733f031887c8d4f72676f6e3f7fdeec322677d4d4a207d463a8b966048fd",
+  "imported_files": 87,
+  "prior_edition_preserved_in_git_commit": "7e1210bd75fb3766d670a9874d323e23308860f1",
+  "prior_edition_also_backed_up_locally": "/home/user/Dokumente/ChatGPT/AI Collusion Sprint/output/revision-publication/prior-repository-paper",
+  "removed_obsolete_current_paper_files": [
+    {
+      "path": "paper/source/check_preservation.py",
+      "sha256": "06d3706b0d060efa16b9bc36bbd7aace20074aa40b87bc0162ee0ef2213bd6b0"
+    },
+    {
+      "path": "paper/source/content-mapping.json",
+      "sha256": "7707b7896e2dee7611fe111e13c39f68baaa90fb59d1dcecc27e969aa1145226"
+    },
+    {
+      "path": "paper/source/section-audit.txt",
+      "sha256": "5006924dc0bfe8f76c250875fd9fd0d76402659ee08541e7d40cf91cadb3282c"
+    },
+    {
+      "path": "paper/source/verified-v6-input.json",
+      "sha256": "0c2de397b7cdc5d65bca42b3ea901a348f6a049f175af29f7866608d0e26a8ce"
+    },
+    {
+      "path": "paper/source/reviewer-receipts/review-visual-pages1-3.json",
+      "sha256": "ce5ac12d108b0bc67fc1322d68957181cedc25a6a787bccf3ddb414dbbf6c7f7"
+    },
+    {
+      "path": "paper/source/reviewer-receipts/review-visual-pages15-27.json",
+      "sha256": "e68b95016dd283c9e75f22f269008e5d6101872d3d21dea6875e4e2c3c9b6130"
+    }
+  ],
+  "aliases": [
+    {
+      "alias": "paper/inherited-collusion-submission.pdf",
+      "canonical": "paper/inherited-collusion-revised.pdf",
+      "sha256": "393924c892be9dfb1d6bc5d2eb3cf5b79ec0304358ee9de85ae6745b73907d3d"
+    },
+    {
+      "alias": "paper/inherited-collusion-submission.docx",
+      "canonical": "paper/inherited-collusion-revised.docx",
+      "sha256": "a5b461d3435809d9f8ffdf1c89c8a71f26f4c039f0efcc71027cc4574964dbaf"
+    },
+    {
+      "alias": "paper/inherited-collusion-submission.audit.json",
+      "canonical": "paper/inherited-collusion-revised.audit.json",
+      "sha256": "1d051a452b6057d49cb5e5559a7f04199e8bfc0c265504658af09bfd12799422"
+    }
+  ],
+  "all_manifest_files_byte_identical": true,
+  "historical_research_files_untouched": true
+}

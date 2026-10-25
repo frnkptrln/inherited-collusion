@@ -1,0 +1,29 @@
+{
+  "success": true,
+  "checked_at": "2026-10-25T15:18:13.098481+00:00",
+  "reviewer": "Codex root; automated/AI-assisted review, not independent human validation",
+  "paid_calls": 0,
+  "dispatch_authorized": true,
+  "authorization": "Frank Peterlein authorized discretionary HF spending within total USD15 and requested scientific revision",
+  "study_max_calls": 160,
+  "max_parallel": 4,
+  "new_reserved_usd": 0.832,
+  "historical_dispatched_reserves_usd": 12.374,
+  "combined_conservative_ceiling_usd": 13.206,
+  "checked": [
+    "Protocol fixes all ten available cases and the 2x2 note/reminder manipulation conditional on explicit shared rule",
+    "Primary interaction, fixed direction averaging, same complete-case set, finite-cohort missingness bounds",
+    "Only exact note/reminder blocks differ; roles never share responses; oracle audit metadata never sent",
+    "All150retained inputs byte-identical to sealed V6 artifacts",
+    "All160calls bounded by original generation/tokenbyte and model-specific cost checks",
+    "Requests durable before dispatch; raw responses beforeparse; no ambiguous replay; closure before aggregate outcomes",
+    "Independent reviewer PASS and independently implemented exact-arithmetic checker included beforefreeze"
+  ],
+  "software_tests": "11 passed; software only",
+  "independent_tests": "4 passed; software only",
+  "independent_review_sha256": "d3c8528c9b5ddc4c304a6c67f71eba7cbb3d18c34b26f4fb25cfce349b3921f5",
+  "independent_checker_sha256": "949d338c03a9a33f0482461e74faa8b0a3c402d165ecf0f69b9e5727eb8bdf3b",
+  "budget_reconciliation_sha256": "088dedbc6f6abdb2edd1b1f3e2fb5b2ea8e904a997b3646d80342aa8c6936d50",
+  "new_model_outcomes_seen": false,
+  "prior_outcomes_known": true
+}
