@@ -1,0 +1,30 @@
+{
+  "retrieved_on": "2026-10-25",
+  "purpose": "Narrow primary-source positioning of shared-convention and symmetry-breaking claims; not a systematic review",
+  "sources": [
+    {
+      "title": "Theory of Scene: Breaking the Symmetry Trap in Multi-Agent LLM Coordination",
+      "authors": ["Liangqi Yuan", "Wenzhi Fang", "Shiqiang Wang", "Christopher G. Brinton"],
+      "year": 2026,
+      "version": "arXiv:2609.32939v1",
+      "version_date": "2026-09-26",
+      "url": "https://arxiv.org/html/2609.32939v1",
+      "retrieval": "Official arXiv HTML successfully opened; title, authors, abstract and introduction inspected. The versioned abs endpoint initially returned a cache miss.",
+      "supported_scope": "Homogeneous concurrent agents can collide; the proposed approach uses public roles and shared task context to derive a common division of labor.",
+      "claim_limit": "No quantitative performance claims reused; our study does not claim first identification of symmetry-driven coordination failure."
+    },
+    {
+      "title": "Tacit Coordination of Large Language Models",
+      "authors": ["Ido Aharon", "Emanuele La Malfa", "Michael Wooldridge", "Sarit Kraus"],
+      "year": 2026,
+      "version": "arXiv:2601.22184v2",
+      "version_date": "2026-06-16",
+      "url": "https://arxiv.org/html/2601.22184v2",
+      "abstract_url": "https://arxiv.org/abs/2601.22184v2",
+      "retrieval": "Official abstract and HTML successfully opened; title, authors, abstract and introduction inspected.",
+      "supported_scope": "Studies focal points for coordination without communication and learning-free coordination strategies.",
+      "claim_limit": "No quantitative or first-large-scale claims reused; our contribution concerns fixed inherited harmful notes and legitimate-source controls."
+    }
+  ],
+  "editorial_scope": "One short related-work paragraph and two references; all four prior references retained. No V6 results opened or implied."
+}

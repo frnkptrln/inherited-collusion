@@ -1,0 +1,48 @@
+{
+  "status": "PASS",
+  "fonts": [
+    {
+      "base_font": "/BAAAAA+OldStandardTT-Bold",
+      "embedded": true
+    },
+    {
+      "base_font": "/CAAAAA+OldStandardTT-Bold",
+      "embedded": true
+    },
+    {
+      "base_font": "/DAAAAA+OldStandardTT-Regular",
+      "embedded": true
+    },
+    {
+      "base_font": "/EAAAAA+OldStandardTT-Bold",
+      "embedded": true
+    },
+    {
+      "base_font": "/FAAAAA+OldStandardTT-Bold",
+      "embedded": true
+    },
+    {
+      "base_font": "/GAAAAA+LiberationSans",
+      "embedded": true
+    },
+    {
+      "base_font": "/HAAAAA+OldStandardTT-Regular",
+      "embedded": true
+    },
+    {
+      "base_font": "/IAAAAA+OldStandardTT-Bold",
+      "embedded": true
+    },
+    {
+      "base_font": "/JAAAAA+OldStandardTT-Bold",
+      "embedded": true
+    },
+    {
+      "base_font": "/KAAAAA+NotoSerif-Bold",
+      "embedded": true
+    }
+  ],
+  "font_source": "Official google/fonts/ofl/oldstandardtt; provenance and OFL retained",
+  "all_body_font": "Old Standard TT",
+  "style_lint_direct_formatting": "Expected source-template direct typography and table headers; no generic normalization applied."
+}

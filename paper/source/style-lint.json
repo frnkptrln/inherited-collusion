@@ -1,0 +1,170 @@
+{
+  "input": "/home/user/Dokumente/ChatGPT/AI Collusion Sprint/output/report-template-aligned/inherited-collusion-submission.docx",
+  "fonts_by_char_count": {
+    "Old Standard TT": 56089
+  },
+  "direct_run_formatting_runs": 883,
+  "direct_paragraph_formatting_paragraphs": 904,
+  "heading_like_paragraphs_not_heading_style": [
+    {
+      "para_index": 139,
+      "text": "SAFE COORDINATION AFTER HARMFUL AGENT HANDOFFS",
+      "style": "Title"
+    },
+    {
+      "para_index": 142,
+      "text": "Abstract",
+      "style": "normal"
+    },
+    {
+      "para_index": 144,
+      "text": "Study",
+      "style": "normal"
+    },
+    {
+      "para_index": 145,
+      "text": "Qwen valid / planned",
+      "style": "normal"
+    },
+    {
+      "para_index": 146,
+      "text": "GPT-OSS valid / planned",
+      "style": "normal"
+    },
+    {
+      "para_index": 147,
+      "text": "Comparison scope",
+      "style": "normal"
+    },
+    {
+      "para_index": 164,
+      "text": "Model",
+      "style": "normal"
+    },
+    {
+      "para_index": 165,
+      "text": "Structure",
+      "style": "normal"
+    },
+    {
+      "para_index": 166,
+      "text": "Duplicates",
+      "style": "normal"
+    },
+    {
+      "para_index": 167,
+      "text": "Safe optimum",
+      "style": "normal"
+    },
+    {
+      "para_index": 168,
+      "text": "Joint harm",
+      "style": "normal"
+    },
+    {
+      "para_index": 169,
+      "text": "Outsider loss",
+      "style": "normal"
+    },
+    {
+      "para_index": 194,
+      "text": "Model",
+      "style": "normal"
+    },
+    {
+      "para_index": 195,
+      "text": "Complete cases",
+      "style": "normal"
+    },
+    {
+      "para_index": 196,
+      "text": "Safe-optimal difference",
+      "style": "normal"
+    },
+    {
+      "para_index": 197,
+      "text": "Completion range",
+      "style": "normal"
+    },
+    {
+      "para_index": 206,
+      "text": "Model",
+      "style": "normal"
+    },
+    {
+      "para_index": 207,
+      "text": "Structure",
+      "style": "normal"
+    },
+    {
+      "para_index": 208,
+      "text": "Route",
+      "style": "normal"
+    },
+    {
+      "para_index": 209,
+      "text": "Duplicate",
+      "style": "normal"
+    }
+  ],
+  "examples": {
+    "direct_paragraph_formatting": [
+      {
+        "para_index": 1,
+        "text": "",
+        "style": "normal"
+      },
+      {
+        "para_index": 2,
+        "text": "1. Introduction",
+        "style": "Heading 2"
+      },
+      {
+        "para_index": 3,
+        "text": "A safety instruction can reject a harmful recommendation without telling independent agents how to coordinate on a safe ",
+        "style": "normal"
+      },
+      {
+        "para_index": 4,
+        "text": "2. Related Work",
+        "style": "Heading 2"
+      },
+      {
+        "para_index": 5,
+        "text": "Colosseum distinguishes expressed collusive plans from enacted coalition-favoring behavior [1,4]. Self-Propagating Misal",
+        "style": "normal"
+      }
+    ],
+    "direct_run_formatting": [
+      {
+        "para_index": 2,
+        "run_text": "1. Introduction",
+        "style": "Heading 2"
+      },
+      {
+        "para_index": 3,
+        "run_text": "A safety instruction can reject a harmful recommendation without telling indepen",
+        "style": "normal"
+      },
+      {
+        "para_index": 4,
+        "run_text": "2. Related Work",
+        "style": "Heading 2"
+      },
+      {
+        "para_index": 5,
+        "run_text": "Colosseum distinguishes expressed collusive plans from enacted coalition-favorin",
+        "style": "normal"
+      },
+      {
+        "para_index": 6,
+        "run_text": "Shared conventions and symmetry breaking are established coordination approaches",
+        "style": "normal"
+      }
+    ]
+  },
+  "notes": [
+    "Direct formatting is not always wrong, but it often causes inconsistent output when templates change.",
+    "Heading-like paragraphs not using Heading styles can break TOC and accessibility."
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "reviewer": "root",
+  "reviewed_at": "2026-10-25T14:41:11.197166+00:00",
+  "status": "PASS",
+  "inspection": "Each page opened and visually inspected individually at supplied full resolution",
+  "pages": [
+    {
+      "page": 1,
+      "path": "renders/page-1.png",
+      "sha256": "33caa6bf414fc2c54dd10e5ffbc25c362fbb6bbb485e2287f242bf555b4b0da4",
+      "status": "PASS"
+    },
+    {
+      "page": 2,
+      "path": "renders/page-2.png",
+      "sha256": "5ed24d57779fa342591704b2fad77f0ba75ab6ae736cb7742f7d5906b7dd4181",
+      "status": "PASS"
+    },
+    {
+      "page": 3,
+      "path": "renders/page-3.png",
+      "sha256": "eb07aeab2986b8cdf1fd14856f64dcfe0b342b0a4df6d7f405e298072204213d",
+      "status": "PASS"
+    }
+  ],
+  "findings": [],
+  "notes": [
+    "Title and author/subtitle block now centered and full width; complete abstract fits first page.",
+    "Typography, rules and title footnote follow the user Google Docs template.",
+    "Pages2\u20133 legible; no clipping, overlap or missing glyphs observed."
+  ],
+  "canonical_path_rebase": {
+    "original_receipt_sha256": "a3e5466299e2ba0e12cb6c5ec34c3030c96c7acdb073bee25298e3ff5eab36c0",
+    "description": "Only page paths rebased from final render workspace to portable renders directory; reviewed image bytes unchanged."
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "command_executed_from_repository_root": true,
+  "all_docx_package_parts_equal": true,
+  "package_parts": 18,
+  "output": "/tmp/inherited-collusion-repo-paper-jlvsx7m_/rebuilt.docx",
+  "new_model_calls": 0
+}

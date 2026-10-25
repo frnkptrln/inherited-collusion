@@ -1,0 +1,15 @@
+{
+  "source_url": "https://docs.google.com/document/d/1jxvwc-7fdnAHvf6ZWsmZOOrTZeJjwxxtSDwKZYpc6Zg/edit?tab=t.0",
+  "source_title": "Kopie von Apart Research hackathon submission template",
+  "retrieval": "Read-only export through user existing Chrome Google Docs tab",
+  "files": {
+    "personal-apart-template.docx": {
+      "bytes": 302761,
+      "sha256": "09b19967687472e94f4a89e7510d9cd8d6da4692fb56f03fd2dc60148bd8417a"
+    },
+    "personal-apart-template.pdf": {
+      "bytes": 139587,
+      "sha256": "452947d4e411d9a5f2337017b3907b44f026b48daa87f5bf94b8ff7ba73f1f90"
+    }
+  }
+}
