@@ -1,30 +1,38 @@
 {
-  "edition": "submitted",
-  "date": "2026-10-25T17:38:15Z",
-  "author": "Frank Peterlein",
-  "base_edition": {
-    "docx": "inherited-collusion-revised.docx",
-    "docx_sha256": "a5b461d3435809d9f8ffdf1c89c8a71f26f4c039f0efcc71027cc4574964dbaf",
-    "pdf": "inherited-collusion-revised.pdf",
-    "pdf_sha256": "393924c892be9dfb1d6bc5d2eb3cf5b79ec0304358ee9de85ae6745b73907d3d",
-    "audit": "inherited-collusion-revised.audit.json"
-  },
-  "docx": "inherited-collusion-submission.docx",
+ "edition": "submitted",
+ "date": "2026-10-25T19:58:00Z",
+ "author": "Frank Peterlein",
+ "base_edition": {
+  "docx": "inherited-collusion-revised.docx",
+  "docx_sha256": "a5b461d3435809d9f8ffdf1c89c8a71f26f4c039f0efcc71027cc4574964dbaf",
+  "pdf": "inherited-collusion-revised.pdf",
+  "pdf_sha256": "393924c892be9dfb1d6bc5d2eb3cf5b79ec0304358ee9de85ae6745b73907d3d",
+  "audit": "inherited-collusion-revised.audit.json"
+ },
+ "docx": "inherited-collusion-submission.docx",
+ "docx_sha256": "2920cfce5744b975b8102c9743e723efa7b2134d3fecd18ec2ad469aa45d00ea",
+ "pdf": "inherited-collusion-submission.pdf",
+ "pdf_sha256": "c82ce17b973b3bdb32a64b7f64ee9e97176b0b2149ca854a856965635042cf82",
+ "pages": 32,
+ "abstract_words": 151,
+ "method": "Tracked changes (author Claude) on the canonical DOCX, accepted by the author; PDF rendered with LibreOffice and the bundled Old Standard TT fonts. Final pass of 25 October rendered the same way (LibreOffice 24.2, bundled Old Standard TT); the text of the PDF differs from the previous edition only in the two edits listed.",
+ "tracked_changes_docx_sha256": "ac7d904d8e131990a6a5b5e5cc2566c5e5d104c5bf492066b760bb1d359badba",
+ "editorial_changes": [
+  "Abstract replaced (186 to 149 words); every number appears in the main text.",
+  "Appendix A: plain names for the follow-up controls, one sentence on the factorial control, archive wording updated for publication.",
+  "Appendix C: responsibility sentence replaced.",
+  "Appendix G: archive and submission clause removed.",
+  "Code and Data: public repository and the tag 'submitted'.",
+  "LLM Usage Statement: one sentence on Claude added.",
+  "25 October, 21:00 Berlin, applied directly at the author's request (no tracked changes): Appendix A retitled to the sprint's required name 'Limitations and Dual-Use / Ethical Considerations' (content unchanged).",
+  "Same pass: abstract 149 to 151 words ('and none with the reminder'; 'selected donor cohorts') because the sprint page now requires 150 to 250 words."
+ ],
+ "unchanged": "All analyses, tables, figures, numbers and evidence bindings.",
+ "integrity_scope": "report-input.json, the builder and check_revision_preservation.py cover the canonical revised files; the preservation check reports the edited paragraphs for this edition.",
+ "previous_submission_edition": {
   "docx_sha256": "0a77609e800339d7f40e367aa72fa2cadde2c3664ae6910e4be28db46caf0d40",
-  "pdf": "inherited-collusion-submission.pdf",
   "pdf_sha256": "71042bb0890a920357c602671ffd54527bd6f7ebf2c57dbf5cd3fc7c19b0c20b",
-  "pages": 32,
-  "abstract_words": 149,
-  "method": "Tracked changes (author Claude) on the canonical DOCX, accepted by the author; PDF rendered with LibreOffice and the bundled Old Standard TT fonts.",
-  "tracked_changes_docx_sha256": "ac7d904d8e131990a6a5b5e5cc2566c5e5d104c5bf492066b760bb1d359badba",
-  "editorial_changes": [
-    "Abstract replaced (186 to 149 words); every number appears in the main text.",
-    "Appendix A: plain names for the follow-up controls, one sentence on the factorial control, archive wording updated for publication.",
-    "Appendix C: responsibility sentence replaced.",
-    "Appendix G: archive and submission clause removed.",
-    "Code and Data: public repository and the tag 'submitted'.",
-    "LLM Usage Statement: one sentence on Claude added."
-  ],
-  "unchanged": "All analyses, tables, figures, numbers and evidence bindings.",
-  "integrity_scope": "report-input.json, the builder and check_revision_preservation.py cover the canonical revised files; the preservation check reports the edited paragraphs for this edition."
+  "date": "2026-10-25T17:38:15Z",
+  "abstract_words": 149
+ }
 }
