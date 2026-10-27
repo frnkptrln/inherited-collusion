@@ -1,11 +1,21 @@
 # License status and attribution
 
-No repository-wide open-source license has been selected for the original project material. This repository therefore does not assert a new license grant for that material or for included third-party sources.
+The material written for this project is licensed in two parts. Third-party material keeps its own terms; nothing here relicenses it.
 
-Existing third-party license notices and provenance are preserved in the unchanged research package:
+| Material | License |
+| --- | --- |
+| Code: every Python file outside `research/vendor/`, including the source snapshots kept with runs and outputs, and the configurations in `research/configs/` | MIT ([`LICENSE`](LICENSE)) |
+| Everything else written for this project: the paper, figures, documentation, run records, outputs and evidence | CC BY 4.0 ([`LICENSES/CC-BY-4.0.txt`](LICENSES/CC-BY-4.0.txt)) |
 
-- [Vendored-source manifest](research/vendor/SOURCE_MANIFEST.json)
-- [Supplemental license provenance](research/vendor/LICENSE_SUPPLEMENT.json)
-- [Terrarium license](research/vendor/terrarium/LICENSE)
+Copyright © 2026 Frank Peterlein.
 
-Public-source snapshots, retrieved documentation, model metadata, and tokenizer files retain their existing provenance and applicable terms. The presence of these files is not a statement that all repository contents share one license. The accompanying report identifies the research it builds on.
+## Not covered
+
+The following keep their existing terms. No license is granted for them here.
+
+- `research/vendor/`: partial upstream source snapshots, attributed and pinned in [`SOURCE_MANIFEST.json`](research/vendor/SOURCE_MANIFEST.json). The pinned `collusion_hackathon` root and `colosseum` directory carry no license file upstream, so none is assigned to them. Terrarium keeps its MIT notice in [`research/vendor/terrarium/LICENSE`](research/vendor/terrarium/LICENSE); [`LICENSE_SUPPLEMENT.json`](research/vendor/LICENSE_SUPPLEMENT.json) records its provenance.
+- `paper/assets/fonts/`: Old Standard, under the SIL Open Font License 1.1 (`paper/assets/fonts/OFL.txt`).
+- `paper/reference/`: the Apart Research submission template.
+- Third-party files kept as evidence: model tokenizer and tokenizer-config files, retrieved provider documentation and literature indexes, and price snapshots, for example under `research/evidence/*-model-preflight/`, `research/docs/` and `paper/source/baseline-evidence/`.
+
+The accompanying report identifies the research it builds on.
