@@ -81,4 +81,6 @@ Credential stores, local virtual environments, raw account inventories and unrel
 
 Frank Peterlein initiated the project, authorized its budget and reviewed the full manuscript during development. Codex assisted design, code, analyses, figures and writing. Claude reviewed the revised manuscript, checked its numbers against the appendices and drafted the final abstract and disclosure edits. Automated and agent-assisted checks are not independent human replication; the complete disclosure is in the paper.
 
+Sister study: [collusion-without-co-presence](https://github.com/frnkptrln/collusion-without-co-presence) is a second submission to the same sprint by the same author, with its own design (a planted precedent across complete agent replacement, Claude Haiku 4.5). The two share no code and no data.
+
 Use [CITATION.cff](CITATION.cff) for citation metadata. The project builds on the [Colosseum starter infrastructure](https://github.com/poseidon-research/collusion_hackathon); the repository retains its [infrastructure audit](research/docs/colosseum-audit.md), [source provenance](research/vendor/SOURCE_MANIFEST.json) and third-party notices. See [LICENSE-STATUS.md](LICENSE-STATUS.md) for licensing scope.
